@@ -1,0 +1,72 @@
+---
+title: "Connectome"
+format: html
+---
+
+## Discussion of...
+
+Swanson, L. W., & Lichtman, J. W. (2016). From Cajal to Connectome and Beyond. *Annual Review of Neuroscience*, *39*, 197–216.
+
+<http://doi.org/10.1146/annurev-neuro-071714-033954>
+
+## Key ideas
+
+- Form <> function
+- "*What differs between species is the architecture of nervous systems....*"
+- Connectomes at different levels of analysis
+
+---
+
+```{r, fig.cap="Fig 1. Swanson & Lichtman, 2016"}
+knitr::include_graphics("https://www.annualreviews.org/na101/home/literatum/publisher/ar/journals/content/neuro/2016/neuro.2016.39.issue-1/annurev-neuro-071714-033954/20160711/images/large/ne390197.f1.jpeg")
+```
+
+---
+
+```{r, fig.cap="Fig 2. Swanson & Lichtman, 2016"}
+knitr::include_graphics("https://www.annualreviews.org/na101/home/literatum/publisher/ar/journals/content/neuro/2016/neuro.2016.39.issue-1/annurev-neuro-071714-033954/20160711/images/medium/ne390197.f2.gif")
+```
+
+---
+
+```{r, fig.cap="Fig 3. Swanson & Lichtman, 2016"}
+knitr::include_graphics("https://www.annualreviews.org/na101/home/literatum/publisher/ar/journals/content/neuro/2016/neuro.2016.39.issue-1/annurev-neuro-071714-033954/20160711/images/medium/ne390197.f3.gif")
+```
+
+---
+
+```{r, fig.cap="Fig 3. Swanson & Lichtman, 2016"}
+knitr::include_graphics("https://www.annualreviews.org/na101/home/literatum/publisher/ar/journals/content/neuro/2016/neuro.2016.39.issue-1/annurev-neuro-071714-033954/20160711/images/large/ne390197.f4.jpeg")
+```
+
+---
+
+>"*The so-called explanatory gap (Horgan 1999) between what we can know and what we want to understand is not necessarily made smaller by more information. Rather, such omics information pushes neuroscience into a different realm where information rather than ideas is the currency.*"
+
+[[@Swanson2016-qr]](http://dx.doi.org/10.1146/annurev-neuro-071714-033954)
+
+---
+
+>"*In this realm, a detailed, bottom-up description of a biological system is mined for whatever conceptual insights might be revealed rather than top-down concepts of what we care about being used as a setup for experiments. In this sense, the data give us a more accurate view of the way things are and, at the same time, push us away from intelligible, albeit facile, answers to the enduring puzzles of the brain.*"
+
+[[@Swanson2016-qr]](http://dx.doi.org/10.1146/annurev-neuro-071714-033954)
+
+## Cajal/Swanson Architecture {.flexbox .vcenter}
+
+<div class="centered">
+```{r, out.width="700px"}
+knitr::include_graphics("https://raw.githubusercontent.com/psu-psychology/psy-511-scan-fdns-2017/master/lectures/img/swanson-2005-fig-1.jpg")
+```
+
+[Swanson, 2005](http://dx.doi.org/10.1002/cne.20733)
+</div>
+
+---
+
+<div class="centered">
+```{r, out.width="700px"}
+knitr::include_graphics("https://raw.githubusercontent.com/psu-psychology/psy-511-scan-fdns-2017/master/lectures/img/swanson-2005-fig-3.jpg")
+```
+
+[Swanson, 2005](http://dx.doi.org/10.1002/cne.20733)
+</div>

@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.56">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2024-04-04">
+
+<title>Learning &amp; Memory – PSY 511 • Spring 2025</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../include/css/styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">PSY 511 • Spring 2025</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html"> 
+<span class="menu-text">schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../evaluation.html"> 
+<span class="menu-text">evaluation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../policies.html"> 
+<span class="menu-text">policies</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#big-picture-questions" id="toc-big-picture-questions" class="nav-link active" data-scroll-target="#big-picture-questions">Big picture questions</a>
+  <ul>
+  <li><a href="#memory-capacity-of-the-human-brain" id="toc-memory-capacity-of-the-human-brain" class="nav-link" data-scroll-target="#memory-capacity-of-the-human-brain">Memory capacity of the human brain?</a></li>
+  <li><a href="#what-is-learning" id="toc-what-is-learning" class="nav-link" data-scroll-target="#what-is-learning">What is learning?</a></li>
+  <li><a href="#learning-styles" id="toc-learning-styles" class="nav-link" data-scroll-target="#learning-styles">Learning styles?</a></li>
+  <li><a href="#neural-networks" id="toc-neural-networks" class="nav-link" data-scroll-target="#neural-networks">Neural networks</a></li>
+  <li><a href="#network-learning-rules" id="toc-network-learning-rules" class="nav-link" data-scroll-target="#network-learning-rules">Network learning rules</a></li>
+  <li><a href="#deep-learning-vs.-machine-learning" id="toc-deep-learning-vs.-machine-learning" class="nav-link" data-scroll-target="#deep-learning-vs.-machine-learning">Deep learning vs.&nbsp;Machine Learning</a></li>
+  <li><a href="#what-is-memory" id="toc-what-is-memory" class="nav-link" data-scroll-target="#what-is-memory">What is memory?</a></li>
+  <li><a href="#are-there-different-types-of-human-memory" id="toc-are-there-different-types-of-human-memory" class="nav-link" data-scroll-target="#are-there-different-types-of-human-memory">Are there different types of (human) memory?</a></li>
+  <li><a href="#how-do-computers-and-brains-compare" id="toc-how-do-computers-and-brains-compare" class="nav-link" data-scroll-target="#how-do-computers-and-brains-compare">How do computers and brains compare?</a></li>
+  </ul></li>
+  <li><a href="#biological-bases" id="toc-biological-bases" class="nav-link" data-scroll-target="#biological-bases">Biological bases…</a>
+  <ul>
+  <li><a href="#in-single-cells" id="toc-in-single-cells" class="nav-link" data-scroll-target="#in-single-cells">In single cells</a></li>
+  <li><a href="#in-nervous-systems" id="toc-in-nervous-systems" class="nav-link" data-scroll-target="#in-nervous-systems">In nervous systems</a></li>
+  <li><a href="#donald-hebbs-insight" id="toc-donald-hebbs-insight" class="nav-link" data-scroll-target="#donald-hebbs-insight">Donald Hebb’s Insight</a></li>
+  <li><a href="#long-term-potentiation-ltp" id="toc-long-term-potentiation-ltp" class="nav-link" data-scroll-target="#long-term-potentiation-ltp">Long-term potentiation (LTP)</a>
+  <ul class="collapse">
+  <li><a href="#ltp-discovery-bliss1973-xx" id="toc-ltp-discovery-bliss1973-xx" class="nav-link" data-scroll-target="#ltp-discovery-bliss1973-xx">LTP discovery <span class="citation" data-cites="Bliss1973-xx">(Bliss &amp; Lømo, 1973)</span></a></li>
+  <li><a href="#mechanisms-of-ltp-plasticity" id="toc-mechanisms-of-ltp-plasticity" class="nav-link" data-scroll-target="#mechanisms-of-ltp-plasticity">Mechanisms of LTP plasticity</a></li>
+  <li><a href="#pathways-to-plasticity" id="toc-pathways-to-plasticity" class="nav-link" data-scroll-target="#pathways-to-plasticity">Pathways to plasticity</a></li>
+  <li><a href="#hebbian-learning-via-nmda-receptor" id="toc-hebbian-learning-via-nmda-receptor" class="nav-link" data-scroll-target="#hebbian-learning-via-nmda-receptor">‘Hebbian’ learning via NMDA receptor</a></li>
+  </ul></li>
+  <li><a href="#nmda-r-clinical-significance" id="toc-nmda-r-clinical-significance" class="nav-link" data-scroll-target="#nmda-r-clinical-significance">NMDA-R clinical significance</a></li>
+  <li><a href="#spike-timing-dependent-plasticity" id="toc-spike-timing-dependent-plasticity" class="nav-link" data-scroll-target="#spike-timing-dependent-plasticity">Spike-timing-dependent plasticity</a></li>
+  <li><a href="#memory-systems" id="toc-memory-systems" class="nav-link" data-scroll-target="#memory-systems">Memory systems</a>
+  <ul class="collapse">
+  <li><a href="#lashleys-search-for-the-engram" id="toc-lashleys-search-for-the-engram" class="nav-link" data-scroll-target="#lashleys-search-for-the-engram">Lashley’s search for the ‘engram’</a></li>
+  <li><a href="#modern-views" id="toc-modern-views" class="nav-link" data-scroll-target="#modern-views">Modern views</a></li>
+  <li><a href="#hippocampus" id="toc-hippocampus" class="nav-link" data-scroll-target="#hippocampus">Hippocampus</a></li>
+  <li><a href="#cerebral-cortex" id="toc-cerebral-cortex" class="nav-link" data-scroll-target="#cerebral-cortex">Cerebral cortex</a></li>
+  <li><a href="#cerebellum" id="toc-cerebellum" class="nav-link" data-scroll-target="#cerebellum">Cerebellum</a></li>
+  </ul></li>
+  <li><a href="#disorders-of-memory" id="toc-disorders-of-memory" class="nav-link" data-scroll-target="#disorders-of-memory">Disorders of memory</a>
+  <ul class="collapse">
+  <li><a href="#amnesia" id="toc-amnesia" class="nav-link" data-scroll-target="#amnesia">Amnesia</a></li>
+  <li><a href="#alzheimers-disease-ad" id="toc-alzheimers-disease-ad" class="nav-link" data-scroll-target="#alzheimers-disease-ad">Alzheimer’s Disease (AD)</a></li>
+  <li><a href="#the-other-end-of-the-spectrum" id="toc-the-other-end-of-the-spectrum" class="nav-link" data-scroll-target="#the-other-end-of-the-spectrum">The other end of the spectrum…</a></li>
+  </ul></li>
+  <li><a href="#what-about-working-memory-desposito2015-zm" id="toc-what-about-working-memory-desposito2015-zm" class="nav-link" data-scroll-target="#what-about-working-memory-desposito2015-zm">What about working memory? <span class="citation" data-cites="DEsposito2015-zm">(D’Esposito &amp; Postle, 2015)</span></a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/edit/main/src/resources/learning-memory.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Learning &amp; Memory</h1>
+<p class="subtitle lead">PSY 511.003</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 4, 2024</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">April 4, 2024</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="big-picture-questions" class="level2">
+<h2 class="anchored" data-anchor-id="big-picture-questions">Big picture questions</h2>
+<section id="memory-capacity-of-the-human-brain" class="level3">
+<h3 class="anchored" data-anchor-id="memory-capacity-of-the-human-brain">Memory capacity of the human brain?</h3>
+<ul>
+<li>1e12 neurons</li>
+<li>1e3 synapses/neuron</li>
+<li>1e15 synapses or 1.25e14 bytes</li>
+<li>1e9 gigabyte, 1e12 terabyte, 1e15 petabyte</li>
+</ul>
+<p><a href="http://www.scientificamerican.com/article.cfm?id=what-is-the-memory-capacity" class="uri">http://www.scientificamerican.com/article.cfm?id=what-is-the-memory-capacity</a></p>
+</section>
+<section id="what-is-learning" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-learning">What is learning?</h3>
+<p><a href="https://theelearningcoach.com/learning/10-definitions-learning/" class="uri">https://theelearningcoach.com/learning/10-definitions-learning/</a></p>
+<blockquote class="blockquote">
+<p>Learning is the process of acquiring new understanding, knowledge, behaviors, skills, values, attitudes, and preferences. <a href="https://en.wikipedia.org/wiki/Learning" class="uri">https://en.wikipedia.org/wiki/Learning</a></p>
+</blockquote>
+<ul>
+<li><strong>Non-associative</strong>
+<ul>
+<li><span class="math inline">\(A(t+1) = f(A(t))\)</span></li>
+<li>Habituation (<span class="math inline">\(\dot f &lt; 0\)</span>), sensitization (<span class="math inline">\(\dot f &gt; 0\)</span>)</li>
+</ul></li>
+<li><strong>Associative</strong>
+<ul>
+<li><span class="math inline">\(A \rightarrow B\)</span></li>
+<li>Classical &amp; operant/instrumental conditioning</li>
+<li>Sequence, observational, episodic, semantic…learning</li>
+</ul></li>
+</ul>
+</section>
+<section id="learning-styles" class="level3">
+<h3 class="anchored" data-anchor-id="learning-styles">Learning styles?</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/poorvu-center-learning-styles.png" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="noauthor_2017-td">(<a href="#ref-noauthor_2017-td" role="doc-biblioref"><span>“Learning styles as a myth,”</span> 2017</a>)</span></figcaption>
+</figure>
+</div>
+<ul>
+<li>Are myths <span class="citation" data-cites="Pashler2008-zi">(<a href="#ref-Pashler2008-zi" role="doc-biblioref">Pashler, McDaniel, Rohrer, &amp; Bjork, 2008</a>)</span>?</li>
+</ul>
+<blockquote class="blockquote">
+<p>Although the literature on learning styles is enormous, very few studies have even used an experimental methodology capable of testing the validity of learning styles applied to education. Moreover, of those that did use an appropriate method, several found results that flatly contradict the popular meshing hypothesis. We conclude therefore, that at present, there is no adequate evidence base to justify incorporating learning-styles assessments into general educational practice.</p>
+</blockquote>
+</section>
+<section id="neural-networks" class="level3">
+<h3 class="anchored" data-anchor-id="neural-networks">Neural networks</h3>
+<ul>
+<li><a href="https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464">Architectures/types</a>, <span class="citation" data-cites="Tch2017-fy Van_Veen_undated-ss">(<a href="#ref-Tch2017-fy" role="doc-biblioref">Tch, 2017</a>; <a href="#ref-Van_Veen_undated-ss" role="doc-biblioref">Veen, n.d.</a>)</span></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://miro.medium.com/v2/resize:fit:2000/format:webp/1*cuTSPlTq0a_327iTPJyD-Q.png" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Tch2017-fy Van_Veen_undated-ss">(<a href="#ref-Tch2017-fy" role="doc-biblioref">Tch, 2017</a>; from <a href="#ref-Van_Veen_undated-ss" role="doc-biblioref">Veen, n.d.</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="network-learning-rules" class="level3">
+<h3 class="anchored" data-anchor-id="network-learning-rules">Network <a href="https://en.wikipedia.org/wiki/Learning_rule">learning rules</a></h3>
+<ul>
+<li>How/when change connections between nodes</li>
+<li>Types
+<ul>
+<li>Unsupervised (i.e., covariance/correlation)</li>
+<li>Supervised (change based on ‘error’)</li>
+<li>Reinforcement (learn <em>now</em>)</li>
+</ul></li>
+</ul>
+</section>
+<section id="deep-learning-vs.-machine-learning" class="level3">
+<h3 class="anchored" data-anchor-id="deep-learning-vs.-machine-learning">Deep learning vs.&nbsp;Machine Learning</h3>
+<ul>
+<li><span class="citation" data-cites="noauthor_undated-hr noauthor_2022-ml">(<a href="#ref-noauthor_2022-ml" role="doc-biblioref"><span>“Deep learning vs machine learning,”</span> 2022</a>; <a href="#ref-noauthor_undated-hr" role="doc-biblioref"><span>“Deep learning vs. Machine learning - azure machine learning,”</span> n.d.</a>)</span></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://images.prismic.io/turing/652ebc26fbd9a45bcec81819_Deep_Learning_vs_Machine_Learning_3033723be2.webp?auto=format%2Ccompress&amp;fit=max&amp;w=3840" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="noauthor_2022-ml"><span>“Deep learning vs machine learning”</span> (<a href="#ref-noauthor_2022-ml" role="doc-biblioref">2022</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="what-is-memory" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-memory">What is memory?</h3>
+<ul>
+<li>A: Information encoding, storage, retrieval</li>
+</ul>
+</section>
+<section id="are-there-different-types-of-human-memory" class="level3">
+<h3 class="anchored" data-anchor-id="are-there-different-types-of-human-memory">Are there different types of (human) memory?</h3>
+<ul>
+<li>Facts/events/places/feelings vs.&nbsp;skills</li>
+<li>Short vs.&nbsp;long-term
+<ul>
+<li>Working memory ~ short-term maintenance for guiding action</li>
+</ul></li>
+<li>Explicit (declarative: semantic vs.&nbsp;episodic) vs.&nbsp;implicit (procedural)</li>
+<li>Retrospective (from the past) vs.&nbsp;prospective (to be remembered)</li>
+<li>Recognition (judgment of familiarity or novelty) vs.&nbsp;recall</li>
+</ul>
+</section>
+<section id="how-do-computers-and-brains-compare" class="level3">
+<h3 class="anchored" data-anchor-id="how-do-computers-and-brains-compare">How do computers and brains compare?</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 57%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Computers</th>
+<th>Brains</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Computers have separate memory and processing stores</td>
+<td>Brains store info everywhere, but there are specialized regions</td>
+</tr>
+<tr class="even">
+<td>Computer memory has specific addresses</td>
+<td>Brains store in distributed networks</td>
+</tr>
+<tr class="odd">
+<td>Computer memory is (usually) non-volatile</td>
+<td>Memories in brains naturally fade</td>
+</tr>
+<tr class="even">
+<td>Computer memory stores all types of information–images, sounds, text, data–as binary sequences, e.g., <code>01101110</code></td>
+<td>Human memory stores all types of information in patterns of synaptic connections and ???</td>
+</tr>
+<tr class="odd">
+<td>Computers render these sequences differently based on information about the <em>type</em> of data stored</td>
+<td>Brains retrieve or recall different forms of information based on ???</td>
+</tr>
+<tr class="even">
+<td>Digital computers were inspired by mathematical models of neurons</td>
+<td>Neurons can be simulated by mathematical models implemented in computers</td>
+</tr>
+</tbody>
+</table>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Artificial_neuron.png" class="img-fluid figure-img"></p>
+<figcaption>McCulloch-Pitts <a href="https://en.wikipedia.org/wiki/Artificial_neuron">artificial neuron</a></figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="biological-bases" class="level2">
+<h2 class="anchored" data-anchor-id="biological-bases">Biological bases…</h2>
+<section id="in-single-cells" class="level3">
+<h3 class="anchored" data-anchor-id="in-single-cells">In single cells</h3>
+<ul>
+<li>Learning in single cells controversial <span class="citation" data-cites="Gershman2021-zf">(<a href="#ref-Gershman2021-zf" role="doc-biblioref">Gershman, Balbi, Gallistel, &amp; Gunawardena, 2021</a>)</span></li>
+<li>Beatrice Gelber</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://iiif.elifesciences.org/lax/61907%2Felife-61907-fig1-v1.tif/full/1500,/0/default.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Gershman2021-zf">(Figure 1 from <a href="#ref-Gershman2021-zf" role="doc-biblioref">Gershman et al., 2021</a>)</span>. News story about Beatrice Gelber from the Tucson Daily Citizen October 19, 1960. © 1960, USA TODAY NETWORK. This image is not covered by the CC-BY 4.0 licence and may not be separated from the article.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://iiif.elifesciences.org/lax/61907%2Felife-61907-fig2-v1.tif/full/1500,/0/default.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Gershman2021-zf">(<a href="#ref-Gershman2021-zf" role="doc-biblioref">Gershman et al., 2021</a>)</span> from <span class="citation" data-cites="Gelber1952-bb">(<a href="#ref-Gelber1952-bb" role="doc-biblioref">B. Gelber, 1952</a>)</span>. In Experiment 1 (top), one group of Paramecia was exposed to intermittent training trials in which a wire was coated with bacteria (every 3rd trial during the training phase). This group acquired a conditioned response to the clean wire, as measured by adherence to the wire in final test trials. In contrast, an untrained group did not show a conditioned response. Experiment 2 (bottom) demonstrated that the wire by itself did not drive conditioned responding.</figcaption>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>This paper presents a new approach to behavioral problems which might be called molecular biopsychology… Simply stated, it is hypothesized that the memory engram must be coded in macromolecules… As the geneticist studies the inherited characteristics of an organism the psychologist studies the modification of this inherited matrix by interaction with the environment. Possibly the biochemical and cellular physiological processes which encode new responses are continuous throughout the phyla (as genetic codes are) and therefore would be reasonably similar for a protozoan and a mammal. <span class="citation" data-cites="Gelber1962-ey">(<a href="#ref-Gelber1962-ey" role="doc-biblioref">Beatrice Gelber, 1962</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Taking stock, we believe that Gelber’s experiments, though not without their limitations, convincingly demonstrated Pavlovian conditioning in Paramecia. Sadly, her critics seem to have won in the long term. Most reviews of the literature, if they mention Gelber’s work at all, quickly dismiss it…<span class="citation" data-cites="Gershman2021-zf">(<a href="#ref-Gershman2021-zf" role="doc-biblioref">Gershman et al., 2021</a>)</span></p>
+</blockquote>
+<blockquote class="blockquote">
+<p>If single cells can learn then they must be using a non-synaptic form of memory storage. The idea that intracellular molecules store memories has a long history, mainly in the study of multicellular organisms. <span class="citation" data-cites="Gershman2021-zf">(<a href="#ref-Gershman2021-zf" role="doc-biblioref">Gershman et al., 2021</a>)</span></p>
+</blockquote>
+</section>
+<section id="in-nervous-systems" class="level3">
+<h3 class="anchored" data-anchor-id="in-nervous-systems">In nervous systems</h3>
+<ul>
+<li>Changes in patterns of neural activity</li>
+<li>Changes in connectivity
+<ul>
+<li>New synapses</li>
+<li>Altered synapses (strengthened or weakened)</li>
+</ul></li>
+</ul>
+</section>
+<section id="donald-hebbs-insight" class="level3">
+<h3 class="anchored" data-anchor-id="donald-hebbs-insight">Donald Hebb’s Insight</h3>
+<blockquote class="blockquote">
+<p>“<em>When an axon of cell A is near enough to excite cell B and repeatedly or persistently takes part in firing it, some growth process or metabolic change takes place in one or both cells such that A’s efficacy, as on of the cells firing B, is increased.</em>”</p>
+</blockquote>
+<p>(Hebb, 1949, p.&nbsp;62)</p>
+<blockquote class="blockquote">
+<p>“<em>Neurons that fire together wire together.</em>”</p>
+</blockquote>
+<p>(Lowell &amp; Singer, 1992, p.&nbsp;211)</p>
+</section>
+<section id="long-term-potentiation-ltp" class="level3">
+<h3 class="anchored" data-anchor-id="long-term-potentiation-ltp">Long-term potentiation (LTP)</h3>
+<ul>
+<li>An instance of Hebbian learning</li>
+</ul>
+<blockquote class="blockquote">
+<p>“<em>a persistent strengthening of synapses based on recent patterns of activity. These are patterns of synaptic activity that produce a long-lasting increase in signal transmission between two neurons.[2] The opposite of LTP is long-term depression, which produces a long-lasting decrease in synaptic strength.</em>” <a href="https://en.wikipedia.org/wiki/Long-term_potentiation" class="uri">https://en.wikipedia.org/wiki/Long-term_potentiation</a></p>
+</blockquote>
+<section id="ltp-discovery-bliss1973-xx" class="level4">
+<h4 class="anchored" data-anchor-id="ltp-discovery-bliss1973-xx">LTP discovery <a href="http://doi.org/10.1113/jphysiol.1973.sp010273/full"><span class="citation" data-cites="Bliss1973-xx">(<span>Bliss &amp; Lømo, 1973</span>)</span></a></h4>
+<ul>
+<li>Granule cell neurons in hippocampus dentate gyrus (DG)</li>
+<li><span class="math inline">\(\theta\)</span> band (10–20 Hz) stim for 10–15 sec, or 100 Hz stim for 3–4 sec</li>
+<li>shortened response latency, increased EPSP, increased population response over minutes or hours</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/LTP_exemplar.jpg/1200px-LTP_exemplar.jpg" class="img-fluid figure-img"></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+</section>
+<section id="mechanisms-of-ltp-plasticity" class="level4">
+<h4 class="anchored" data-anchor-id="mechanisms-of-ltp-plasticity">Mechanisms of LTP plasticity</h4>
+<ul>
+<li>number of synaptic receptors</li>
+<li>quantity of NT released</li>
+<li>effectiveness of postsynaptic response</li>
+</ul>
+</section>
+<section id="pathways-to-plasticity" class="level4">
+<h4 class="anchored" data-anchor-id="pathways-to-plasticity">Pathways to plasticity</h4>
+<ul>
+<li>Glu release activates
+<ul>
+<li>ionotropic AMPA Glu receptors</li>
+<li>metabotropic Glu receptors</li>
+<li>N-methyl-D-aspartate (NMDA) Glu receptors</li>
+</ul></li>
+<li><span class="math inline">\(Ca^{++}\)</span> entry via NMDA receptor activates protein kinases (CaMKII and PKAII)</li>
+<li><em>Early LTP</em> (up to few hours)
+<ul>
+<li>protein kinases <em>phosphorylate</em> (add <span class="math inline">\(P\)</span> group to) postsynaptic AMPA receptors</li>
+<li>Increase current flow through AMPA (Glu) receptors</li>
+</ul></li>
+<li><em>Late LTP</em>
+<ul>
+<li>depends on protein synthesis to generate new AMPA receptor</li>
+<li>insertion of new AMPA receptors into postsynaptic membrane</li>
+</ul></li>
+<li>Retrograde signal generator influences presynaptic response</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="http://www.pitt.edu/~super1/lecture/lec14361/img024.GIF" class="img-fluid figure-img"></p>
+<figcaption>LTP</figcaption>
+</figure>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"http://www.pitt.edu/~super1/lecture/lec14361/img024.GIF"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="http://www.pitt.edu/~super1/lecture/lec14361/img024.GIF" class="img-fluid figure-img"></p>
+<figcaption>LTP</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Aplysia_californica.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.nobelprize.org/images/kandel-13530-portrait-mini-2x.jpg" class="img-fluid figure-img"></p>
+<figcaption>Eric R. Kandel</figcaption>
+</figure>
+</div>
+</section>
+<section id="hebbian-learning-via-nmda-receptor" class="level4">
+<h4 class="anchored" data-anchor-id="hebbian-learning-via-nmda-receptor">‘Hebbian’ learning via NMDA receptor</h4>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/NMDA_receptor"><em>N-methyl-D-aspartate</em> receptor (NMDA-R)</a>
+<ul>
+<li>Name derived from agonist molecule that selectively binds to the receptor</li>
+</ul></li>
+<li>‘Coincidence’ detector
+<ul>
+<li>Sending cell has released NT</li>
+<li>Receiving cell is/has been recently active</li>
+</ul></li>
+<li>Chemically-gated AND
+<ul>
+<li>Ligand- (glutamate/aspartate + glycine) gated</li>
+<li>Sending cell active</li>
+</ul></li>
+<li>Voltage-gated
+<ul>
+<li><span class="math inline">\(Zn^{++}\)</span> or <span class="math inline">\(Mg^{++}\)</span> ion ‘plug’ removed under depolarization</li>
+<li><span class="math inline">\(Na^+\)</span> &amp; <span class="math inline">\(Ca^{++}\)</span> influx; <span class="math inline">\(K^+\)</span> outflux</li>
+<li>Receiving cell responds</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Activated_NMDAR.svg/220px-Activated_NMDAR.svg.png" class="img-fluid figure-img"></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+<ul>
+<li>NMDA receptor function may vary by location on neuron
+<ul>
+<li>Long-term potentiation (LTP)
+<ul>
+<li>Synaptic NMDA receptors</li>
+</ul></li>
+<li>Long-term depression (LTD)
+<ul>
+<li>Extrasynaptic NMDA receptors</li>
+<li>Lowered level of synaptic receptor activation</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="nmda-r-clinical-significance" class="level3">
+<h3 class="anchored" data-anchor-id="nmda-r-clinical-significance">NMDA-R clinical significance</h3>
+<ul>
+<li><a href="https://medlineplus.gov/druginfo/meds/a604006.html"><em>Memantine</em></a> (Alzheimer’s Disease treatment)
+<ul>
+<li>NMDA-R antagonist</li>
+<li>Controls over-activation and <span class="math inline">\(Ca^{++}\)</span> excitotoxicity?</li>
+</ul></li>
+<li>NMDA-R implicated in effects of <em>phencylidine</em> (PCP)
+<ul>
+<li>Link to Glu hypothesis of schizophrenia?</li>
+</ul></li>
+<li><em>Ketamine</em> is NMDA receptor antagonist
+<ul>
+<li>anesthesia, sedation pain relief</li>
+<li>possible short-term relief for depression</li>
+</ul></li>
+<li>Linked to analgesic effects of nitrous oxide (laughing gas; <span class="math inline">\(NO\)</span>)</li>
+<li>Alcohol (ethanol) inhibits <a href="https://www.ncbi.nlm.nih.gov/pubmed/21204417"><span class="citation" data-cites="Ron2011-dh">(<span>Ron &amp; Wang, 2011</span>)</span></a></li>
+</ul>
+</section>
+<section id="spike-timing-dependent-plasticity" class="level3">
+<h3 class="anchored" data-anchor-id="spike-timing-dependent-plasticity">Spike-timing-dependent plasticity</h3>
+<p>How to learn/remember “causal chains”?</p>
+<ul>
+<li>e.g., lightning THEN thunder</li>
+<li>unusual food THEN indigestion</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/caporale-2008-fig-1.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="caporale2008spike">(<a href="#ref-caporale2008spike" role="doc-biblioref">Caporale &amp; Dan, 2008</a>)</span></figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/caporale-2008-fig-2.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="caporale2008spike">(<a href="#ref-caporale2008spike" role="doc-biblioref">Caporale &amp; Dan, 2008</a>)</span></figcaption>
+</figure>
+</div>
+<ul>
+<li>A before B: strengthen <span class="math inline">\(A \rightarrow B\)</span></li>
+<li>A after B: <span class="math inline">\(A \rightarrow B\)</span></li>
+<li><a href="https://en.wikipedia.org/wiki/Neuroplasticity"><em>Neural Plasticity</em></a>
+<ul>
+<li>Lasting changes in neural firing, connectivity</li>
+</ul></li>
+<li>NMDA receptor a molecular mechanism for implementing LTP and spike-timing-dependent plasticity</li>
+</ul>
+</section>
+<section id="memory-systems" class="level3">
+<h3 class="anchored" data-anchor-id="memory-systems">Memory systems</h3>
+<section id="lashleys-search-for-the-engram" class="level4">
+<h4 class="anchored" data-anchor-id="lashleys-search-for-the-engram">Lashley’s search for the <a href="https://en.wikipedia.org/wiki/Engram_(neuropsychology)">‘engram’</a></h4>
+<ul>
+<li>Is memory ‘localized’ like sensory and motor functions? <span class="citation" data-cites="Lashley1944-fg">(<a href="#ref-Lashley1944-fg" role="doc-biblioref">Karl S. Lashley, 1944</a>)</span></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/lashley-1944.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Lashley1946-pa">K. S. Lashley &amp; Clark (<a href="#ref-Lashley1946-pa" role="doc-biblioref">1946</a>)</span></figcaption>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>“<em>“the area subdivisions are in large part anatomically meaningless and misleading as to the presumptive functional divisions of the cortex”</em>”</p>
+</blockquote>
+<p><span class="citation" data-cites="Lashley1946-pa">(<a href="#ref-Lashley1946-pa" role="doc-biblioref">K. S. Lashley &amp; Clark, 1946</a>)</span></p>
+<ul>
+<li>Not in the rat cerebral cortex</li>
+</ul>
+</section>
+<section id="modern-views" class="level4">
+<h4 class="anchored" data-anchor-id="modern-views">Modern views</h4>
+<ul>
+<li>Cerebral cortex less central to “engram-like” memory than other areas</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/squire-memory-systems.gif" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="squire_memory_2004">(<a href="#ref-squire_memory_2004" role="doc-biblioref">Squire, 2004</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="hippocampus" class="level4">
+<h4 class="anchored" data-anchor-id="hippocampus">Hippocampus</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/hippocampus-seahorse.jpg" class="img-fluid figure-img"></p>
+<figcaption>https://upload.wikimedia.org/wikipedia/commons/5/5b/Hippocampus_and_seahorse_cropped.JPG</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/2/25/CajalHippocampus_%28modified%29.png" class="img-fluid figure-img"></p>
+<figcaption>Santiago Ramon Y Cajal; Source: Wikipedia</figcaption>
+</figure>
+</div>
+<ul>
+<li>Dense in NMDA receptors</li>
+<li>Central “hub” in network?
+<ul>
+<li>No, based on anatomical or functional connectivity</li>
+<li>But yes, when modeling “information flow” <a href="http://doi.org/10.1371/journal.pcbi.1003982"><span class="citation" data-cites="Misic2014-eq">(<span>Mišić, Goñi, Betzel, Sporns, &amp; McIntosh, 2014</span>)</span></a></li>
+</ul></li>
+<li>Formation, storage, consolidation of long-term episodic or declarative memories</li>
+<li>Stores info for later transfer to cortex
+<ul>
+<li>“Engrams” form in hipp &amp; PFC simultaneously, fade in PFC over time <a href="http://doi.org/10.1126/science.aam6808"><span class="citation" data-cites="Kitamura2017-es">(<span>Kitamura et al., 2017</span>)</span></a></li>
+</ul></li>
+<li>Spatial navigation
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Place_cell">Place cells</a></li>
+<li><a href="http://www.scholarpedia.org/article/Grid_cells">Grid cells</a></li>
+<li><a href="http://www.scholarpedia.org/article/Head_direction_cells">Head-direction cells</a></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/finite-scale-spatial-rep-F1.large.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="kjelstrup_finite_2008">Kjelstrup et al. (<a href="#ref-kjelstrup_finite_2008" role="doc-biblioref">2008</a>)</span></figcaption>
+</figure>
+</div>
+<ul>
+<li>London taxi drivers (a high memory demand profession) have specialized hippocampi <span class="citation" data-cites="maguire2000navigation">(<a href="#ref-maguire2000navigation" role="doc-biblioref">Maguire et al., 2000</a>)</span></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr1.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Woollett2011-uf">(<a href="#ref-Woollett2011-uf" role="doc-biblioref">Woollett &amp; Maguire, 2011</a>)</span></figcaption>
+</figure>
+</div>
+<!-- ![@maguire2000navigation](../include/img/maguire-etal-2000-F1.large.jpg) -->
+<!-- ![@maguire2000navigation](../include/img/maguire-etal-2000-F2.large.jpg) -->
+<!-- ![@maguire2000navigation](../include/img/maguire-etal-2000-F3.large.jpg) -->
+<ul>
+<li>Not due to self-motion, driving experience, or stress <em>per se</em></li>
+</ul>
+<blockquote class="blockquote">
+<p>Gray matter volume differences in the hippocampus relative to controls have been reported to accompany this expertise. While these gray matter differences could result from using and updating spatial representations, they might instead be influenced by factors such as self-motion, driving experience, and stress. We examined the contribution of these factors by comparing London taxi drivers with London bus drivers, who were matched for driving experience and levels of stress, but differed in that they follow a constrained set of routes. We found that compared with bus drivers, taxi drivers had greater gray matter volume in mid-posterior hippocampi and less volume in anterior hippocampi. Furthermore, years of navigation experience correlated with hippocampal gray matter volume only in taxi drivers, with right posterior gray matter volume increasing and anterior volume decreasing with more navigation experience. This suggests that spatial knowledge, and not stress, driving, or self-motion, is associated with the pattern of hippocampal gray matter volume in taxi drivers. <span class="citation" data-cites="Maguire2006-sc">(<a href="#ref-Maguire2006-sc" role="doc-biblioref">Maguire, Woollett, &amp; Spiers, 2006</a>)</span></p>
+</blockquote>
+<div id="fig-woollett-2011" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-woollett-2011-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr2.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 2. Gray Matter Volume Changes between T1 and T2 in Qualified Trainees</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr3.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 3. Plot of Gray Matter Intensities across Groups and Time</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-woollett-2011-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: <span class="citation" data-cites="Woollett2011-uf">(Figures 1 and 2 from <a href="#ref-Woollett2011-uf" role="doc-biblioref">Woollett &amp; Maguire, 2011</a>)</span>
+</figcaption>
+</figure>
+</div>
+<ul>
+<li>Birds with high memory demands have larger hippocampi</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/sherry-food-storing-birds-1989.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="sherry_hippocampal_1989">Sherry, Vaccarino, Buckenham, &amp; Herz (<a href="#ref-sherry_hippocampal_1989" role="doc-biblioref">1989</a>)</span></figcaption>
+</figure>
+</div>
+<ul>
+<li>Birds with high memory caching demands use sparse representations (“bar codes”) in hippocampus</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/chettih-2024.png" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Chettih2024-co">Chettih, Mackevicius, Hale, &amp; Aronov (<a href="#ref-Chettih2024-co" role="doc-biblioref">2024</a>)</span></figcaption>
+</figure>
+</div>
+<ul>
+<li>(Gilmore’s view) Humans have repurposed hippocampal system for other cognitive uses, e.g., semantic memory, language</li>
+</ul>
+</section>
+<section id="cerebral-cortex" class="level4">
+<h4 class="anchored" data-anchor-id="cerebral-cortex">Cerebral cortex</h4>
+<ul>
+<li>Contains retinotopic maps (beyond V1) that are memory-related <span class="citation" data-cites="Steel2024-bv">(<a href="#ref-Steel2024-bv" role="doc-biblioref">Steel, Silson, Garcia, &amp; Robertson, 2024</a>)</span></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-023-01512-3/MediaObjects/41593_2023_1512_Fig1_HTML.png?as=webp" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Steel2024-bv">(Figure 1 from <a href="#ref-Steel2024-bv" role="doc-biblioref">Steel et al., 2024</a>)</span>. a, PRF paradigm and modeling. In Exp. 1, participants underwent pRF mapping. Participants viewed visual scenes through a bar aperture that gradually traversed the visual field. Each visual-field traversal lasted 36 s (18 × 2 s positions), and the bar made eight traversals per run. The direction of motion varied between traversals. To estimate the pRF for each voxel, a synthetic time series is generated for 400 visual-field locations (200 x and y positions) and 100 sizes (sigma). This results in four million possible time series that are fit to each voxel’s activity. The fit results in four parameters describing each receptive field: x, y, sigma and amplitude. b, Negative-amplitude pRFs fall anterior to the cortex typically considered visual (beyond known retinotopic maps). Group average (n = 17) pRF amplitude map (threshold at explained variance R-squared (R2) &gt; 0.08) is shown on partially inflated representations of the left hemisphere, alongside ROIs: SPAs (OPA, PPA), PMAs (LPMA, VPMA) (localized in an independent group of participants24) and the DMN22. The known retinotopic maps in the posterior cortex (black dotted outlines21) contain exclusively positive-amplitude pRFs (hot colors), as visual stimulation evokes positive retinotopically specific BOLD responses. Negative-amplitude pRFs (cool colors), where visual stimulation evokes a negative spatially specific BOLD response, arise anterior to these retinotopic maps in the PMAs and DMN (see Fig. 2a for example time series from a representative subject).</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-023-01512-3/MediaObjects/41593_2023_1512_Fig2_HTML.png?as=webp" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Steel2024-bv">(Figure 2 from <a href="#ref-Steel2024-bv" role="doc-biblioref">Steel et al., 2024</a>)</span>. a, PRF modeling reveals posterior–anterior inversion of pRF amplitude in individual participants. Left, PRF amplitude for a representative participant overlaid onto a lateral view of the left hemisphere (threshold at R2 &gt; 0.15; see Extended Data Fig. 1 for example ventral and lateral surface pRF amplitude maps from all participants and Extended Data Fig. 3 for amplitude maps with default mode parcellation overlaid). Posterior visual cortex is dominated by positive-amplitude pRFs (hot colors), while cortex anterior to regions classically considered visual exhibits a high concentration of negative-amplitude pRFs (cold colors). This individual’s OPA and LPMA are shown in white. Both the SPAs and PMAs contain pRFs (Extended Data Fig. 2). Right, time-series, model fits and reconstructed pRFs for two surface vertices in this subject. Top, example prototypical positive-amplitude pRF from the lateral SPA (OPA) in the left and right hemispheres (LH, RH). Bottom, example negative-amplitude population receptive field from the LPMA. b, Memory areas (PMAs) contain a larger percentage of negative pRFs compared to perceptual areas (SPAs) (repeated measures ANOVA, Bonferroni-corrected t-tests). Blue bars depict percentage of negative pRFs from individually localized SPAs and PMAs compared to total pRFs in the area (dotted outline). On the ventral and lateral surfaces, SPAs are dominated by positive pRFs, whereas a transition from positive to negative pRFs is evident within PMAs. Individual participant data points overlaid and connected in gray. <em>P two-tailed &lt; 0.05, </em>**P two-tailed &lt; 0.001. NS, not significant.</figcaption>
+</figure>
+</div>
+<blockquote class="blockquote">
+<p>Together with recent reports showing retinotopic coding persisting as far as the ‘cortical apex’ [15,16,31], including the DMN [15,16], and the hippocampus [31,32], our findings challenge conventional views of brain organization, which generally assume that retinotopic coding is replaced by abstract amodal coding as information propagates through the visual hierarchy [7,8,9,10] toward memory structures [11,12,13,14] <span class="citation" data-cites="Steel2024-bv">(<a href="#ref-Steel2024-bv" role="doc-biblioref">Steel et al., 2024</a>)</span></p>
+</blockquote>
+</section>
+<section id="cerebellum" class="level4">
+<h4 class="anchored" data-anchor-id="cerebellum">Cerebellum</h4>
+<ul>
+<li>response timing, sequences, especially in classical conditioning paradigms <a href="http://dx.doi.org/10.1073/pnas.1621132114"><span class="citation" data-cites="Jirenhed2017-fl">Jirenhed, Rasmussen, Johansson, &amp; Hesslow (<span>2017</span>)</span></a></li>
+</ul>
+</section>
+</section>
+<section id="disorders-of-memory" class="level3">
+<h3 class="anchored" data-anchor-id="disorders-of-memory">Disorders of memory</h3>
+<section id="amnesia" class="level4">
+<h4 class="anchored" data-anchor-id="amnesia">Amnesia</h4>
+<ul>
+<li>Acquired loss of memory</li>
+<li>≠ normal forgetting</li>
+<li>Retrograde (‘backwards’ in time)
+<ul>
+<li>Damage to information acquired pre-injury</li>
+<li>Temporally graded</li>
+</ul></li>
+<li>Anterograde (‘forward’ in time)
+<ul>
+<li>Damage to information acquired/experienced post-injury</li>
+</ul></li>
+</ul>
+<section id="patient-hm-henry-g.-molaison" class="level5">
+<h5 class="anchored" data-anchor-id="patient-hm-henry-g.-molaison"><a href="https://www.pbs.org/wgbh/nova/article/corkin-hm-memory/">Patient HM</a> (Henry G. Molaison)</h5>
+<ul>
+<li>Intractable/untreatable epilepsy</li>
+<li>Bilateral resection of medial temporal lobe (1953)</li>
+<li>Epilepsy now treatable</li>
+<li>But, memory impaired</li>
+<li>Lived until 2008</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aw6JmZuLhfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+</iframe>
+<!-- Brenda Milner on HM -->
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.pbs.org/wgbh/nova/media/images/corkin-hm-memory-08.width-800.jpg" class="img-fluid figure-img"></p>
+<figcaption>https://www.pbs.org/wgbh/nova/article/corkin-hm-memory/</figcaption>
+</figure>
+</div>
+</section>
+<section id="hms-amnesia" class="level5">
+<h5 class="anchored" data-anchor-id="hms-amnesia">HM’s amnesia</h5>
+<ul>
+<li>Retrograde amnesia
+<ul>
+<li>Can’t remember 10 yrs before operation</li>
+<li>Distant past better than more recent</li>
+</ul></li>
+<li>Severe, global anterograde amnesia
+<ul>
+<li>Impaired learning of new facts, events, people</li>
+</ul></li>
+<li>But, skills (mirror learning) intact</li>
+</ul>
+<blockquote class="blockquote">
+<p>“<em>Every day is alone in itself, whatever enjoyment I’ve had, and whatever sorrow I’ve had…Right now, I’m wondering, have I done or said anything amiss? You see at this moment, everything looks clear to me, but what happened just before? That’s what worries me. It’s like waking from a dream. I just don’t remember.</em>”</p>
+</blockquote>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rq9eM4ZXRgs" frameborder="0" allowfullscreen="">
+</iframe>
+</section>
+<section id="other-causes-of-amnesia" class="level5">
+<h5 class="anchored" data-anchor-id="other-causes-of-amnesia">Other causes of amnesia</h5>
+<ul>
+<li>Disease
+<ul>
+<li>Alzheimer’s, herpes virus</li>
+</ul></li>
+<li><a href="https://en.wikipedia.org/wiki/Korsakoff%27s_syndrome">Korsakoff’s syndrome</a>
+<ul>
+<li>Result of severe alcoholism</li>
+<li>Impairs medial thalamus &amp; mammillary bodies</li>
+</ul></li>
+</ul>
+</section>
+<section id="patient-na" class="level5">
+<h5 class="anchored" data-anchor-id="patient-na">Patient NA</h5>
+<ul>
+<li>Fencing accident</li>
+<li>Damage to medial thalamus</li>
+<li>Anterograde + graded retrograde amnesia</li>
+<li>Are thalamus &amp; medial temporal region connected?</li>
+</ul>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/1GfFopZSyj8" frameborder="0" allowfullscreen="">
+</iframe>
+</section>
+<section id="spared-skills-in-amnesia" class="level5">
+<h5 class="anchored" data-anchor-id="spared-skills-in-amnesia">Spared skills in amnesia</h5>
+<ul>
+<li>Skill-learning</li>
+<li>Mirror-reading, writing</li>
+<li>Short-term memory</li>
+<li>“Cognitive” skills</li>
+<li>Priming</li>
+</ul>
+</section>
+<section id="what-does-amnesia-tell-us" class="level5">
+<h5 class="anchored" data-anchor-id="what-does-amnesia-tell-us">What does amnesia tell us?</h5>
+<ul>
+<li>Long-term memory for facts, events, people</li>
+<li>≠ Short-term memory</li>
+<li>≠ Long-term memory for “skills”</li>
+<li>Separate memory systems in the brain?</li>
+</ul>
+</section>
+</section>
+<section id="alzheimers-disease-ad" class="level4">
+<h4 class="anchored" data-anchor-id="alzheimers-disease-ad">Alzheimer’s Disease (AD)</h4>
+<ul>
+<li>Chronic, neurodegenerative disease affecting ~5 M Americans</li>
+<li>Cognitive dysfunction (memory loss, language difficulties, planning, coordination)</li>
+<li>Psychiatric symptoms and behavioral disturbances</li>
+<li>Difficulties with daily living</li>
+<li><a href="http://doi.org/10.1136/bmj.b158"><span class="citation" data-cites="burns_alzheimers_2009">Burns &amp; Iliffe (<span>2009</span>)</span></a></li>
+<li>Build up of amyloid <span class="math inline">\(\beta\)</span> protein plaques in brain tissue</li>
+<li>APOE e4 gene variant <a href="https://www.mayoclinic.org/diseases-conditions/alzheimers-disease/in-depth/alzheimers-genes/art-20046552">increases risk 2-12x</a></li>
+</ul>
+<section id="progression" class="level5">
+<h5 class="anchored" data-anchor-id="progression">Progression</h5>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/bmj-158-F1.large.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="burns_alzheimers_2009">Burns &amp; Iliffe (<a href="#ref-burns_alzheimers_2009" role="doc-biblioref">2009</a>)</span></figcaption>
+</figure>
+</div>
+<ul>
+<li>Post-mortem exams show <span class="math inline">\(\beta\)</span> amyloid plaques and neurofibrillary tangles</li>
+</ul>
+<p><img src="../include/img/20150331-mouse-brain.jpg" class="img-fluid"></p>
+</section>
+<section id="treatments" class="level5">
+<h5 class="anchored" data-anchor-id="treatments">Treatments</h5>
+<ul>
+<li>Acetylcholinesterase (AChE) inhbitors (e.g.&nbsp;Aricept): Slow ACh inactivation</li>
+<li>NMDA-R partial antagonists (e.g., Memantine): Slow LTP</li>
+<li>Drugs that remove amyloid <span class="math inline">\(\beta\)</span> (e.g, lecanemab) don’t work especially well + have side effects</li>
+<li>AD the result of disordered immune response <span class="citation" data-cites="Jevtic2017-jt">(<a href="#ref-Jevtic2017-jt" role="doc-biblioref">Jevtic, Sengar, Salter, &amp; McLaurin, 2017</a>)</span>?
+<ul>
+<li>Promising prospective therapy using microglia to remove amyloid <span class="math inline">\(\beta\)</span> <span class="citation" data-cites="Hou2024-wx">(<a href="#ref-Hou2024-wx" role="doc-biblioref">Hou et al., 2024</a>)</span></li>
+<li>Link between genetic factor (APOE4/4 gene) and fatty build-up in microglia <span class="citation" data-cites="Haney2024-wb">(<a href="#ref-Haney2024-wb" role="doc-biblioref">Haney et al., 2024</a>)</span></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="the-other-end-of-the-spectrum" class="level4">
+<h4 class="anchored" data-anchor-id="the-other-end-of-the-spectrum">The other end of the spectrum…</h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hpTCZ-hO6iI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="">
+</iframe>
+</section>
+</section>
+<section id="what-about-working-memory-desposito2015-zm" class="level3">
+<h3 class="anchored" data-anchor-id="what-about-working-memory-desposito2015-zm">What about working memory? <span class="citation" data-cites="DEsposito2015-zm">(<a href="#ref-DEsposito2015-zm" role="doc-biblioref">D’Esposito &amp; Postle, 2015</a>)</span></h3>
+<ul>
+<li>LTM representations of target items + attention -&gt; elevated activation
+<ul>
+<li>Semantic items</li>
+<li>Sensorimotor items</li>
+</ul></li>
+<li>Capacity for attended items (in Focus of Attention or FoA) limited ~ 4</li>
+<li>Neural basis
+<ul>
+<li>sustained activation in PFC</li>
+<li>subthreshold activation in areas where items are stored</li>
+</ul></li>
+<li>Individual differences in visual WM</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1364661313001265-gr2.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Luck2013-uo">Luck &amp; Vogel (<a href="#ref-Luck2013-uo" role="doc-biblioref">2013</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<ul>
+<li>Multiple types of learning &amp; memory</li>
+<li>Learning &amp; memory distributed across the brain
+<ul>
+<li>Specializations relate to location in the network? (input/output/in-between)</li>
+</ul></li>
+<li>Hippocampus + PFC critical areas binding together sensory/semantic info stored elsewhere</li>
+<li>Changes in synaptic #, strength, connectivity provide cellular basis</li>
+</ul>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Bliss1973-xx" class="csl-entry" role="listitem">
+Bliss, T. V. P., &amp; Lømo, T. (1973). Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetized rabbit following stimulation of the perforant path. <em>J. Physiol.</em>, <em>232</em>(2), 331–356. Retrieved from <a href="http://onlinelibrary.wiley.com/doi/10.1113/jphysiol.1973.sp010273/full">http://onlinelibrary.wiley.com/doi/10.1113/jphysiol.1973.sp010273/full</a>
+</div>
+<div id="ref-burns_alzheimers_2009" class="csl-entry" role="listitem">
+Burns, A., &amp; Iliffe, S. (2009). Alzheimer’s disease. <em>BMJ</em>, <em>338</em>, b158. <a href="https://doi.org/10.1136/bmj.b158">https://doi.org/10.1136/bmj.b158</a>
+</div>
+<div id="ref-caporale2008spike" class="csl-entry" role="listitem">
+Caporale, N., &amp; Dan, Y. (2008). Spike timing-dependent plasticity: A hebbian learning rule. <em>Annu. Rev. Neurosci.</em>, <em>31</em>, 25–46. <a href="https://doi.org/10.1146/annurev.neuro.31.060407.125639">https://doi.org/10.1146/annurev.neuro.31.060407.125639</a>
+</div>
+<div id="ref-Chettih2024-co" class="csl-entry" role="listitem">
+Chettih, S. N., Mackevicius, E. L., Hale, S., &amp; Aronov, D. (2024). Barcoding of episodic memories in the hippocampus of a food-caching bird. <em>Cell</em>. <a href="https://doi.org/10.1016/j.cell.2024.02.032">https://doi.org/10.1016/j.cell.2024.02.032</a>
+</div>
+<div id="ref-DEsposito2015-zm" class="csl-entry" role="listitem">
+D’Esposito, M., &amp; Postle, B. R. (2015). The cognitive neuroscience of working memory. <em>Annu. Rev. Psychol.</em>, <em>66</em>, 115–142. <a href="https://doi.org/10.1146/annurev-psych-010814-015031">https://doi.org/10.1146/annurev-psych-010814-015031</a>
+</div>
+<div id="ref-noauthor_2022-ml" class="csl-entry" role="listitem">
+Deep learning vs machine learning: The ultimate battle. (2022, May). <a href="https://www.turing.com/kb/ultimate-battle-between-deep-learning-and-machine-learning" class="uri">https://www.turing.com/kb/ultimate-battle-between-deep-learning-and-machine-learning</a>; Turing Enterprises Inc. Retrieved from <a href="https://www.turing.com/kb/ultimate-battle-between-deep-learning-and-machine-learning">https://www.turing.com/kb/ultimate-battle-between-deep-learning-and-machine-learning</a>
+</div>
+<div id="ref-noauthor_undated-hr" class="csl-entry" role="listitem">
+Deep learning vs. Machine learning - azure machine learning. (n.d.). <a href="https://learn.microsoft.com/en-us/azure/machine-learning/concept-deep-learning-vs-machine-learning?view=azureml-api-2" class="uri">https://learn.microsoft.com/en-us/azure/machine-learning/concept-deep-learning-vs-machine-learning?view=azureml-api-2</a>. Retrieved from <a href="https://learn.microsoft.com/en-us/azure/machine-learning/concept-deep-learning-vs-machine-learning?view=azureml-api-2">https://learn.microsoft.com/en-us/azure/machine-learning/concept-deep-learning-vs-machine-learning?view=azureml-api-2</a>
+</div>
+<div id="ref-Gelber1952-bb" class="csl-entry" role="listitem">
+Gelber, B. (1952). Investigations of the behavior of paramecium aurelia. I. Modification of behavior after training with reinforcement. <em>Journal of Comparative and Physiological Psychology</em>, <em>45</em>(1), 58–65. <a href="https://doi.org/10.1037/h0063093">https://doi.org/10.1037/h0063093</a>
+</div>
+<div id="ref-Gelber1962-ey" class="csl-entry" role="listitem">
+Gelber, Beatrice. (1962). Reminiscence and the trend of retention in paramecium aurelia. <em>The Psychological Record</em>, <em>12</em>(2), 179–192. <a href="https://doi.org/10.1007/BF03393455">https://doi.org/10.1007/BF03393455</a>
+</div>
+<div id="ref-Gershman2021-zf" class="csl-entry" role="listitem">
+Gershman, S. J., Balbi, P. E., Gallistel, C. R., &amp; Gunawardena, J. (2021). Reconsidering the evidence for learning in single cells. <em>eLife</em>, <em>10</em>, e61907. <a href="https://doi.org/10.7554/eLife.61907">https://doi.org/10.7554/eLife.61907</a>
+</div>
+<div id="ref-Haney2024-wb" class="csl-entry" role="listitem">
+Haney, M. S., Pálovics, R., Munson, C. N., Long, C., Johansson, P. K., Yip, O., … Wyss-Coray, T. (2024). <span>APOE4/4</span> is linked to damaging lipid droplets in alzheimer’s disease microglia. <em>Nature</em>, <em>628</em>(8006), 154–161. <a href="https://doi.org/10.1038/s41586-024-07185-7">https://doi.org/10.1038/s41586-024-07185-7</a>
+</div>
+<div id="ref-Hou2024-wx" class="csl-entry" role="listitem">
+Hou, J., Chen, Y., Cai, Z., Heo, G. S., Yuede, C. M., Wang, Z., … Colonna, M. (2024). Antibody-mediated targeting of human microglial leukocyte ig-like receptor <span>B4</span> attenuates amyloid pathology in a mouse model. <em>Science Translational Medicine</em>, <em>16</em>(741), eadj9052. <a href="https://doi.org/10.1126/scitranslmed.adj9052">https://doi.org/10.1126/scitranslmed.adj9052</a>
+</div>
+<div id="ref-Jevtic2017-jt" class="csl-entry" role="listitem">
+Jevtic, S., Sengar, A. S., Salter, M. W., &amp; McLaurin, J. (2017). The role of the immune system in alzheimer disease: Etiology and treatment. <em>Ageing Research Reviews</em>, <em>40</em>, 84–94. <a href="https://doi.org/10.1016/j.arr.2017.08.005">https://doi.org/10.1016/j.arr.2017.08.005</a>
+</div>
+<div id="ref-Jirenhed2017-fl" class="csl-entry" role="listitem">
+Jirenhed, D.-A., Rasmussen, A., Johansson, F., &amp; Hesslow, G. (2017). Learned response sequences in cerebellar purkinje cells. <em>Proceedings of the National Academy of Sciences of the United States of America</em>, <em>114</em>(23), 6127–6132. <a href="https://doi.org/10.1073/pnas.1621132114">https://doi.org/10.1073/pnas.1621132114</a>
+</div>
+<div id="ref-Kitamura2017-es" class="csl-entry" role="listitem">
+Kitamura, T., Ogawa, S. K., Roy, D. S., Okuyama, T., Morrissey, M. D., Smith, L. M., … Tonegawa, S. (2017). Engrams and circuits crucial for systems consolidation of a memory. <em>Science</em>, <em>356</em>(6333), 73–78. <a href="https://doi.org/10.1126/science.aam6808">https://doi.org/10.1126/science.aam6808</a>
+</div>
+<div id="ref-kjelstrup_finite_2008" class="csl-entry" role="listitem">
+Kjelstrup, K. B., Solstad, T., Brun, V. H., Hafting, T., Leutgeb, S., Witter, M. P., … Moser, M.-B. (2008). Finite <span>Scale</span> of <span>Spatial</span> <span>Representation</span> in the <span>Hippocampus</span>. <em>Science</em>, <em>321</em>(5885), 140–143. <a href="https://doi.org/10.1126/science.1157086">https://doi.org/10.1126/science.1157086</a>
+</div>
+<div id="ref-Lashley1944-fg" class="csl-entry" role="listitem">
+Lashley, Karl S. (1944). Studies of cerebral function in learning. <span>XIII</span>. Apparent absence of transcortical association in maze learning. <em>Journal of Comparative Neurology</em>. Retrieved from <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/cne.900800207">https://onlinelibrary.wiley.com/doi/abs/10.1002/cne.900800207</a>
+</div>
+<div id="ref-Lashley1946-pa" class="csl-entry" role="listitem">
+Lashley, K. S., &amp; Clark, G. (1946). The cytoarchitecture of the cerebral cortex of ateles; a critical examination of architectonic studies. <em>The Journal of Comparative Neurology</em>, <em>85</em>(2), 223–305. <a href="https://doi.org/10.1002/cne.900850207">https://doi.org/10.1002/cne.900850207</a>
+</div>
+<div id="ref-noauthor_2017-td" class="csl-entry" role="listitem">
+Learning styles as a myth. (2017, June). <a href="https://poorvucenter.yale.edu/LearningStylesMyth" class="uri">https://poorvucenter.yale.edu/LearningStylesMyth</a>. Retrieved from <a href="https://poorvucenter.yale.edu/LearningStylesMyth">https://poorvucenter.yale.edu/LearningStylesMyth</a>
+</div>
+<div id="ref-Luck2013-uo" class="csl-entry" role="listitem">
+Luck, S. J., &amp; Vogel, E. K. (2013). Visual working memory capacity: From psychophysics and neurobiology to individual differences. <em>Trends Cogn. Sci.</em>, <em>17</em>(8), 391–400. <a href="https://doi.org/10.1016/j.tics.2013.06.006">https://doi.org/10.1016/j.tics.2013.06.006</a>
+</div>
+<div id="ref-maguire2000navigation" class="csl-entry" role="listitem">
+Maguire, E. A., Gadian, D. G., Johnsrude, I. S., Good, C. D., Ashburner, J., Frackowiak, R. S., &amp; Frith, C. D. (2000). Navigation-related structural change in the hippocampi of taxi drivers. <em>Proceedings of the National Academy of Sciences</em>, <em>97</em>(8), 4398–4403. <a href="https://doi.org/10.1073/pnas.070039597">https://doi.org/10.1073/pnas.070039597</a>
+</div>
+<div id="ref-Maguire2006-sc" class="csl-entry" role="listitem">
+Maguire, E. A., Woollett, K., &amp; Spiers, H. J. (2006). London taxi drivers and bus drivers: A structural <span>MRI</span> and neuropsychological analysis. <em>Hippocampus</em>, <em>16</em>(12), 1091–1101. <a href="https://doi.org/10.1002/hipo.20233">https://doi.org/10.1002/hipo.20233</a>
+</div>
+<div id="ref-Misic2014-eq" class="csl-entry" role="listitem">
+Mišić, B., Goñi, J., Betzel, R. F., Sporns, O., &amp; McIntosh, A. R. (2014). A network convergence zone in the hippocampus. <em>PLoS Comput. Biol.</em>, <em>10</em>(12), e1003982. <a href="https://doi.org/10.1371/journal.pcbi.1003982">https://doi.org/10.1371/journal.pcbi.1003982</a>
+</div>
+<div id="ref-Pashler2008-zi" class="csl-entry" role="listitem">
+Pashler, H., McDaniel, M., Rohrer, D., &amp; Bjork, R. (2008). Learning styles: Concepts and evidence. <em>Psychological Science in the Public Interest: A Journal of the American Psychological Society</em>, <em>9</em>(3), 105–119. <a href="https://doi.org/10.1111/j.1539-6053.2009.01038.x">https://doi.org/10.1111/j.1539-6053.2009.01038.x</a>
+</div>
+<div id="ref-Ron2011-dh" class="csl-entry" role="listitem">
+Ron, D., &amp; Wang, J. (2011). The <span>NMDA</span> receptor and alcohol addiction. In A. M. Van Dongen (Ed.), <em>Biology of the <span>NMDA</span> receptor</em>. Boca Raton (FL): CRC Press/Taylor &amp; Francis. Retrieved from <a href="https://www.ncbi.nlm.nih.gov/pubmed/21204417">https://www.ncbi.nlm.nih.gov/pubmed/21204417</a>
+</div>
+<div id="ref-sherry_hippocampal_1989" class="csl-entry" role="listitem">
+Sherry, D. F., Vaccarino, A. L., Buckenham, K., &amp; Herz, R. S. (1989). The <span>Hippocampal</span> <span>Complex</span> of <span>Food</span>-<span>Storing</span> <span>Birds</span>. <em>Brain, Behavior and Evolution</em>, <em>34</em>(5), 308–317. <a href="https://doi.org/10.1159/000116516">https://doi.org/10.1159/000116516</a>
+</div>
+<div id="ref-squire_memory_2004" class="csl-entry" role="listitem">
+Squire, L. R. (2004). Memory systems of the brain: <span>A</span> brief history and current perspective. <em>Neurobiology of Learning and Memory</em>, <em>82</em>(3), 171–177. <a href="https://doi.org/10.1016/j.nlm.2004.06.005">https://doi.org/10.1016/j.nlm.2004.06.005</a>
+</div>
+<div id="ref-Steel2024-bv" class="csl-entry" role="listitem">
+Steel, A., Silson, E. H., Garcia, B. D., &amp; Robertson, C. E. (2024). A retinotopic code structures the interaction between perception and memory systems. <em>Nature Neuroscience</em>. <a href="https://doi.org/10.1038/s41593-023-01512-3">https://doi.org/10.1038/s41593-023-01512-3</a>
+</div>
+<div id="ref-Tch2017-fy" class="csl-entry" role="listitem">
+Tch, A. (2017, August). The mostly complete chart of neural networks, explained. <a href="https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464" class="uri">https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464</a>. Retrieved from <a href="https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464">https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464</a>
+</div>
+<div id="ref-Van_Veen_undated-ss" class="csl-entry" role="listitem">
+Veen, F. van. (n.d.). Neural network zoo prequel: Cells and layers. <a href="https://www.asimovinstitute.org/author/fjodorvanveen/" class="uri">https://www.asimovinstitute.org/author/fjodorvanveen/</a>. Retrieved from <a href="https://www.asimovinstitute.org/author/fjodorvanveen/">https://www.asimovinstitute.org/author/fjodorvanveen/</a>
+</div>
+<div id="ref-Woollett2011-uf" class="csl-entry" role="listitem">
+Woollett, K., &amp; Maguire, E. A. (2011). Acquiring <span>“the knowledge”</span> of london’s layout drives structural brain changes. <em>Current Biology: CB</em>, <em>21</em>(24), 2109–2114. <a href="https://doi.org/10.1016/j.cub.2011.11.018">https://doi.org/10.1016/j.cub.2011.11.018</a>
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2024-, Rick Gilmore</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/edit/main/src/resources/learning-memory.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/rogilmore">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

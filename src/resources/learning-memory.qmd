@@ -1,0 +1,429 @@
+---
+title: "Learning & Memory"
+---
+
+## Big picture questions
+
+### Memory capacity of the human brain?
+
+- 1e12 neurons
+- 1e3 synapses/neuron
+- 1e15 synapses or 1.25e14 bytes
+- 1e9 gigabyte, 1e12 terabyte, 1e15 petabyte
+
+<http://www.scientificamerican.com/article.cfm?id=what-is-the-memory-capacity>
+
+### What is learning?
+
+<https://theelearningcoach.com/learning/10-definitions-learning/>
+
+> Learning is the process of acquiring new understanding, knowledge, behaviors, skills, values, attitudes, and preferences. <https://en.wikipedia.org/wiki/Learning>
+
+- **Non-associative**
+    - $A(t+1) = f(A(t))$
+    - Habituation ($\dot f < 0$), sensitization ($\dot f > 0$)
+- **Associative**
+    - $A \rightarrow B$
+    - Classical & operant/instrumental conditioning
+    - Sequence, observational, episodic, semantic...learning
+
+### Learning styles?
+
+![[@noauthor_2017-td]](../include/img/poorvu-center-learning-styles.png)
+
+- Are myths [@Pashler2008-zi]?
+
+>Although the literature on learning styles is enormous, very few studies have even used an experimental methodology capable of testing the validity of learning styles applied to education. Moreover, of those that did use an appropriate method, several found results that flatly contradict the popular meshing hypothesis. We conclude therefore, that at present, there is no adequate evidence base to justify incorporating learning-styles assessments into general educational practice. 
+
+### Neural networks
+
+- [Architectures/types](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464), [@Tch2017-fy; @Van_Veen_undated-ss]
+
+---
+
+![[@Tch2017-fy; from @Van_Veen_undated-ss]](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*cuTSPlTq0a_327iTPJyD-Q.png)
+
+### Network [learning rules](https://en.wikipedia.org/wiki/Learning_rule)
+
+- How/when change connections between nodes
+- Types
+  - Unsupervised (i.e., covariance/correlation)
+  - Supervised (change based on 'error')
+  - Reinforcement (learn *now*)
+
+### Deep learning vs. Machine Learning
+
+- [@noauthor_undated-hr; @noauthor_2022-ml]
+
+![@noauthor_2022-ml](https://images.prismic.io/turing/652ebc26fbd9a45bcec81819_Deep_Learning_vs_Machine_Learning_3033723be2.webp?auto=format%2Ccompress&fit=max&w=3840)
+    
+### What is memory?
+
+- A: Information encoding, storage, retrieval
+
+### Are there different types of (human) memory?
+
+- Facts/events/places/feelings vs. skills
+- Short vs. long-term
+    - Working memory ~ short-term maintenance for guiding action
+- Explicit (declarative: semantic vs. episodic) vs. implicit (procedural)
+- Retrospective (from the past) vs. prospective (to be remembered)
+- Recognition (judgment of familiarity or novelty) vs. recall
+
+### How do computers and brains compare?
+
+| Computers | Brains |
+|-----------|--------|
+| Computers have separate memory and processing stores | Brains store info everywhere, but there are specialized regions |
+| Computer memory has specific addresses | Brains store in distributed networks |
+| Computer memory is (usually) non-volatile | Memories in brains naturally fade |
+| Computer memory stores all types of information--images, sounds, text, data--as binary sequences, e.g., `01101110` | Human memory stores all types of information in patterns of synaptic connections and ??? |
+| Computers render these sequences differently based on information about the *type* of data stored | Brains retrieve or recall different forms of information based on ??? |
+| Digital computers were inspired by mathematical models of neurons | Neurons can be simulated by mathematical models implemented in computers |
+
+![McCulloch-Pitts [artificial neuron](https://en.wikipedia.org/wiki/Artificial_neuron)](https://upload.wikimedia.org/wikipedia/commons/b/b0/Artificial_neuron.png)
+
+## Biological bases...
+
+### In single cells
+
+- Learning in single cells controversial [@Gershman2021-zf]
+- Beatrice Gelber
+
+![[Figure 1 from @Gershman2021-zf]. News story about Beatrice Gelber from the Tucson Daily Citizen October 19, 1960. © 1960, USA TODAY NETWORK. This image is not covered by the CC-BY 4.0 licence and may not be separated from the article.](https://iiif.elifesciences.org/lax/61907%2Felife-61907-fig1-v1.tif/full/1500,/0/default.jpg)
+
+![[@Gershman2021-zf] from [@Gelber1952-bb]. In Experiment 1 (top), one group of Paramecia was exposed to intermittent training trials in which a wire was coated with bacteria (every 3rd trial during the training phase). This group acquired a conditioned response to the clean wire, as measured by adherence to the wire in final test trials. In contrast, an untrained group did not show a conditioned response. Experiment 2 (bottom) demonstrated that the wire by itself did not drive conditioned responding.](https://iiif.elifesciences.org/lax/61907%2Felife-61907-fig2-v1.tif/full/1500,/0/default.jpg)
+
+>This paper presents a new approach to behavioral problems which might be called molecular biopsychology… Simply stated, it is hypothesized that the memory engram must be coded in macromolecules… As the geneticist studies the inherited characteristics of an organism the psychologist studies the modification of this inherited matrix by interaction with the environment. Possibly the biochemical and cellular physiological processes which encode new responses are continuous throughout the phyla (as genetic codes are) and therefore would be reasonably similar for a protozoan and a mammal. [@Gelber1962-ey]
+
+>Taking stock, we believe that Gelber’s experiments, though not without their limitations, convincingly demonstrated Pavlovian conditioning in Paramecia. Sadly, her critics seem to have won in the long term. Most reviews of the literature, if they mention Gelber’s work at all, quickly dismiss it...[@Gershman2021-zf]
+
+>If single cells can learn then they must be using a non-synaptic form of memory storage. The idea that intracellular molecules store memories has a long history, mainly in the study of multicellular organisms. [@Gershman2021-zf]
+
+### In nervous systems
+
+- Changes in patterns of neural activity
+- Changes in connectivity
+    + New synapses
+    + Altered synapses (strengthened or weakened)
+    
+### Donald Hebb's Insight
+
+> "*When an axon of cell A is near enough to excite cell B and repeatedly or persistently takes part in firing it, some growth process or metabolic change takes place in one or both cells such that A’s efficacy, as on of the cells firing B, is increased.*"
+
+(Hebb, 1949, p. 62)
+
+> "*Neurons that fire together wire together.*"
+
+(Lowell & Singer, 1992, p. 211)
+
+### Long-term potentiation (LTP) 
+
+- An instance of Hebbian learning
+
+> "*a persistent strengthening of synapses based on recent patterns of activity. These are patterns of synaptic activity that produce a long-lasting increase in signal transmission between two neurons.[2] The opposite of LTP is long-term depression, which produces a long-lasting decrease in synaptic strength.*"
+> <https://en.wikipedia.org/wiki/Long-term_potentiation>
+
+#### LTP discovery [[@Bliss1973-xx]](http://doi.org/10.1113/jphysiol.1973.sp010273/full)
+
+- Granule cell neurons in hippocampus dentate gyrus (DG)
+- $\theta$ band (10–20 Hz) stim for 10–15 sec, or 100 Hz stim for 3–4 sec
+- shortened response latency, increased EPSP, increased population response over minutes or hours
+
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/LTP_exemplar.jpg/1200px-LTP_exemplar.jpg)
+
+#### Mechanisms of LTP plasticity
+
+- number of synaptic receptors
+- quantity of NT released
+- effectiveness of postsynaptic response
+
+#### Pathways to plasticity
+
+- Glu release activates
+    - ionotropic AMPA Glu receptors
+    - metabotropic Glu receptors
+    - N-methyl-D-aspartate (NMDA) Glu receptors
+- $Ca^{++}$ entry via NMDA receptor activates protein kinases (CaMKII and PKAII)
+- *Early LTP* (up to few hours)
+    - protein kinases *phosphorylate* (add $P$ group to) postsynaptic AMPA receptors
+    - Increase current flow through AMPA (Glu) receptors
+- *Late LTP*
+    - depends on protein synthesis to generate new AMPA receptor
+    - insertion of new AMPA receptors into postsynaptic membrane
+- Retrograde signal generator influences presynaptic response
+
+![LTP](http://www.pitt.edu/~super1/lecture/lec14361/img024.GIF)
+
+```{r, fig.cap="LTP"}
+knitr::include_graphics("http://www.pitt.edu/~super1/lecture/lec14361/img024.GIF")
+```
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/ef/Aplysia_californica.jpg)
+
+![Eric R. Kandel](https://www.nobelprize.org/images/kandel-13530-portrait-mini-2x.jpg)
+
+####  'Hebbian' learning via NMDA receptor
+
+- [*N-methyl-D-aspartate* receptor (NMDA-R)](https://en.wikipedia.org/wiki/NMDA_receptor)
+    - Name derived from agonist molecule that selectively binds to the receptor
+- 'Coincidence' detector
+    + Sending cell has released NT 
+    + Receiving cell is/has been recently active
+- Chemically-gated AND
+    + Ligand- (glutamate/aspartate + glycine) gated
+    + Sending cell active
+- Voltage-gated
+    + $Zn^{++}$ or $Mg^{++}$ ion 'plug' removed under depolarization
+    + $Na^+$ & $Ca^{++}$ influx; $K^+$ outflux
+    + Receiving cell responds
+
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Activated_NMDAR.svg/220px-Activated_NMDAR.svg.png)
+
+- NMDA receptor function may vary by location on neuron
+  - Long-term potentiation (LTP)
+      - Synaptic NMDA receptors
+  - Long-term depression (LTD)
+      - Extrasynaptic NMDA receptors
+      - Lowered level of synaptic receptor activation
+
+### NMDA-R clinical significance
+
+- [*Memantine*](https://medlineplus.gov/druginfo/meds/a604006.html) (Alzheimer's Disease treatment)
+    - NMDA-R antagonist
+    - Controls over-activation and $Ca^{++}$ excitotoxicity?
+- NMDA-R implicated in effects of *phencylidine* (PCP)
+    - Link to Glu hypothesis of schizophrenia?
+- *Ketamine* is NMDA receptor antagonist
+    - anesthesia, sedation pain relief
+    - possible short-term relief for depression
+- Linked to analgesic effects of nitrous oxide (laughing gas; $NO$)
+- Alcohol (ethanol) inhibits [[@Ron2011-dh]](https://www.ncbi.nlm.nih.gov/pubmed/21204417)
+
+### Spike-timing-dependent plasticity
+
+How to learn/remember "causal chains"?
+
+- e.g., lightning THEN thunder
+- unusual food THEN indigestion
+
+![[@caporale2008spike]](../include/img/caporale-2008-fig-1.jpg)
+
+![[@caporale2008spike]](../include/img/caporale-2008-fig-2.jpg)
+
+- A before B: strengthen $A \rightarrow B$
+- A after B: $A \rightarrow B$
+- [*Neural Plasticity*](https://en.wikipedia.org/wiki/Neuroplasticity)
+    + Lasting changes in neural firing, connectivity
+- NMDA receptor a molecular mechanism for implementing LTP and spike-timing-dependent plasticity
+    
+### Memory systems
+
+#### Lashley's search for the ['engram'](https://en.wikipedia.org/wiki/Engram_(neuropsychology))
+
+- Is memory 'localized' like sensory and motor functions? [@Lashley1944-fg]
+
+![@Lashley1946-pa](../include/img/lashley-1944.jpg)
+
+>"*“the area subdivisions are in large part anatomically meaningless and misleading as to the presumptive functional divisions of the cortex”*"
+
+[@Lashley1946-pa]
+
+- Not in the rat cerebral cortex
+
+#### Modern views
+
+- Cerebral cortex less central to "engram-like" memory than other areas
+
+![[@squire_memory_2004]](../include/img/squire-memory-systems.gif)
+
+#### Hippocampus
+
+![https://upload.wikimedia.org/wikipedia/commons/5/5b/Hippocampus_and_seahorse_cropped.JPG](../include/img/hippocampus-seahorse.jpg)
+
+![Santiago Ramon Y Cajal; Source: Wikipedia](https://upload.wikimedia.org/wikipedia/commons/2/25/CajalHippocampus_%28modified%29.png)
+
+- Dense in NMDA receptors
+- Central "hub" in network?
+    - No, based on anatomical or functional connectivity
+    - But yes, when modeling "information flow" [[@Misic2014-eq]](http://doi.org/10.1371/journal.pcbi.1003982)
+- Formation, storage, consolidation of long-term episodic or declarative memories
+- Stores info for later transfer to cortex
+    - "Engrams" form in hipp & PFC simultaneously, fade in PFC over time [[@Kitamura2017-es]](http://doi.org/10.1126/science.aam6808)
+- Spatial navigation
+    + [Place cells](https://en.wikipedia.org/wiki/Place_cell)
+    + [Grid cells](http://www.scholarpedia.org/article/Grid_cells)
+    + [Head-direction cells](http://www.scholarpedia.org/article/Head_direction_cells)
+
+![@kjelstrup_finite_2008](../include/img/finite-scale-spatial-rep-F1.large.jpg)
+
+- London taxi drivers (a high memory demand profession) have specialized hippocampi [@maguire2000navigation]
+
+![[@Woollett2011-uf]](https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr1.jpg)
+
+<!-- ![@maguire2000navigation](../include/img/maguire-etal-2000-F1.large.jpg) -->
+
+<!-- ![@maguire2000navigation](../include/img/maguire-etal-2000-F2.large.jpg) -->
+
+<!-- ![@maguire2000navigation](../include/img/maguire-etal-2000-F3.large.jpg) -->
+
+- Not due to self-motion, driving experience, or stress *per se*
+
+>Gray matter volume differences in the hippocampus relative to controls have been reported to accompany this expertise. While these gray matter differences could result from using and updating spatial representations, they might instead be influenced by factors such as self-motion, driving experience, and stress. We examined the contribution of these factors by comparing London taxi drivers with London bus drivers, who were matched for driving experience and levels of stress, but differed in that they follow a constrained set of routes. We found that compared with bus drivers, taxi drivers had greater gray matter volume in mid-posterior hippocampi and less volume in anterior hippocampi. Furthermore, years of navigation experience correlated with hippocampal gray matter volume only in taxi drivers, with right posterior gray matter volume increasing and anterior volume decreasing with more navigation experience. This suggests that spatial knowledge, and not stress, driving, or self-motion, is associated with the pattern of hippocampal gray matter volume in taxi drivers. [@Maguire2006-sc]
+
+::: {#fig-woollett-2011 layout-ncol=2}
+
+![Figure 2. Gray Matter Volume Changes between T1 and T2 in Qualified Trainees](https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr2.jpg)
+
+![Figure 3. Plot of Gray Matter Intensities across Groups and Time](https://ars.els-cdn.com/content/image/1-s2.0-S096098221101267X-gr3.jpg)
+
+[Figures 1 and 2 from @Woollett2011-uf]
+:::
+
+- Birds with high memory demands have larger hippocampi
+
+![@sherry_hippocampal_1989](../include/img/sherry-food-storing-birds-1989.jpg)
+
+- Birds with high memory caching demands use sparse representations ("bar codes") in hippocampus
+
+![@Chettih2024-co](../include/img/chettih-2024.png)
+
+- (Gilmore's view) Humans have repurposed hippocampal system for other cognitive uses, e.g., semantic memory, language
+
+#### Cerebral cortex
+
+- Contains retinotopic maps (beyond V1) that are memory-related [@Steel2024-bv]
+
+![[Figure 1 from @Steel2024-bv]. a, PRF paradigm and modeling. In Exp. 1, participants underwent pRF mapping. Participants viewed visual scenes through a bar aperture that gradually traversed the visual field. Each visual-field traversal lasted 36 s (18 × 2 s positions), and the bar made eight traversals per run. The direction of motion varied between traversals. To estimate the pRF for each voxel, a synthetic time series is generated for 400 visual-field locations (200 x and y positions) and 100 sizes (sigma). This results in four million possible time series that are fit to each voxel’s activity. The fit results in four parameters describing each receptive field: x, y, sigma and amplitude. b, Negative-amplitude pRFs fall anterior to the cortex typically considered visual (beyond known retinotopic maps). Group average (n = 17) pRF amplitude map (threshold at explained variance R-squared (R2) > 0.08) is shown on partially inflated representations of the left hemisphere, alongside ROIs: SPAs (OPA, PPA), PMAs (LPMA, VPMA) (localized in an independent group of participants24) and the DMN22. The known retinotopic maps in the posterior cortex (black dotted outlines21) contain exclusively positive-amplitude pRFs (hot colors), as visual stimulation evokes positive retinotopically specific BOLD responses. Negative-amplitude pRFs (cool colors), where visual stimulation evokes a negative spatially specific BOLD response, arise anterior to these retinotopic maps in the PMAs and DMN (see Fig. 2a for example time series from a representative subject).](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-023-01512-3/MediaObjects/41593_2023_1512_Fig1_HTML.png?as=webp)
+
+![[Figure 2 from @Steel2024-bv]. a, PRF modeling reveals posterior–anterior inversion of pRF amplitude in individual participants. Left, PRF amplitude for a representative participant overlaid onto a lateral view of the left hemisphere (threshold at R2 > 0.15; see Extended Data Fig. 1 for example ventral and lateral surface pRF amplitude maps from all participants and Extended Data Fig. 3 for amplitude maps with default mode parcellation overlaid). Posterior visual cortex is dominated by positive-amplitude pRFs (hot colors), while cortex anterior to regions classically considered visual exhibits a high concentration of negative-amplitude pRFs (cold colors). This individual’s OPA and LPMA are shown in white. Both the SPAs and PMAs contain pRFs (Extended Data Fig. 2). Right, time-series, model fits and reconstructed pRFs for two surface vertices in this subject. Top, example prototypical positive-amplitude pRF from the lateral SPA (OPA) in the left and right hemispheres (LH, RH). Bottom, example negative-amplitude population receptive field from the LPMA. b, Memory areas (PMAs) contain a larger percentage of negative pRFs compared to perceptual areas (SPAs) (repeated measures ANOVA, Bonferroni-corrected t-tests). Blue bars depict percentage of negative pRFs from individually localized SPAs and PMAs compared to total pRFs in the area (dotted outline). On the ventral and lateral surfaces, SPAs are dominated by positive pRFs, whereas a transition from positive to negative pRFs is evident within PMAs. Individual participant data points overlaid and connected in gray. *P two-tailed < 0.05, ***P two-tailed < 0.001. NS, not significant.](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-023-01512-3/MediaObjects/41593_2023_1512_Fig2_HTML.png?as=webp)
+
+>Together with recent reports showing retinotopic coding persisting as far as the ‘cortical apex’ [15,16,31], including the DMN [15,16], and the hippocampus [31,32], our findings challenge conventional views of brain organization, which generally assume that retinotopic coding is replaced by abstract amodal coding as information propagates through the visual hierarchy [7,8,9,10] toward memory structures [11,12,13,14] [@Steel2024-bv]
+
+#### Cerebellum
+
+- response timing, sequences, especially in classical conditioning paradigms [@Jirenhed2017-fl](http://dx.doi.org/10.1073/pnas.1621132114)
+
+### Disorders of memory
+
+#### Amnesia
+
+- Acquired loss of memory
+- ≠ normal forgetting
+- Retrograde ('backwards' in time)
+    + Damage to information acquired pre-injury
+    + Temporally graded
+- Anterograde ('forward' in time) 
+    + Damage to information acquired/experienced post-injury
+
+##### [Patient HM](https://www.pbs.org/wgbh/nova/article/corkin-hm-memory/) (Henry G. Molaison)
+
+- Intractable/untreatable epilepsy
+- Bilateral resection of medial temporal lobe (1953)
+- Epilepsy now treatable
+- But, memory impaired
+- Lived until 2008
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aw6JmZuLhfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- Brenda Milner on HM -->
+
+![https://www.pbs.org/wgbh/nova/article/corkin-hm-memory/](https://www.pbs.org/wgbh/nova/media/images/corkin-hm-memory-08.width-800.jpg)
+
+##### HM's amnesia
+
+- Retrograde amnesia
+    + Can’t remember 10 yrs before operation
+    + Distant past better than more recent
+- Severe, global anterograde amnesia
+    + Impaired learning of new facts, events, people
+- But, skills (mirror learning) intact
+    
+
+>"*Every day is alone in itself, whatever enjoyment I’ve had, and whatever sorrow I’ve had…Right now, I’m wondering, have I done or said anything amiss?  You see at this moment, everything looks clear to me, but what happened just before?  That’s what worries me.  It’s like waking from a dream.  I just don’t remember.*"
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rq9eM4ZXRgs" frameborder="0" allowfullscreen></iframe>
+    
+##### Other causes of amnesia
+
+- Disease 
+    + Alzheimer’s, herpes virus
+- [Korsakoff’s syndrome](https://en.wikipedia.org/wiki/Korsakoff%27s_syndrome)
+    + Result of severe alcoholism
+    + Impairs medial thalamus & mammillary bodies
+
+##### Patient NA
+
+- Fencing accident
+- Damage to medial thalamus
+- Anterograde + graded retrograde amnesia
+- Are thalamus & medial temporal region connected?
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/1GfFopZSyj8" frameborder="0" allowfullscreen></iframe>
+
+##### Spared skills in amnesia
+
+- Skill-learning
+- Mirror-reading, writing
+- Short-term memory
+- “Cognitive” skills
+- Priming
+
+##### What does amnesia tell us?
+
+- Long-term memory for facts, events, people 
+- ≠ Short-term memory
+- ≠ Long-term memory for “skills”
+- Separate memory systems in the brain?
+
+#### Alzheimer's Disease (AD)
+
+- Chronic, neurodegenerative disease affecting ~5 M Americans
+- Cognitive dysfunction (memory loss, language difficulties, planning, coordination)
+- Psychiatric symptoms and behavioral disturbances
+- Difficulties with daily living
+- [@burns_alzheimers_2009](http://doi.org/10.1136/bmj.b158)
+- Build up of amyloid $\beta$ protein plaques in brain tissue
+- APOE e4 gene variant [increases risk 2-12x](https://www.mayoclinic.org/diseases-conditions/alzheimers-disease/in-depth/alzheimers-genes/art-20046552)
+
+##### Progression
+
+![@burns_alzheimers_2009](../include/img/bmj-158-F1.large.jpg)
+
+- Post-mortem exams show $\beta$ amyloid plaques and neurofibrillary tangles
+
+![](../include/img/20150331-mouse-brain.jpg)
+
+##### Treatments
+    
+- Acetylcholinesterase (AChE) inhbitors (e.g. Aricept): Slow ACh inactivation
+- NMDA-R partial antagonists (e.g., Memantine): Slow LTP
+- Drugs that remove amyloid $\beta$ (e.g, lecanemab) don't work especially well + have side effects
+- AD the result of disordered immune response [@Jevtic2017-jt]?
+  - Promising prospective therapy using microglia to remove amyloid $\beta$ [@Hou2024-wx]
+  - Link between genetic factor (APOE4/4 gene) and fatty build-up in microglia [@Haney2024-wb]
+    
+#### The other end of the spectrum...
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hpTCZ-hO6iI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### What about working memory? [@DEsposito2015-zm]
+
+- LTM representations of target items + attention -> elevated activation
+    - Semantic items
+    - Sensorimotor items
+- Capacity for attended items (in Focus of Attention or FoA) limited ~ 4
+- Neural basis 
+    - sustained activation in PFC
+    - subthreshold activation in areas where items are stored
+- Individual differences in visual WM
+
+![@Luck2013-uo](https://ars.els-cdn.com/content/image/1-s2.0-S1364661313001265-gr2.jpg)
+
+### Summary
+
+- Multiple types of learning & memory
+- Learning & memory distributed across the brain
+  - Specializations relate to location in the network? (input/output/in-between)
+- Hippocampus + PFC critical areas binding together sensory/semantic info stored elsewhere
+- Changes in synaptic #, strength, connectivity provide cellular basis
+

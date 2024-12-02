@@ -1,0 +1,81 @@
+project:
+  type: website
+  render:
+    - "./*.qmd"
+    - "resources/*.qmd"
+  output-dir: "../docs"
+
+website:
+  title: "PSY 511 • Spring 2025"
+  comments: 
+    hypothesis:
+      theme: clean
+  navbar:
+    left:
+      - href: index.qmd
+        text: home
+      - href: schedule.qmd
+        text: schedule
+      - href: evaluation.qmd
+        text: evaluation
+      # - href: deadlines.qmd
+      #   text: deadlines
+      - href: policies.qmd
+        text: policies
+      # - href: values.qmd
+      #   text: values
+      # - text: exercises
+      #   menu: 
+      #     - href: "exercises/ex01-read-a-scientific-paper.qmd"
+      #     - href: "exercises/ex02-textbook-findings.qmd"
+      #     - href: "exercises/ex03-norms-counternorms.qmd"
+      #     - href: "exercises/ex04-scientific-integrity.qmd"
+      #     - href: "exercises/ex05-p-hacking.qmd"
+      #     - href: "exercises/ex06-apes.qmd"
+      #     - href: "exercises/ex07-replication.qmd"
+      #     - href: "exercises/ex08-sharing.qmd"
+      #     - href: "exercises/final-project.qmd"
+      #     - href: "exercises/st-01.qmd"
+      # - text: surveys
+      #   menu:
+      #     - href: "surveys/survey-01.qmd"
+      #     - href: "surveys/survey-02.qmd"
+      #     - href: "surveys/survey-03.qmd"
+      #     - href: "surveys/presentation-schedule.qmd"
+      # - text: supplemental
+      #   menu:
+      #     - text: "Retraction Watch database"
+      #       href: "supplemental/retraction-watch.qmd"
+      #     - text: "Plot your data!"
+      #       href: "supplemental/plotting-degrees-of-freedom.qmd"
+      #     - text: "On *p*-hacking"
+      #       href: "supplemental/p-hacking-suppl.qmd"
+      #     - text: "On spaghetti plots and causal models"
+      #       href: "supplemental/causal-models.qmd"
+      #     - href: "supplemental/metaanalysis-simulation.qmd"
+  repo-url: https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring
+  repo-actions: [edit, issue]
+  repo-subdir: src
+  page-footer:
+    left: "Copyright 2024-, Rick Gilmore" 
+    right:
+      - icon: github
+        href: https://github.com/rogilmore
+    background: light
+  page-navigation: true
+  
+format:
+  html:
+    theme: default
+    css: include/css/styles.css
+    toc: true
+    number-sections: false
+    citations-hover: true
+    footnotes-hover: true
+    date-modified: last-modified
+    bibliography: [include/bib/packages.bib, include/bib/psu-repro.bib]
+    csl: include/bib/apa.csl
+    html-math-method: mathjax
+
+editor: source
+    

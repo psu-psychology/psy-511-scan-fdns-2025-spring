@@ -1,0 +1,56 @@
+---
+title: "Evaluation"
+---
+
+PSY 511 course performance will be evaluated based on the following scheme:
+
+| Component           | Points                      | % of Grade |
+|---------------------|------------------------------|-------|
+| Exercises           | 10 pts/exercise * 5 = 50 pts | 50.0    |
+| Participation       | 15 wks * 1 pt/wk = 15 pts    | 15.0    |
+| Paper/Project       | 35 pts                       | 35    |
+| **TOTAL**           | **90**                       | **100** |
+
+### For clinical area graduate students
+
+Exercises 1-4 cover material related to biology-related discipline specific knowledge (DSK). 
+
+Exercises 1, and 4-6 cover material related to cognitive-related discipline specific knowledge (DSK).
+
+Exercises 1, and 7-8 cover material related to affect-related discipline specific knowledge (DSK).
+
+Classroom participation and the final paper/project assess advanced integrative knowledge (AIK).
+
+For students to receive a passing grade (B or better for the course, they must receive a passing grade (B or better or Satisfactory) for each assignment or activity designed to assess DSK and IAK.
+Students have one opportunity to re-do an assignment if they do not initially receive a passing grade.
+
+### Grading Scheme
+
+| Points  | Percent | Grade |
+|---------|---------|-------|
+| 100+    | 100+    | A+    |
+| 94-100  | 94-99   | A     |
+| 90-93   | 90-93   | A-    |
+| 87-89   | 87-89   | B+    |
+| 84-86   | 84-86   | B     |
+| 80-83   | 80-83   | B-    |
+| 77-79   | 77-79   | C+    |
+| 70-76   | 70-76   | C     |
+| 60-69   | 60-69   | D     |
+| <59     | <59     | F     |
+
+## Exercises
+
+There will be eight (8) exercises throughout the term.
+Five (5) of the 8 will count toward the final course grade.
+Significant work on these can and will be done in-class.
+More details will be provided for each exercise.
+
+## Paper/Project
+
+A significant part of the grade in PSY 511 is a [final paper or project](resources/final-project.qmd).
+
+The paper or project can take on a number of forms, depending on a student's scholarly interests.
+
+A 1-2 page project proposal, worth five (5) points, will be due before Spring Break.
+The final project submission will be due during finals week.

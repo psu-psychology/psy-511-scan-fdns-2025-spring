@@ -1,0 +1,68 @@
+---
+title: "Levels of Analysis"
+---
+
+## Levels of analysis
+
+![[@Sejnowski2014-aa Figure 1]](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp)
+
+## Cognitive science as complexity science [@Favela2020-uc]
+
+![[@Favela2020-uc Figure 1]](https://wires.onlinelibrary.wiley.com/cms/asset/8a77f337-943b-4df9-8da8-b7206093f08d/wcs1525-fig-0001-m.jpg)
+
+## David Marr (1945-1980)
+
+![David Marr](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGutDYqHcIazwkXdQtGfedIVfGG-DcrtMAK_j93DQgrMI8lsiH7WGttQlgdh0-jO_u4w&usqp=CAU)
+
+---
+
+![[@Marr1980-cu]](https://mitpress.mit.edu/sites/default/files/styles/large_book_cover/http/mitp-content-server.mit.edu%3A18180/books/covers/cover/%3Fcollid%3Dbooks_covers_0%26isbn%3D9780262514620%26type%3D.jpg?itok=7HDFLFlL)
+
+## Marr's Three Levels
+
+![[@Favela2020-uc Figure 3]](https://wires.onlinelibrary.wiley.com/cms/asset/baa7ce31-781c-496a-a687-4e9df7a8e371/wcs1525-fig-0003-m.jpg)
+
+## Scientific "story-telling" at different levels of analysis
+
+- Temporal
+    - Short/medium/long
+- Spatial
+    - Small/medium/large
+    
+# Your turn
+
+## Does neuroscience need behavior? 
+
+- Does behavioral science need the brain?
+- What does psychology need?
+
+## Discussion of...
+
+Krakauer, J. W., Ghazanfar, A. A., Gomez-Marin, A., MacIver, M. A., & Poeppel, D. (2017). Neuroscience needs behavior: Correcting a reductionist bias. *Neuron*, *93*(3), 480–490. <https://dx.doi.org/10.1016/j.neuron.2016.12.041>.
+
+Parada, F. J. & Rossi, A. (2018). If neuroscience needs behavior, what does psychology need? *Frontiers in Psychology*, *9*, 433. <https://doi.org/10.3389/fpsyg.2018.00433>.
+
+## Key points
+
+- Questions 'often tacit...belief in the reductionist program for understanding the link between brain and behavior'
+- Behavior -> understanding; neural interventions -> causality
+- Marr's 3 levels (computation; algorithm; implementation)
+
+---
+
+![[@Krakauer2017-xl Figure 3](https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr3.jpg)
+
+---
+
+![[@Krakauer2017-xl Figure 4]](https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr4.jpg)
+
+---
+
+![[@Parada2018-rp Figure 1]](https://www.frontiersin.org/files/Articles/362280/fpsyg-09-00433-HTML/image_m/fpsyg-09-00433-g001.jpg)
+
+## Main points
+
+- Levels of analysis
+- Neuroscience needs behavior; behavioral science needs neuroscience
+
+## References

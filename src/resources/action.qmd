@@ -1,0 +1,435 @@
+---
+title: "Action"
+---
+
+## Big picture
+
+### Perception/Cognition/Action Systems
+
+```{mermaid}
+%%| fig-cap: A System of Systems
+flowchart TD
+W(((World)))-->B((Body))
+B-->N{Nervous System}
+N-->B
+B-->W
+```
+
+```{mermaid}
+%%| fig-cap: With memory/momentum/inertia
+flowchart TD
+W(((World)))-->B((Body))
+B-->B
+B-->|Perception|N{Nervous System}
+N-->B
+N-->N
+B-->W
+W-->W
+```
+
+```{mermaid}
+%%| fig-cap: Multiple input streams
+flowchart TD
+W(((World)))-->|Light|B((Body))
+W--->|Sound|B
+W--->|Vibration|B
+W--->|Odor/Taste|B
+B-->B
+B-->|Interoception|N{Nervous System}
+B-->|Exteroception|N
+N-->B
+N-->N
+B-->W
+W-->W
+```
+
+```{mermaid}
+%%| title: Nervous system output
+%%| fig-cap: Highlighting the output stream
+flowchart TD
+W(((World)))-.->B((Body))
+B-.->N{Nervous System}
+N==>B
+B==>W
+```
+
+### Our impact
+
+- What types of outputs are there?
+  - Body to world?
+  - Nervous system to body?
+- How are they produced?
+  + By the muscles, glands
+  + By the nervous system
+    
+#### Body $\rightarrow$ World
+
+- Movements
+  - Locomotion (move self)
+  - Manipulative (move other objects/entities)
+  - Communicative
+    - Gestures
+    - Facial expressions
+- Secretions, excretions
+
+#### Nervous System $\rightarrow$ Body
+
+- Muscle commands
+- Autonomic responses
+- Endocrine responses
+
+#### Physical considerations & constraints
+
+- [Medium/Environment](https://en.wikipedia.org/wiki/Animal_locomotion)
+  - Terrestrial
+  - Arborial
+  - Aerial
+  - Aquatic
+  - Fossorial
+- External forces
+  - Gravity
+  - Friction
+  - Drag
+- Internal forces & factors
+  - Balance/orientation
+  - Reaction forces, complex dynamics
+  - Energetics
+  - Time delays
+  - Motor equivalence (Lashley, Bernstein)
+  
+![https://www.nist.gov/system/files/documents/oles/Michael-Caligiuri-NIST-2013-2.pdf](../include/img/calliguri-motor-equivalance.png)
+  
+  - Frames of reference, [degrees of freedom](https://en.wikipedia.org/wiki/Degrees_of_freedom_problem#)
+  
+![Wikipedia. Cat hindlimb musculoskeletal model with redundant degrees of freedom at muscles (red lines) and joints.](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/CatHindlinbModel.tif/lossless-page1-1136px-CatHindlinbModel.tif.png)
+
+![https://wolpertlab.neuroscience.columbia.edu/research-projects/overview. Movement is the only way we have of interacting with the world, whether foraging for food or attracting a waiter's attention. Therefore, the purpose of the human brain is to use sensory signals to determine future actions.](https://wolpertlab.neuroscience.columbia.edu/sites/default/files/styles/cu_crop/public/content/images/overview.jpeg?itok=l145a4Pv)
+
+### Psychological considerations
+
+- Foraging for
+  - Food
+  - Shelter
+  - Mates
+  - Information
+- Defending
+  - Escaping predators
+  - Fighting
+- Communicating
+- Playing
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yCXBrRCpOGE?si=GGhwVCYm00UmFXT7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Types of movements
+
+![https://medlineplus.gov/ency/images/ency/fullsize/17234.jpg](https://medlineplus.gov/ency/images/ency/fullsize/17234.jpg)
+
+- Reflexes
+    + Simple, highly stereotyped, unlearned, rapid, acquired early
+    
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8UhAanlThUE?si=nC8BG7ojoQBENmH1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- vs. planned or voluntary actions
+    + Complex, flexible, acquired, slower
+- Discrete (reaching) vs. rhythmic (walking)
+- Ballistic (no feedback) vs. controlled (feedback)
+
+## Motor system anatomy
+
+### Key 'nodes'
+
+![*Biological Psychology 4th ed*](../include/img/motor-controllers-biopsych.jpg)
+
+- Primary motor cortex (M1)
+
+![M1. Wikipedia: <https://en.wikipedia.org/wiki/Primary_motor_cortex>](https://upload.wikimedia.org/wikipedia/commons/c/c5/Blausen_0103_Brain_Sensory%26Motor.png)
+
+![Motor homunculus. Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Motor_homunculus.svg/1920px-Motor_homunculus.svg.png)
+
+- Non-primary motor cortex
+- Basal ganglia
+- Brain stem
+- Cerebellum
+- Spinal cord
+
+### Projection pathways
+
+#### Pyramidal tracts
+    
++ Pyramidal cells 
+  - Cerebral Cortex Layer 5 in primary motor cortex (M1)
++ Corticobulbar (cortex -> brainstem) tract
++ Corticospinal (cortex -> spinal cord) tract
+- Crossover (decussate) in medulla
+    + L side of brain ennervates R side of body
+
+![Source: Wikipedia](../include/img/gray-corticospinal-tract.png)
+
+::: {.callout-note}
+- Anatomically separate ascending (afferent) and descending (efferent) pathways in the spinal cord.
+- Ascending (generally) more dorsal; descending more ventral.
+- White matter on exterior (unlike cerebral cortex).
+:::
+
+![Source: Wikipedia](https://upload.wikimedia.org/wikipedia/commons/b/be/Gray672.png)
+
+#### Extrapyramidal system
+
++ [Tectospinal tract](https://en.wikipedia.org/wiki/Tectospinal_tract)
++ [Lateral Vestibulospinal tract](https://en.wikipedia.org/wiki/Lateral_vestibulospinal_tract)
++ [Reticulospinal tract](https://en.wikipedia.org/wiki/Reticular_formation#Descending_reticulospinal_tracts)
+- Rubrospinal tract
+- [Involuntary movements](https://en.wikipedia.org/wiki/Extrapyramidal_symptoms)
+    + Posture, balance, arousal
+    
+### Direct cortical control
+
+- Over *some* motor neurons.
+- In humans; prevalence uncertain in other animals
+- For individuated ("fractionated") movements of fingers, toes, lips, but other muscles, too.
+
+![[@Nielsen2016-hs]. Figure 1. Evidence of corticomotoneuronal connections in human subjects. Indirect, noninvasive evidence of the existence of monosynaptic connections between corticospinal neurons and spinal motoneurons may be obtained in awake human subjects by transcranial magnetic stimulation (TMS) (b,c) and coherence analysis of either cortical [electroencephalogram (EEG)] and muscular activity [electromyogram (EMG)] (d,e) or two separate recordings of muscular activity (f). (b,c) Corticospinal neurons can be excited by a brief magnetic pulse applied by a magnetic coil placed over the appropriate part of the motor cortex in awake human subjects. If the intensity of the magnetic pulse is adjusted appropriately, the evoked descending volley in the corticospinal tract may elicit a subthreshold excitatory postsynaptic potential (EPSP) in the relevant spinal motoneurons. This EPSP may be demonstrated as a change in the discharge probability of a single motor unit recorded from the muscle (b). In the illustrated example, the subject was asked to voluntarily activate the tibialis anterior (TA) muscle, and the discharges of a single motor unit were recorded by a needle electrode inserted into the muscle. TMS elicited a short-lasting (2-ms) increase of discharge probability at a latency of 45 ms (b). The short duration of this peak is consistent with the short rise time of a monosynaptic EPSP. This interpretation is further supported by the observation that stimulation of Ia afferents with known monosynaptic connections to the motoneurons elicits a peak with a similar short duration (c). Data in panels b and c modified with permission from Nielsen & Petersen (1994). (d,e) EEG recorded from the motor cortex and EMG recorded from a voluntarily activated muscle (TA in the illustrated example) show rhythmic modulation of the recorded activity at a frequency of 15–35 Hz. As shown from a coherence analysis of the two signals in panel d, some of this activity is common for the two sites, suggesting a close link between cortical and muscular activity. Panel e shows the EEG and EMG activities are not always synchronous but may show a time lag, which is in the range expected for a fast-conducting direct pathway to the motoneurons. Data in panels d and e modified with permission from Hansen et al. (2002). (f) A monosynaptic origin of corticomuscular coherence is further supported by the observation of short-term synchrony between the discharges of pairs of TA motor units, which may be related to the coherence in the 15–35-Hz frequency band. The subject was asked to voluntarily activate the TA muscle, and the discharges of two different TA motor units were recorded with needle electrodes. The short duration of the central peak of synchronization suggests that the motor unit activities are modulated by a common (monosynaptic) input from collaterals of last-order neurons, which are in all likelihood identical to corticomotoneuronal cells. The secondary peaks at lags of approximately 50–60 ms on either side of the central peak suggest that this last-order input modulates the discharge of the motor units at a frequency of about 20–30 Hz, i.e., corresponding to the coherence observed in the paired EEG-EMG recordings in panels b and c. Data in panel f modified with permission from Nielsen & Kagamihara (1994).](https://www.annualreviews.org/docserver/fulltext/neuro/39/1/ne390081.f1.gif)
+
+## Muscles
+
+- Generate forces
+- In one direction
+
+### Functional classes
+
+- Axial
+    + Trunk, neck, hips
+- Proximal
+    + Shoulder/elbow, pelvis/knee
+- Distal
+    + Hands/fingers, feet/toes
+
+![[@Cantu2019-sz]](https://www.frontiersin.org/files/Articles/476718/fneur-10-00951-HTML/image_m/fneur-10-00951-g001.jpg)
+
+### Agonist/antagonist pairs
+
+![](http://2.bp.blogspot.com/-TpOC4my_NBc/T0J-MhEv29I/AAAAAAAAF88/dYLv7QzFwmg/s1600/Hamstring-Quad4.jpg){fig-align="center"}
+
+### Anatomical types
+
+![](http://graphics8.nytimes.com/images/2007/08/01/health/adam/19917.jpg){fig-align="center"}
+
+- Cardiac
+- Striated (striped)
+    + Skeletal muscles
+    + Voluntary control, mostly connected to tendons and bones
+- Smooth
+    + Arteries, hair follicles, uterus, intestines
+    + Regulated by ANS (involuntary)
+
+### How skeletal muscles contract
+
+- Motor neurons (cell bodies located in ventral horn of spinal cord)
+- Project to muscle fiber
+- Form neuromuscular junction
+    + Synapse between motor neuron and muscle fiber
+    + Release acetylcholine (ACh)
+
+![*Biological Psychology 4th ed.*](../include/img/from-spinal-cord-to-muscle.jpg){fig-align="center"}
+
+- Motor endplate
+    + Contains nicotinic ACh receptors
+- Activation produces excitatory endplate potential
+    + Muscle fibers depolarize
+    + Depolarization spreads along fibers like an action potential
+    + Ca++ released from intramuscular stores
+    
+![](http://www.siumed.edu/~dking2/ssb/images/NM040b.jpg")
+
+- Myofibrils
+    + Contain actin & mysosin proteins
+    + “Molecular gears”
+- Muscle fibers contain bundles of myofibrils called sarcomeres
+  - Bind, move, unbind in presence of Ca++,  adenosine triphosphate (ATP)
+
+![](../include/img/muscle-fibers-biopsych.jpg){fig-align="center"}
+
+![](../include/img/motor-endplate-nt-release.jpg){fig-align="center"}
+
+### Skeletal muscle fiber types
+
+![](../include/img/turkey.jpg){fig-align="center"}
+
+- Fast twitch/fatiguing
+    + Type II
+    + White meat
+- Slow twitch/fatiguing
+    + Type I
+    + Red meat
+    
+### Muscles as sensory organs
+
+![](http://cdn.xl.thumbs.canstockphoto.com/canstock6466988.jpg){fig-align="center"}
+
+#### Two skeletal muscle fiber types
+
+![](../include/img/muscle-fiber-types.jpg){fig-align="center"}
+
+##### Intrafusal fibers
+
++ Sense muscle length and change in length, e.g. "stretch"
++ Also called muscle spindles
++ Provide muscle proprioception (perception about the self, a form of interoception)
+- Sensory function
+  - Ennervated by by primary Ia afferents (sensory output from muscle)
+  - Secondary Type II fibers
+- Motor function
+  + Ennervated by gamma ($\gamma$) motor neurons (motor input)
+
+##### Extrafusal fibers
+
++ Generate force
++ ennervated by alpha ($\alpha$) motor neurons
+- No "sensory" role, except for *efference copy*
+  - "Copies" of motor output sent to other brain areas
+  
+### Monosynaptic stretch (myotatic) reflex
+
+- Muscle stretched (length increases)
+- Muscle spindle in intrafusal fiber activates
+- Ia afferent sends signal to spinal cord
+    + Activates alpha ($\alpha$) motor neuron
+- Muscle contracts, shortens length
+
+![Source: Wikipedia](https://upload.wikimedia.org/wikipedia/commons/c/cd/Fusimotor_action.jpg)
+
+- Gamma ($\gamma$) motor neuron fires to take up 'slack' in intrafusal fiber 
+
+![](../include/img/intrafusal-extrafusal-fibers.jpg)
+
+::: {.callout-note}
+This is a bit like the role of a belayer in rock climbing.
+
+![](https://www.thoughtco.com/thmb/_EukGM8OC9Rexe4KxtQxDQ3CsGs=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/HowtoBelay_3-571117903df78c3fa293859d.jpg)
+:::
+
+![](../include/img/stretch-reflex.jpg)
+```{mermaid}
+%%| title: Nervous system output
+%%| fig-cap: Highlighting the output stream
+flowchart TD
+N{Nervous System} ==>|Alpha motor neurons|B(Extrafusal muscle fibers)
+N ==>|Gamma motor neurons|C(Intrafusal muscle fibers)
+N ==>|Efference Copy|N
+C ==>|Ia spindle afferents|N
+C ==>|Secondary afferents|N
+```
+
+#### Why doesn't antagonist muscle respond?
+
+- Polysynaptic inhibition of antagonist muscle
+- Prevents/dampens tremor
+
+:::{.callout-note}
+How does the motor system "learn" the sensory consequences of muscle fiber contraction?
+Could spontaneous "twitches" be involved [@Blumberg2023-ce]?
+
+That is, higher levels of the nervous system learn the relationship between motor neuron output and spindle feedback.
+:::
+
+#### Speed of sensory information propagation
+
+- Brain gets fast(est) propagating sensory info from muscle spindles
+
+![](../include/img/axon-size-speed-tradeoff.jpg){fig-align="center"}
+
+## Disorders of movement
+
+### Parkinson's Disease
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CqEwPqUO1Bw" frameborder="0" allowfullscreen></iframe>
+
+- Slow, absent movement, resting tremor
+- Cognitive deficits, depression
+- DA Neurons in substantia nigra degenerate
+- Treatments
+    + DA agonists
+    + DA agonists linked to impulse control disorders in ~1/7 patients [@Ramirez-Zamora2016-rl]
+    + Levodopa (L-Dopa), DA precursor
+
+![*Awakenings*](https://upload.wikimedia.org/wikipedia/en/2/2b/Awakenings.jpg){fig-align="center"}
+
+### Huntington's Disease
+
+![Woody Guthrie](http://cp91279.biography.com/1000509261001/1000509261001_1733824754001_woody-guthrie-centennial-1.jpg){fig-align="center"}
+
+- Formerly Huntington’s Chorea
+    + "Chorea" from Greek for "dance"
+    + “Dance-like” pattern of involuntary movements
+- Cognitive decline
+- Genetic + environmental influences
+- Disturbance in striatum
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HBLrY_nXU_U" frameborder="0" allowfullscreen></iframe>
+
+#### Prospects
+
+- No effective treatment
+- But progress in an animal model targeting abnormal protein products [@Li2019-to]
+- Clinical trial focused on gene therapy
+
+![https://clinicaltrials.gov/ct2/show/study/NCT03761849](../include/img/huntingtons-trial.png)
+  - Ended in 2021 due to safety concerns.
+  - [@Andrew2023-pq].
+
+## Summing up
+
+- Control of movement determined by multiple sources
+- Cerebral cortex + basal ganglia + cerebellum + spinal circuits
+
+<div class="centered">
+<img src="../include/img/motor-controllers-biopsych.jpg" height=450px>
+</div>
+
+### Movement: The "real" reason for brains?
+
+<iframe src="https://embed-ssl.ted.com/talks/daniel_wolpert_the_real_reason_for_brains.html" width="640" height="360" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+### What does motor cortex activity encode? 
+
+- Muscle contractions?
+- Movement trajectories?
+- Representational vs. dynamical systems views
+
+![[@Shenoy2013-zi]. Figure 1. Schematic illustrating the focus of the representational perspective and of the dynamical systems perspective. The traditional perspective has concentrated on the representation or code employed by the motor cortex. For example, does the motor cortex (upper left panel) code muscle activity (red trace) or reach velocity (black trace)? Thus, the traditional perspective attempts to determine the output or controlled parameters of the motor cortex. The dynamical systems perspective focuses less on the output itself and more on how that output is created (upper right panel). It attempts to isolate the basic patterns (blue) from which the final output might be built. It further attempts to understand the dynamics that produced that set of patterns and the role of preparatory activity in creating the right set of patterns for a particular movement. The red trace indicates the activity of the deltoid versus time during a rightward reach (e.g., Churchland et al. 2012). The black trace is the hand velocity for that same reach; the black trace between the beginning and ending reach targets is the hand path. The light and dark blue traces (upper right) illustrate a potential dynamical basis set from which the red trace might be built.](https://www.annualreviews.org/na101/home/literatum/publisher/ar/journals/content/neuro/2013/neuro.2013.36.issue-1/annurev-neuro-062111-150509/20130626/images/large/ne360337.f1.jpeg)
+
+![[@Shenoy2013-zi]. Figure 2. Overview of experimental paradigm, behavioral measurements, muscle measurements, and neural measurements. (a) Illustration of the instructed-delay task. Monkeys sit in a primate chair ∼25 cm from a fronto-parallel display. A trial begins by fixating (eye) and touching (hand) a central target (red filled square) and holding for a few hundred milliseconds. A peripheral target (red open square) then appears, cuing the animal about where a movement must ultimately be made. After a randomized delay period (e.g., 0–1 s) a go cue is given (e.g., extinction of central fixation and touch targets) signaling that an arm movement to the peripheral target may begin. (b) Sample hand measurements and electromyographic (EMG) recordings for the same trial as in panel a. Top: Horizontal hand (black) and target (red) positions are plotted. For this experiment, the target jittered on first appearing and stabilized at the go cue. Bottom: Hand velocity superimposed on the voltage recorded from the medial deltoid. (c) Sample reach trajectories and end points in a center-out two-instructed-speed version of the instructed-delay task. Red and green traces/symbols correspond to instructed-fast and instructed-slow conditions. (d) Mean reaction time (RT) plotted versus delay-period duration. The line shows an exponential fit. (e) Examples of typical delay-period firing-rate responses in PMd. Mean ± Standard Error firing rates for four sample neurons are shown. Figure adapted from Churchland et al. (2006c).](https://www.annualreviews.org/na101/home/literatum/publisher/ar/journals/content/neuro/2013/neuro.2013.36.issue-1/annurev-neuro-062111-150509/20130626/images/large/ne360337.f2.jpeg)
+
+### Dynamical systems and [state spaces](https://en.wikipedia.org/wiki/State-space_representation)
+
+- Movement of the limbs and body
+- Activity of the muscles
+- Activity of neurons in the spinal cord
+- Activity of neurons in the brain...
+
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Typical_State_Space_model.svg/944px-Typical_State_Space_model.svg.png)
+
+### What does the cerebellum do?
+
+- Predict future sensory states? [@Ito2008-ai]
+
+![Star Trek: The Next Generation Holodeck](http://venturebeat.com/wp-content/uploads/2009/10/star-trek-holodeck.jpg)
+
+### Systems perspective
+
+- Cognitive/affective states
+- Nervous system states
+- Muscle states
+- Actions
+- Consequences of actions on world states
+- Sensory states
+
+![[Figure 5.2 from @Powers1973-zn]](../include/img/powers-5.2.png)
+
+![[Figure 5.1 from @Powers1973-zn]](../include/img/powers-5.1.png)
+
+![[Figure 6.1 from @Powers1973-zn]](../include/img/powers-6.1.png)
+
+![[@Reynolds2019-nd]](../include/img/something-in-the-way-we-move.jpg){fig-align= "center"}
+
+![[Figure 2 from @Shine2019-lh]. Fig. 2: The low-dimensional signature across cognitive tasks. a, The procedure used to partition tPC1 into unique phases: low (blue), rise (red), high (orange), and fall (light blue). b, Scatter plot comparing the loading of tPC1 (colored according to the partition defined in a) with a temporal stability measure (defined by the similarity of the BOLD response at adjacent time points); we observed a significant positive Pearson’s correlation (r=0.58) between |tPC1| and temporal stability (n=1,939 time points), providing heuristic evidence for attractor basins at the extremes of tPC1 engagement. c, A three-dimensional scatter plot comparing the first three tPCs; each node represents one time point (colored according to the phase of tPC1), with time implicitly unfolding across the embedding space (contiguous points connected by black line). d, The low-dimensional manifold traversed by the global brain state across the first three dimensions, with arrows depicting the direction of flow along the manifold.](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41593-018-0312-0/MediaObjects/41593_2018_312_Fig2_HTML.png?as=webp)

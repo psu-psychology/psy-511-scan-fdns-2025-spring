@@ -1,0 +1,144 @@
+---
+title: "Neuroanatomy outline"
+---
+
+## Purpose
+
+This document describes some of the most important neuroanatomical terms that graduate students in psychology should know.
+
+The structure of the outline is based on that used by the [Allen Brain Atlas](http://atlas.brain-map.org).
+
+Some of the terms are in *italics* to indicate that these are of secondary importance for beginning students.
+
+## Directional terms
+
+- Anterior/Posterior
+- Superior/Inferior
+- Dorsal/Ventral
+- Rostral/Caudal
+- Medial/Lateral
+
+## Planes of section
+
+- Coronal/Frontal
+- Horizontal/Axial
+- Sagittal
+
+## Brain
+
+### Forebrain
+
+#### Gray matter
+
+##### Telencephalon
+
+- Cerebral cortex
+  - Frontal cortex
+  - Parietal cortex
+  - Temporal cortex
+  - Occipital cortex
+  - Insular cortex
+  - Cingular cortex
+- Cerebral nuclei
+  - Amygdala
+  - Basal ganglia
+    - Striatum
+      - Caudate nucleus
+      - Putamen
+      - Nucleus Accumbens
+    - Globus pallidus
+
+##### Diencephalon
+
+- Thalamus
+- Hypothalamus
+
+#### White matter
+
+- Corpus callosum
+- Anterior commissure
+- *Internal capsule*
+- *Cerebral peduncle*
+
+#### Ventricles
+
+- Lateral
+- Third (3rd)
+
+#### Surface structures
+
+- Sulcus/Sulci
+  - (Superior) Longitudinal Fissure
+  - Central (Rolandic) sulcus
+  - Lateral (Sylvian) fissure
+- Gyrus/Gyri and Lobules
+  - Frontal
+    - Precentral gyrus
+    - *Superior frontal gyrus*
+    - *Middle frontal gyrus*
+    - *Inferior frontal gyrus*
+  - Parietal
+    - Postcentral gyrus
+    - Precuneus
+  - Temporal
+    - *Superior temporal gyrus*
+    - *Middle temporal gyrus*
+    - *Inferior temporal gyrus*
+    - Planum temporale (Heschl's gyrus)
+  - Occipital
+  - Insular
+  - Limbic
+
+### Midbrain
+
+### Gray matter
+
+- Tegmentum
+- Tectum
+
+### White matter
+
+- Posterior commissure
+- [Cranial nerves](https://en.wikipedia.org/wiki/Cranial_nerves)
+  - *0 Terminal*
+  - I (1st) Olfactory
+  - II (2nd) Optic
+  - *III (3rd) Oculomotor*
+  - *IV (4th) Trochlear*
+  - V (5th) Trigeminal
+  - *VI (6th) Abducens*
+  - VII (7th) Facial
+  - VIII (8th) Vestibulocochlear
+  - *IX (9th) Glossopharyngeal*
+  - X (10th) Vagus
+  - *XI (11th) (Spinal) Accessory*
+  - *XII (12th) Hypoglossal*
+
+### Ventricle
+
+- Cerebral aqueduct
+
+### Hindbrain
+
+#### Gray matter
+
+- Metencephalon
+  - Pons
+  - Cerebellum
+- Myelencephalon
+  - Medulla oblongata
+
+#### White matter
+
+#### Ventricles
+
+- Fourth (4th) ventricle
+- Central canal
+
+## Spinal cord
+
+### Gray matter
+
+### White matter
+
+- Central canal

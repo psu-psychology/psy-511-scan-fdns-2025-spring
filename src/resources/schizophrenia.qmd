@@ -1,0 +1,271 @@
+---
+title: "Schizophrenia"
+---
+
+## Overview
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/gGnl8dqEoPQ" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/YXimT5CHCDE" frameborder="0" allowfullscreen></iframe>
+
+::: {.callout-note}
+
+Review of VR as *therapy for* Schizophrenia in [@Bisso2020-nq].
+
+:::
+
+- Lifetime prevalence ~ 0.3-0.7%
+    - Broader definitions suggest 2-3 or 3-5%
+- ~1/3 chronic & severe
+- Onset post-puberty, early adulthood
+- Males: Earlier onset & greater severity
+- Pervasive disturbance in mood, thinking, movement, action, memory, perception
+- Increased (early) mortality
+
+## Symptoms
+
+### "Positive" symptoms
+
+- “Additions” to behavior
+- Disordered thought
+- Delusions of grandeur, persecution
+- Hallucinations (usually auditory)
+- Bizarre behavior
+
+### "Negative" symptoms
+
+- “Reductions” in behavior
+- Poverty of speech
+- Flat affect
+- Social withdrawal
+- Anhedonia (loss of pleasure)
+- Catatonia (reduced movement)
+
+### Cognitive symptoms
+
+- Memory
+- Attention
+- Planning, decision-making
+- Social cognition
+- Movement
+
+### Affective dysregulation
+
+- Depressive, manic states
+
+![[@Van_Os2009-be]. Figure 1. Principles underlying the main distinction between affective psychosis (eg, bipolar disorder and psychotic depression) and non-affective psychosis (eg, schizophrenia and schizophreniform disorder)](https://ars.els-cdn.com/content/image/1-s2.0-S0140673609609958-gr1_lrg.jpg)
+
+![[@Van_Os2009-be]. Figure 2. Three hypothetical typical patients diagnosed with a combination of categorical and dimensional representations of psychopathology. Categorical diagnoses of schizophrenia (blue), bipolar disorder (green), and schizoaffective disorder (violet) are accompanied by a patient's quantitative scores (connected by red lines) on five main dimensions of psychopathology.](https://ars.els-cdn.com/content/image/1-s2.0-S0140673609609958-gr2_lrg.jpg)
+
+## Biological bases
+
+- Genetic predisposition
+- Brain abnormalities
+- Neurochemical factors
+- Developmental origins
+
+### Genetic predisposition
+
+<div class="centered">
+<img src="../include/img/schizophrenia-risk.jpg" height=450px>
+</div>
+
+- Heritability 80%
+- vs. 60% for osteoarthritis
+- 30-50% for hypertension
+- [@Van_Os2009-be]
+- But, no single gene...[@Johnson2017-bp]
+  - *NOTCH4*, *TNF*: 
+    - Part of major histocompatibility complex (MHC), cell membrane specializations involved in the immune system
+    - *DRD2* (dopamine D2 receptor), *KCNN3* (Ca+ activated K+ channel), *GRM3* (metabotropic glutamate receptor)
+
+![[@Johnson2017-bp]](../include/img/johnson-etal-2017-schiz.jpg)
+
+### Brain abnormalities
+
+#### Ventricles larger, esp in males
+
+![[@Suddath1990-nn]](../include/img/schizophrenia-ventricles.jpg)
+
+- Ventricular enlargement increases across time
+  - Especially in the more impaired
+
+![[@Davis1998-ki]](https://ars.els-cdn.com/content/image/1-s2.0-S0006322397005532-gr2.gif)
+
+![[@Davis1998-ki]](https://ars.els-cdn.com/content/image/1-s2.0-S0006322397005532-gr3.gif)
+
+![[@Kempton2010-ms]](https://ars.els-cdn.com/content/image/1-s2.0-S0920996410012077-gr2_lrg.jpg)
+
+- Enlargement precedes diagnosis?
+- Like trajectories B or F
+
+![[@Kempton2010-ms]](https://ars.els-cdn.com/content/image/1-s2.0-S0920996410012077-gr3_lrg.jpg)
+
+#### Hippocampus, amygdala, thalamus, nucleus accumbens (NAc; ventral striatum)  smaller
+
+- Related to ventricular enlargement?
+- Early disturbance in brain development?
+
+![[@Van_Erp2015-ne]. Cohen's *d* effect sizes ±s.e. for regional brain volume differences between Individuals with schizophrenia and healthy controls. Effect sizes for all subcortical volumes depicted were corrected for sex, age and intracranial volume (ICV). The effect size for ICV was corrected for sex and age. The number of independent data points (NSz and NHV) for each region are listed in Table 1.](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fmp.2015.63/MediaObjects/41380_2016_Article_BFmp201563_Fig1_HTML.jpg?as=webp)
+
+##### Animal model example
+
+- Dentate gyrus (DG) in hippocampus 
+    - spatial coding, learning & memory, emotion processing 
+- DG dysfunction implicated in schizophrenia
+- Gene linked to schizophrenia, Transmembrane protein 108 (Tmem108) enriched in DG granule neurons
+- Tmem108 expression increased during postnatal period critical for DG development
+- Tmem108-deficient neurons form fewer and smaller spines 
+- Tmem108-deficient mice display schizophrenia-relevant behavioral deficits
+- [@jiao_transmembrane_2017]
+
+#### White matter disruption
+
+![[@Kelly2017-lj]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fmp.2017.170/MediaObjects/41380_2018_Article_BFmp2017170_Fig1_HTML.jpg?as=webp)
+
+- White matter loss over age
+
+![[@Kochunov2016-cu]](https://wol-prod-cdn.literatumonline.com/cms/attachment/66a4c18c-f522-4bb1-a0b0-ed949ac9afd1/hbm23336-fig-0002-m.png)
+
+- But disruptions heterogenous across individuals [@Lv2021-hu]
+
+> Compared to the healthy comparison group, the schizophrenia group showed widespread reductions in FA and CT, involving virtually all white matter tracts and cortical regions. Paradoxically, however, no more than 15–20% of patients deviated from the normative range for any single tract or region. Furthermore, 79% of patients showed infra-normal deviations for at least one locus (healthy individuals: 59 ± 2%, p < 0.001). Thus, while infra-normal deviations were common among patients, their anatomical loci were highly inconsistent between individuals. [@Lv2021-hu]
+
+#### Disconnectivity in cortical networks
+
+![[@Uhlhaas2013-do]](https://ars.els-cdn.com/content/image/1-s2.0-S0959438812001663-gr1.jpg)
+
+- But connectivity findings inconsistent [[@Fornito2015-go]](https://dx.doi.org/10.1016/j.conb.2014.08.006)
+- **Reduced structural** connectivity vs.
+    - Synaptic, dendritic, axonal connections b/w regions
+    - Usually measured via DTI or related diffusion-based MRI technique
+- **Increased functional** connectivity
+    - BOLD, EEG, or MEG covariance
+    - Task-free 'resting' state or task-based
+
+![[@Fornito2015-go]. Figure 1. De-coupling of network structure and function in schizophrenia. (a) Shows an example of a brain-wide map of structural connectivity deficits in patients with schizophrenia, highlighting a relatively diffuse impairment that particularly affects fronto-posterior anatomical connectivity. In this whole-brain analysis, no increases of structural connectivity were found. Letters denote different regions (see below for key). (b) Illustrates frontal regions showing decreased and increased functional connectivity with seed regions in the dorsal (top) and ventral (bottom) caudate nucleus, respectively, in patients with schizophrenia (yellow, blue) and their unaffected, first-degree relatives (magenta, green). Thus, despite a fairly global impairment of structural connectivity (depicted in (a)), systems-specific increases in functional connectivity can be observed (b). (c,d) Brain-wide alterations of structural (c) and functional (d) connectivity in the same sample of patients with schizophrenia. Blue and green depict links where anatomical and functional connectivity, respectively, were reduced in patients; red depicts links where functional connectivity was increased in the patient group. (a) reproduced from [24•], (b) from [18•], and (c,d) from [23••] with permission. Regional abbreviations in (a) are as follow: A. Left Superior Frontal, B. Right Superior Frontal, C. Left Supplementary Motor Area, D. Left Superior Medial Frontal, E. Right Supplementary Motor Area, F. Right Superior Medial Frontal, G. Right Superior Parietal, H. Right Superior Occipital, I. Left Cuneus, J. Left Superior Occipital, K. Left Precuneus, L. Right Precuneus, M. Left Middle Temporal, N. Left Middle Occipital, O. Left Inferior Temporal, P. Left Fusiform, Q. Right Cuneus, R. Left Hippocampus, S. Left Middle Cingulum.](https://ars.els-cdn.com/content/image/1-s2.0-S0959438814001688-gr1.jpg)
+
+- Global signal (cortical gray matter BOLD signal CGm) variations?
+
+![[@Yang2014-oq]. Fig 1. Power and variance of CGm signal in SCZ and BD. (A) Power of CGm signal in 90 SCZ patients (red) relative to 90 HCS (black) (see SI Appendix, Table S1 for demographics). (B) Mean power across all frequencies before and after GSR indicating an increase in SCZ [F(1, 178) = 7.42, P < 0.01], and attenuation by GSR [F(1, 178) = 5.37, P < 0.025]. (C) CGm variance also showed increases in SCZ [F(1, 178) = 7.25, P < 0.01] and GSR-induced reduction in SCZ [F(1, 178) = 5.25, P < 0.025]. (D–F) Independent SCZ sample (see SI Appendix, Table S2 for demographics), confirming increased CGm power [F(1, 143) = 9.2, P < 0.01] and variance [F(1, 143) = 9.25, P < 0.01] effects, but also the attenuating impact of GSR on power [F(1, 143) = 7.75, P < 0.01] and variance [F(1, 143) = 8.1, P < 0.01]. (G–I) Results for BD patients (n = 73) relative to matched HCS (see SI Appendix, Table S3 for demographics) did not reveal GSR effects observed in SCZ samples [F(1, 127) = 2.89, P = 0.092, n.s.] and no evidence for increase in CGm power or variance. All effects remained when examining all gray matter voxels (SI Appendix, Fig. S1). Error bars mark ± 1 SEM. ***P < 0.001 level of significance. n.s., not significant.](https://www.pnas.org/cms/10.1073/pnas.1405289111/asset/6ca17e78-6e95-4fb2-a2b7-5087738893c1/assets/graphic/pnas.1405289111fig01.jpeg)
+
+![[@Yang2014-oq]. Fig 2. Relationship between SCZ symptoms and CGm BOLD signal power. We extracted average CGm power for each patient with available symptom ratings (n = 153). (A) Significant positive relationship between CGm power and symptom ratings in SCZ (r = 0.18, P < 0.03), verified using Spearman’s ρ given somewhat nonnormally distributed data (ρ = 0.2, P < 0.015). (B and C) Results held across SCZ samples, increasing confidence in the effect (i.e., joint probability of independent effects P < 0.002, marked in blue boxes). All identified relationships held when examining Gm variance (SI Appendix, Fig. S4). Notably, all effects were no longer significant after GSR, suggesting GS carries clinically meaningful information. The shaded area marks the 95% confidence interval around the best-fit line.](https://www.pnas.org/cms/10.1073/pnas.1405289111/asset/f0650bcc-676c-46fb-8570-3daaf921bf79/assets/graphic/pnas.1405289111fig02.jpeg)
+
+- Disconnectivity b/w 'hubs' -> higher functional connectivity overall
+
+![[@Fornito2015-go]](https://ars.els-cdn.com/content/image/1-s2.0-S0959438814001688-gr2.jpg)
+
+
+
+#### Comparing neural measures
+
+![[Figure 2 from @Porter2023-qt]. Sensitivity and specificity scores were derived using data from the classifier in each manuscript. All manuscripts were able to reliably differentiate participants with psychosis from healthy controls independent of neuroimaging type aside from [169]. The size of points is scaled according to sample size and modality of analysis is shown in various colors.](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41380-023-02195-9/MediaObjects/41380_2023_2195_Fig2_HTML.png?as=webp)
+
+![[Figure 3 from @Porter2023-qt]. Summary forest plot for log diagnostic odds ratio for all imaging modalities presented at the bottom of the plot. Multimodal: classification that used at least two of the following: rs-FC, T1, and/or DTI as features. RS-FC: resting state functional connectivity. DTI: diffusion tensor imaging. T1: T1 weighted imaging. The point size of squares and polygons are a function of the precision of the estimates.](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41380-023-02195-9/MediaObjects/41380_2023_2195_Fig3_HTML.png)
+
+![[Figure 5 from @Porter2023-qt]Colors represent different imaging modalities; estimated summary receiver operating curves are shown overlaid for each of the imaging modalities with respective confidence interval regions surrounding mean sensitivity and specificity values. No significant differences were found for classification of internal datasets . When external datasets were used for classification, rs-FC studies (red) have a significant advantage in classification relative to T1 studies (blue).](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41380-023-02195-9/MediaObjects/41380_2023_2195_Fig5_HTML.png?as=webp)
+
+>Interestingly, at present most modalities perform similarly in the classification of psychosis, with slight advantages for rs-FC relative to structural modalities in some specific cases. Notably, results differed substantially across studies, with suggestions of biased effect sizes, particularly highlighting the need for more studies using external prediction and large sample sizes. [@Porter2023-qt]
+
+### Neurochemical factors
+
+#### Dopamine hypothesis
+
+![](../include/img/mesolimbocortical-da.jpg){width=75%}
+
+##### Evidence for...
+
+- DA ($D_2$ receptor) antagonists (e.g. chlorpromazine)
+    + improve positive symptoms
+- *Typical antipsychotics* are DA $D_2$ antagonists
+- DA agonists
+    + amphetamine, cocaine, L-DOPA
+    + mimic or exacerbate symptoms
+    
+##### Evidence against...
+
+- New, *atypical antipsychotics* 
+    + (e.g. Clozapine) INCREASE DA in frontal cortex, affect 5-HT
+- Mixed evidence for high DA metabolite levels in CSF
+- Some DA neurons may release 5-HT, cannabinoids, glutamate [[@Seutin2005-wx]](https://doi.org/https://dx.doi.org/10.1038/sj.bjp.0706328)
+
+#### Glutamate/ketamine hypothesis
+
+- *Psychomimetic* drugs induce schizophrenia-like states
+    + Phencyclidine (PCP), ketamine
+    + NMDA-R (receptor) antagonists
+- Ketamine
+  - dissociative (secondary) anesthetic
+  - side effects include hallucinations, blurred vision, delirium, floating sensations, vivid dreams
+  - binds to serotonin ($5HT_{2a}$) receptor, $\kappa$ opioid receptor, and $\sigma$ receptor "chaperone"
+  - may be dopamine $D_2$ receptor antagonist
+- Schizophrenia $\rightarrow$ *underactivation* of NMDA receptors?
+    - NMDA receptor role in learning, plasticity
+    - DG neurons in [[@jiao_transmembrane_2017]](10.1073/pnas.1618213114) were glutamate-releasing.
+- NMDA-R antagonists -> neurodegeneration, excitotoxicity, & apoptosis
+
+### Developmental origins
+
+#### Rapid gray matter loss in adolescents?
+
+![[@thompson_mapping_2001]](../include/img/thompson-2001-F2.large.jpg)
+
+#### Early life stress
+
+- 2x greater odds for children in urban environments
+- Higher risk among migrant populations [[@Cantor-Graae2005-ej]](https://dx.doi.org/10.1176/appi.ajp.162.1.12)
+- Exposure to infection *in utero*, other birth complications
+- Exposure to cannibis
+- Paternal age > 40
+
+#### Complex pathways
+
+- [[@levine_transgenerational_2016]](https://doi.org/10.1016/j.schres.2016.06.019)
+  - Children (N=51,233) of parents who born during Nazi era (1922-1945)
+  - Emigrated before (indirect exposure) or after (direct exposure) to Nazi era
+  - Children exposed to direct stress of Nazi era *in utero* or postnatally
+      + Did **not** differ in rates of schizophrenia, but
+      + Had higher rehospitalization rates
+- [[@debost_investigating_2015]](https://doi.org/10.1016/j.psyneuen.2015.05.013)
+  - Danish cohort (n=1,141,447)
+  - Exposure to early life stress 
+      + *in utero* did **not** increase risk of schizophrenia, but
+      + during 0-2 years increased risk
+  - Increased risk associated with an allele of a cortisol-related gene
+
+## Summing up
+
+- Wide-ranging disturbance of mood, thought, action, perception
+- Broad changes in brain structure, function, chemistry, development
+- ~~Dopamine hypothesis giving way to~~ glutamate hypothesis
+- Genetic (polygenic = multiple genes) risk + environmental factors
+
+## Prospects
+
+### Outcomes following hospitalization
+
+![[@Van_Os2009-be]. Figure 3. Outcome heterogeneity in schizophrenia. Summary of 18 prospectively designed outcome studies of first admission and first diagnosis of schizophrenia with follow-up of more than 1 year with variably defined good and poor outcomes, showing balanced proportions of good and poor outcomes across studies. Studies 1 to 18 are 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93. Examples of good outcomes: symptomatic recovery with no social or intellectual deficit throughout follow-up (study 2, reference 77); full recovery over follow-up (study 12, reference 87); complete remission and never readmitted (study 16, reference 91). Examples of poor outcome definition: severe chronic social or intellectual deficit (study 2, reference 77); moderate-to-severe symptoms at time of follow-up (study 12, reference 87); chronic continuous psychotic symptoms over full follow up time (study 16, reference 91). For full description of all outcome definitions see reference 94.](https://ars.els-cdn.com/content/image/1-s2.0-S0140673609609958-gr3_lrg.jpg)
+
+### Biomarkers
+
+![[Table 1 from @Kraguljac2021-kp]](../include/img/kraguljac-2021-tbl01.png)
+
+### Novel therapies
+
+- Virtual Reality Assisted therapy [@Bisso2020-nq; @Dellazizzo2021-tk]
+
+>Short-term findings showed that both interventions produced significant improvements in AVH severity and depressive symptoms. Although results did not show a statistically significant superiority of VRT over CBT for AVH, VRT did achieve larger effects particularly on overall AVH (d = 1.080 for VRT and d = 0.555 for CBT). Furthermore, results suggested a superiority of VRT over CBT on affective symptoms. VRT also showed significant results on persecutory beliefs and quality of life. Effects were maintained up to the 1-year follow-up. VRT highlights the future of patient-tailored approaches that may show benefits over generic CBT for voices. A fully powered single-blind randomized controlled trial comparing VRT to CBT is underway. [@Dellazizzo2021-tk]
+
+### AI and Machine Learning
+
+- Deep Neural Network used to identify functional brain signatures in a genetic disorder ([DiGeorge syndrome](https://www.mayoclinic.org/diseases-conditions/digeorge-syndrome/symptoms-causes/syc-20353543); 22q11.2 deletion syndrome) linked to psychotic symptoms [@Supekar2024-rq]
+
+### The future of psychiatric research
+
+- The [Research Domain Criteria (RDoC) Project](https://www.nimh.nih.gov/research-priorities/rdoc/index.shtml) 
+    - Negative valence, positive valence, cognitive systems, social processes, arousal/regulatory systems
+- [U.K. Biobank](https://www.ukbiobank.ac.uk/)
+- [Enhancing Neuro Imaging Genetics through Meta Analysis (ENIGMA) Consortium](https://enigma.ini.usc.edu/)
+- Bipolar and Schizophrenia Network for Intermediate Phenotypes ([BSNIP Project](http://b-snip.org/)) [@Tamminga2014-gn]. [Data shared NIH Data Archive](https://nda.nih.gov/edit_collection.html?id=2274).
+
+![[Figure 1 from @Tamminga2014-gn]. Multiple illustrative data from bipolar and schizophrenia network for intermediate phenotyping (BSNIP) study. (a) Social function quantified with the Birchwood Social Function Scale in the BSNIP sample. Details in reference 13. Schizophrenia (SZ) and schizoaffective disorder (SAD) groups were almost identical, while bipolar disorder (BDP) showed slightly higher scores. Relatives of all groups were modestly impaired. The patterns of impairment were similar across diagnostic groups. (b) The Schizo-Bipolar scale was developed from the SCID diagnostic criteria for these psychotic diagnoses.12 There was almost continuous overlap between these diagnoses with no point of rarity over this spectrum, lacking support for distinct illness groups based on phenomenology. (c) Cognition was measured with the BACS.14 Group scores are depicted for the diagnostic subgroups, showing the greatest impairment in the SZ group and the least in the BDP group with SAD in between, separated by severity; however groups did not show distinctive qualitative cognitive alterations from each other, except for the severity. (d) In the evoked potential auditory oddball paradigm, the patient groups (SZ and BDP) resembled each other rather broadly, with minimal, distinctive differences, discussed in reference 15. (e) The antisaccade error rates were increased in all patient groups, highest in SZ and lower in BDP, without any differences across relatives.16 Again, while severity differences were present, no other distinctions existed across diagnostic groups. (f) Differences between SZ and BPP groups are present after a pair auditory stimulus, including differences in both patient groups in baseline levels, especially before S2.17 (g) Using VBM analysis to determine grey matter volume,21 a distinctive difference between SZ/SAD, on the one hand and BDP on the other, emerged; specifically, SA and SAD groups demonstrated significant and widespread grey matter volume reduction, while the BDP showed very little grey matter reduction in any area. This would represent a difference between diagnostic groups of a qualitative as well as quantitative nature. (h) FreeSurfer showed a similar outcome, with grey matter reductions widespread in all cortical regions in SZ and SAD, while no distinctive reductions in BDP. (i). Resting state fMRI analysis shows a number of distinctive cerebral networks based on ICA, that were distinctive in some or all of the diagnostic groups.18 In general, these networks were different between all probands and all healthy controls.](../include/img/tamminga-etal-2014-fig-1.png)

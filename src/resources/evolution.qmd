@@ -1,0 +1,210 @@
+---
+title: "Evolution"
+format:
+  html:
+    toc: true
+    toc-depth: 4
+---
+
+## Evolution of Nervous Systems
+
+{{< video https://www.youtube.com/watch?v=ydqReeTV_vk >}}
+
+[@Acapellascience2017-yt]
+
+### Public acceptance of evolution
+
+![[@miller2006public]. Public acceptance of evolution in 34 countries, 2005.](https://www.science.org/cms/10.1126/science.1126746/asset/4c7394aa-a5b4-4f16-93c4-0e2bb50619bf/assets/graphic/765-1.gif){.lightbox}
+
+- In U.S., majority now "accept"
+- Increase over last decade
+
+![[@Miller2021-lb]. Figure 1. Public acceptance and rejection of evolution in the United States, 1985–2020. The following question was used in all of the years in this analysis: "For each statement below, please indicate if you think that it is definitely true, probably true, probably false, or definitely false. If you don’t know or aren’t sure, please check the 'not sure' box. 'Human beings, as we know them today, developed from earlier species of animals.' The number of respondents in each year and the confidence intervals are provided in the Supplemental Material in SI Table 1.](https://journals.sagepub.com/cms/10.1177/09636625211035919/asset/images/large/10.1177_09636625211035919-fig1.jpeg)
+
+###  Types of evidence
+
+- Fossil
+    + Fossil dating
+- Geological
+    + Where fossils are found relative to one another
+    + How long it takes to form layers
+- Genetic
+    + Rates of mutation
+- Anatomical
+    + Homologous structures across species
+
+> **Nothing in Biology Makes Sense except in the Light of Evolution**
+>
+> *"Seen in the light of evolution, biology is, perhaps, intellectually the most satisfying and inspiring science. Without that light, it becomes a pile of sundry facts some of them interesting or curious, but making no meaningful picture as a whole."*
+
+[@Dobzhansky1973]
+
+### Why Gilmore thinks the theory so controversial (in the U.S.)
+
+- Contradicts verbatim/non-metaphorical reading of some religious texts
+- Makes humans seem less special
+- Time scales involved beyond human experience
+- Scientific method vs. other ways of knowing
+- Found in nature ≠ good for human society
+- Few negative consequences of 'disbelief'
+- U.S. culture individualistic, skeptical, anti-elitist, anti-intellectual
+- Lower levels of religious belief among [U.S. scientists](http://news.rice.edu/2015/12/03/first-worldwide-survey-of-religion-and-science-no-not-all-scientists-are-atheists/)
+- [Politics](http://www.people-press.org/2009/07/09/section-4-scientists-politics-and-religion/)
+- A minority of citizens support teaching [evolution-only](http://www.pbs.org/wgbh/nova/blogs/education/2015/12/evolutionschools/) 
+- Majority of classroom teachers aren't [strong advocates](https://www.sciencedaily.com/releases/2011/01/110127141657.htm)
+
+> A structural equation model indicates that increasing enrollment in baccalaureate-level programs, exposure to college-level science courses, a declining level of religious fundamentalism, and a rising level of civic scientific literacy are responsible for the increased level of public acceptance.
+>
+> [@Miller2021-lb]
+
+## Evolution and development
+
+### Ontogenesis and phylogenesis
+
+- *Ontogenesis*
+    + Development within lifetimes, history of individuals
+- *Phylogenesis*
+    + Change across lifestimes, history of species
+
+#### Ontogeny does not recapitulate phylogeny ([Haeckel](https://en.wikipedia.org/wiki/Ernst_Haeckel)), but...
+
+![Source: Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Haeckel_drawings.jpg/350px-Haeckel_drawings.jpg){.lightbox}
+
+### Complex multicellular life emerged "recently"
+
+<!-- History of life on Earth -->
+
+![<http://anthony.liekens.net/pub/timeline.png>](http://anthony.liekens.net/pub/timeline.png)
+
+![<http://www.zo.utexas.edu/faculty/sjasper/images/26.2.gif>](http://www.zo.utexas.edu/faculty/sjasper/images/26.2.gif)
+
+## Nervous system architectures
+
+### How nervous systems differ
+
+- Body symmetry
+    + radial
+    + bilateral
+
+**An animal with a nerve "net"**
+
+<iframe width="600" height="800" src="https://www.youtube.com/embed/-UI531GMRTM" frameborder="0" allowfullscreen></iframe>
+
+- Segmentation
+- Cephalization (concentration of sensory & neural structures in anterior portion of body)
+- Encasement in bone (vertebrates)
+- Centralized vs. distributed function
+
+**Cephalopods have "intelligent arms"**
+
+<iframe width="700" height="400" src="http://www.sciencedirect.com/science/article/pii/S0022098113000683" frameborder="0" allowfullscreen></iframe>
+
+### The essentials of biological computation
+
+- Ingestion
+- Defense
+- Reproduction
+
+![Adapted from [@swanson2012brain]](../include/img/swanson-fig-7.5.jpg)
+
+### Information processing universals
+
+- Sense/detect via sensors
+  - Specialize by information source/type
+  - Specialize by target location
+    + Interoceptive
+    + Exteroceptive
+- Analyze, evaluate, decide
+  - Current state
+      + World
+      + Organism
+  - Current goals
+  - Past state(s)
+- Act
+    + Move body
+      - Approach/avoid
+      - Manipulate
+      - Ingest
+      - Signal
+    - Change physiological state
+
+### From nerve net to nerve ring, nerve cord, and brain 
+
+![[Figure 1 from @arendt_nerve_2016]. Animal phylogeny. A simplified animal phylogenetic tree (showing the evolutionary history of animals), in which lines represent evolutionary diversification. The lengths of the lines are arbitrary, as they do not indicate evolutionary distance. For a brief characterization of the Anthozoa, Bilateria, Ceriantharia, Cnidaria, Ctenophora, Medusozoa and Neuralia, see the glossary. The phylogenetic position of the Ctenophora is not settled, as indicated by a question mark. The Ctenophora image is adapted with permission from Ref. 43, Wiley. The Porifera and Placozoa images are reprinted with permission from Ref. 139 (Nielsen, C. Animal Evolution: Interrelationships of the Living Phyla p31 and p39 (2012)) by the permission of Oxford University Press. The Annelida image is adapted with permission from Ref. 140, Schweizerbart Science Publishers (www.schweizerbart.de).](../include/img/nrn.2015.15-f1.jpg)
+
+![[Figure 2 from @arendt_nerve_2016]. Comparison of neurodevelopment in the frog, annelid and sea anemone. The frog Xenopus laevis (part a), the annelid Platynereis dumerilii (part b) and the cnidarian Nematostella vectensis (part c) are depicted in their gastrula-like stages (gastrula, trochophora and planula, respectively; upper panels), intermediate developmental (neurula, metatrochophora and late planula, respectively; middle panels) and juvenile stages (tadpole, nectochaete and polyp, respectively; lower panels). Colours demarcate developmental neurogenic regions, and double-headed arrows show the apical (AP)–blastoporal (BL) axis. All views in parts a–c are lateral. At gastrula stages (upper panels), blastoporal ectodermal tissue (around the closing blastopore; red) and apical pole ectodermal tissue (violet) can be distinguished. At subsequent stages, a large part of the ectoderm — incluing the former apical and blastoporal regions — gives rise to neurogenic tissue. The neurogenic tissue comprises regions of distinct molecular identity (indicated by different colours), which will give rise to different parts of the nervous system. In the frog (part a), the neural plate (violet, red and yellow) comprises future forebrain tissue, as well as medial and lateral neural tube tissue; it is laterally bounded by developing peripheral nervous system components (blue). Similar regions are apparent in the annelid (part b), and these give rise to the brain, medial and lateral nerve cord and peripheral nervous system. As reasoned in this article, these regions also exist in the cnidarian (part c). In the frog and annelid worm, these regions are further subdivided into specific subregions by the activity of molecular organizing signals](../include/img/nrn.2015.15-f2.jpg)
+
+- Neurons and nervous systems 520-570 M years old
+- Diverse nervous systems show developmental similarities at molecular level 
+
+## Vertebrate CNS organization
+
+![[Figure 1 from @Northcutt2002-jg]](../include/img/northcutt-2002-f1.gif){.lightbox}
+
+![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ENwGSoMh3t4yc2xlElUfUg.png){.lightbox}
+
+![Jerison <https://brainmuseum.org/evolution/paleo/index.html>](https://brainmuseum.org/evolution/paleo/images/brnbodwt4.gif){.lightbox}
+
+![[Figure 2 from @Northcutt2002-jg]](../include/img/northcutt-2002-f2.gif){.lightbox}
+
+- Differences in size of the cerebral cortex
+
+![[Figure 1 from @hofman_evolution_2014]. Lateral views of the brains of some mammals to show the evolutionary development of the neocortex (gray). In the hedgehog almost the entire neocortex is occupied by sensory and motor areas. In the prosimian Galago the sensory cortical areas are separated by an area occupied by association cortex (AS). A second area of association cortex is found in front of the motor cortex. In man these anterior and posterior association areas are strongly developed. A, primary auditory cortex; AS, association cortex; Ent, entorhinal cortex; I, insula; M, primary motor cortex; PF, prefrontal cortex; PM, premotor cortex; S, primary somatosensory cortex; V, primary visual cortex. Modified with permission from Nieuwenhuys (1994).](http://www.frontiersin.org/files/Articles/78485/fnana-08-00015-HTML/image_m/fnana-08-00015-g001.jpg)
+
+| Structural measure | Non-human comparison | Human |
+|--------------------|----------------------|-------|
+| Cortical gray matter %/tot brain vol | insectivores 25% | 50% |
+| Cortical gray + white | mice 40% | 80% |
+| Cerebellar mass | primates, mammals 10-15% | 10-15% |
+
+- Evidence for greater gray and white matter (relative to total brain volume) in human cerebral cortex
+
+![[Figure 1 from @Rakic2009-jk]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2719/MediaObjects/41583_2009_Article_BFnrn2719_Fig1_HTML.jpg?as=webp){.lightbox}
+
+![[Figure 2 from @hofman_evolution_2014]](http://www.frontiersin.org/files/Articles/78485/fnana-08-00015-HTML/image_m/fnana-08-00015-g002.jpg){.lightbox}
+
+**Take homes**
+
+- Brain sizes scale with body size
+- Brain sizes (more or less) scale with animal class (more or less)
+
+**Old story**
+
+- Within mammals, human brains bigger than expected
+    - Higher *encephalization quotient* -- deviation from species-typical norm
+    
+![[Figure 2 from @Northcutt2002-jg]](../include/img/northcutt-2002-f2.gif)
+
+- Humans have larger cerebral cortical gray + white matter than comparable mammals
+
+**vs. New story**
+
+- Does brain size/mass matter (that much)?
+- "Size matters" (brain mass) presumes similarity among brains at micro-level
+- Big (large mass) brains arise in multiple mammalian lineages
+
+![[Figure 1 from @Herculano-Houzel2012-up]. Large brains appear several times in the mammalian radiation. Example species are illustrated for each major mammalian group. The mammalian radiation is based on the findings of Murphy et al. (18) and Kaas (19). Brain images are from the University of Wisconsin and Michigan State Comparative Mammalian Brain Collections (www.brainmuseum.org).](https://www.pnas.org/cms/10.1073/pnas.1201895109/asset/98573710-eaa0-4c1b-aa7b-4095f591a8b5/assets/graphic/pnas.1201895109fig01.jpeg)
+
+- *# of cortical neurons* more important difference than brain mass
+- The primate advantage -> more cortical neurons, but not larger neurons & not more neurons in cerebellum
+- Human brain just scaled up (non-ape) primate brain
+
+![[Figure 3 from @Herculano-Houzel2012-up]. Shared nonneuronal scaling rules and structure- and order-specific neuronal scaling rules for mammalian brains. Each point represents the average values for one species (insectivores, blue; rodents, green; primates, red; Scandentia, orange). Arrows point to human data points, circles represent the cerebral cortex, squares represent the cerebellum, and triangles represent the rest of the brain (excluding the olfactory bulb). (A) Clade- and structure-specific scaling of brain structure mass as a function of numbers of neurons. Allometric exponents: cerebral cortex: 1.699 (Glires), 1.598 (insectivores), 1.087 or linear (primates); cerebellum: 1.305 (Glires), 1.028 or linear (insectivores), 0.976 or linear (primates); rest of the brain: 1.568 (Glires), 1.297 (insectivores), 1.198 (or 1.4 when corrected for phylogenetic relatedness in the dataset, primates). (B) Neuronal cell densities scale differently across structures and orders but are always larger in primates than in Glires. Allometric exponents: cerebral cortex: −0.424 (Glires), −0.569 (insectivores), −0.168 (primates); cerebellum: −0.271 (Glires), not significant (insectivores and primates); rest of the brain: −0.467 (Glires), not significant (insectivores), −0.220 (primates). (C) Mass of the cerebral cortex, cerebellum, and rest of the brain varies as a similar function of their respective numbers of nonneuronal cells. Allometric exponents: cerebral cortex: 1.132 (Glires), 1.143 (insectivores), 1.036 (primates); cerebellum: 1.002 (Glires), 1.094 (insectivores), 0.873 (primates); rest of the brain: 1.073 (Glires), 0.926 (insectivores), 1.065 (primates). (D) Average density of nonneuronal cells in each structure does not vary systematically with structure mass across species. Power functions are not plotted so as not to obscure the data points. Allometric exponents are from a study by Herculano-Houzel (20); data are from studies by Herculano-Houzel and her colleagues (22–27).](https://www.pnas.org/cms/10.1073/pnas.1201895109/asset/e7ba3fa0-8ecd-4027-9c7b-b7ddf50946bf/assets/graphic/pnas.1201895109fig03.jpeg)
+
+**# of cortical (or in birds, pallidum) neurons predicts "cognition"?**
+
+![[Figure 3 from @Herculano-Houzel2017-gf]](https://ars.els-cdn.com/content/image/1-s2.0-S2352154616302637-gr3_lrg.jpg)
+
+**The Human Advantage [@Herculano-Houzel2016-oy]**
+
+- Brain
+    - More neurons in cerebral cortex than other mammals
+- Behavior
+    - Less time spent foraging
+        + Higher quality/more energetically dense food
+        + Higher food availability
+    - Cultural factors (agriculture + cooking), see also [@Wrangham2009-vq]
+    
+**A further human advantage**
+
+![](http://www.melvinkonner.com/wp-content/uploads/2009/02/eofccover-195x293.jpg)
