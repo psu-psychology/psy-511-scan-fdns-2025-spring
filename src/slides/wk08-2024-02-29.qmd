@@ -1,0 +1,76 @@
+---
+title: "Development of the human nervous system"
+subtitle: "PSY 511.003"
+date: 2024-02-29
+format: 
+  revealjs:
+    footer: "[PSY 511 Spr 2024](../index.html)"
+---
+
+# Prelude
+
+{{< video https://youtu.be/h1kSUkMtNWk?si=Cpp-gDDOiP50W5Yl >}}
+
+[@Spacenukes2012-pp]
+
+## Announcements
+
+- [Exercise 06](../exercises/ex06.qmd) [write-up due yesterday.]{.orange_due}
+- Final project/paper proposal [due today](../resources/final-project.qmd){.orange_due}
+
+## Last time...
+
+- Evolution of nervous systems
+
+---
+
+### Humans reached our current biological form about 200,000 years ago. What have been the main drivers of *psychological* change since then?
+
+---
+
+### How do *psychological* changes over evolutionary time spans influence *biological* functions within individual lifespans?
+
+---
+
+### The basic vertebrate brain plan is hundreds of millions of years old. What are some implications of this for understanding brain/behavior relations in humans today?
+
+## Exercise 07
+
+- [exercises/ex07-evo-devo](../exercises/ex07-evo-devo.qmd)
+
+## Today's topics
+
+- Human brain development
+
+## Thinking developmentally
+
+- What causes/influences what?
+- Correlation is not causation, but...
+  - Causes must (logically) temporally precede effects
+  - Correlation *necessary* but not *sufficient*
+- What are the developmental functions?
+  - $x_{t+1}=F_1(x_t)$ or within domain/measure
+  - $y_{t+1}=F_2(x_t)$ or across domains/measures
+- What is the story?
+- [resources/development](../resources/development.qmd)
+
+## Main points
+
+- CNS among earliest-developing, last to "finish" organ systems
+- Development clarifies (aspects of) anatomy
+- Prenatal vs. postnatal
+  - [Altricial vs. precocial](https://en.wikipedia.org/wiki/Precociality_and_altriciality)
+- Changing structures changing functions
+- Progress through regress (e.g. apoptosis, synaptic pruning, cortical thinning)
+
+## Exercise 08
+
+- [exercises/ex08-devo](../exercises/ex08-devo.qmd)
+
+## Next time...
+
+- Perception
+
+# Resources
+
+## References

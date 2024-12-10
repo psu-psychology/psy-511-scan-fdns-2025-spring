@@ -1,0 +1,71 @@
+---
+title: "Language & Cognition"
+subtitle: "PSY 511.003"
+date: 2024-03-28
+format: 
+  revealjs:
+    footer: "[PSY 511 Spr 2024](../index.html)"
+---
+
+# Prelude
+
+## Last time...
+
+- Action
+
+---
+
+### In what way are muscles sensory organs?
+
+---
+
+### Why is the monosynaptic stretch (myotatic) reflex important?
+
+---
+
+### What role does Ca++ play in muscle contraction?
+
+---
+
+### Which brain area(s) are most responsible for voluntary motor control?
+
+# Main
+
+## Today's topics
+
+- Cognition
+- Language
+- [Resource page](../resources/cognition-language.qmd)
+
+## Main points
+
+- Cognition has multiple facets
+  - Core questions
+    - What to do next?
+    - How to do it?
+  - Perception, attention, memory, problem solving, etc.
+  - Computational/algorithmic approaches ascendant
+  
+----
+
+- Forms of cognition seen across species and development
+- Cerebral cortex critical (in humans and closely related animals)
+- Mapping brain states to cognitive processes
+
+---
+
+- Language as a behavior
+  - Multiple modalities
+  - Symbolic
+- Wernicke-Geschwind model
+  - Anatomically separable streams for input/output
+  - Oversimplifies
+- Top-down/bottom-up + feedback
+
+## Next time...
+
+- Learning & memory
+
+# Resources
+
+## References

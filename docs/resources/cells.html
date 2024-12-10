@@ -1,0 +1,2169 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.56">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Cellular neuroscience – PSY 511 • Spring 2025</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../include/css/styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">PSY 511 • Spring 2025</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html"> 
+<span class="menu-text">schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../evaluation.html"> 
+<span class="menu-text">evaluation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../policies.html"> 
+<span class="menu-text">policies</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-exercises" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">exercises</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-exercises">    
+        <li>
+    <a class="dropdown-item" href="../exercises/ex01.qmd">
+ <span class="dropdown-text"></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../exercises/ex02.qmd">
+ <span class="dropdown-text"></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../exercises/ex03.qmd">
+ <span class="dropdown-text"></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../exercises/ex04.qmd">
+ <span class="dropdown-text"></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../exercises/ex05.qmd">
+ <span class="dropdown-text"></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../exercises/ex06.qmd">
+ <span class="dropdown-text"></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../exercises/ex07-evo-devo.qmd">
+ <span class="dropdown-text"></span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../exercises/ex08-devo.qmd">
+ <span class="dropdown-text"></span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#why-animals-need-nervous-systems" id="toc-why-animals-need-nervous-systems" class="nav-link active" data-scroll-target="#why-animals-need-nervous-systems">Why animals need nervous systems</a>
+  <ul>
+  <li><a href="#neural-communication-types" id="toc-neural-communication-types" class="nav-link" data-scroll-target="#neural-communication-types">Neural communication types</a></li>
+  <li><a href="#so-why-do-largecomplex-animals-need-nervous-systems" id="toc-so-why-do-largecomplex-animals-need-nervous-systems" class="nav-link" data-scroll-target="#so-why-do-largecomplex-animals-need-nervous-systems">So, why do large/complex animals need nervous systems?</a></li>
+  </ul></li>
+  <li><a href="#cellular-neuroanatomy" id="toc-cellular-neuroanatomy" class="nav-link" data-scroll-target="#cellular-neuroanatomy">Cellular neuroanatomy</a>
+  <ul>
+  <li><a href="#how-many-neurons-and-glia" id="toc-how-many-neurons-and-glia" class="nav-link" data-scroll-target="#how-many-neurons-and-glia">How many neurons and glia?</a></li>
+  <li><a href="#glia-neuroglia" id="toc-glia-neuroglia" class="nav-link" data-scroll-target="#glia-neuroglia">Glia (neuroglia)</a>
+  <ul class="collapse">
+  <li><a href="#astrocytes" id="toc-astrocytes" class="nav-link" data-scroll-target="#astrocytes">Astrocytes</a></li>
+  <li><a href="#myelinating-cells" id="toc-myelinating-cells" class="nav-link" data-scroll-target="#myelinating-cells">Myelinating cells</a></li>
+  <li><a href="#microglia" id="toc-microglia" class="nav-link" data-scroll-target="#microglia">Microglia</a></li>
+  </ul></li>
+  <li><a href="#neurons" id="toc-neurons" class="nav-link" data-scroll-target="#neurons">Neurons</a>
+  <ul class="collapse">
+  <li><a href="#what-makes-neurons-special" id="toc-what-makes-neurons-special" class="nav-link" data-scroll-target="#what-makes-neurons-special">What makes neurons “special”</a></li>
+  <li><a href="#macrostructure" id="toc-macrostructure" class="nav-link" data-scroll-target="#macrostructure">Macrostructure</a></li>
+  <li><a href="#classifying-neurons" id="toc-classifying-neurons" class="nav-link" data-scroll-target="#classifying-neurons">Classifying neurons</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#neurophysiology" id="toc-neurophysiology" class="nav-link" data-scroll-target="#neurophysiology">Neurophysiology</a>
+  <ul>
+  <li><a href="#electrical-communication" id="toc-electrical-communication" class="nav-link" data-scroll-target="#electrical-communication">Electrical communication</a>
+  <ul class="collapse">
+  <li><a href="#basic-principles" id="toc-basic-principles" class="nav-link" data-scroll-target="#basic-principles">Basic principles</a></li>
+  </ul></li>
+  <li><a href="#resting-potential" id="toc-resting-potential" class="nav-link" data-scroll-target="#resting-potential">Resting potential</a>
+  <ul class="collapse">
+  <li><a href="#contributors-to" id="toc-contributors-to" class="nav-link" data-scroll-target="#contributors-to">Contributors to</a></li>
+  <li><a href="#party-metaphor" id="toc-party-metaphor" class="nav-link" data-scroll-target="#party-metaphor">Party metaphor</a></li>
+  <li><a href="#ion-channels" id="toc-ion-channels" class="nav-link" data-scroll-target="#ion-channels">Ion channels</a></li>
+  <li><a href="#conditions" id="toc-conditions" class="nav-link" data-scroll-target="#conditions">Conditions</a></li>
+  </ul></li>
+  <li><a href="#action-potential" id="toc-action-potential" class="nav-link" data-scroll-target="#action-potential">Action potential</a>
+  <ul class="collapse">
+  <li><a href="#components" id="toc-components" class="nav-link" data-scroll-target="#components">Components</a></li>
+  <li><a href="#aps-and-information-processing" id="toc-aps-and-information-processing" class="nav-link" data-scroll-target="#aps-and-information-processing">APs and Information Processing</a></li>
+  <li><a href="#generating-action-potentials" id="toc-generating-action-potentials" class="nav-link" data-scroll-target="#generating-action-potentials">Generating action potentials</a></li>
+  <li><a href="#propagation" id="toc-propagation" class="nav-link" data-scroll-target="#propagation">Propagation</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#synaptic-transmission" id="toc-synaptic-transmission" class="nav-link" data-scroll-target="#synaptic-transmission">Synaptic transmission</a>
+  <ul>
+  <li><a href="#synapse-types-locations" id="toc-synapse-types-locations" class="nav-link" data-scroll-target="#synapse-types-locations">Synapse Types &amp; Locations</a></li>
+  <li><a href="#steps-in-chemical-transmission" id="toc-steps-in-chemical-transmission" class="nav-link" data-scroll-target="#steps-in-chemical-transmission">Steps in chemical transmission</a></li>
+  <li><a href="#receptorchannel-types" id="toc-receptorchannel-types" class="nav-link" data-scroll-target="#receptorchannel-types">Receptor/channel types</a>
+  <ul class="collapse">
+  <li><a href="#leakpassive" id="toc-leakpassive" class="nav-link" data-scroll-target="#leakpassive">Leak/passive</a></li>
+  <li><a href="#transportersexchangers" id="toc-transportersexchangers" class="nav-link" data-scroll-target="#transportersexchangers">Transporters/exchangers</a></li>
+  <li><a href="#ionotropic-receptors-receptor-ion-channel" id="toc-ionotropic-receptors-receptor-ion-channel" class="nav-link" data-scroll-target="#ionotropic-receptors-receptor-ion-channel">Ionotropic receptors (receptor + ion channel)</a></li>
+  <li><a href="#metabotropic-receptors-receptor-only" id="toc-metabotropic-receptors-receptor-only" class="nav-link" data-scroll-target="#metabotropic-receptors-receptor-only">Metabotropic receptors (receptor only)</a></li>
+  </ul></li>
+  <li><a href="#receptors-generate-postsynaptic-potentials-psps" id="toc-receptors-generate-postsynaptic-potentials-psps" class="nav-link" data-scroll-target="#receptors-generate-postsynaptic-potentials-psps">Receptors generate <em>postsynaptic potentials (PSPs)</em></a></li>
+  <li><a href="#nts-inactivated" id="toc-nts-inactivated" class="nav-link" data-scroll-target="#nts-inactivated">NTs inactivated</a></li>
+  <li><a href="#questions-to-ponder" id="toc-questions-to-ponder" class="nav-link" data-scroll-target="#questions-to-ponder">Questions to ponder</a></li>
+  <li><a href="#synapse-location-and-function" id="toc-synapse-location-and-function" class="nav-link" data-scroll-target="#synapse-location-and-function">Synapse location and function</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/edit/main/src/resources/cells.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Cellular neuroscience</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">January 31, 2024</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="why-animals-need-nervous-systems" class="level2">
+<h2 class="anchored" data-anchor-id="why-animals-need-nervous-systems">Why animals need nervous systems</h2>
+<p><a href="https://mitpress.mit.edu/neuraldesign%20">Sterling &amp; Laughlin, 2015</a></p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Escherichia_coli"><em>Escherichia Coli (E. Coli)</em></a>
+<ul>
+<li>Tiny, single-celled bacterium</li>
+<li>Feeds on glucose</li>
+<li>Chemo (“taste”) receptors on surface membrane</li>
+<li>Flagellum for movement</li>
+<li>Food concentration regulates duration of “move” phase</li>
+<li>~4 ms for chemical signal to diffuse from anterior/posterior</li>
+</ul></li>
+</ul>
+<div class="centered">
+<iframe width="800" height="450" src="https://www.youtube.com/embed/QGAm6hMysTA?rel=0" frameborder="0" allowfullscreen="">
+</iframe>
+</div>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Paramecium"><em>Paramecium</em></a>
+<ul>
+<li>300K larger than E. Coli</li>
+<li>Propulsion through coordinated beating of cilia</li>
+<li>Diffusion from head to tail ~40 s!</li>
+<li>Use <em>electrical</em> signaling instead
+<ul>
+<li><span class="math inline">\(Na^+\)</span> channel opens (e.g., when stretched)</li>
+<li>Voltage-gated <span class="math inline">\(Ca^{++}\)</span> channels open, <span class="math inline">\(Ca^{++}\)</span> enters, triggers cilia</li>
+<li>Signal across cell within ms</li>
+</ul></li>
+</ul></li>
+</ul>
+<div class="centered">
+<iframe width="800" height="450" src="https://www.youtube.com/embed/GgZHziFWR7M?rel=0" frameborder="0" allowfullscreen="">
+</iframe>
+</div>
+<div class="notes">
+<p>C Elegans swimming.</p>
+</div>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Caenorhabditis_elegans"><em>Caenorhabditis Elegans (C. Elegans)</em></a>
+<ul>
+<li>~10x larger than paramecium</li>
+<li>302 neurons + 56 glial cells (out of 959)</li>
+<li>Swim, forage, mate</li>
+</ul></li>
+</ul>
+<section id="neural-communication-types" class="level3">
+<h3 class="anchored" data-anchor-id="neural-communication-types">Neural communication types</h3>
+<ul>
+<li>Electrical
+<ul>
+<li>Fast(er) (10-100x)</li>
+<li>Within neurons</li>
+<li>From one part of body to another</li>
+<li>Point-to-point connections for specificity</li>
+<li>Metabolically costly to create &amp; maintain</li>
+<li>How to reliably send a message from here to there?</li>
+</ul></li>
+<li>Chemical
+<ul>
+<li>Diffusion slow(er)</li>
+<li>Within &amp; between neurons</li>
+<li>or other cells</li>
+<li>Molecular matching (binding) for specificity</li>
+<li>Metabolically efficient</li>
+</ul></li>
+</ul>
+</section>
+<section id="so-why-do-largecomplex-animals-need-nervous-systems" class="level3">
+<h3 class="anchored" data-anchor-id="so-why-do-largecomplex-animals-need-nervous-systems">So, why do large/complex animals need nervous systems?</h3>
+</section>
+</section>
+<section id="cellular-neuroanatomy" class="level2">
+<h2 class="anchored" data-anchor-id="cellular-neuroanatomy">Cellular neuroanatomy</h2>
+<section id="how-many-neurons-and-glia" class="level3">
+<h3 class="anchored" data-anchor-id="how-many-neurons-and-glia">How many neurons and glia?</h3>
+<ul>
+<li>Old “lore”: ~100 billion neurons</li>
+<li>New estimate <span class="citation" data-cites="azevedo2009equal">(<a href="#ref-azevedo2009equal" role="doc-biblioref">Azevedo et al., 2009</a>)</span>:
+<ul>
+<li>~86 +/- 8 billion neurons</li>
+<li>~85 +/- 9 billion glia</li>
+</ul></li>
+</ul>
+<blockquote class="blockquote">
+<p><em>“These findings challenge the common view that humans stand out from other primates in their brain composition and indicate that, with regard to numbers of neuronal and nonneuronal cells, the human brain is an isometrically scaled-up primate brain.”</em></p>
+</blockquote>
+<p style="text-align:center" ;="">
+[@azevedo2009equal]
+</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/azevedo-et-al-fig-1.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="azevedo2009equal">(<a href="#ref-azevedo2009equal" role="doc-biblioref">Azevedo et al., 2009</a>)</span></figcaption>
+</figure>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="cells_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="cells_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="glia-neuroglia" class="level3">
+<h3 class="anchored" data-anchor-id="glia-neuroglia">Glia (neuroglia)</h3>
+<ul>
+<li>Functions
+<ul>
+<li>Structural support</li>
+<li>Metabolic support</li>
+<li>Brain development</li>
+</ul></li>
+</ul>
+<section id="astrocytes" class="level4">
+<h4 class="anchored" data-anchor-id="astrocytes">Astrocytes</h4>
+<ul>
+<li>“Star-shaped”</li>
+<li>Probably most numerous cell type in CNS</li>
+<li>Physical and metabolic support
+<ul>
+<li>Support blood/brain barrier</li>
+<li>Regulate local blood flow</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Human_astrocyte.png" class="img-fluid figure-img"></p>
+<figcaption>https://en.wikipedia.org/wiki/Astrocyte</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Astrocyte5.jpg/1024px-Astrocyte5.jpg" class="img-fluid figure-img"></p>
+<figcaption>https://en.wikipedia.org/wiki/Astrocyte</figcaption>
+</figure>
+</div>
+<ul>
+<li>Interact with neurons
+<ul>
+<li>Ion (Ca++/K+) buffering</li>
+<li>Neurotransmitter (e.g., glutamate) buffering</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Metabolic_interactions_between_astrocytes_and_neurons_with_major_reactions.png" class="img-fluid figure-img"></p>
+<figcaption>https://en.wikipedia.org/wiki/Astrocyte</figcaption>
+</figure>
+</div>
+<ul>
+<li>Shape brain development, contribute to <a href="https://en.wikipedia.org/wiki/Synaptic_plasticity">synaptic plasticity</a></li>
+<li>Disruption linked to cognitive impairment, disease <span class="citation" data-cites="chung_glia_2015">(<a href="#ref-chung_glia_2015" role="doc-biblioref">Chung, Welsh, Barres, &amp; Stevens, 2015</a>)</span></li>
+</ul>
+</section>
+<section id="myelinating-cells" class="level4">
+<h4 class="anchored" data-anchor-id="myelinating-cells">Myelinating cells</h4>
+<section id="oligodendrocytes" class="level5">
+<h5 class="anchored" data-anchor-id="oligodendrocytes">Oligodendrocytes</h5>
+<ul>
+<li>In brain and spinal cord (CNS)</li>
+<li>1:many neurons</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Oligodendendrocytes_in_rat_brain.tif/lossy-page1-800px-Oligodendendrocytes_in_rat_brain.tif.jpg" class="img-fluid figure-img"></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Neuron_with_oligodendrocyte_and_myelin_sheath.svg/615px-Neuron_with_oligodendrocyte_and_myelin_sheath.svg.png" class="img-fluid figure-img"></p>
+<figcaption>https://en.wikipedia.org/wiki/Oligodendrocyte</figcaption>
+</figure>
+</div>
+</section>
+<section id="schwann-cells" class="level5">
+<h5 class="anchored" data-anchor-id="schwann-cells">Schwann cells</h5>
+<ul>
+<li>In PNS</li>
+<li>1:1 neuron</li>
+<li>Facilitate neuro-regeneration</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.brainfacts.org/-/media/Brainfacts2/Brain-Anatomy-and-Function/Cells-and-Circuits/Article-Images/012918-IOTW.png" class="img-fluid figure-img"></p>
+<figcaption>https://www.brainfacts.org/brain-anatomy-and-function/cells-and-circuits/2018/schwann-cells-keep-signals-strong-012918</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Neuron_Hand-tuned.svg/1920px-Neuron_Hand-tuned.svg.png" class="img-fluid figure-img"></p>
+<figcaption>https://en.wikipedia.org/wiki/Schwann_cell</figcaption>
+</figure>
+</div>
+<ul>
+<li>TV show preference mnemonics: COPS/SPOC</li>
+</ul>
+</section>
+</section>
+<section id="microglia" class="level4">
+<h4 class="anchored" data-anchor-id="microglia">Microglia</h4>
+<ul>
+<li>Phagocytosis</li>
+<li>Clean-up damaged, dead tissue</li>
+<li>Role in ‘pruning’ of synapses in normal development</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Microglia_and_neurons.jpg/1200px-Microglia_and_neurons.jpg" class="img-fluid figure-img"></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="neurons" class="level3">
+<h3 class="anchored" data-anchor-id="neurons">Neurons</h3>
+<section id="what-makes-neurons-special" class="level4">
+<h4 class="anchored" data-anchor-id="what-makes-neurons-special">What makes neurons “special”</h4>
+<ul>
+<li>Long-lived (most generated b/w 3-25 weeks gestational age)</li>
+<li>Extended branching (dendrites and axons)</li>
+<li>Electrically excitable</li>
+<li>Connect to small #s of other cells via synapses</li>
+<li>Release neurotransmitters</li>
+</ul>
+</section>
+<section id="macrostructure" class="level4">
+<h4 class="anchored" data-anchor-id="macrostructure">Macrostructure</h4>
+<ul>
+<li>Dendrites</li>
+<li>Soma</li>
+<li>Axons</li>
+<li>Terminal buttons (boutons)</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Complete_neuron_cell_diagram_en.svg/1280px-Complete_neuron_cell_diagram_en.svg.png" class="img-fluid figure-img"></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+<section id="dendrites" class="level5">
+<h5 class="anchored" data-anchor-id="dendrites">Dendrites</h5>
+<ul>
+<li>Majority of input to neuron</li>
+<li>Passive (do not generate current flows) vs.&nbsp;active (generate current flows like axons)</li>
+<li>“Polarized” or directional information flow</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://i.stack.imgur.com/kfriB.jpg" class="img-fluid figure-img"></p>
+<figcaption>https://biology.stackexchange.com/questions/44082/can-the-dendrites-of-sensory-neurons-be-a-meter-long</figcaption>
+</figure>
+</div>
+<section id="dendritic-spines" class="level6">
+<h6 class="anchored" data-anchor-id="dendritic-spines">Dendritic Spines</h6>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Dendritic_spines.jpg" class="img-fluid figure-img"></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+<ul>
+<li>Concentrate effects of local current flows, biochemical reactions</li>
+</ul>
+</section>
+</section>
+<section id="soma-cell-body" class="level5">
+<h5 class="anchored" data-anchor-id="soma-cell-body">Soma (cell body)</h5>
+<ul>
+<li>Varied shapes</li>
+<li>Nucleus
+<ul>
+<li>Chromosomes</li>
+</ul></li>
+<li>Organelles
+<ul>
+<li>Mitochondria</li>
+<li>Smooth and Rough Endoplasmic reticulum (ER)</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Complete_neuron_cell_diagram_en.svg/1280px-Complete_neuron_cell_diagram_en.svg.png" class="img-fluid figure-img"></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+</section>
+<section id="axons" class="level5">
+<h5 class="anchored" data-anchor-id="axons">Axons</h5>
+<section id="axon-hillock" class="level6">
+<h6 class="anchored" data-anchor-id="axon-hillock">Axon hillock</h6>
+<ul>
+<li>Transitional zone between soma and axon</li>
+</ul>
+</section>
+<section id="initial-segment" class="level6">
+<h6 class="anchored" data-anchor-id="initial-segment">Initial segment</h6>
+<ul>
+<li>Action potential generated</li>
+</ul>
+</section>
+<section id="nodes-of-ranvier" class="level6">
+<h6 class="anchored" data-anchor-id="nodes-of-ranvier">Nodes of Ranvier</h6>
+<ul>
+<li>Gaps in myelin sheath</li>
+<li>Neuronal membrane exposed to extracellular space</li>
+<li>Action potential regenerates</li>
+</ul>
+</section>
+<section id="axon-terminals" class="level6">
+<h6 class="anchored" data-anchor-id="axon-terminals">Axon terminals</h6>
+</section>
+<section id="synaptic-bouton-terminal-button" class="level6">
+<h6 class="anchored" data-anchor-id="synaptic-bouton-terminal-button">Synaptic bouton (terminal button)</h6>
+<ul>
+<li><em>Synapse</em> (~5-10K per neuron)</li>
+<li><em>Pre-</em> (sending side) and <em>postsynaptic</em> (receiving side) <em>membranes</em></li>
+<li><em>Synaptic cleft</em></li>
+<li><em>Synaptic vesicles</em>
+<ul>
+<li>Store/release neurotransmitters</li>
+</ul></li>
+</ul>
+<p><img src="http://antranik.org/wp-content/uploads/2012/04/synapse.jpg" class="img-fluid"></p>
+<ul>
+<li><em>Autoreceptors</em> &amp; <em>transporters</em></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnrn1008/MediaObjects/41583_2003_Article_BFnrn1008_Fig1_HTML.jpg?as=webp" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Torres2003-ry">(Figure 1 from <a href="#ref-Torres2003-ry" role="doc-biblioref">Torres, Gainetdinov, &amp; Caron, 2003</a>)</span>. Monoamine transporters are localized to perisynaptic sites, where they are crucial for the termination of monoamine transmission and the maintenance of presynaptic monoamine storage. Several selective pharmacological agents acting at each monoamine transporter are shown. Amph., amphetamine; DA, dopamine; DAT, Dopamine transporter; L-DOPA, L-3,4-dihydroxyphenylalanine; 5-HT, 5-hydroxytryptamine; MPP+, 1-methyl-4-phenylpyridinium; MDMA, (+)-3,4-methylenedioxymethamphetamine; NA, noradrenaline; NET, noradrenaline transporter; SERT, 5-HT transporter</figcaption>
+</figure>
+</div>
+</section>
+</section>
+</section>
+<section id="classifying-neurons" class="level4">
+<h4 class="anchored" data-anchor-id="classifying-neurons">Classifying neurons</h4>
+<ul>
+<li>Functional role
+<ul>
+<li>Input (sensory), output (motor/secretory), interneurons</li>
+</ul></li>
+<li>Anatomy
+<ul>
+<li><em>Unipolar</em></li>
+<li><em>Bipolar</em></li>
+<li><em>Multipolar</em></li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Neurons_uni_bi_multi_pseudouni.svg/2000px-Neurons_uni_bi_multi_pseudouni.svg.png" class="img-fluid figure-img"></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+<ul>
+<li>By specific anatomy
+<ul>
+<li>Pyramidal cells</li>
+<li>Stellate cells</li>
+<li>Purkinje cells</li>
+<li>Granule cells</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/GolgiStainedPyramidalCell.jpg" class="img-fluid figure-img"></p>
+<figcaption>Pyramidal cell (Wikipedia)</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Pyramsdal-and-Spiny-stellate-cell.JPG" class="img-fluid figure-img"></p>
+<figcaption>Pyramidal cell (left) | Stellate cell (right) from Wikipedia</figcaption>
+</figure>
+</div>
+<p><strong>Morphology, physiology, gene transcription</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnrn.2017.85/MediaObjects/41583_2017_Article_BFnrn201785_Fig1_HTML.jpg?as=webp" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Zeng2017-sg">(Figure 1 from <a href="#ref-Zeng2017-sg" role="doc-biblioref">Zeng &amp; Sanes, 2017</a>)</span>. Neurons can be classified using morphological, physiological and molecular criteria. a | Representative examples of five subclasses of cortical neurons obtained from brain slices. The cells were filled with biocytin, stained and imaged following patch clamp recording (see part b). Each subclass has distinct morphological features. For the four interneurons on the left, the dendrites are shown in dark grey and the axons in light grey. The soma of the 5-hydroxytryptamine receptor 3A-expressing (HTR3A+) sparse neuro- gliaform cell is located in layer 1, and its axons are also concentrated in this layer. The vasoactive intestinal peptide-expressing (VIP+) bipolar cell has a characteristic bipolar dendritic extension. The soma of the somatostatin-expressing (SST+) deep Martinotti cell is located in layer 5/6, and its axons extend upward into layer 1. The parvalbumin-expressing (PVALB+) basket cell has basket-like axonal arborisation. For the excitatory neuron on the right, the apical dendrites are shown in dark grey and the basal dendrites in light grey. This is a layer 5, thick-tufted cell from a retinol-binding protein 4 (Rbp4) gene promoter-driven Cre-expressing mouse. The cell features thick apical dendritic tufts extending into layer 1. These morphological features are consistent with those described in published reports49,130,140. b | Differential electrophysiological responses of the five subclasses of neurons shown in part a to square pulses of current in patch clamp recordings. For example, the HTR3A+ cell is late spiking, whereas the PVALB+ cell is fast spiking. These responses are consistent with those described in published reports49,130,140. c | Differential molecular signatures of the five subclasses of cortical neurons illustrated in part a derived from single-cell RNA-sequencing data. The violin plot shows the collective gene expression profile for each gene of all the cells in a type (cluster). We define the smallest discrete clusters of cells as types and the aggregates of types that share common features as classes or subclasses. Each transcriptomic cell type is shown as a column of data points with the same colour (the colour coding corresponds to that of the transcriptomic taxonomy shown in Fig. 5). Shown here are three interneuron cell types expressing Htr3a but notVip, six interneuron cell types expressing Vip, six interneuron cell types expressing Sst and seven interneuron cell types expressing Pvalb. All of the interneurons express glutamate decarboxylase 1 (Gad1). Also shown are eight layer 5 excitatory neuron types, all of which express solute carrier family 17 member 7 (Slc17a7). All of the cells express synaptosome-associated protein 25 (Snap25). The height of each ‘violin’-shaped data point represents the range of expression levels of the gene, and the width represents the proportion of cells displaying a particular level of expression. Parts a and b are from the Allen Cell Types Database (see Further Information). Part c is adapted with permission from Ref. 136.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnrn.2017.85/MediaObjects/41583_2017_Article_BFnrn201785_Fig6_HTML.jpg?as=webp" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Zeng2017-sg">(Figure 6 from <a href="#ref-Zeng2017-sg" role="doc-biblioref">Zeng &amp; Sanes, 2017</a>)</span>. The figure shows a proposed hierarchical classification of cells in the retina (a) and cerebral cortex (b). In both areas, individual cell types can be grouped into classes, and intermediate levels of subclasses can be determined based on distinct morphological, physiological and molecular features. Higher-order groupings (such as those shown in part a, including sensory neurons, interneurons and projection neurons) may emerge once enough areas have been provided and compared. Types are the commonly recognized (‘validated’) terminal branches in the current hierarchical arrangement of cell types. Lower-order groupings into subtypes may largely be provisional until additional data are collected that could determine if they could form new types or should be merged into other types. Dashed lines indicate the presence of additional types that cannot be labelled due to lack of space. The question marks in part a indicate that the hierarchical relationship among the indicated cell types remains unclear. The question mark in part b indicates that the status of the cortical cell groups indicated may be either subclasses, types or subtypes. CT, cortico-thalamic neurons; DS, direction-selective retinal ganglion cells (RGCs); F, forkhead box P2 (Foxp2)-expressing RGCs; HTR3A, 5-hydroxytryptamine receptor 3A; ipRGC, intrinsically photosensitive RGCs; IT, intratelencephalic neurons; L4, layer 4; L6b, layer 6b subplate neurons; nGnG, non-GABAergic-non-glycinergic amacrine cells; ooDSGC, ON-OFF direction-selective RGCs; PT, pyramidal tract neurons; PVALB, parvalbumin; SST, somatostatin; VIP, vasoactive intestinal peptide.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41593-018-0205-2/MediaObjects/41593_2018_205_Fig4_HTML.png?as=webp" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Boldog2018-dj">(Figure 4 from <a href="#ref-Boldog2018-dj" role="doc-biblioref">Boldog et al., 2018</a>)</span>. a, Examples of different firing patterns induced by current injections in layer 1 interneurons. Firing pattern of an RC (top), an NGFC (middle), and an unidentified layer 1 interneuron (bottom). b, SVM-based wrapper-feature selection of electrophysiological parameters for the identification of RCs. Anatomically identified RCs (red dots) and other types of interneurons with known morphology (black dots) are mapped to the distribution of electrophysiological features ranked as the two best delineators by SVM. Black lines show the best hyperplane separating RCs from other interneuron types. c,d, RCs exhibit a distinct impedance profile relative to neurogliaform and other human interneurons in layer 1. (c) Individual responses of anatomically identified rosehip (red), neurogliaform (blue), and other (black) interneurons to current injections with an exponential chirp (0.2–200 Hz; top). Traces were normalized to the amplitude of the rosehip response at 200 Hz. (d) Left: normalized impedance (Z) profiles of distinct groups of interneurons. RCs (n=5) had higher impedance in the range of 0.9–12.4 Hz compared to neurogliaform (n=5) and other (n=5) interneurons. Shaded regions represent s.d. Right: impedances were similar at the lowest frequency (Z0.2 Hz; left), but resonance magnitude (Q) calculated as maximal impedance value divided by the impedance at lowest frequency (middle) and frequencies of maximal impedance (fmax; right) showed significant differences (P &lt; 0.05, ANOVA with Bonferroni post hoc correction). e, Automatized selection of recording periods for assessing subthreshold membrane potential oscillations (boxed segments) and detection of bursts (bars) for measuring intraburst spiking frequency demonstrated on an RC response to near-rheobasic stimulation showing stuttering firing behavior. f, Averaged fast fast Fourier transforms (FFTs) of membrane potential oscillations had higher power between 3.8 and 80 Hz in RCs compared to neurogliaform and other interneurons. g, Intraburst frequency of RCs peaked in the gamma range. AP, action potential.</figcaption>
+</figure>
+</div>
+</section>
+</section>
+</section>
+<section id="neurophysiology" class="level2">
+<h2 class="anchored" data-anchor-id="neurophysiology">Neurophysiology</h2>
+<section id="electrical-communication" class="level3">
+<h3 class="anchored" data-anchor-id="electrical-communication">Electrical communication</h3>
+<ul>
+<li>Electrical potential (== voltage)
+<ul>
+<li>Think of potential energy</li>
+<li>Voltage ~ pressure</li>
+<li>Energy that will be released if something changes</li>
+</ul></li>
+</ul>
+<section id="basic-principles" class="level4">
+<h4 class="anchored" data-anchor-id="basic-principles">Basic principles</h4>
+<p><span class="math display">\[E = IR\]</span></p>
+<ul>
+<li>Current flow (<span class="math inline">\(I\)</span>) across membrane</li>
+<li>Membrane varies in resistance (<span class="math inline">\(R\)</span>) or permeability (<span class="math inline">\(1/R\)</span>) to ion flow</li>
+<li>Product <span class="math inline">\(IR\)</span> is electrical voltage <span class="math inline">\(E\)</span></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ka-perseus-images.s3.amazonaws.com/16b4aecbaae9e2a5e0b50fc70ace724f471ad0c0.svg" class="img-fluid figure-img"></p>
+<figcaption>Simple circuit schematic</figcaption>
+</figure>
+</div>
+<ul>
+<li>Membrane stores (&amp; releases) charge like <em>capacitor</em></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/electric/imgele/capchg.png" class="img-fluid figure-img"></p>
+<figcaption>How capacitors work</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="resting-potential" class="level3">
+<h3 class="anchored" data-anchor-id="resting-potential">Resting potential</h3>
+<ul>
+<li>Potential energy
+<ul>
+<li>Energy that could be released if circumstances change</li>
+</ul></li>
+</ul>
+<p><img src="http://physics20project.weebly.com/uploads/1/6/4/8/16484122/1358825569.png" class="img-fluid"></p>
+<ul>
+<li>Measurement
+<ul>
+<li>Electrode on inside</li>
+<li>Electrode on outside (reference)</li>
+<li>Inside - Outside = potential</li>
+</ul></li>
+</ul>
+<p><img src="http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/measuring_the_membrane_potential_w.jpg" class="img-fluid"></p>
+<ul>
+<li>Neuron (and other cells) have <em>potential energy</em>
+<ul>
+<li>Inside is -60-70 mV, with respect to outside</li>
+<li>~1/20th typical <span class="math inline">\(1.5V\)</span> AAA battery</li>
+</ul></li>
+<li>Like charges repel, opposites attract, so
+<ul>
+<li>Positively charged particles pulled in</li>
+<li>Negatively charged particles pushed out</li>
+</ul></li>
+</ul>
+<section id="contributors-to" class="level4">
+<h4 class="anchored" data-anchor-id="contributors-to">Contributors to</h4>
+<ul>
+<li>Ions
+<ul>
+<li>Potassium, <span class="math inline">\(K^+\)</span></li>
+<li>Sodium, <span class="math inline">\(Na^+\)</span></li>
+<li>Chloride, <span class="math inline">\(Cl^-\)</span></li>
+<li>Calcium, <span class="math inline">\(Ca^{++}\)</span></li>
+<li>Organic anions, <span class="math inline">\(A^-\)</span></li>
+</ul></li>
+<li>Ion channels</li>
+<li>Separation between charges</li>
+<li>A balance of forces</li>
+</ul>
+</section>
+<section id="party-metaphor" class="level4">
+<h4 class="anchored" data-anchor-id="party-metaphor">Party metaphor</h4>
+<ul>
+<li>Annie (<span class="math inline">\(A^-\)</span>) was having a party.
+<ul>
+<li>Used to date Nate (<span class="math inline">\(Na^+\)</span>), but now sees Karl (<span class="math inline">\(K^+\)</span>)</li>
+</ul></li>
+<li>Hired bouncers called
+<ul>
+<li>“The Channels”</li>
+<li>Let Karl and friends in or out, keep Nate out</li>
+</ul></li>
+<li>Annie’s friends (<span class="math inline">\(A^-\)</span>) and Karl’s (<span class="math inline">\(K^+\)</span>) mostly inside</li>
+<li>Nate and friends (<span class="math inline">\(Na^+\)</span>) mostly outside</li>
+<li>Claude/Claudia (<span class="math inline">\(Cl^-\)</span>) tagging along</li>
+</ul>
+<p><img src="http://3.bp.blogspot.com/_HtLvymcBlKo/TJJ9YcQNAtI/AAAAAAAAAB8/E2bzWvAzBew/s1600/10.png" class="img-fluid"></p>
+</section>
+<section id="ion-channels" class="level4">
+<h4 class="anchored" data-anchor-id="ion-channels">Ion channels</h4>
+<ul>
+<li>Macromolecules that form openings in membrane</li>
+<li>Different types of subunits</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2F35067500/MediaObjects/41583_2001_Article_BF35067500_Fig1_HTML.gif?as=webp" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Moss2001-tb">(Figure 1 from <a href="#ref-Moss2001-tb" role="doc-biblioref">Moss &amp; Smart, 2001</a>)</span></figcaption>
+</figure>
+</div>
+<ul>
+<li>Selective (bind only to some substances, not others)</li>
+<li>Vary in permeability (allow some substances to pass more than others)</li>
+<li>Types
+<ul>
+<li>Passive/leak</li>
+<li>Voltage-gated</li>
+<li>Ligand-gated (chemically-gated)</li>
+<li>Transporters</li>
+</ul></li>
+</ul>
+<p><img src="https://o.quizlet.com/llrX-BszQf7YdSzCVg-9.A.png" class="img-fluid"></p>
+</section>
+<section id="conditions" class="level4">
+<h4 class="anchored" data-anchor-id="conditions">Conditions</h4>
+<p><strong>Neuron at rest permeable to <span class="math inline">\(K^+\)</span></strong></p>
+<ul>
+<li>Passive <span class="math inline">\(K^+\)</span> channels open</li>
+<li><span class="math inline">\([K^+]_{i} &gt;&gt; [K^+]_{o}\)</span></li>
+<li><span class="math inline">\(K^+\)</span> flows out</li>
+</ul>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Diffusion.en.svg/1000px-Diffusion.en.svg.png" class="img-fluid"></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Bubble_bath.jpg" class="img-fluid"></p>
+<iframe width="844px" height="596px" frameborder="no" scrolling="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" src="https://lab.concord.org/embeddable.html#interactives/sam/diffusion/4-semipermeable.json">
+</iframe>
+<ul>
+<li>Force of diffusion
+<ul>
+<li><span class="math inline">\(K^+\)</span> moves from high concentration (~140 mM inside) to low (~4 mM outside)</li>
+<li><span class="math inline">\(K^+\)</span> outflow would stop when <span class="math inline">\([K^+]_{o} == [K^2]_{i}\)</span></li>
+<li>But…</li>
+</ul></li>
+<li>Na/Ka-ATPase (Na/K Pump)
+<ul>
+<li>Keeps concentration gradients</li>
+<li>Moves <span class="math inline">\(K+\)</span> in, <span class="math inline">\(Na+\)</span> out</li>
+</ul></li>
+<li>Electrostatic pressure
+<ul>
+<li><span class="math inline">\(K^+\)</span> has + electric charge</li>
+<li>Movement of charged <span class="math inline">\(K^+\)</span> ions creates current</li>
+<li>Movement of charged <span class="math inline">\(K^+\)</span> ions creates charge separation
+<ul>
+<li>Some <span class="math inline">\(A^-\)</span> no longer have matching <span class="math inline">\(K^+\)</span></li>
+<li>Charge separation across membrane creates voltage (~ capacitor)</li>
+</ul></li>
+<li>Voltage build-up stops <span class="math inline">\(K^+\)</span> outflow</li>
+<li>Voltage magnitude called “reversal potential” or equilibrium potential</li>
+<li><span class="math inline">\(K^+\)</span> positive, so reversal potential negative (w/ respect to outside)</li>
+<li><span class="math inline">\(K^+\)</span> reversal potential (~90mV) close to, but more negative than neuron resting potential (-70mV)</li>
+</ul></li>
+</ul>
+<p><strong>Equilibrium potential and the Nernst equation</strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/nernst_equation_v_k.gif" class="img-fluid figure-img"></p>
+<figcaption>Nernst equation</figcaption>
+</figure>
+</div>
+<p><strong>Neuron at resting potential has low <span class="math inline">\(Na^+\)</span> permeability</strong></p>
+<ul>
+<li><p><span class="math inline">\(Na^+\)</span> concentrated outside neuron (<span class="math inline">\([Na^+]_{o}\)</span>~145 mM) vs.&nbsp;inside (<span class="math inline">\([Na^+]_{i}\)</span>~12 mM)</p></li>
+<li><p>Equilibrium potential is positive (with respect to outside)</p></li>
+<li><p>Some <span class="math inline">\(Na^+\)</span> flows <em>in</em></p></li>
+<li><p>Calculate net effects of ion flow across membrane via</p></li>
+<li><p>Goldman-Hodgkin-Katz equation</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="http://www.physiologyweb.com/calculators/figs/ghk_equation.gif" class="img-fluid figure-img"></p>
+<figcaption>Goldman-Hodgkin-Katz equation</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/MembraneCircuit.jpg/500px-MembraneCircuit.jpg" class="img-fluid figure-img"></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="http://3.bp.blogspot.com/_HtLvymcBlKo/TJJ9YcQNAtI/AAAAAAAAAB8/E2bzWvAzBew/s1600/10.png" class="img-fluid figure-img"></p>
+<figcaption>Ions contributing to the resting potential</figcaption>
+</figure>
+</div>
+<p><strong>Summary of forces</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 34%">
+<col style="width: 27%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ion</th>
+<th>Concentration gradient</th>
+<th>Force of diffusion</th>
+<th>Sign of electrostatic force</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(K^+\)</span></td>
+<td><span class="math inline">\([K^+]_{i} &gt;&gt; [K^+]_{o}\)</span></td>
+<td>outward</td>
+<td>-</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(Na^+\)</span></td>
+<td><span class="math inline">\([Na^+]_{i} &lt;&lt; [Na^+]_{o}\)</span></td>
+<td>inward</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>“Driving Force” on a given ion depends on its equilibrium potential AND current membrane potential.</li>
+<li>Driving force &gt;&gt; if membrane potential far from equilibrium potential for ion.</li>
+<li><em>Equilibrium potential</em>
+<ul>
+<li>Voltage that keeps current (inside/outside) concentrations the same</li>
+<li>Voltage membrane potential will approach if <strong>only</strong> that ion flows</li>
+</ul></li>
+</ul>
+<p><strong><a href="http://www.physiologyweb.com/calculators/nernst_potential_calculator.html">Equilibrium potentials</a></strong></p>
+<p>Under typical conditions</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Ion</th>
+<th>[inside]</th>
+<th>[outside]</th>
+<th>Voltage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(K^+\)</span></td>
+<td>~150 mM</td>
+<td>~4 mM</td>
+<td>~ -90 mV</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(Na^+\)</span></td>
+<td>~10 mM</td>
+<td>~140 mM</td>
+<td>~ +55-60 mV</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(Cl-\)</span></td>
+<td>~10 mM</td>
+<td>~110 mM</td>
+<td>- 65-80 mV</td>
+</tr>
+</tbody>
+</table>
+<p><img src="http://www.physiologyweb.com/lecture_notes/resting_membrane_potential/figs/nernst_equation_v_k.gif" class="img-fluid"></p>
+<iframe width="800" height="450" src="https://www.youtube.com/embed/PtKAeihnbv0" frameborder="0" allowfullscreen="">
+</iframe>
+</section>
+</section>
+<section id="action-potential" class="level3">
+<h3 class="anchored" data-anchor-id="action-potential">Action potential</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png" class="img-fluid figure-img"></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+<ul>
+<li>Rapid rise, fall of membrane potential</li>
+<li>Threshold of excitation</li>
+<li>Increase (rising phase/depolarization)</li>
+<li>Peak
+<ul>
+<li>at positive voltage</li>
+</ul></li>
+<li>Decline (falling phase/repolarization)</li>
+<li>Return to resting potential (refractory period)</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>The <span class="math inline">\(K^+\)</span> story</strong></p>
+<ul>
+<li><span class="math inline">\(Na^+\)</span>/<span class="math inline">\(K^+\)</span> pump pulls <span class="math inline">\(K^+\)</span> <strong>in</strong></li>
+<li><span class="math inline">\([K^+]_{in}\)</span> (~150 mM) &gt;&gt; <span class="math inline">\([K^+]_{out}\)</span> (~4 mM)</li>
+<li>Outward flow of <span class="math inline">\(K^+\)</span> through passive/leak channels</li>
+<li>Outflow stops when <em>membrane potential</em>, <span class="math inline">\(V_m\)</span> = <em>equilibrium potential</em> for <span class="math inline">\(K^+\)</span></li>
+</ul>
+<p><strong>Equilibrium potential</strong></p>
+<ul>
+<li>Voltage (<span class="math inline">\(V_{K}\)</span>) that keeps system in equilibrium
+<ul>
+<li><span class="math inline">\([K^+]_{in}\)</span> &gt;&gt; <span class="math inline">\([K^+]_{out}\)</span></li>
+</ul></li>
+<li>Nernst equation
+<ul>
+<li><span class="math inline">\(V_{K}\)</span> = <span class="math inline">\(\frac{RT}{(+1)F}ln(\frac{[K^+]_{out}}{[K^+]_{in}})\)</span></li>
+<li><span class="math inline">\(V_{K}\)</span> = ~ -90 mV</li>
+<li>Negative in/positive out keeps in/out concentration gradient</li>
+</ul></li>
+<li><span class="math inline">\(K^+\)</span> flows out through passive/leak channels; most remains near membrane</li>
+<li>Separation from <span class="math inline">\(A^-\)</span> creates charge <span class="math inline">\(\frac{K+K+K+K+K+}{A-A-A-A-A-}\)</span> along capacitor-like membrane</li>
+<li><span class="math inline">\(V_m\)</span> -&gt; <span class="math inline">\(V_{K}\)</span></li>
+</ul>
+<p><strong>The <span class="math inline">\(Na^+\)</span> story</strong></p>
+<ul>
+<li><span class="math inline">\(Na^+\)</span>/<span class="math inline">\(K^+\)</span> pump pushes <span class="math inline">\(Na^+\)</span> <strong>out</strong></li>
+<li><span class="math inline">\([Na^+]_{in}\)</span> (~10 mM) &lt;&lt; <span class="math inline">\([Na^+]_{out}\)</span> (~140 mM)</li>
+<li>Equilibrium potential for <span class="math inline">\(Na^+\)</span>, <span class="math inline">\(V_{Na}\)</span> = ~ +55 mV
+<ul>
+<li>Inside positive/outside negative to maintain outside &gt; inside concentration gradient</li>
+</ul></li>
+<li>If <span class="math inline">\(Na^+\)</span> alone, <span class="math inline">\(V_m\)</span> -&gt; <span class="math inline">\(V_{Na}\)</span> (~ +55 mV)</li>
+</ul>
+<p><strong>“Resting” potential</strong></p>
+<ul>
+<li>Sum of outward <span class="math inline">\(K^+\)</span> and inward <span class="math inline">\(Na^+\)</span>
+<ul>
+<li>Membrane more permeable to <span class="math inline">\(K^+\)</span> than <span class="math inline">\(Na^+\)</span>, <span class="math inline">\(p_{\)</span>K<sup>+}<span class="math inline">\(&gt;\)</span>p_{Na</sup>+}$</li>
+<li>Outward flow of <span class="math inline">\(K^+\)</span> &gt; inward flow of <span class="math inline">\(Na^+\)</span></li>
+<li>Resting potential (~-70 mV) closer to <span class="math inline">\(V_{K}\)</span> (-90 mV) than <span class="math inline">\(V_{Na}\)</span> (+55 mV)</li>
+</ul></li>
+<li>Goldman-Hodgkin-Katz equation
+<ul>
+<li><span class="math inline">\(V_m = \frac{RT}{F}ln(\frac{p_{K^+}[K^+]_{out}+p_{Na^+}[Na^+]_{out}}{p_{K^+}[K^+]_{in}+p_{Na^+}[Na^+]_{in}})\)</span></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<section id="components" class="level4">
+<h4 class="anchored" data-anchor-id="components">Components</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 57%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>Neuron State</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Resting potential</td>
+<td>Passive <span class="math inline">\(K^+\)</span> allow outward flow; passive <span class="math inline">\(Na^+\)</span> allow inward flow; <span class="math inline">\(Na^+\)</span>/<span class="math inline">\(K^+\)</span> moves <span class="math inline">\(K^+\)</span> in and <span class="math inline">\(Na^+\)</span> out</td>
+</tr>
+<tr class="even">
+<td>Rise to threshold</td>
+<td>+ input makes membrane potential more +</td>
+</tr>
+<tr class="odd">
+<td>Rising phase</td>
+<td>Voltage-gated <span class="math inline">\(Na^+\)</span> channels open, <span class="math inline">\(Na^+\)</span> enters</td>
+</tr>
+<tr class="even">
+<td>Peak</td>
+<td>Voltage-gated <span class="math inline">\(Na^+\)</span> channels close and deactivate; voltage-gated <span class="math inline">\(K^+\)</span> channels open</td>
+</tr>
+<tr class="odd">
+<td>Falling phase</td>
+<td><span class="math inline">\(K^+\)</span> exits</td>
+</tr>
+<tr class="even">
+<td>Refractory period</td>
+<td><span class="math inline">\(Na^+\)</span>/<span class="math inline">\(K^+\)</span> pump restores [<span class="math inline">\(Na^+\)</span>], [<span class="math inline">\(K^+\)</span>]; voltage-gated <span class="math inline">\(K^+\)</span> channels close</td>
+</tr>
+<tr class="odd">
+<td>Resting potential</td>
+<td>Passive <span class="math inline">\(K^+\)</span> allow outward flow; passive <span class="math inline">\(Na^+\)</span> allow inward flow; <span class="math inline">\(Na^+\)</span>/<span class="math inline">\(K^+\)</span> moves <span class="math inline">\(K^+\)</span> in and <span class="math inline">\(Na^+\)</span> out</td>
+</tr>
+</tbody>
+</table>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<section id="neuron-at-rest" class="level5">
+<h5 class="anchored" data-anchor-id="neuron-at-rest">Neuron at rest</h5>
+<ul>
+<li>Driving force on <span class="math inline">\(K^+\)</span> weakly <span class="red">outward</span>
+<ul>
+<li>-70 mV - (-90 mV) = +20 mV</li>
+</ul></li>
+<li>Driving force on <span class="math inline">\(Na^+\)</span> strongly <span class="green">inward</span>
+<ul>
+<li>-70 mV - (+55 mV) = -125 mV</li>
+</ul></li>
+<li><span class="math inline">\(Na^+\)</span>/<span class="math inline">\(K^+\)</span> pump maintains concentrations (<span class="math inline">\(Na^2\)</span> out; <span class="math inline">\(K^+\)</span> in)
+<ul>
+<li><span class="math inline">\([K^+]_{i} &gt;&gt; [K^+]_{o}\)</span></li>
+<li><span class="math inline">\([Na^+]_{i} &lt;&lt; [Na^+]_{o}\)</span></li>
+</ul></li>
+</ul>
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" class="img-fluid"></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>Ion</th>
+<th>Driving force</th>
+<th>Flow direction</th>
+<th>Flow magnitude</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rest</td>
+<td><span class="math inline">\(K^+\)</span></td>
+<td>20 mV</td>
+<td>out</td>
+<td>small</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="math inline">\(Na^+\)</span></td>
+<td>125 mV</td>
+<td>in</td>
+<td>small</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="rising-phase" class="level5">
+<h5 class="anchored" data-anchor-id="rising-phase">Rising phase</h5>
+<ul>
+<li>Voltage-gated <span class="math inline">\(Na^+\)</span> channels open</li>
+<li>Membrane permeability to <span class="math inline">\(Na^+\)</span> increases
+<ul>
+<li><span class="math inline">\(Na^+\)</span> inflow through passive + voltage-gated channels</li>
+<li>continued <span class="math inline">\(K^+\)</span> outflow through passive channels</li>
+</ul></li>
+</ul>
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" class="img-fluid"></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>Ion</th>
+<th>Driving force</th>
+<th>Flow direction</th>
+<th>Flow magnitude</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Rising</td>
+<td><span class="math inline">\(K^+\)</span></td>
+<td>growing</td>
+<td>out</td>
+<td>growing</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="math inline">\(Na^+\)</span></td>
+<td>shrinking</td>
+<td>in</td>
+<td>high</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="peak" class="level5">
+<h5 class="anchored" data-anchor-id="peak">Peak</h5>
+<ul>
+<li>Membrane permeability to <span class="math inline">\(Na^+\)</span> reverts to resting state
+<ul>
+<li>Voltage-gated <span class="math inline">\(Na^+\)</span> channels close &amp; inactivate</li>
+<li>Slow inflow due to small driving force (+30 mV - 55mV = -25 mv)</li>
+</ul></li>
+<li>Membrane permeability to <span class="math inline">\(K^+\)</span> increases
+<ul>
+<li>Voltage-gated <span class="math inline">\(K^+\)</span> channels open</li>
+<li>Fast outflow due to strong driving force (+30 mv - (-90 mv) = +120 mV)</li>
+</ul></li>
+</ul>
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" class="img-fluid"></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>Ion</th>
+<th>Driving force</th>
+<th>Flow direction</th>
+<th>Flow magnitude</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Peak</td>
+<td><span class="math inline">\(K^+\)</span></td>
+<td>120 mV</td>
+<td>out</td>
+<td>high</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="math inline">\(Na^+\)</span></td>
+<td>20 mV</td>
+<td>in</td>
+<td>small</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="falling-phase" class="level5">
+<h5 class="anchored" data-anchor-id="falling-phase">Falling phase</h5>
+<ul>
+<li><span class="math inline">\(K^+\)</span> outflow
+<ul>
+<li>Through voltage-gated <span class="math inline">\(K^+\)</span> and passive <span class="math inline">\(K^+\)</span> channels</li>
+</ul></li>
+<li><span class="math inline">\(Na^+\)</span> inflow
+<ul>
+<li>Through passive channels only</li>
+</ul></li>
+</ul>
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" class="img-fluid"></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>Ion</th>
+<th>Driving force</th>
+<th>Flow direction</th>
+<th>Flow magnitude</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Falling</td>
+<td>K</td>
+<td>shrinking</td>
+<td>out</td>
+<td>high</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="math inline">\(Na^+\)</span></td>
+<td>growing</td>
+<td>in</td>
+<td>small</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="refractory-phase" class="level5">
+<h5 class="anchored" data-anchor-id="refractory-phase">Refractory phase</h5>
+<p><strong>Absolute</strong></p>
+<ul>
+<li>Cannot generate action potential (AP) no matter the size of the stimulus</li>
+<li>Membrane potential more negative (-90 mV) than at rest (-70 mV)</li>
+<li>Voltage-gated <span class="math inline">\(Na^+\)</span> channels still inactivated
+<ul>
+<li>Driving force on <span class="math inline">\(Na^+\)</span> high (-90 mv - 55 mV = -145 mV), but too bad</li>
+</ul></li>
+<li>Voltage-gated <span class="math inline">\(K^+\)</span> channels closing
+<ul>
+<li>Driving force on <span class="math inline">\(K^+\)</span> tiny or absent</li>
+</ul></li>
+<li><span class="math inline">\(Na^+\)</span>/<span class="math inline">\(K^+\)</span> pump restoring concentration balance</li>
+</ul>
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" class="img-fluid"></p>
+<p><strong>Relative</strong></p>
+<ul>
+<li>Can generate AP with larg(er) stimulus</li>
+<li>Some voltage-gated <span class="math inline">\(Na^+\)</span> ‘de-inactivate’, can open if
+<ul>
+<li>Larger input</li>
+<li>Membrane potential is more negative than resting potential</li>
+</ul></li>
+</ul>
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" class="img-fluid"></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Phase</th>
+<th>Ion</th>
+<th>Driving force</th>
+<th>Flow direction</th>
+<th>Flow magnitude</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Refractory</td>
+<td>K</td>
+<td>~0 mV</td>
+<td>out</td>
+<td>small</td>
+</tr>
+<tr class="even">
+<td></td>
+<td><span class="math inline">\(Na^+\)</span></td>
+<td>145 mV</td>
+<td>in</td>
+<td>small</td>
+</tr>
+</tbody>
+</table>
+<iframe width="800" height="550" src="https://phet.colorado.edu/sims/html/neuron/latest/neuron_en.html" frameborder="0" allowfullscreen="">
+</iframe>
+</section>
+</section>
+<section id="aps-and-information-processing" class="level4">
+<h4 class="anchored" data-anchor-id="aps-and-information-processing">APs and Information Processing</h4>
+<ul>
+<li>AP amplitudes don’t vary (much)
+<ul>
+<li>All or none</li>
+<li><span class="math inline">\(V_{K}\)</span> and <span class="math inline">\(V_{Na}\)</span> don’t vary much b/c <span class="math inline">\(Na^+\)</span>/<span class="math inline">\(K^+\)</span> pump always working</li>
+</ul></li>
+<li>AP frequency and timing vary
+<ul>
+<li>Rate vs.&nbsp;timing codes</li>
+<li>Same rates, but different timing</li>
+<li>“Grandmother” cells and single spikes</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="http://www.frontiersin.org/files/Articles/490/fnins-03-002/image_n/fnins-03-002-g001.gif" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="eyherabide_bursts_2009">(<a href="#ref-eyherabide_bursts_2009" role="doc-biblioref">Eyherabide et al., 2009</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="generating-action-potentials" class="level4">
+<h4 class="anchored" data-anchor-id="generating-action-potentials">Generating action potentials</h4>
+<ul>
+<li><em>Axon hillock</em>
+<ul>
+<li>Portion of soma adjacent to axon</li>
+<li>Integrates/sums input to soma</li>
+</ul></li>
+<li><em>Axon initial segment</em>
+<ul>
+<li>Umyelinated portion of axon adjacent to soma</li>
+<li>Voltage-gated <span class="math inline">\(Na^+\)</span> and <span class="math inline">\(K^+\)</span> channels exposed</li>
+<li>If sum of input to soma &gt; threshold, voltage-gated <span class="math inline">\(Na^+\)</span> channels open</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Axon_Hillock.png" class="img-fluid figure-img"></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+</section>
+<section id="propagation" class="level4">
+<h4 class="anchored" data-anchor-id="propagation">Propagation</h4>
+<ul>
+<li>Propagation
+<ul>
+<li>move down axon, away from soma, toward axon terminals.</li>
+</ul></li>
+<li>Unmyelinated axon
+<ul>
+<li>Each segment “excites” the next</li>
+</ul></li>
+</ul>
+<iframe width="800" height="600" src="https://www.youtube.com/embed/H0K2dvB-7WY" frameborder="0" allowfullscreen="">
+</iframe>
+<ul>
+<li>Myelinated axon
+<ul>
+<li>AP “jumps” between <em>Nodes of Ranvier</em> –&gt; <em>saltatory conduction</em></li>
+<li>Nodes of Ranvier == unmyelinated sections of axon</li>
+<li>voltage-gated <span class="math inline">\(Na^+\)</span>, <span class="math inline">\(K^+\)</span> channels exposed</li>
+<li>Current flows through myelinated segments</li>
+</ul></li>
+<li>Why does AP flow in one direction, away from soma?
+<ul>
+<li>Soma does not have (many) voltage-gated <span class="math inline">\(Na^+\)</span> channels.</li>
+<li>Soma is not myelinated.</li>
+<li>Refractory periods mean polarization only in one direction.</li>
+</ul></li>
+</ul>
+<p><strong>Conduction velocities</strong></p>
+<iframe width="700" height="450" src="https://en.wikipedia.org/wiki/Nerve_conduction_velocity" frameborder="0" allowfullscreen="">
+</iframe>
+<p><strong>Hodgkin-Huxley Equations</strong></p>
+<iframe width="700" height="450" src="https://en.wikipedia.org/wiki/Hodgkin–Huxley_model" frameborder="0" allowfullscreen="">
+</iframe>
+<ul>
+<li>Measuring APs in actual neurons. <a href="https://www.youtube.com/embed/k48jXzFGMc8" class="uri">https://www.youtube.com/embed/k48jXzFGMc8</a></li>
+<li>Interview with Sir Alan Hodgkin, <a href="https://www.youtube.com/embed/vSIXbfunHYg" class="uri">https://www.youtube.com/embed/vSIXbfunHYg</a></li>
+<li>Simulations
+<ul>
+<li><a href="http://alexhwilliams.info/code/pyneuron_morph.html" class="uri">http://alexhwilliams.info/code/pyneuron_morph.html</a></li>
+<li><a href="http://briansimulator.org/demo/" class="uri">http://briansimulator.org/demo/</a></li>
+<li><a href="http://www.gribblelab.org/compneuro/3_Modelling_Action_Potentials.html" class="uri">http://www.gribblelab.org/compneuro/3_Modelling_Action_Potentials.html</a></li>
+</ul></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="synaptic-transmission" class="level2">
+<h2 class="anchored" data-anchor-id="synaptic-transmission">Synaptic transmission</h2>
+<p><em>Synapse</em> permits neuron to pass electrical or chemical messages to another neuron or target cell (muscle, gland, etc.)</p>
+<section id="synapse-types-locations" class="level3">
+<h3 class="anchored" data-anchor-id="synapse-types-locations">Synapse Types &amp; Locations</h3>
+<ul>
+<li>Chemical</li>
+<li>Electrical
+<ul>
+<li>Gap junctions</li>
+<li><em>Cytosol</em> (and ionic current) flows through adjacent neurons</li>
+</ul></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Gap_cell_junction-en.svg/1200px-Gap_cell_junction-en.svg.png" class="img-fluid figure-img"></p>
+<figcaption>https://commons.wikimedia.org/wiki/File:Gap_cell_junction-en.svg#/media/File:Gap_cell_junction-en.svg</figcaption>
+</figure>
+</div>
+</section>
+<section id="steps-in-chemical-transmission" class="level3">
+<h3 class="anchored" data-anchor-id="steps-in-chemical-transmission">Steps in chemical transmission</h3>
+<ul>
+<li><em>Voltage-gated calcium Ca++ channels</em> open</li>
+<li><span class="math inline">\(Ca^{++}\)</span> influx causes <em>synaptic vesicles</em> to bind with presynaptic membrane, fuse with membrane, spill contents via <em>exocytosis</em></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2948/MediaObjects/41583_2011_Article_BFnrn2948_Fig1_HTML.jpg?as=webp" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Haucke2011-ub">(Figure 1 from <a href="#ref-Haucke2011-ub" role="doc-biblioref">Haucke, Neher, &amp; Sigrist, 2011</a>)</span></figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-fx1.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Hastoy2017-it">(<a href="#ref-Hastoy2017-it" role="doc-biblioref">Hastoy, Clark, Rorsman, &amp; Lang, 2017</a>)</span></figcaption>
+</figure>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-fx1.jpg"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-fx1.jpg" class="img-fluid figure-img" width="900"></p>
+<figcaption><a href="https://doi.org/10.1016/j.ceca.2017.10.005"><span class="citation" data-cites="Hastoy2017-it">(<span>Hastoy et al., 2017</span>)</span></a></figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-gr1_lrg.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Hastoy2017-it">(<a href="#ref-Hastoy2017-it" role="doc-biblioref">Hastoy et al., 2017</a>)</span></figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Junctional_complex_and_pinocytotic_vesicles_-_embryonic_brain-TEM.jpg/1502px-Junctional_complex_and_pinocytotic_vesicles_-_embryonic_brain-TEM.jpg" class="img-fluid figure-img"></p>
+<figcaption>Wikipedia</figcaption>
+</figure>
+</div>
+<ul>
+<li>NTs diffuse across <em>synaptic cleft</em></li>
+<li>NTs bind with <em>receptors</em> on <em>postsynaptic membrane</em>
+<ul>
+<li>Cause some post-synaptic effect</li>
+</ul></li>
+<li>NTs unbind from receptor</li>
+<li>NTs inactivated</li>
+<li>NTs diffuse along concentration gradient</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/SynapseSchematic_en.svg/512px-SynapseSchematic_en.svg.png" class="img-fluid figure-img"></p>
+<figcaption>Source: https://commons.wikimedia.org/wiki/File%3ASynapseSchematic_en.svg</figcaption>
+</figure>
+</div>
+<p><strong>Relative sizes</strong></p>
+<ul>
+<li>Neural membrane ~8 nm</li>
+<li>Synaptic vesicles ~40-60 or ~90-120 nm</li>
+<li>Synaptic cleft ~20-50 nm</li>
+<li>Cleft small relative to vesicles</li>
+</ul>
+</section>
+<section id="receptorchannel-types" class="level3">
+<h3 class="anchored" data-anchor-id="receptorchannel-types">Receptor/channel types</h3>
+<section id="leakpassive" class="level4">
+<h4 class="anchored" data-anchor-id="leakpassive">Leak/passive</h4>
+<ul>
+<li>Vary in selectivity, permeability</li>
+</ul>
+</section>
+<section id="transportersexchangers" class="level4">
+<h4 class="anchored" data-anchor-id="transportersexchangers">Transporters/exchangers</h4>
+<ul>
+<li>Ionic
+<ul>
+<li><span class="math inline">\(Na^+\)</span>/<span class="math inline">\(K^+\)</span> ATP-ase/pump</li>
+</ul></li>
+<li>Chemical
+<ul>
+<li>e.g., Dopamine transporter (DAT)</li>
+</ul></li>
+</ul>
+</section>
+<section id="ionotropic-receptors-receptor-ion-channel" class="level4">
+<h4 class="anchored" data-anchor-id="ionotropic-receptors-receptor-ion-channel">Ionotropic receptors (receptor + ion channel)</h4>
+<ul>
+<li>Ligand-gated</li>
+<li>Open/close channel</li>
+<li>Ions flow in/out depending on membrane voltage and ion type</li>
+<li>Fast-responding (&lt; 2 ms), but short-duration effects (&lt; 100 ms)</li>
+</ul>
+</section>
+<section id="metabotropic-receptors-receptor-only" class="level4">
+<h4 class="anchored" data-anchor-id="metabotropic-receptors-receptor-only">Metabotropic receptors (receptor only)</h4>
+<ul>
+<li>G-proteins -&gt;</li>
+<li>Trigger 2nd messengers</li>
+<li>Open/close adjacent channels, change metabolism</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="http://webvision.med.utah.edu/imageswv/GLU5.jpeg" class="img-fluid figure-img"></p>
+<figcaption>http://webvision.med.utah.edu/imageswv/GLU5.jpeg</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="receptors-generate-postsynaptic-potentials-psps" class="level3">
+<h3 class="anchored" data-anchor-id="receptors-generate-postsynaptic-potentials-psps">Receptors generate <em>postsynaptic potentials (PSPs)</em></h3>
+<ul>
+<li>Small voltage changes</li>
+<li>Amplitude scales with # of receptors activated</li>
+<li><em>Excitatory PSPs (EPSPs)</em>
+<ul>
+<li>Depolarize neuron (make more +)</li>
+</ul></li>
+<li><em>Inhibitory (IPSPs)</em>
+<ul>
+<li>Hyperpolarize neuron (make more -)</li>
+</ul></li>
+</ul>
+</section>
+<section id="nts-inactivated" class="level3">
+<h3 class="anchored" data-anchor-id="nts-inactivated">NTs inactivated</h3>
+<ul>
+<li>Buffering
+<ul>
+<li>e.g., glutamate into astrocytes <span class="citation" data-cites="GLIA:GLIA10">(<a href="#ref-GLIA:GLIA10" role="doc-biblioref">Anderson &amp; Swanson, 2000</a>)</span></li>
+</ul></li>
+<li><em>Reuptake</em> via <em><a href="https://en.wikipedia.org/wiki/Neurotransmitter_transporter">transporters</a></em>
+<ul>
+<li>e.g., serotonin via serotonin transporter (SERT)</li>
+</ul></li>
+<li>Enzymatic degradation
+<ul>
+<li>e.g., acetylcholine esterase (AChE) degrades acetylcholine (ACh)</li>
+</ul></li>
+</ul>
+</section>
+<section id="questions-to-ponder" class="level3">
+<h3 class="anchored" data-anchor-id="questions-to-ponder">Questions to ponder</h3>
+<ul>
+<li>Why do NTs diffuse from pre- to post-synaptic membrane?</li>
+<li>Why must NTs be inactivated?</li>
+<li>What sort of PSP would <em>opening</em> a <span class="math inline">\(Na^+\)</span> channel produce?</li>
+<li>What sort of PSP would <em>opening</em> a <span class="math inline">\(Cl^-\)</span> channel produce?</li>
+<li>What sort of PSP would <em>closing</em> a <span class="math inline">\(K^+\)</span> produce?</li>
+</ul>
+</section>
+<section id="synapse-location-and-function" class="level3">
+<h3 class="anchored" data-anchor-id="synapse-location-and-function">Synapse location and function</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Blausen_0843_SynapseTypes.png" class="img-fluid figure-img"></p>
+<figcaption>Source: Blausen.com staff https://commons.wikimedia.org/wiki/File%3ABlausen_0843_SynapseTypes.png</figcaption>
+</figure>
+</div>
+<ul>
+<li>on dendrites
+<ul>
+<li>usually excitatory</li>
+</ul></li>
+<li>on cell bodies
+<ul>
+<li>usually inhibitory</li>
+</ul></li>
+<li>on axons
+<ul>
+<li>usually modulatory (change p(fire))</li>
+</ul></li>
+</ul>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-GLIA:GLIA10" class="csl-entry" role="listitem">
+Anderson, C. M., &amp; Swanson, R. A. (2000). Astrocyte glutamate transport: Review of properties, regulation, and physiological functions. <em>Glia</em>, <em>32</em>(1), 1–14. <a href="https://doi.org/10.1002/1098-1136(200010)32:1<1::AID-GLIA10>3.0.CO;2-W">https://doi.org/10.1002/1098-1136(200010)32:1&lt;1::AID-GLIA10&gt;3.0.CO;2-W</a>
+</div>
+<div id="ref-azevedo2009equal" class="csl-entry" role="listitem">
+Azevedo, F. A., Carvalho, L. R., Grinberg, L. T., Farfel, J. M., Ferretti, R. E., Leite, R. E., et al.others. (2009). Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain. <em>Journal of Comparative Neurology</em>, <em>513</em>(5), 532–541. <a href="https://doi.org/10.1002/cne.21974">https://doi.org/10.1002/cne.21974</a>
+</div>
+<div id="ref-Boldog2018-dj" class="csl-entry" role="listitem">
+Boldog, E., Bakken, T. E., Hodge, R. D., Novotny, M., Aevermann, B. D., Baka, J., … Tamás, G. (2018). Transcriptomic and morphophysiological evidence for a specialized human cortical <span>GABAergic</span> cell type. <em>Nature Neuroscience</em>, <em>21</em>(9), 1185–1195. <a href="https://doi.org/10.1038/s41593-018-0205-2">https://doi.org/10.1038/s41593-018-0205-2</a>
+</div>
+<div id="ref-chung_glia_2015" class="csl-entry" role="listitem">
+Chung, W.-S., Welsh, C. A., Barres, B. A., &amp; Stevens, B. (2015). Do glia drive synaptic and cognitive impairment in disease? <em>Nature Neuroscience</em>, <em>18</em>(11), 1539–1545. <a href="https://doi.org/10.1038/nn.4142">https://doi.org/10.1038/nn.4142</a>
+</div>
+<div id="ref-eyherabide_bursts_2009" class="csl-entry" role="listitem">
+Eyherabide, H. G., Rokem, A., Herz, A. V. M., Samengo, I., Eyherabide, H. G., Rokem, A., … Samengo, I. (2009). Bursts generate a non-reducible spike-pattern code. <em>Frontiers in Neuroscience</em>, <em>3</em>, 1. <a href="https://doi.org/10.3389/neuro.01.002.2009">https://doi.org/10.3389/neuro.01.002.2009</a>
+</div>
+<div id="ref-Hastoy2017-it" class="csl-entry" role="listitem">
+Hastoy, B., Clark, A., Rorsman, P., &amp; Lang, J. (2017). Fusion pore in exocytosis: More than an exit gate? A <span class="math inline">\(\beta\)</span>-cell perspective. <em>Cell Calcium</em>, <em>68</em>, 45–61. <a href="https://doi.org/10.1016/j.ceca.2017.10.005">https://doi.org/10.1016/j.ceca.2017.10.005</a>
+</div>
+<div id="ref-Haucke2011-ub" class="csl-entry" role="listitem">
+Haucke, V., Neher, E., &amp; Sigrist, S. J. (2011). Protein scaffolds in the coupling of synaptic exocytosis and endocytosis. <em>Nature Reviews. Neuroscience</em>, <em>12</em>(3), 127–138. <a href="https://doi.org/10.1038/nrn2948">https://doi.org/10.1038/nrn2948</a>
+</div>
+<div id="ref-Moss2001-tb" class="csl-entry" role="listitem">
+Moss, S. J., &amp; Smart, T. G. (2001). Constructing inhibitory synapses. <em>Nature Reviews. Neuroscience</em>, <em>2</em>(4), 240–250. <a href="https://doi.org/10.1038/35067500">https://doi.org/10.1038/35067500</a>
+</div>
+<div id="ref-Torres2003-ry" class="csl-entry" role="listitem">
+Torres, G. E., Gainetdinov, R. R., &amp; Caron, M. G. (2003). Plasma membrane monoamine transporters: Structure, regulation and function. <em>Nature Reviews. Neuroscience</em>, <em>4</em>(1), 13–25. <a href="https://doi.org/10.1038/nrn1008">https://doi.org/10.1038/nrn1008</a>
+</div>
+<div id="ref-Zeng2017-sg" class="csl-entry" role="listitem">
+Zeng, H., &amp; Sanes, J. R. (2017). Neuronal cell-type classification: Challenges, opportunities and the path forward. <em>Nature Reviews. Neuroscience</em>. <a href="https://doi.org/10.1038/nrn.2017.85">https://doi.org/10.1038/nrn.2017.85</a>
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright Rick Gilmore</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/edit/main/src/resources/cells.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/rogilmore">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

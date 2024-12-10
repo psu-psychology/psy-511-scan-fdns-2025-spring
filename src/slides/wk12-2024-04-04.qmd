@@ -1,0 +1,77 @@
+---
+title: "Learning & Memory"
+subtitle: "PSY 511.003"
+date: 2024-04-04
+bibliography: ../include/bib/psy-511.bib
+bibliographystyle: apa
+format: 
+  revealjs:
+    theme: default
+    chalkboard: true
+    footer: "[PSY 511 Spr 2024](../index.html)"
+---
+
+# Prelude
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5mlllRdIfqw?si=jTr8gLTmVl7Bsz6H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[@Timvitkuske2014-wy]
+
+## Last time...
+
+- Cognition & language
+
+---
+
+### Describe your algorithm for getting up in the morning.
+
+---
+
+### Why are algorithms and cognition inextricably intertwined?
+
+---
+
+### Can there be cognition without language? Why or why not?
+
+---
+
+### Why is it hard to localize cognition or language in the brain?
+
+# Main
+
+## Today's topics
+
+- Learning & memory
+- [Resource page](../resources/learning-memory.qmd)
+
+## What is learning?
+
+## What is memory?
+
+## Main points
+
+- Learning not a unitary phenomenon
+  - Non-associative vs. associative
+  - *That* vs. *how*
+- Biological bases of learning
+  - Changes in network connectivity & dynamics
+  - Changes within cells
+  - ~ machine or deep learning in CS/AI
+
+---
+
+- Memory not a unitary phenomenon
+  - What behaviors/computations, how expressed
+  - Multiple brain systems
+  - *That* (who/what/when/where/why) vs. *how*
+  - *Unlike* computer memory
+
+## Next time...
+
+- Disorder & disease I
+
+# Resources
+
+## References

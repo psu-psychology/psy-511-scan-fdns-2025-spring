@@ -1,0 +1,229 @@
+---
+title: "Neuroanatomy"
+---
+
+# Prelude
+
+---
+
+<div class="center_video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/snO68aJTOpM" frameborder="0" allowfullscreen></iframe>
+</div>
+
+[@Ctdalilah2006-co]
+<!-- Pinky and the Brain video -->
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qw8E9WnZTQk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[@Kids_Learning_Tube2015-pb]
+<!-- Kids brain song -->
+
+## Announcements
+
+- Exercise 02 [due next Wednesday, January 24, 2024]{.orange_due}.
+
+## Last time...
+
+- Levels of analysis
+
+## Spatial & temporal levels
+
+![[@Sejnowski2014-aa Figure 1]](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp)
+
+## ≠ Marr's levels
+
+![[@Favela2020-uc Figure 3]](https://wires.onlinelibrary.wiley.com/cms/asset/9fa6c8e5-30fa-4e6f-a5cf-e9407ed098c0/wcs1525-fig-0003-m.jpg)
+
+## Computational level
+
+- What has to be computed?
+  - What is the shape/form of that unknown object?
+  - What did that person just say?
+  - Is that unknown object a threat to me?
+  
+## Algorithmic level
+
+- What's the 'recipe' for...
+  - computing shape
+  - perceiving speech
+  - recognizing threats
+
+## Implementation level
+
+- How do...
+  - neurons
+  - areas
+  - networks
+- implement the recipe?
+
+## Causality in neuroscience
+
+- [@Siddiqi2022-wl].
+- Stimulation & lesion studies needed for inferring *causation*.
+- Bradford-Hill criteria [@Hill2015-jb]
+
+## Today's topics
+
+- Neuroanatomy
+  - Brief overview
+  - In-class lab
+  - [Exercise 02](../exercises/ex02.qmd)
+
+# Neuroanatomy
+
+## Why study?
+
+- Master basic vocabulary for reading literature
+
+## Brain anatomy through dance
+
+<audio controls loop="loop">
+  <source src="../include/snd/brain_boxing.m4a" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<https://psu-psychology.github.io/psych-260-2023-spring-notes/neuroanatomy.html#brain-anatomy-through-dance>
+
+## Directional terms
+
+- Anterior/Posterior
+- Medial/Lateral
+- Superior/Inferior
+- Dorsal/Ventral
+- Rostral/Caudal
+
+## Central vs. Peripheral Nervous System
+
+![Nervous system of Harriet Cole from https://www.pastmedicalhistory.co.uk/the-nervous-system-of-harriet-cole/](https://www.pastmedicalhistory.co.uk/wp-content/uploads/2018/08/A-model-of-the-human-nervous-system-by-Rufus-Benjamin-Weaver..jpg)
+
+## Organization of the CNS
+
+| Major division | Ventricular Landmark | Embryonic Division | Structure       |
+|----------------|----------------------|--------------------|-----------------|
+| Forebrain      | Lateral              | Telencephalon      | Cerebral cortex |
+|                |                      |                    | Basal ganglia   |
+|                |                      |                    | Hippocampus, amygdala |
+
+---
+
+| Major division | Ventricular Landmark | Embryonic Division | Structure       |
+|----------------|----------------------|--------------------|-----------------|
+|                | Third                | Diencephalon       | Thalamus        |
+|                |                      |                    | Hypothalamus    |
+
+---
+
+| Major division | Ventricular Landmark | Embryonic Division | Structure       |
+|----------------|----------------------|--------------------|-----------------|
+| Midbrain       | Cerebral Aqueduct    | Mesencephalon      | Tectum, tegmentum |
+
+
+---
+
+| Major division | Ventricular Landmark | Embryonic Division | Structure       |
+|----------------|----------------------|--------------------|-----------------|
+| Hindbrain      | 4th                  | Metencephalon      | Cerebellum, pons  |
+|                | --                   | Mylencephalon      | Medulla oblongata |
+
+---
+
+Forebrain, midbrain, hindbrain terminology derives from embryonic stages in CNS development.
+
+![Embryonic human brain from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/c/c8/6_week_embryo_brain.jpg)
+
+## Cerebrum
+
+- (Cerebral) cortex
+- Subcortical structures
+
+![Labelled MRI including thalamus and hypothalamus](http://webspace.ship.edu/cgboer/medial-labelled.gif)
+
+## (Cerebral) cortex
+
+- Lobes, marked by sulci/fissures, adjacency to bones of skull
+- Functional areas marked by gyri & sulci
+- [Brodmann Areas](../resources/anatomy.qmd#brodmann-areas)
+  - Microstructural (cellular composition) features
+
+---
+
+- Most lobes have host primary sensory or motor area
+  - Frontal: Motor cortex
+  - Temporal: Auditory cortex
+  - Parietal: Somatosensory cortex
+  - Occipital: Visual cortex
+  - Insula: Gustatory
+  
+## Input/output
+
+- Via cranial nerves (in CNS)
+- Via spinal nerves (in PNS)
+
+---
+
+![Cranial nerves from https://www.britannica.com/science/cranial-nerve#/media/1/141797/46720](https://cdn.britannica.com/44/54244-004-892C5169/nerves-pairs-muscles-region-head-sense-organs.jpg?s=1500x700&q=85)
+
+---
+
+![](https://www.researchgate.net/profile/Saeede-Rahimi-Damirchi-Darasi/publication/324683974/figure/fig10/AS:753484697726976@1556656159277/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jpg)
+
+---
+
+Multiple hierarchies
+
+![[@swanson2005anatomy Figure 1]](../include/img/swanson-2005-fig-1.jpg)
+
+## Maps
+
+- Sensory & motor systems often use maps
+
+---
+
+![](https://www.researchgate.net/profile/Brian-Wandell/publication/8988812/figure/fig1/AS:280067633631238@1443784735289/The-Retinotopy-paradigm-Two-stimuli-are-used-to-measure-the-retinotopic-maps-in-cortex.png)
+
+---
+
+![[Figure 1 from@Saenz2014-ao]](https://ars.els-cdn.com/content/image/1-s2.0-S0378595513001871-gr1_lrg.jpg)
+
+---
+
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Grant_1962_663.png/800px-Grant_1962_663.png)
+
+---
+
+- Geometric issues central for perceptual/motor behavior
+- Do other systems "map" function to structure?
+
+# Neuroanatomy lab
+
+## Overview
+
+- 3 groups
+- Rotate among stations
+- Identify as many structures as possible
+
+# Wrap-up
+
+## Main points
+
+- Directional terms
+- What is it
+- Where is it
+  - Relative to other things
+  - CNS/PNS
+  - Forebrain/midbrain/hindbrain
+  
+---
+
+- Cerebral cortex and its subparts
+- Grey matter vs. white matter
+
+## Next time...
+
+- [Cellular neuroscience I](wk03-2024-01-25.qmd)
+
+# Resources
+
+## References

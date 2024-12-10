@@ -1,0 +1,16 @@
+---
+title: "Exercise XX • Information processing"
+---
+
+**Name:**____________________________
+
+
+## Choose a behavior or mental state you want to (better) understand
+
+- Take an information processing perspective and briefly sketch out (in no more than a short paragraph) the main inputs, outputs, and computations involved.
+- When thinking about *outputs* make sure to consider *behaviors* (e.g., movements, facial expressions, vocalizations), *physiological states* (e.g., changes in heart rate, hormone concentrations in the blood, etc.), and *mental states* (e.g. thoughts, memories, feelings).
+
+- Causal diagrams
+- Covariates, external influences
+
+

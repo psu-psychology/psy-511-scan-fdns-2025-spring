@@ -1,0 +1,13 @@
+format:
+  html:
+    theme: cosmo
+    css: ../include/css/styles.css
+    csl: ../include/bib/apa.csl
+    bibliography: [../include/bib/psu-repro.bib, ../include/bib/packages.bib, ../include/bib/psy-511.bib]
+    citations-hover: true
+    footnotes-hover: true
+    toc: true
+    toc-depth: 3
+    fig-align: center
+  pdf: default
+format-links: [pdf, docx]

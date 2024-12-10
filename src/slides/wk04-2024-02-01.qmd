@@ -1,0 +1,144 @@
+---
+title: "Cellular Neuroscience II"
+subtitle: "PSY 511.003"
+date: 2024-02-01
+format: 
+  revealjs:
+    footer: "PSY 511 Spr 2024"
+---
+
+# Prelude
+
+---
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/_ul7X5js1vE" frameborder="0" allowfullscreen></iframe>
+
+<https://www.youtube.com/embed/nvXuq9jRWKE>
+
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i6LGJ7evrAg?si=Qg3ntXDNLdmPu8Pr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Announcements
+
+- [[Exercise 04](../exercises/ex04.qmd) assigned]{.green_assigned}
+- Next Wednesday, February 7, [[Exercise 03](../exercises/ex03.qmd) write-up due.]{.orange_due}
+
+
+## Last time...
+
+---
+
+### What maintains the ion concentration gradients in the neuron (and other cells)?
+
+---
+
+### What do gradients enable?
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Chief_Joseph_Dam.jpg/1280px-Chief_Joseph_Dam.jpg){fig-align="center"}
+
+---
+
+### What direction does information typically flow in a neuron?
+
+---
+
+### What type of glial cell creates myelin around axons in the central nervous system?
+
+## Today's topics
+
+- Resting potential review
+- Cellular neuroscience II
+  - Action potential
+  - Synaptic transmission
+
+# Resting potential
+
+## Potential means...
+
+- *Electrical* potential (voltage)
+- Current flows (ions move)
+- More current can flow if...
+- Conductance changes (ion channels open)
+
+## Why we care
+
+- Fast signalling (faster than diffusion)
+- From one part of body to another
+
+## Outward $[K^+]$ flow
+
+- Down concentration gradient
+- Charges membrane like a capacitor
+
+![How capacitors work](http://hyperphysics.phy-astr.gsu.edu/hbase/electric/imgele/capchg.png){height=50% fig-align="center"}
+
+## Small $[Na^+]$ flow
+
+- Channels for $Na^+$ not especially permeable
+- $Na^+$ flows ___________ (Why?)
+- Makes total voltage across (membrane potential) more [positive/negative] (Why?)
+- Membrane potential = $\Sigma$ of all ion effects
+
+---
+
+![Goldman-Hodgkin-Katz equation](http://www.physiologyweb.com/calculators/figs/ghk_equation.gif){fig-align="center"}
+
+## Party metaphor
+
+- Annie ($A^-$) was having a party.
+    + Used to date Nate ($Na^+$), but now sees Karl ($K^+$)
+- Hired bouncers called
+    + "The Channels"
+    + Let Karl and friends in or out, keep Nate out
+    
+---
+
+- Annie's friends ($A^-$) and Karl's ($K^+$) mostly inside
+- Nate and friends ($Na^+$) mostly outside
+- Claude/Claudia ($Cl^-$) tagging along
+
+---
+
+![](http://3.bp.blogspot.com/_HtLvymcBlKo/TJJ9YcQNAtI/AAAAAAAAAB8/E2bzWvAzBew/s1600/10.png){fig-align="center"}
+
+---
+
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/MembraneCircuit.jpg/500px-MembraneCircuit.jpg){fig-align="center"}
+
+# Action potential
+
+---
+
+Link to [resources/cells](resources/cells.html#action-potential)
+
+# Synaptic transmission
+
+---
+
+Link to [resources/cells](resources/cells.html#synaptic-transmission)
+
+## Main points
+
+- Resting potential
+  - Equilibrium point (e.g., attractor state)
+  - Balance of forces (diffusion/voltage)
+  - Combined effects on multiple ions
+  
+---
+
+- Action potential
+  - Short (in time), discrete message
+  - Can propagate quickly
+- Triggers neurotransmitter release
+
+## Next time...
+
+- Neurochemistry
+  - Neurotransmitters
+  - Hormones
+- Neurocomputing
+
+# Resources
+
+## References

@@ -1,0 +1,26 @@
+---
+title: "Exercise 01 • Levels/Terms"
+---
+
+**Name:**____________________________
+
+## Goals
+
+1. Begin reading the literature about biological approaches to psychology with a critical, analytic perspective.
+2. Highlight concepts and terms that you want to understand more thoroughly.
+3. Apply the idea of levels of analysis to the relevant literature.
+
+## Tasks
+
+1. Choose two papers relevant to your personal research interests that you want to understand more thoroughly.
+2. Scan the papers and highlight 3-5 terms or concepts that you are especially interested in understanding.
+3. Submit a short (1-2 pp) write-up that includes the following:
+    - Which articles did you choose and why did you choose them.
+    - What terms or concepts did you choose and why did you choose them.
+    - What level or levels of analysis do the terms reflect?
+
+## Submission details
+
+- Give your paper a file name following this convention: "psy-511-spr-2024-LASTNAME-FIRSTNAME-ex01.docx"
+- Provide full APA format citations with DOIs.
+- Your write-up is [due **Wednesday, January 17, 2024 at 11:59 pm**]{.orange_due}.

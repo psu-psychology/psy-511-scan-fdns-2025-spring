@@ -1,0 +1,67 @@
+---
+title: "Evolution of nervous systems"
+subtitle: "PSY 511.003"
+date: 2024-02-22
+format: 
+  revealjs:
+    footer: "[PSY 511 Spr 2024](../index.html)"
+---
+
+# Prelude
+
+## {.center}
+
+<div class="center_img">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j6y1o6woVaY" frameborder="0" allowfullscreen></iframe>
+</div>
+
+---
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/QMshTTIp7SA" frameborder="0" allowfullscreen></iframe>
+
+## Announcements
+
+- [Exercise 05](../exercises/ex05.qmd) write-up [due yesterday.]{.orange_due}
+- [Exercise 06](../exercises/ex06.qmd) write-up [due next Wednesday.]{.orange_due}
+- Final project/paper proposal [due Thursday, February 29](../resources/final-project.qmd){.orange_due}
+
+## Last time...
+
+- Methods in neuroscience
+
+---
+
+### When and why would you choose EEG/ERP over fMRI?
+
+---
+
+### Why do single unit recordings have the finest spatial and temporal resolution among neuroscience methods?
+
+## Today's topics
+
+- Evolution of nervous systems
+
+# Evolution
+
+## In the beginning...
+
+![Near IR deep field (12.5 hr exposure) from JWST](https://www.nasa.gov/wp-content/uploads/2023/03/main_image_deep_field_smacs0723-5mb.jpg)
+---
+
+[resources/evolution](../resources/evolution.qmd)
+
+## Main points
+
+- Our solar system has a history ~1/3 as long as the Universe
+- Multi-cellular animals with nervous systems have a history ~1/7 as long as life on Earth
+- Substantial similarities in vertebrate nervous systems
+- Brain mass/body mass scaling
+- # (& subtypes) of cerebral cortical neurons distinguish human from other primate brains
+
+## Next time...
+
+- Development of the human brain
+
+# Resources
+
+## References

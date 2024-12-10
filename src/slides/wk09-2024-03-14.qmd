@@ -1,0 +1,63 @@
+---
+title: "Perception"
+subtitle: "PSY 511.003"
+date: 2024-03-14
+format: 
+  revealjs:
+    footer: "[PSY 511 Spr 2024](../index.html)"
+---
+
+# Prelude
+
+---
+
+<!-- I can see clearly now Jimmy Cliff -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MrHxhQPOO2c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+<!-- See me, feel me, touch me, hear me from Tommy -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VpGHXPoJXk8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Announcements
+
+- [[Exercise 07](../exercises/ex07-evo-devo.qmd) write-up due yesterday.]{.orange_due}
+- [[Exercise 08](../exercises/ex08-devo.qmd) write-up due yesterday.]{.orange_due}
+
+## Last time...
+
+- Development of the nervous system
+
+---
+
+### What milestone(s) of neural development begin early and end early?
+
+---
+
+### What milestone(s) of neural development begin early and continue for a long period of time?
+
+---
+
+### What are some core components of a *developmental neuroscience* perspective on psychological phenomena?
+
+---
+
+### There are changes at multiple levels of nervous system organization across developmental time spans; how do we identify what changes are important for psychological development?
+
+# Main
+
+## Today's topics
+
+- Perception
+
+# Wrap-up
+
+## Main points
+
+## Next time...
+
+# Resources
+
+## References

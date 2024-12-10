@@ -1,0 +1,36 @@
+---
+title: "Exercise 06 • Methods"
+---
+
+**Name:**____________________________
+
+
+## Goals
+
+1. To understand what aspect of neural structure or function a given method measures.
+2. To understand what spatial and temporal scales characterize different methods.
+2. To understand the comparative strengths and weaknesses of different methods in answering questions about behavior and internal states (thoughts, feelings, and memories).
+
+## Activity
+
+Answer the following questions in a few sentences:
+
+1. What technique(s) for recording neural activity have especially high spatial and temporal resolution?
+2. Which of these techniques would be most suitable for use with human participants?
+3. Why is functional MRI considered an *indirect* measure of neuronal activity?
+
+
+Choose a behavior, an internal psychological state, or a disorder that interests you or your group partners.
+Search the literature for one to three (1-3) papers that illustrate two to three (2-3) different methods.
+Answer the following questions about these papers and methods in a few sentences:
+
+5. For each method, describe what evidence it provides about the neurological basis of your topic.
+6. How do the different sources of evidence compare with one another?
+7. What essential gaps exist in our understanding of the psychological phenomenon based on the biological evidence? 
+
+## Submission details
+
+- Submit your write-up by [**Wednesday, February 28, 2024 at 11:59 pm**]{.orange_due}.
+- If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.
+- If you found any resources that were especially useful to you in answering these questions, please cite them.
+

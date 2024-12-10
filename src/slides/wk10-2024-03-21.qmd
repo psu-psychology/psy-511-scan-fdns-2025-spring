@@ -1,0 +1,67 @@
+---
+title: "Action"
+subtitle: "PSY 511.003"
+date: 2024-03-21
+bibliography: ../include/bib/psy-511.bib
+bibliographystyle: apa
+format: 
+  revealjs:
+    footer: "[PSY 511 Spr 2024](../index.html)"
+---
+
+# Prelude
+
+---
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/Gs069dndIYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- September Earth Wind & Fire 3:35-->
+
+---
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/XaI5IRuS2aE" frameborder="0" allowfullscreen></iframe>
+
+<!-- This Land is Your Land, Guthrie -->
+
+## Announcements
+
+## Last time...
+
+- Perception
+
+---
+
+### Give an example of an *exteroceptive* source of information.
+
+---
+
+### Give an example of an *interoceptive* source of information.
+
+---
+
+### How are neural systems for different information types special or unique?
+
+---
+
+### How are many neural systems for different information types similar to one another?
+
+# Main
+
+## Today's topics
+
+- Action
+
+## Main points
+
+- Organisms have multiple impacts on the world
+  - Movements are one of them
+- Control of movement determined by multiple sources
+- Cerebral cortex + basal ganglia + cerebellum + spinal circuits
+- Feedforward + feedback circuits
+
+## Next time...
+
+- Language and cognition
+
+# Resources
+
+## References

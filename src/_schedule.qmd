@@ -4,6 +4,26 @@
 
 #### Thursday, January 16 {-}
 
+#### Topics
+
+- Structure of the course
+- Levels of analysis
+- Causality in brain and behavior
+- Does neuroscience need behavior? If so, what does psychology need?
+
+#### Readings
+
+- [@Siddiqi2022-wl].
+- [@Krakauer2017-xl].
+- Optional: [@Parada2018-rp]chrome.
+- Optional: [@Churchland1988-aj].
+- Optional: [@Favela2020-uc].
+
+#### Materials
+
+- [Slides](slides/wk01-2024-01-11.qmd)
+- [[Exercise 01](exercises/ex01.qmd) assigned]{.green_assigned}
+
 ### January 20-24 {- #week-02}
 
 #### Thursday, January 23 {-}

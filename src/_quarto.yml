@@ -24,40 +24,25 @@ website:
         text: policies
       # - href: values.qmd
       #   text: values
-      # - text: exercises
-      #   menu: 
-      #     - href: "exercises/ex01-read-a-scientific-paper.qmd"
-      #     - href: "exercises/ex02-textbook-findings.qmd"
-      #     - href: "exercises/ex03-norms-counternorms.qmd"
-      #     - href: "exercises/ex04-scientific-integrity.qmd"
-      #     - href: "exercises/ex05-p-hacking.qmd"
-      #     - href: "exercises/ex06-apes.qmd"
-      #     - href: "exercises/ex07-replication.qmd"
-      #     - href: "exercises/ex08-sharing.qmd"
-      #     - href: "exercises/final-project.qmd"
-      #     - href: "exercises/st-01.qmd"
-      # - text: surveys
-      #   menu:
-      #     - href: "surveys/survey-01.qmd"
-      #     - href: "surveys/survey-02.qmd"
-      #     - href: "surveys/survey-03.qmd"
-      #     - href: "surveys/presentation-schedule.qmd"
-      # - text: supplemental
-      #   menu:
-      #     - text: "Retraction Watch database"
-      #       href: "supplemental/retraction-watch.qmd"
-      #     - text: "Plot your data!"
-      #       href: "supplemental/plotting-degrees-of-freedom.qmd"
-      #     - text: "On *p*-hacking"
-      #       href: "supplemental/p-hacking-suppl.qmd"
-      #     - text: "On spaghetti plots and causal models"
-      #       href: "supplemental/causal-models.qmd"
-      #     - href: "supplemental/metaanalysis-simulation.qmd"
+      - text: slides
+        menu:
+          - href: "slides/wk01-2025-01-16.qmd"
+          - href: "slides/wk01-2025-01-23.qmd"
+      - text: exercises
+        menu:
+          - href: "exercises/ex01.qmd"
+          - href: "exercises/ex02.qmd"
+          - href: "exercises/ex03.qmd"
+          - href: "exercises/ex04.qmd"
+          - href: "exercises/ex05.qmd"
+          - href: "exercises/ex06.qmd"
+          - href: "exercises/ex07-evo-devo.qmd"
+          - href: "exercises/ex08-devo.qmd"
   repo-url: https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring
   repo-actions: [edit, issue]
   repo-subdir: src
   page-footer:
-    left: "Copyright 2024-, Rick Gilmore" 
+    left: "Copyright Rick Gilmore" 
     right:
       - icon: github
         href: https://github.com/rogilmore
@@ -73,7 +58,7 @@ format:
     citations-hover: true
     footnotes-hover: true
     date-modified: last-modified
-    bibliography: [include/bib/packages.bib, include/bib/psu-repro.bib]
+    bibliography: [include/bib/packages.bib, include/bib/psu-repro.bib, include/bib/psy-511.bib]
     csl: include/bib/apa.csl
     html-math-method: mathjax
 

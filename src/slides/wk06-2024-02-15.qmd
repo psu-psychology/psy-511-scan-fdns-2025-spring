@@ -1,0 +1,56 @@
+---
+title: "Methods in neuroscience"
+subtitle: "PSY 511.003"
+date: 2024-02-15
+format: 
+  revealjs:
+    footer: "[PSY 511 Spr 2024](../index.html)"
+---
+
+# Prelude
+
+## Announcements
+
+- [Exercise 05](../exercises/ex05.qmd) write-up [due next Wednesday.]{.orange_due}
+- Final project/paper proposal [due Thursday, February 29](../resources/final-project.qmd){.orange_due}
+
+## Last time...
+
+- Neurochemistry
+  - Neurotransmitters
+  - Hormones
+
+---
+
+### What neurotransmitter activating on what type of receptor is responsible for most *excitatory* connections between neurons in the CNS?
+
+---
+
+### What neurotransmitter acting on what type of receptor is responsible for *excitatory* connections between motor neurons and muscle fibers in the PNS?
+
+---
+
+### What features do neurotransmitters that act as neuromodulators have in common?
+
+## Today's topics
+
+- Methods in neuroscience
+
+# Methods
+
+---
+
+- Link to [resources/methods](../resources/methods.qmd)
+
+## Main points
+
+- Structural vs. functional measures
+- Spatial vs. temporal resolution
+
+## Next time...
+
+- Evolution of the nervous system
+
+# Resources
+
+## References

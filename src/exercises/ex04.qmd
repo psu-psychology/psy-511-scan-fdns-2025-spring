@@ -1,0 +1,32 @@
+---
+title: "Exercise 04 • Neurophysiology II"
+---
+
+**Name:**____________________________
+
+
+## Goals
+
+1. To understand what change(s) in the resting state of neurons cause the *action potential*.
+2. To understand how the action potential results in the release of neurotransmitter from the axon terminal (terminal button).
+
+## Activity
+
+You may work by yourself or with up to two other people for this activity.
+If it is easier, you may draw figures and annotate them.
+
+Answer the following questions in no more than a few sentences:
+
+1. What event(s) trigger the *rising phase* of the action potential in the axon initial segment?
+2. What event(s) occur at the *peak* of the action potential?
+3. What event(s) occur during the *falling phase* of the action potential?
+4. Why does the membrane potential overshoot (become more negative than) the typical resting potential?
+5. Why can't the neuron fire another action potential during the *absolute* refractory period? What do we need to do to generate an action potential during the *relative* refractory period? 
+6. What makes "computing" with wires and action potentials "expensive" for the nervous system?
+7. How do psychologists benefit from learning more about these details of neurophysiology?
+
+## Submission details
+
+- Submit your write-up by [**Wednesday, February 14, 2024 at 11:59 pm**]{.orange_due}.
+- If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.
+- If you found any resources that were especially useful to you in answering these questions, please cite them.

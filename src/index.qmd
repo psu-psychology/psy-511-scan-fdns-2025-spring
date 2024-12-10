@@ -1,13 +1,13 @@
 ---
 title: "Foundations of Social, Cognitive, and Affective Neuroscience (SCAN)"
-subtitle: "PSY 511.xxx • Spring 2025"
+subtitle: "PSY 511.003 • Spring 2025"
 format: html
 css: include/css/styles.css
 bibliography: [include/bib/packages.bib, include/bib/psu-repro.bib, include/bib/psy-511.bib]
 csl: include/bib/apa.csl
 ---
 
-![Source: <https://anthelionartschool.com/creativity-and-happiness/>](https://anthelionartschool.com/wp-content/uploads/2016/04/artist_brain_Blog_1.jpg)
+![Source: <https://www.brainfacts.org/neuroscience-in-society/law-economics-and-ethics/2019/neuroethics-asks-the-difficult-questions-031319>](https://www.brainfacts.org/-/media/Brainfacts2/Neuroscience-in-Society/Law-Economics-and-Ethics/Article-Images/neuroethics-image.png)
 
 ## Instructor
 
@@ -33,7 +33,7 @@ In this course, we will explore the historical roots and contemporary challenges
 In doing so, we will read and examine critically primary source readings that discuss basic patterns and processes of brain structure and function.
 The goal is to provide students with a basic foundation of knowledge about the structures and functions of the nervous system that can provide the basis for future study.
 
-This course is one of two required courses for the [Specialization in Cognitive and Affective Neuroscience (SCAN)](http://psych.la.psu.edu/graduate/program-areas/cross-cutting-program-initiatives/specialization-in-cognitive-and-affective-neuroscience/specialization-in-cognitive-and-affective-neuroscience).
+This course is one of two required courses for the [Specialization in Cognitive and Affective Neuroscience (SCAN)](https://psych.la.psu.edu/graduate/program-areas/cross-cutting-program-initiatives/scan/).
 
 ## Prerequisites
 

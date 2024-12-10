@@ -1,0 +1,43 @@
+---
+title: "Schizophrenia"
+---
+
+# Prelude
+
+---
+
+{{< video https://www.youtube.com/embed/YWwAOutgWBQ?si=PMe0_Ecg4jOKfnXu width="100%" height="100%" >}}
+
+
+## Last time...
+
+- Learning & memory
+
+---
+
+### What is "Hebbian" learning?
+
+---
+
+### How does the NMDA-R instantiate a form of Hebbian learning?
+
+---
+
+### What are some key differences between biological memory and computer memory?
+
+
+## Today's topics
+
+- Schizophrenia
+
+## Main points
+
+
+
+## Next time...
+
+- Depression and Bipolar Disorder
+
+# Resources
+
+## References

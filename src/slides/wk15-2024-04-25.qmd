@@ -1,0 +1,81 @@
+---
+title: "Biological approaches to emotion"
+---
+
+# Prelude
+
+---
+
+{{< video https://www.youtube.com/embed/yRUAzGQ3nSY height="100%" width="100%" >}}
+
+[@Pixar2014-md]
+
+---
+
+{{< video https://www.youtube.com/embed/7qWbcosJdtU height="100%" width="100%" >}}
+
+[@Rlzee2010-ll]
+
+## Announcements
+
+- Final Projects [due next Thursday, May 2, by 5:00 pm]{.orange_due}.
+  - Canvas [link](https://psu.instructure.com/courses/2313161/assignments/16088734)
+
+## Last time...
+
+- Affective disorders
+
+---
+
+### What are some key features of the biology of major depressive disorder?
+
+---
+
+- Reduced volume of peri-ventricular areas/larger cerebral ventricles
+- Altered reactivity (+/-)
+- Altered connectivity, esp between frontal cortex and rest of brain
+
+---
+
+### What is the monoamine hypothesis of depression?
+
+---
+
+### Why has it been abandoned?
+
+---
+
+### What distinguishes bipolar disorder from depression?
+
+## Today's topics
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- The biology of emotion
+  - Fear & stress
+  - Pleasure & reward
+  
+:::
+
+::: {.column width="50%"}
+
+- The Cerebral Symphony
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg/220px-Joseph_Karl_Stieler%27s_Beethoven_mit_dem_Manuskript_der_Missa_solemnis.jpg)
+
+:::
+
+::::
+
+# The Cerebral Symphony
+
+---
+
+{{< video https://www.youtube.com/embed/ljGMhDSSGFU height="80%" width="100%">}}
+
+[@Smalin2011-vr]
+
+---
+
+

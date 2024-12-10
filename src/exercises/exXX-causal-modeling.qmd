@@ -1,0 +1,78 @@
+---
+title: "Exercise XX • Causal modeling"
+---
+
+**Name:**____________________________
+
+## Aim
+
+## Activity
+
+Choose a psychological phenomenon you know well or care about.
+
+Draw a diagram that depicts the relationships among the *principal* causes of or influences on that phenomenon.
+
+It may help you to think about the causes or influences as falling into the following categories:
+
+- External to the person
+- Physical/physiological states outside the nervous system
+- Nervous system states
+
+If the phenomenon has characteristic behaviors or mental states, please indicate those, as well.
+
+You may also want to depict the flow of information or the direction of causality.
+
+Here is a cartoon example:
+
+## Example 1
+
+```{mermaid}
+flowchart TD
+  A[Stub toe] --> B(Pain receptors in skin)
+  B --> C{Pain processing in brain}
+  C --> D{Activate language center}
+  D --> E(Say ouch)
+  C --> J{Activate motor region}
+  J --> F(Move foot/leg)
+  A --> H(Toe bleeds)
+```
+
+## Example 2
+
+```{mermaid}
+flowchart TD
+  A[Stub toe] --> B(Pain receptors in skin)
+  B --> C{Pain processing in brain}
+  C --> D{Activate language center}
+  D --> E(Say ouch)
+  C --> J{Activate motor region}
+  J --> F(Move foot/leg)
+  J --> G(Shift balance)
+  A --> H(Toe bleeds)
+```
+
+## Example 3
+
+```{mermaid}
+flowchart TD
+  A[Stub toe] --> B(Pain receptors in skin)
+  B --> C{Pain processing in brain}
+  C --> D{Activate language center}
+  D --> E(Say ouch)
+  C --> J{Activate motor region}
+  J --> F(Move foot/leg)
+  J --> G(Shift balance)
+  A --> H(Toe bleeds)
+  C --> I{Activate memory of past injury}
+  J --> K(Rub foot)
+  C --> L(Trigger hormone release)
+  F --> K
+  G --> K
+  K --> C
+  K --> B
+  L --> B
+  L --> C
+  L --> D
+  L --> J
+  L --> H
+```

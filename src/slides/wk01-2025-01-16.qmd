@@ -1,0 +1,368 @@
+---
+title: "Foundations of Social, Cognitive, and Affective Neuroscience"
+---
+
+# Overview
+
+## Prelude
+
+---
+
+{{< video https://www.youtube.com/embed/JB7jSFeVz1U width="100%" height="80%" >}}
+
+<p style="text-align:center;">
+[@Melodysheep2011-wg]
+</p>
+
+---
+
+> "*If understanding everything we need to know about the brain is a mile, how far have we walked?*"
+
+<p style="text-align:center;">
+[@National_Geographic2014-gv]
+</p>
+
+---
+
+{{< video https://www.youtube.com/embed/nvXuq9jRWKE width="100%" height="80%" >}}
+
+<p style="text-align:center;">
+[@National_Geographic2014-gv]
+</p>
+
+## Gilmore bio
+
+::: {layout-nrow=2}
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/DenverCP.JPG/266px-DenverCP.JPG)
+
+![](http://watson.brown.edu/ds/sites/all/themes/ds/img/header/brown_large.png)
+
+![](https://www.civitatis.com/f/estados-unidos/washington/escala-washington-589x392.jpg)
+
+![](https://www.cmu.edu/brand/brand-guidelines/images/wordmarkonphoto4-600x600.png)
+
+![](https://dispatch.happyvalley.com/m/photos/_inline/Mount-Nittany_submitted-dsc_0371-1_2023-10-18-201411_uuxi.jpg)
+
+![](../include/img/sleic.jpg)
+
+![](https://nyu.databrary.org/web/images/logo/databrary-nav.svg)
+
+![](https://play-project.org/img/PLAY-logo.png)
+:::
+
+---
+
+- Hiking, camping/backpacking, cycling, paddling
+- Music, theatre
+- Activism
+- Amateur radio (W3TM), computing
+
+## Today's topics
+
+- Why neuroscience is harder than physics
+- Course overview
+- Does neuroscience need behavior? Does behavioral science need the brain?
+
+# Why neuroscience is harder than physics
+
+---
+
+![](../include/img/psych-harder-1.jpg)
+
+
+---
+
+![](../include/img/psych-harder-2.jpg)
+
+
+## What do we need to know to answer the question?
+
+- What is the state...
+    - Of the world ($W$)
+    - Of the organism
+        - Body ($B$)
+        - Nervous system ($N$)
+        - Mind ($M$)
+
+---
+
+![[@swanson2005anatomy Figure 1]](../include/img/swanson-2005-fig-1.jpg)
+
+---
+
+![](../include/img/nested-causality-labels.png)
+
+## Some states are more easily measured than others
+
+- $W$, $B$, $N$ (more or less) **directly**
+
+---
+
+![[@Sejnowski2014-aa Figure 1]](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp)
+
+## Mental states ($M$)
+
+- Measured **indirectly**
+- Via $N$, $B$, $W$ (+ prior beliefs/knowledge)
+- Examples?
+
+## What are essential components/dimensions of $W$?
+
+## What are essential components/dimensions of $B$?
+
+## Brain & behavior are complex, dynamic *systems* with
+
+- Components
+- Interactions
+- Forces/influences
+- Boundaries
+- Inputs/outputs/processes
+
+## Systems...
+
+- "Behave" or change state across time
+- Return to starting state
+- Appear to be regulated, controlled, influenced by feedback loops
+- $B(t+1) = f(W(t), B(t), N(t), M(t))$
+
+## May be thought of as [networks](https://en.wikipedia.org/wiki/Network_science)
+
+![From https://source.wustl.edu/2013/08/brain-flexible-hub-network-helps-humans-adapt/](https://source.wustl.edu/wp-content/uploads/2013/08/ColeCoverFlexHub470x340.jpg)
+
+## At multiple levels of organization...
+
+![](https://stats.idre.ucla.edu/wp-content/uploads/2016/02/sem_1.png)
+---
+
+![[@Swanson2016-qr Figure 3]](https://www.annualreviews.org/na101/home/literatum/publisher/ar/journals/content/neuro/2016/neuro.2016.39.issue-1/annurev-neuro-071714-033954/20160711/images/medium/ne390197.f3.gif)
+
+## Studying systems is hard because...
+
+- Computation is (often) distributed
+- Single parts -> multiple functions
+- Single functions -> multiple parts
+
+## e.g., "equifinality" in micro-circuits
+
+![[@Calabrese2018-ve]](../include/img/calabrese-2018.jpg)
+
+## Studying systems is hard because...
+
+- Change structure/function over time
+- Biological systems not "designed" like human-engineered ones
+- Hard to measure what is being exchanged, what is being *controlled*
+
+---
+
+![[@Cisek2019-vq Figure 3]. Schematic behavioral control systems. (A) When the current nutrient state deviates from a desired state, locomotion is initiated, ultimately bringing the animal to a more desirable state. (B) Elaboration of nutrient state control into a high-level controller (ANS) and a lower-level controller (BNS) capable of two modes of locomotion, local exploitation, and long-range exploration. 5HT, serotonin; ANS/BNS, apical/blastoporal nervous system; DA, dopamine; NPY, neuropeptide Y](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig3_HTML.png?as=webp)
+
+# Course overview
+
+## Goals
+
+- Master fundamentals of neuroscientific concepts and facts
+- Prepare to read primary source literature in social, behavioral, cognitive, affective, and clinical neuroscience
+
+## Structure
+
+<https://psu-psychology.github.io/psy-511-scan-fdns-2024-spring/>
+
+## Questions
+
+- What is the basic organizational plan of the nervous system?
+- How do neurons work?
+- How do neurons connected in networks achieve behavioral goals?
+- How does the nervous system develop? How has it evolved?
+- How do disorders of the mind reveal themselves in the nervous system?
+
+## Approach
+
+- Brain architecture (neuroanatomy)
+- Brain function (neurophysiology)
+- Brain communication (neurochemistry)
+- Changes over evolutionary and developmental time
+
+## Approach
+
+- The nervous system as an information processing system
+
+![](https://i.stack.imgur.com/3B00P.png)
+
+## Inputs
+
+- From environment, body, brain
+
+## Processing
+
+- Current inputs + brain state + body state + possible future states...
+- Stored information
+- Physiological & behavioral goals
+
+---
+
+![[@Cisek2019-vq Figure 1]](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig1_HTML.png?as=webp)
+
+---
+
+## Outputs
+
+- To brain, body, environment
+
+## Mapping structures to functions...
+
+![[@Cisek2019-vq Figure 8]](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png?as=webp)
+
+## And *vice versa*?
+
+![[Cepelewicz2021-hq]](../include/img/quanta-2021.png)
+
+---
+
+>"The brainwide representation of behavioral variables suggests that information encoded nearly anywhere in the forebrain is combined with behavioral state variables into a mixed representation...Our data indicate that it happens as early as primary sensory cortex."
+
+<p style="text-align:center;">
+[@Stringer2019-vf]
+</p>
+
+## And do we have the right "psychological" structures?
+
+>"Psychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge. Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction, two issues that are particularly damaging...
+
+---
+
+>...for the study of **multifaceted constructs like self-regulation**...We conclude that self-regulation lacks coherence as a construct..."
+
+<p style="text-align:center;">
+[@Eisenberg2019-iy]
+</p>
+
+## "Behavioural biologists don't agree on what constitutes behaviour"
+
+>Behavioural biology is a major discipline within biology, centred on the key concept of ‘behaviour’. But how is ‘behaviour’ defined, and how should it be defined? We outline what characteristics we believe a scientific definition should have, and why we think it is important 
+
+---
+
+>...that a definition have these traits. We then examine the range of available published definitions for behaviour. 
+
+<p style="text-align:center;">
+[@Levitis2009-br]
+</p>
+
+---
+
+>Finding no consensus, we present survey responses from 174 members of three behaviour-focused scientific societies as to their understanding of the term. Here again, we find surprisingly widespread disagreement as to what qualifies as behaviour. Respondents contradict themselves...
+
+---
+
+>...each other, and published definitions, indicating that they are using individually variable intuitive, rather than codified, meanings of `behaviour.'
+
+<p style="text-align:center;">
+[@Levitis2009-br]
+</p>
+
+---
+
+>We offer a new definition, based largely on survey responses: "Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes."
+
+<p style="text-align:center;">
+[@Levitis2009-br]
+</p>
+
+## Sciences of complexity
+
+![[@Favela2020-uc Figure 1]](https://wires.onlinelibrary.wiley.com/cms/asset/8a77f337-943b-4df9-8da8-b7206093f08d/wcs1525-fig-0001-m.jpg)
+
+## Levels of analysis
+
+![[@Sejnowski2014-aa Figure 1]](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp)
+
+## David Marr (1945-1980)
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![David Marr](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGutDYqHcIazwkXdQtGfedIVfGG-DcrtMAK_j93DQgrMI8lsiH7WGttQlgdh0-jO_u4w&usqp=CAU)
+:::
+
+::: {.column width="50%"}
+![[@Marr1980-cu]](https://mit-press-us.imgix.net/covers/9780262514620.jpg?auto=format&w=298&dpr=1&q=20)
+:::
+
+::::
+
+## Marr's Three Levels
+
+![[@Favela2020-uc Figure 3]](https://wires.onlinelibrary.wiley.com/cms/asset/9fa6c8e5-30fa-4e6f-a5cf-e9407ed098c0/wcs1525-fig-0003-m.jpg)
+
+---
+
+- What must be computed to carry out task X?
+- What algorithm is used to carry out the computation?
+- What hardware implements the algorithm?
+
+# Break
+
+# Your turn
+
+## Does neuroscience need behavior? 
+
+Krakauer, J. W., Ghazanfar, A. A., Gomez-Marin, A., MacIver, M. A., & Poeppel, D. (2017). Neuroscience needs behavior: Correcting a reductionist bias. *Neuron*, *93*(3), 480–490. <https://dx.doi.org/10.1016/j.neuron.2016.12.041>.
+
+Parada, F. J. & Rossi, A. (2018). If neuroscience needs behavior, what does psychology need? *Frontiers in Psychology*, *9*, 433. <https://doi.org/10.3389/fpsyg.2018.00433>.
+
+## Key points
+
+- Questions 'often tacit...belief in the reductionist program for understanding the link between brain and behavior'
+- Behavior -> understanding; neural interventions -> causality
+- Marr's 3 levels (computation; algorithm; implementation)
+
+## But what is behavior?
+
+## "Behavioural biologists don't agree on what constitutes behaviour"
+
+>..."Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes."
+
+<p style="text-align:center;">
+[@Levitis2009-br]
+</p>
+
+---
+
+![[@Krakauer2017-xl Figure 1]](https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr1.jpg)
+
+---
+
+![[@Krakauer2017-xl Figure 2]](https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr2.jpg)
+
+---
+
+![[@Krakauer2017-xl Figure 3]](https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr3.jpg)
+
+---
+
+![[@Krakauer2017-xl Figure 4]](https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr4.jpg)
+
+---
+
+![[@Parada2018-rp Figure 1]](https://www.frontiersin.org/files/Articles/362280/fpsyg-09-00433-HTML/image_m/fpsyg-09-00433-g001.jpg)
+
+## Exercise 01
+
+- [[Due next Wednesday](../exercises/ex01.qmd)]{.orange_due}
+
+## Main points
+
+- Psychology is harder than physics
+- Neuroscience needs behavior
+
+## Next time...
+
+- Neuroanatomy lab
+  - Read/study
+    - Neuroanatomy [notes](../resources/anatomy.qmd)
+    - Bring to class a copy of [Exercise 02](exercises/ex02.pdf)
+
+# Resources
+
+## References
