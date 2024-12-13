@@ -42,11 +42,13 @@ website:
   repo-actions: [edit, issue]
   repo-subdir: src
   page-footer:
-    left: "Copyright Rick Gilmore" 
-    right:
+    left: "&copy; Rick Gilmore"
+    center: "Built with [Quarto](https://quarto.org/)"
+    right: 
       - icon: github
         href: https://github.com/rogilmore
     background: light
+    border: true
   page-navigation: true
   
 format:
