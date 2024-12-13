@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.56">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2024-04-26">
+
+<title>Foundations of Social, Cognitive, and Affective Neuroscience – PSY 511.003 Spr 25</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../slides/wk02-2025-01-23.html" rel="next">
+<link href="../policies.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../include/css/styles.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../slides/wk01-2025-01-16.html">Slides</a></li><li class="breadcrumb-item"><a href="../slides/wk01-2025-01-16.html"><span class="chapter-title">Foundations of Social, Cognitive, and Affective Neuroscience</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">PSY 511.003 Spr 25</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/tree/main/src/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../schedule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Schedule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../evaluation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Evaluation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../policies.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Policies &amp; Values</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Slides</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../slides/wk01-2025-01-16.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Foundations of Social, Cognitive, and Affective Neuroscience</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../slides/wk02-2025-01-23.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Neuroanatomy</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Exercises</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../exercises/ex01.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Exercise 01 • Levels/Terms</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#prelude" id="toc-prelude" class="nav-link" data-scroll-target="#prelude">Prelude</a></li>
+  <li><a href="#gilmore-bio" id="toc-gilmore-bio" class="nav-link" data-scroll-target="#gilmore-bio">Gilmore bio</a></li>
+  <li><a href="#todays-topics" id="toc-todays-topics" class="nav-link" data-scroll-target="#todays-topics">Today’s topics</a></li>
+  </ul></li>
+  <li><a href="#why-neuroscience-is-harder-than-physics" id="toc-why-neuroscience-is-harder-than-physics" class="nav-link" data-scroll-target="#why-neuroscience-is-harder-than-physics">Why neuroscience is harder than physics</a>
+  <ul class="collapse">
+  <li><a href="#what-do-we-need-to-know-to-answer-the-question" id="toc-what-do-we-need-to-know-to-answer-the-question" class="nav-link" data-scroll-target="#what-do-we-need-to-know-to-answer-the-question">What do we need to know to answer the question?</a></li>
+  <li><a href="#some-states-are-more-easily-measured-than-others" id="toc-some-states-are-more-easily-measured-than-others" class="nav-link" data-scroll-target="#some-states-are-more-easily-measured-than-others">Some states are more easily measured than others</a></li>
+  <li><a href="#mental-states-m" id="toc-mental-states-m" class="nav-link" data-scroll-target="#mental-states-m">Mental states (<span class="math inline">\(M\)</span>)</a></li>
+  <li><a href="#what-are-essential-componentsdimensions-of-w" id="toc-what-are-essential-componentsdimensions-of-w" class="nav-link" data-scroll-target="#what-are-essential-componentsdimensions-of-w">What are essential components/dimensions of <span class="math inline">\(W\)</span>?</a></li>
+  <li><a href="#what-are-essential-componentsdimensions-of-b" id="toc-what-are-essential-componentsdimensions-of-b" class="nav-link" data-scroll-target="#what-are-essential-componentsdimensions-of-b">What are essential components/dimensions of <span class="math inline">\(B\)</span>?</a></li>
+  <li><a href="#brain-behavior-are-complex-dynamic-systems-with" id="toc-brain-behavior-are-complex-dynamic-systems-with" class="nav-link" data-scroll-target="#brain-behavior-are-complex-dynamic-systems-with">Brain &amp; behavior are complex, dynamic <em>systems</em> with</a></li>
+  <li><a href="#systems" id="toc-systems" class="nav-link" data-scroll-target="#systems">Systems…</a></li>
+  <li><a href="#may-be-thought-of-as-networks" id="toc-may-be-thought-of-as-networks" class="nav-link" data-scroll-target="#may-be-thought-of-as-networks">May be thought of as networks</a></li>
+  <li><a href="#at-multiple-levels-of-organization" id="toc-at-multiple-levels-of-organization" class="nav-link" data-scroll-target="#at-multiple-levels-of-organization">At multiple levels of organization…</a></li>
+  <li><a href="#studying-systems-is-hard-because" id="toc-studying-systems-is-hard-because" class="nav-link" data-scroll-target="#studying-systems-is-hard-because">Studying systems is hard because…</a></li>
+  <li><a href="#e.g.-equifinality-in-micro-circuits" id="toc-e.g.-equifinality-in-micro-circuits" class="nav-link" data-scroll-target="#e.g.-equifinality-in-micro-circuits">e.g., “equifinality” in micro-circuits</a></li>
+  <li><a href="#studying-systems-is-hard-because-1" id="toc-studying-systems-is-hard-because-1" class="nav-link" data-scroll-target="#studying-systems-is-hard-because-1">Studying systems is hard because…</a></li>
+  </ul></li>
+  <li><a href="#course-overview" id="toc-course-overview" class="nav-link" data-scroll-target="#course-overview">Course overview</a>
+  <ul class="collapse">
+  <li><a href="#goals" id="toc-goals" class="nav-link" data-scroll-target="#goals">Goals</a></li>
+  <li><a href="#structure" id="toc-structure" class="nav-link" data-scroll-target="#structure">Structure</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
+  <li><a href="#approach" id="toc-approach" class="nav-link" data-scroll-target="#approach">Approach</a></li>
+  <li><a href="#approach-1" id="toc-approach-1" class="nav-link" data-scroll-target="#approach-1">Approach</a></li>
+  <li><a href="#inputs" id="toc-inputs" class="nav-link" data-scroll-target="#inputs">Inputs</a></li>
+  <li><a href="#processing" id="toc-processing" class="nav-link" data-scroll-target="#processing">Processing</a></li>
+  <li><a href="#outputs" id="toc-outputs" class="nav-link" data-scroll-target="#outputs">Outputs</a></li>
+  <li><a href="#mapping-structures-to-functions" id="toc-mapping-structures-to-functions" class="nav-link" data-scroll-target="#mapping-structures-to-functions">Mapping structures to functions…</a></li>
+  <li><a href="#and-vice-versa" id="toc-and-vice-versa" class="nav-link" data-scroll-target="#and-vice-versa">And <em>vice versa</em>?</a></li>
+  <li><a href="#and-do-we-have-the-right-psychological-structures" id="toc-and-do-we-have-the-right-psychological-structures" class="nav-link" data-scroll-target="#and-do-we-have-the-right-psychological-structures">And do we have the right “psychological” structures?</a></li>
+  <li><a href="#behavioural-biologists-dont-agree-on-what-constitutes-behaviour" id="toc-behavioural-biologists-dont-agree-on-what-constitutes-behaviour" class="nav-link" data-scroll-target="#behavioural-biologists-dont-agree-on-what-constitutes-behaviour">“Behavioural biologists don’t agree on what constitutes behaviour”</a></li>
+  <li><a href="#sciences-of-complexity" id="toc-sciences-of-complexity" class="nav-link" data-scroll-target="#sciences-of-complexity">Sciences of complexity</a></li>
+  <li><a href="#levels-of-analysis" id="toc-levels-of-analysis" class="nav-link" data-scroll-target="#levels-of-analysis">Levels of analysis</a></li>
+  <li><a href="#david-marr-1945-1980" id="toc-david-marr-1945-1980" class="nav-link" data-scroll-target="#david-marr-1945-1980">David Marr (1945-1980)</a></li>
+  <li><a href="#marrs-three-levels" id="toc-marrs-three-levels" class="nav-link" data-scroll-target="#marrs-three-levels">Marr’s Three Levels</a></li>
+  </ul></li>
+  <li><a href="#break" id="toc-break" class="nav-link" data-scroll-target="#break">Break</a></li>
+  <li><a href="#your-turn" id="toc-your-turn" class="nav-link" data-scroll-target="#your-turn">Your turn</a>
+  <ul class="collapse">
+  <li><a href="#does-neuroscience-need-behavior" id="toc-does-neuroscience-need-behavior" class="nav-link" data-scroll-target="#does-neuroscience-need-behavior">Does neuroscience need behavior?</a></li>
+  <li><a href="#key-points" id="toc-key-points" class="nav-link" data-scroll-target="#key-points">Key points</a></li>
+  <li><a href="#but-what-is-behavior" id="toc-but-what-is-behavior" class="nav-link" data-scroll-target="#but-what-is-behavior">But what is behavior?</a></li>
+  <li><a href="#behavioural-biologists-dont-agree-on-what-constitutes-behaviour-1" id="toc-behavioural-biologists-dont-agree-on-what-constitutes-behaviour-1" class="nav-link" data-scroll-target="#behavioural-biologists-dont-agree-on-what-constitutes-behaviour-1">“Behavioural biologists don’t agree on what constitutes behaviour”</a></li>
+  <li><a href="#exercise-01" id="toc-exercise-01" class="nav-link" data-scroll-target="#exercise-01">Exercise 01</a></li>
+  <li><a href="#main-points" id="toc-main-points" class="nav-link" data-scroll-target="#main-points">Main points</a></li>
+  <li><a href="#next-time" id="toc-next-time" class="nav-link" data-scroll-target="#next-time">Next time…</a></li>
+  </ul></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a>
+  <ul class="collapse">
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/edit/main/src/slides/wk01-2025-01-16.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../slides/wk01-2025-01-16.html">Slides</a></li><li class="breadcrumb-item"><a href="../slides/wk01-2025-01-16.html"><span class="chapter-title">Foundations of Social, Cognitive, and Affective Neuroscience</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Foundations of Social, Cognitive, and Affective Neuroscience</span></h1>
+<p class="subtitle lead">PSY 511.003 Spr 2025</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 26, 2024</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">April 26, 2024</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<section id="prelude" class="level2">
+<h2 class="anchored" data-anchor-id="prelude">Prelude</h2>
+<hr>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/JB7jSFeVz1U" width="100%" height="80%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p style="text-align:center;">
+<span class="citation" data-cites="Melodysheep2011-wg">(<a href="../references.html#ref-Melodysheep2011-wg" role="doc-biblioref">melodysheep, 2011</a>)</span>
+</p>
+<hr>
+<blockquote class="blockquote">
+<p>“<em>If understanding everything we need to know about the brain is a mile, how far have we walked?</em>”</p>
+</blockquote>
+<p style="text-align:center;">
+<span class="citation" data-cites="National_Geographic2014-gv">(<a href="../references.html#ref-National_Geographic2014-gv" role="doc-biblioref">National Geographic, 2014</a>)</span>
+</p>
+<hr>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/nvXuq9jRWKE" width="100%" height="80%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p style="text-align:center;">
+<span class="citation" data-cites="National_Geographic2014-gv">(<a href="../references.html#ref-National_Geographic2014-gv" role="doc-biblioref">National Geographic, 2014</a>)</span>
+</p>
+</section>
+<section id="gilmore-bio" class="level2">
+<h2 class="anchored" data-anchor-id="gilmore-bio">Gilmore bio</h2>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-nrow="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/DenverCP.JPG/266px-DenverCP.JPG" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img src="http://watson.brown.edu/ds/sites/all/themes/ds/img/header/brown_large.png" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img src="https://www.civitatis.com/f/estados-unidos/washington/escala-washington-589x392.jpg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img src="https://www.cmu.edu/brand/brand-guidelines/images/wordmarkonphoto4-600x600.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img src="https://dispatch.happyvalley.com/m/photos/_inline/Mount-Nittany_submitted-dsc_0371-1_2023-10-18-201411_uuxi.jpg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img src="../include/img/sleic.jpg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img src="https://nyu.databrary.org/web/images/logo/databrary-nav.svg" class="img-fluid"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img src="https://play-project.org/img/PLAY-logo.png" class="img-fluid"></p>
+</div>
+</div>
+</div>
+<hr>
+<ul>
+<li>Hiking, camping/backpacking, cycling, paddling</li>
+<li>Music, theatre</li>
+<li>Activism</li>
+<li>Amateur radio (W3TM), computing</li>
+</ul>
+</section>
+<section id="todays-topics" class="level2">
+<h2 class="anchored" data-anchor-id="todays-topics">Today’s topics</h2>
+<ul>
+<li>Why neuroscience is harder than physics</li>
+<li>Course overview</li>
+<li>Does neuroscience need behavior? Does behavioral science need the brain?</li>
+</ul>
+</section>
+</section>
+<section id="why-neuroscience-is-harder-than-physics" class="level1">
+<h1>Why neuroscience is harder than physics</h1>
+<hr>
+<p><img src="../include/img/psych-harder-1.jpg" class="img-fluid"></p>
+<hr>
+<p><img src="../include/img/psych-harder-2.jpg" class="img-fluid"></p>
+<section id="what-do-we-need-to-know-to-answer-the-question" class="level2">
+<h2 class="anchored" data-anchor-id="what-do-we-need-to-know-to-answer-the-question">What do we need to know to answer the question?</h2>
+<ul>
+<li>What is the state…
+<ul>
+<li>Of the world (<span class="math inline">\(W\)</span>)</li>
+<li>Of the organism
+<ul>
+<li>Body (<span class="math inline">\(B\)</span>)</li>
+<li>Nervous system (<span class="math inline">\(N\)</span>)</li>
+<li>Mind (<span class="math inline">\(M\)</span>)</li>
+</ul></li>
+</ul></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/swanson-2005-fig-1.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="swanson2005anatomy">(<a href="../references.html#ref-swanson2005anatomy" role="doc-biblioref">Swanson, 2005, fig. 1</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+<p><img src="../include/img/nested-causality-labels.png" class="img-fluid"></p>
+</section>
+<section id="some-states-are-more-easily-measured-than-others" class="level2">
+<h2 class="anchored" data-anchor-id="some-states-are-more-easily-measured-than-others">Some states are more easily measured than others</h2>
+<ul>
+<li><span class="math inline">\(W\)</span>, <span class="math inline">\(B\)</span>, <span class="math inline">\(N\)</span> (more or less) <strong>directly</strong></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Sejnowski2014-aa">(<a href="../references.html#ref-Sejnowski2014-aa" role="doc-biblioref">Sejnowski, Churchland, &amp; Movshon, 2014, fig. 1</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="mental-states-m" class="level2">
+<h2 class="anchored" data-anchor-id="mental-states-m">Mental states (<span class="math inline">\(M\)</span>)</h2>
+<ul>
+<li>Measured <strong>indirectly</strong></li>
+<li>Via <span class="math inline">\(N\)</span>, <span class="math inline">\(B\)</span>, <span class="math inline">\(W\)</span> (+ prior beliefs/knowledge)</li>
+<li>Examples?</li>
+</ul>
+</section>
+<section id="what-are-essential-componentsdimensions-of-w" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-essential-componentsdimensions-of-w">What are essential components/dimensions of <span class="math inline">\(W\)</span>?</h2>
+</section>
+<section id="what-are-essential-componentsdimensions-of-b" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-essential-componentsdimensions-of-b">What are essential components/dimensions of <span class="math inline">\(B\)</span>?</h2>
+</section>
+<section id="brain-behavior-are-complex-dynamic-systems-with" class="level2">
+<h2 class="anchored" data-anchor-id="brain-behavior-are-complex-dynamic-systems-with">Brain &amp; behavior are complex, dynamic <em>systems</em> with</h2>
+<ul>
+<li>Components</li>
+<li>Interactions</li>
+<li>Forces/influences</li>
+<li>Boundaries</li>
+<li>Inputs/outputs/processes</li>
+</ul>
+</section>
+<section id="systems" class="level2">
+<h2 class="anchored" data-anchor-id="systems">Systems…</h2>
+<ul>
+<li>“Behave” or change state across time</li>
+<li>Return to starting state</li>
+<li>Appear to be regulated, controlled, influenced by feedback loops</li>
+<li><span class="math inline">\(B(t+1) = f(W(t), B(t), N(t), M(t))\)</span></li>
+</ul>
+</section>
+<section id="may-be-thought-of-as-networks" class="level2">
+<h2 class="anchored" data-anchor-id="may-be-thought-of-as-networks">May be thought of as <a href="https://en.wikipedia.org/wiki/Network_science">networks</a></h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://source.wustl.edu/wp-content/uploads/2013/08/ColeCoverFlexHub470x340.jpg" class="img-fluid figure-img"></p>
+<figcaption>From https://source.wustl.edu/2013/08/brain-flexible-hub-network-helps-humans-adapt/</figcaption>
+</figure>
+</div>
+</section>
+<section id="at-multiple-levels-of-organization" class="level2">
+<h2 class="anchored" data-anchor-id="at-multiple-levels-of-organization">At multiple levels of organization…</h2>
+<p><img src="https://stats.idre.ucla.edu/wp-content/uploads/2016/02/sem_1.png" class="img-fluid"></p>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.annualreviews.org/na101/home/literatum/publisher/ar/journals/content/neuro/2016/neuro.2016.39.issue-1/annurev-neuro-071714-033954/20160711/images/medium/ne390197.f3.gif" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Swanson2016-qr">(<a href="../references.html#ref-Swanson2016-qr" role="doc-biblioref">Swanson &amp; Lichtman, 2016, fig. 3</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="studying-systems-is-hard-because" class="level2">
+<h2 class="anchored" data-anchor-id="studying-systems-is-hard-because">Studying systems is hard because…</h2>
+<ul>
+<li>Computation is (often) distributed</li>
+<li>Single parts -&gt; multiple functions</li>
+<li>Single functions -&gt; multiple parts</li>
+</ul>
+</section>
+<section id="e.g.-equifinality-in-micro-circuits" class="level2">
+<h2 class="anchored" data-anchor-id="e.g.-equifinality-in-micro-circuits">e.g., “equifinality” in micro-circuits</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/calabrese-2018.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Calabrese2018-ve">(<a href="../references.html#ref-Calabrese2018-ve" role="doc-biblioref">Calabrese, 2018</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="studying-systems-is-hard-because-1" class="level2">
+<h2 class="anchored" data-anchor-id="studying-systems-is-hard-because-1">Studying systems is hard because…</h2>
+<ul>
+<li>Change structure/function over time</li>
+<li>Biological systems not “designed” like human-engineered ones</li>
+<li>Hard to measure what is being exchanged, what is being <em>controlled</em></li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig3_HTML.png?as=webp" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Cisek2019-vq">(<a href="../references.html#ref-Cisek2019-vq" role="doc-biblioref">Cisek, 2019, fig. 3</a>)</span>. Schematic behavioral control systems. (A) When the current nutrient state deviates from a desired state, locomotion is initiated, ultimately bringing the animal to a more desirable state. (B) Elaboration of nutrient state control into a high-level controller (ANS) and a lower-level controller (BNS) capable of two modes of locomotion, local exploitation, and long-range exploration. 5HT, serotonin; ANS/BNS, apical/blastoporal nervous system; DA, dopamine; NPY, neuropeptide Y</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="course-overview" class="level1">
+<h1>Course overview</h1>
+<section id="goals" class="level2">
+<h2 class="anchored" data-anchor-id="goals">Goals</h2>
+<ul>
+<li>Master fundamentals of neuroscientific concepts and facts</li>
+<li>Prepare to read primary source literature in social, behavioral, cognitive, affective, and clinical neuroscience</li>
+</ul>
+</section>
+<section id="structure" class="level2">
+<h2 class="anchored" data-anchor-id="structure">Structure</h2>
+<p><a href="https://psu-psychology.github.io/psy-511-scan-fdns-2024-spring/" class="uri">https://psu-psychology.github.io/psy-511-scan-fdns-2024-spring/</a></p>
+</section>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions</h2>
+<ul>
+<li>What is the basic organizational plan of the nervous system?</li>
+<li>How do neurons work?</li>
+<li>How do neurons connected in networks achieve behavioral goals?</li>
+<li>How does the nervous system develop? How has it evolved?</li>
+<li>How do disorders of the mind reveal themselves in the nervous system?</li>
+</ul>
+</section>
+<section id="approach" class="level2">
+<h2 class="anchored" data-anchor-id="approach">Approach</h2>
+<ul>
+<li>Brain architecture (neuroanatomy)</li>
+<li>Brain function (neurophysiology)</li>
+<li>Brain communication (neurochemistry)</li>
+<li>Changes over evolutionary and developmental time</li>
+</ul>
+</section>
+<section id="approach-1" class="level2">
+<h2 class="anchored" data-anchor-id="approach-1">Approach</h2>
+<ul>
+<li>The nervous system as an information processing system</li>
+</ul>
+<p><img src="https://i.stack.imgur.com/3B00P.png" class="img-fluid"></p>
+</section>
+<section id="inputs" class="level2">
+<h2 class="anchored" data-anchor-id="inputs">Inputs</h2>
+<ul>
+<li>From environment, body, brain</li>
+</ul>
+</section>
+<section id="processing" class="level2">
+<h2 class="anchored" data-anchor-id="processing">Processing</h2>
+<ul>
+<li>Current inputs + brain state + body state + possible future states…</li>
+<li>Stored information</li>
+<li>Physiological &amp; behavioral goals</li>
+</ul>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig1_HTML.png?as=webp" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Cisek2019-vq">(<a href="../references.html#ref-Cisek2019-vq" role="doc-biblioref">Cisek, 2019, fig. 1</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+</section>
+<section id="outputs" class="level2">
+<h2 class="anchored" data-anchor-id="outputs">Outputs</h2>
+<ul>
+<li>To brain, body, environment</li>
+</ul>
+</section>
+<section id="mapping-structures-to-functions" class="level2">
+<h2 class="anchored" data-anchor-id="mapping-structures-to-functions">Mapping structures to functions…</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png?as=webp" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Cisek2019-vq">(<a href="../references.html#ref-Cisek2019-vq" role="doc-biblioref">Cisek, 2019, fig. 8</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="and-vice-versa" class="level2">
+<h2 class="anchored" data-anchor-id="and-vice-versa">And <em>vice versa</em>?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/quanta-2021.png" class="img-fluid figure-img"></p>
+<figcaption>[Cepelewicz2021-hq]</figcaption>
+</figure>
+</div>
+<hr>
+<blockquote class="blockquote">
+<p>“The brainwide representation of behavioral variables suggests that information encoded nearly anywhere in the forebrain is combined with behavioral state variables into a mixed representation…Our data indicate that it happens as early as primary sensory cortex.”</p>
+</blockquote>
+<p style="text-align:center;">
+<span class="citation" data-cites="Stringer2019-vf">(<a href="../references.html#ref-Stringer2019-vf" role="doc-biblioref">Stringer et al., 2019</a>)</span>
+</p>
+</section>
+<section id="and-do-we-have-the-right-psychological-structures" class="level2">
+<h2 class="anchored" data-anchor-id="and-do-we-have-the-right-psychological-structures">And do we have the right “psychological” structures?</h2>
+<blockquote class="blockquote">
+<p>“Psychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge. Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction, two issues that are particularly damaging…</p>
+</blockquote>
+<hr>
+<blockquote class="blockquote">
+<p>…for the study of <strong>multifaceted constructs like self-regulation</strong>…We conclude that self-regulation lacks coherence as a construct…”</p>
+</blockquote>
+<p style="text-align:center;">
+<span class="citation" data-cites="Eisenberg2019-iy">(<a href="../references.html#ref-Eisenberg2019-iy" role="doc-biblioref">Eisenberg et al., 2019</a>)</span>
+</p>
+</section>
+<section id="behavioural-biologists-dont-agree-on-what-constitutes-behaviour" class="level2">
+<h2 class="anchored" data-anchor-id="behavioural-biologists-dont-agree-on-what-constitutes-behaviour">“Behavioural biologists don’t agree on what constitutes behaviour”</h2>
+<blockquote class="blockquote">
+<p>Behavioural biology is a major discipline within biology, centred on the key concept of ‘behaviour’. But how is ‘behaviour’ defined, and how should it be defined? We outline what characteristics we believe a scientific definition should have, and why we think it is important</p>
+</blockquote>
+<hr>
+<blockquote class="blockquote">
+<p>…that a definition have these traits. We then examine the range of available published definitions for behaviour.</p>
+</blockquote>
+<p style="text-align:center;">
+<span class="citation" data-cites="Levitis2009-br">(<a href="../references.html#ref-Levitis2009-br" role="doc-biblioref">Levitis, Lidicker, &amp; Freund, 2009</a>)</span>
+</p>
+<hr>
+<blockquote class="blockquote">
+<p>Finding no consensus, we present survey responses from 174 members of three behaviour-focused scientific societies as to their understanding of the term. Here again, we find surprisingly widespread disagreement as to what qualifies as behaviour. Respondents contradict themselves…</p>
+</blockquote>
+<hr>
+<blockquote class="blockquote">
+<p>…each other, and published definitions, indicating that they are using individually variable intuitive, rather than codified, meanings of `behaviour.’</p>
+</blockquote>
+<p style="text-align:center;">
+<span class="citation" data-cites="Levitis2009-br">(<a href="../references.html#ref-Levitis2009-br" role="doc-biblioref">Levitis et al., 2009</a>)</span>
+</p>
+<hr>
+<blockquote class="blockquote">
+<p>We offer a new definition, based largely on survey responses: “Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes.”</p>
+</blockquote>
+<p style="text-align:center;">
+<span class="citation" data-cites="Levitis2009-br">(<a href="../references.html#ref-Levitis2009-br" role="doc-biblioref">Levitis et al., 2009</a>)</span>
+</p>
+</section>
+<section id="sciences-of-complexity" class="level2">
+<h2 class="anchored" data-anchor-id="sciences-of-complexity">Sciences of complexity</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://wires.onlinelibrary.wiley.com/cms/asset/8a77f337-943b-4df9-8da8-b7206093f08d/wcs1525-fig-0001-m.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Favela2020-uc">(<a href="../references.html#ref-Favela2020-uc" role="doc-biblioref">Favela, 2020, fig. 1</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="levels-of-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="levels-of-analysis">Levels of analysis</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Sejnowski2014-aa">(<a href="../references.html#ref-Sejnowski2014-aa" role="doc-biblioref">Sejnowski et al., 2014, fig. 1</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="david-marr-1945-1980" class="level2">
+<h2 class="anchored" data-anchor-id="david-marr-1945-1980">David Marr (1945-1980)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGutDYqHcIazwkXdQtGfedIVfGG-DcrtMAK_j93DQgrMI8lsiH7WGttQlgdh0-jO_u4w&amp;usqp=CAU.png" class="img-fluid figure-img"></p>
+<figcaption>David Marr</figcaption>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://mit-press-us.imgix.net/covers/9780262514620.jpg?auto=format&amp;w=298&amp;dpr=1&amp;q=20" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Marr1980-cu">(<a href="../references.html#ref-Marr1980-cu" role="doc-biblioref">Marr, 1980</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="marrs-three-levels" class="level2">
+<h2 class="anchored" data-anchor-id="marrs-three-levels">Marr’s Three Levels</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://wires.onlinelibrary.wiley.com/cms/asset/9fa6c8e5-30fa-4e6f-a5cf-e9407ed098c0/wcs1525-fig-0003-m.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Favela2020-uc">(<a href="../references.html#ref-Favela2020-uc" role="doc-biblioref">Favela, 2020, fig. 3</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+<ul>
+<li>What must be computed to carry out task X?</li>
+<li>What algorithm is used to carry out the computation?</li>
+<li>What hardware implements the algorithm?</li>
+</ul>
+</section>
+</section>
+<section id="break" class="level1">
+<h1>Break</h1>
+</section>
+<section id="your-turn" class="level1">
+<h1>Your turn</h1>
+<section id="does-neuroscience-need-behavior" class="level2">
+<h2 class="anchored" data-anchor-id="does-neuroscience-need-behavior">Does neuroscience need behavior?</h2>
+<p>Krakauer, J. W., Ghazanfar, A. A., Gomez-Marin, A., MacIver, M. A., &amp; Poeppel, D. (2017). Neuroscience needs behavior: Correcting a reductionist bias. <em>Neuron</em>, <em>93</em>(3), 480–490. <a href="https://dx.doi.org/10.1016/j.neuron.2016.12.041" class="uri">https://dx.doi.org/10.1016/j.neuron.2016.12.041</a>.</p>
+<p>Parada, F. J. &amp; Rossi, A. (2018). If neuroscience needs behavior, what does psychology need? <em>Frontiers in Psychology</em>, <em>9</em>, 433. <a href="https://doi.org/10.3389/fpsyg.2018.00433" class="uri">https://doi.org/10.3389/fpsyg.2018.00433</a>.</p>
+</section>
+<section id="key-points" class="level2">
+<h2 class="anchored" data-anchor-id="key-points">Key points</h2>
+<ul>
+<li>Questions ‘often tacit…belief in the reductionist program for understanding the link between brain and behavior’</li>
+<li>Behavior -&gt; understanding; neural interventions -&gt; causality</li>
+<li>Marr’s 3 levels (computation; algorithm; implementation)</li>
+</ul>
+</section>
+<section id="but-what-is-behavior" class="level2">
+<h2 class="anchored" data-anchor-id="but-what-is-behavior">But what is behavior?</h2>
+</section>
+<section id="behavioural-biologists-dont-agree-on-what-constitutes-behaviour-1" class="level2">
+<h2 class="anchored" data-anchor-id="behavioural-biologists-dont-agree-on-what-constitutes-behaviour-1">“Behavioural biologists don’t agree on what constitutes behaviour”</h2>
+<blockquote class="blockquote">
+<p>…“Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes.”</p>
+</blockquote>
+<p style="text-align:center;">
+<span class="citation" data-cites="Levitis2009-br">(<a href="../references.html#ref-Levitis2009-br" role="doc-biblioref">Levitis et al., 2009</a>)</span>
+</p>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr1.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Krakauer2017-xl">(<a href="../references.html#ref-Krakauer2017-xl" role="doc-biblioref">Krakauer, Ghazanfar, Gomez-Marin, MacIver, &amp; Poeppel, 2017, fig. 1</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr2.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Krakauer2017-xl">(<a href="../references.html#ref-Krakauer2017-xl" role="doc-biblioref">Krakauer et al., 2017, fig. 2</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr3.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Krakauer2017-xl">(<a href="../references.html#ref-Krakauer2017-xl" role="doc-biblioref">Krakauer et al., 2017, fig. 3</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0896627316310406-gr4.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Krakauer2017-xl">(<a href="../references.html#ref-Krakauer2017-xl" role="doc-biblioref">Krakauer et al., 2017, fig. 4</a>)</span></figcaption>
+</figure>
+</div>
+<hr>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.frontiersin.org/files/Articles/362280/fpsyg-09-00433-HTML/image_m/fpsyg-09-00433-g001.jpg" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Parada2018-rp">(<a href="../references.html#ref-Parada2018-rp" role="doc-biblioref">Parada &amp; Rossi, 2018, fig. 1</a>)</span></figcaption>
+</figure>
+</div>
+</section>
+<section id="exercise-01" class="level2">
+<h2 class="anchored" data-anchor-id="exercise-01">Exercise 01</h2>
+<ul>
+<li><span class="orange_due"><a href="../exercises/ex01.html">Due next Wednesday</a></span></li>
+</ul>
+</section>
+<section id="main-points" class="level2">
+<h2 class="anchored" data-anchor-id="main-points">Main points</h2>
+<ul>
+<li>Psychology is harder than physics</li>
+<li>Neuroscience needs behavior</li>
+</ul>
+</section>
+<section id="next-time" class="level2">
+<h2 class="anchored" data-anchor-id="next-time">Next time…</h2>
+<ul>
+<li>Neuroanatomy lab
+<ul>
+<li>Read/study
+<ul>
+<li>Neuroanatomy <a href="../resources/anatomy.qmd">notes</a></li>
+<li>Bring to class a copy of <a href="exercises/ex02.pdf">Exercise 02</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="resources" class="level1">
+<h1>Resources</h1>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+
+
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list" style="display: none">
+<div id="ref-Calabrese2018-ve" class="csl-entry" role="listitem">
+Calabrese, R. L. (2018). Inconvenient truth to principle of neuroscience. <em>Trends in Neurosciences</em>, <em>41</em>(8), 488–491. <a href="https://doi.org/10.1016/j.tins.2018.05.006">https://doi.org/10.1016/j.tins.2018.05.006</a>
+</div>
+<div id="ref-Cisek2019-vq" class="csl-entry" role="listitem">
+Cisek, P. (2019). Resynthesizing behavior through phylogenetic refinement. <em>Attention, Perception &amp; Psychophysics</em>. <a href="https://doi.org/10.3758/s13414-019-01760-1">https://doi.org/10.3758/s13414-019-01760-1</a>
+</div>
+<div id="ref-Eisenberg2019-iy" class="csl-entry" role="listitem">
+Eisenberg, I. W., Bissett, P. G., Zeynep Enkavi, A., Li, J., MacKinnon, D. P., Marsch, L. A., &amp; Poldrack, R. A. (2019). Uncovering the structure of self-regulation through data-driven ontology discovery. <em>Nature Communications</em>, <em>10</em>(1), 2319. <a href="https://doi.org/10.1038/s41467-019-10301-1">https://doi.org/10.1038/s41467-019-10301-1</a>
+</div>
+<div id="ref-Favela2020-uc" class="csl-entry" role="listitem">
+Favela, L. H. (2020). Cognitive science as complexity science. <em>Wiley Interdisciplinary Reviews. Cognitive Science</em>, <em>11</em>(4), e1525. <a href="https://doi.org/10.1002/wcs.1525">https://doi.org/10.1002/wcs.1525</a>
+</div>
+<div id="ref-Krakauer2017-xl" class="csl-entry" role="listitem">
+Krakauer, J. W., Ghazanfar, A. A., Gomez-Marin, A., MacIver, M. A., &amp; Poeppel, D. (2017). Neuroscience needs behavior: Correcting a reductionist bias. <em>Neuron</em>, <em>93</em>(3), 480–490. <a href="https://doi.org/10.1016/j.neuron.2016.12.041">https://doi.org/10.1016/j.neuron.2016.12.041</a>
+</div>
+<div id="ref-Levitis2009-br" class="csl-entry" role="listitem">
+Levitis, D. A., Lidicker, W. Z., &amp; Freund, G. (2009). Behavioural biologists don’t agree on what constitutes behaviour. <em>Animal Behaviour</em>, <em>78</em>(1), 103–110. <a href="https://doi.org/10.1016/j.anbehav.2009.03.018">https://doi.org/10.1016/j.anbehav.2009.03.018</a>
+</div>
+<div id="ref-Marr1980-cu" class="csl-entry" role="listitem">
+Marr, D. (1980). <em>Vision</em>. Retrieved from <a href="https://mitpress.mit.edu/books/vision">https://mitpress.mit.edu/books/vision</a>
+</div>
+<div id="ref-Melodysheep2011-wg" class="csl-entry" role="listitem">
+melodysheep. (2011, March). Ode to the brain! By symphony of science. Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=JB7jSFeVz1U">https://www.youtube.com/watch?v=JB7jSFeVz1U</a>
+</div>
+<div id="ref-National_Geographic2014-gv" class="csl-entry" role="listitem">
+National Geographic. (2014, January). Beautiful <span>3-D</span> brain scans show every synapse | national geographic. You<span>T</span>ube. Retrieved from <a href="https://www.youtube.com/watch?v=nvXuq9jRWKE">https://www.youtube.com/watch?v=nvXuq9jRWKE</a>
+</div>
+<div id="ref-Parada2018-rp" class="csl-entry" role="listitem">
+Parada, F. J., &amp; Rossi, A. (2018). If neuroscience needs behavior, what does psychology need? <em>Frontiers in Psychology</em>, <em>9</em>, 433. <a href="https://doi.org/10.3389/fpsyg.2018.00433">https://doi.org/10.3389/fpsyg.2018.00433</a>
+</div>
+<div id="ref-Sejnowski2014-aa" class="csl-entry" role="listitem">
+Sejnowski, T. J., Churchland, P. S., &amp; Movshon, J. A. (2014). Putting big data to good use in neuroscience. <em>Nat. Neurosci.</em>, <em>17</em>(11), 1440–1441. <a href="https://doi.org/10.1038/nn.3839">https://doi.org/10.1038/nn.3839</a>
+</div>
+<div id="ref-Stringer2019-vf" class="csl-entry" role="listitem">
+Stringer, C., Pachitariu, M., Steinmetz, N., Reddy, C. B., Carandini, M., &amp; Harris, K. D. (2019). Spontaneous behaviors drive multidimensional, brainwide activity. <em>Science</em>, <em>364</em>(6437), 255. <a href="https://doi.org/10.1126/science.aav7893">https://doi.org/10.1126/science.aav7893</a>
+</div>
+<div id="ref-swanson2005anatomy" class="csl-entry" role="listitem">
+Swanson, L. W. (2005). Anatomy of the soul as reflected in the cerebral hemispheres: Neural circuits underlying voluntary control of basic motivated behaviors. <em>Journal of Comparative Neurology</em>, <em>493</em>(1), 122–131. <a href="https://doi.org/10.1002/cne.20733">https://doi.org/10.1002/cne.20733</a>
+</div>
+<div id="ref-Swanson2016-qr" class="csl-entry" role="listitem">
+Swanson, L. W., &amp; Lichtman, J. W. (2016). From cajal to connectome and beyond. <em>Annual Review of Neuroscience</em>, <em>39</em>, 197–216. <a href="https://doi.org/10.1146/annurev-neuro-071714-033954">https://doi.org/10.1146/annurev-neuro-071714-033954</a>
+</div>
+</div>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../policies.html" class="pagination-link" aria-label="Policies &amp; Values">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Policies &amp; Values</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../slides/wk02-2025-01-23.html" class="pagination-link" aria-label="Neuroanatomy">
+        <span class="nav-page-text"><span class="chapter-title">Neuroanatomy</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Rick Gilmore</p>
+</div>   
+    <div class="nav-footer-center">
+<p>Built with <a href="https://quarto.org/">Quarto</a></p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/edit/main/src/slides/wk01-2025-01-16.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

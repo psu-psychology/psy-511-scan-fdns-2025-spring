@@ -1,0 +1,16 @@
+---
+title: "SCAN Foundations"
+subtitle: "PSYCH 511.003 Spring 2025"
+date: last-modified
+format: pdf
+bibliography:
+  - include/bib/psy-511.bib
+  - include/bib/packages.bib
+  - include/bib/psu-repro.bib
+---
+
+{{< include _index.qmd >}}
+
+{{< include _schedule.qmd >}}
+
+## References

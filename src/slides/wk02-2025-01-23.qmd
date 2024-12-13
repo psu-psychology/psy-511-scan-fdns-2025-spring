@@ -6,18 +6,15 @@ title: "Neuroanatomy"
 
 ---
 
-<div class="center_video">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/snO68aJTOpM" frameborder="0" allowfullscreen></iframe>
-</div>
+{{< video https://www.youtube.com/embed/snO68aJTOpM width=100% height=70% >}}
 
-[@Ctdalilah2006-co]
-<!-- Pinky and the Brain video -->
+[@Ctdalilah2006-co]{.citation}
 
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qw8E9WnZTQk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{{< video https://www.youtube.com/embed/Qw8E9WnZTQk width=100% height=70% >}}
 
-[@Kids_Learning_Tube2015-pb]
+@Kids_Learning_Tube2015-pb
 <!-- Kids brain song -->
 
 ## Announcements
@@ -30,7 +27,7 @@ title: "Neuroanatomy"
 
 ## Spatial & temporal levels
 
-![[@Sejnowski2014-aa Figure 1]](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp)
+![Figure 1 @Sejnowski2014-aa ](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp)
 
 ## ≠ Marr's levels
 

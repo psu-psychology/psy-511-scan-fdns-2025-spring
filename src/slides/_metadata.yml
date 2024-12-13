@@ -1,12 +1,15 @@
 subtitle: "PSY 511.003 Spr 2025"
-date: last-modified
-# css: ../include/css/styles.css
+css: ../include/css/gilmore-revealjs.css
 csl: ../include/bib/apa.csl
 bibliography: [../include/bib/psu-repro.bib, ../include/bib/packages.bib, ../include/bib/psy-511.bib]
+bibliographystyle: apa
 format:
   revealjs:
     theme: default
     chalkboard: true
     footer: "[PSY 511 Spr 2025](../index.html)"
     slide-number: true
-  pptx: default
+  # pptx: default
+knitr:
+  opts_chunk:
+    fig.path: ../include/fig

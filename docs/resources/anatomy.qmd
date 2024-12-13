@@ -1,0 +1,662 @@
+---
+title: "Neuroanatomy"
+format:
+  html:
+    toc: true
+    toc-depth: 4
+---
+
+## Resources
+
+### Atlases
+
+- Harvard Brain Atlas <http://www.med.harvard.edu/aanlib/cases/caseNA/pb9.htm>
+
+- Allen Brain Atlas
+  - Human female adult (modified Brodmann): <http://atlas.brain-map.org/atlas?atlas=265297126#atlas=265297126&plate=112360888&structure=10390&x=40320&y=46976&zoom=-7&resolution=124.49&z=3>
+  - Human female adult (gyral): <http://atlas.brain-map.org/atlas?atlas=138322605#atlas=138322605&plate=112360888&structure=10390&x=40320&y=46976&zoom=-7&resolution=124.49&z=3>
+  
+### Datasets
+
+- OpenNeuro: <https://openneuro.org>
+- Neurosynth (fMRI meta-analysis): <http://neurosynth.org>
+- [Table 1 from [@Rahimzadeh2023-op]](https://www.cell.com/action/showFullTableHTML?isHtml=true&tableId=tbl1&pii=S0896-6273%2823%2900717-1)
+
+## Directional terms
+
+- Anterior/Posterior
+- Medial/Lateral
+- Superior/Inferior
+- Dorsal/Ventral
+- Rostral/Caudal
+
+![Source: Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Blausen_0019_AnatomicalDirectionalReferences.png/800px-Blausen_0019_AnatomicalDirectionalReferences.png)
+
+### Bipeds vs. quadripeds
+
+![Wikipedia: <https://en.wikipedia.org/wiki/Neuraxis>](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Human_Neuroaxis-en.svg/1280px-Human_Neuroaxis-en.svg.png)
+
+### Image axes
+
+- Horizontal/Axial
+- Coronal/Transverse/Frontal
+- Sagittal (from the side)
+
+![Planes of section from http://www.scienceteacherprogram.org/](http://www.scienceteacherprogram.org/biology/chillemistudentguide1-06/brain_directions_planes_sections__directions_-_small.gif)
+
+## Supporting structures
+
+### Skull
+
+![Wikipedia: <https://en.wikipedia.org/wiki/Skull>](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Human_skull_side_simplified_%28bones%29.svg/1280px-Human_skull_side_simplified_%28bones%29.svg.png)
+- Occipital 
+- Parietal (2x)
+- Temporal (2x)
+- Frontal
+
+### Meninges (outside -> in)
+
+- Dura mater ('tough mother')
+- Arachnoid membrane
+- Subarachnoid space
+- Pia mater ('gentle mother')
+- Cerebrospinal fluid (CSF) between Arachnoid membrane and Pia Mater
+
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Meninges-en.svg/1280px-Meninges-en.svg.png)
+
+### Ventricular system
+
+- Also known as cerebral ventricles
+- Lateral (1st & 2nd)
+    - Forebrain/telencephalon
+- 3rd
+    - Diencephalon
+- Cerebral aqueduct
+    - Midbrain
+- 4th
+    - Hindbrain
+
+![Ventricular system from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/d/d4/Blausen_0896_Ventricles_Brain.png)
+
+- Ventricles filled with cerebrospinal fluid (CSF)
+  - CSF clears metabolites during sleep [@xie2013sleep]?
+  - Blockage of CSF flow -> hydrocephalus
+- Ventricles are useful landmarks for brain regions, see [below](anatomy.qmd#organization-of-the-cns)
+
+### Blood Supply
+
+- Left and right carotid arteries & basilar arterry converge in Circle of Willis
+- Anterior, Middle, and Posterior Cerebral arteries main output
+
+![Basal view of the brain from https://previews.123rf.com/images/hfsimaging/hfsimaging1208/hfsimaging120800005/14672522-drawing-of-the-blood-vessels-at-the-base-of-the-brain-called-the-circle-of-willis.jpg](https://previews.123rf.com/images/hfsimaging/hfsimaging1208/hfsimaging120800005/14672522-drawing-of-the-blood-vessels-at-the-base-of-the-brain-called-the-circle-of-willis.jpg)
+
+![Circle of Willis from https://teachmeanatomy.info/wp-content/uploads/Schematic-of-the-Circle-of-Willis.jpg](https://teachmeanatomy.info/wp-content/uploads/Schematic-of-the-Circle-of-Willis.jpg)
+
+![Blood supply to the cerebrum from https://teachmeanatomy.info/wp-content/uploads/Regional-Blood-Supply-to-the-Cerebrum-1024x380.jpg](https://teachmeanatomy.info/wp-content/uploads/Regional-Blood-Supply-to-the-Cerebrum-1024x380.jpg)
+
+![Lateral view of cerebrovascular system from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/d/d5/Cerebrovascular_System.png)
+
+#### Blood/brain barrier
+
+- Cells forming blood vessel walls tightly packed
+- Active transport of molecules typically required
+
+![Blood brain barrier. Figure 2 from [@Abbott2006-jw]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn1824/MediaObjects/41583_2006_Article_BFnrn1824_Fig2_HTML.jpg?as=webp)
+
+![Transport across the blood/brain barrier. Figure 3 from [@Abbott2006-jw]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn1824/MediaObjects/41583_2006_Article_BFnrn1824_Fig3_HTML.jpg?as=webp)
+
+##### Area Postrema
+
+- In brainstem, blood-brain barrier thin
+- Chemoreceptors (chemical receptors) detect toxins, trigger emesis (vomiting) if necessary
+
+![Area Postrema (AP), Figure 2 from [@Begg2013-fb]](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnrendo.2013.136/MediaObjects/41574_2013_Article_BFnrendo2013136_Fig2_HTML.jpg?as=webp)
+
+## Organization of the Nervous System
+
+![Nervous system of Harriet Cole from https://www.pastmedicalhistory.co.uk/the-nervous-system-of-harriet-cole/](https://www.pastmedicalhistory.co.uk/wp-content/uploads/2018/08/A-model-of-the-human-nervous-system-by-Rufus-Benjamin-Weaver..jpg)
+
+- Central Nervous System (CNS)
+  - Brain
+  - Spinal Cord
+  - (Everything encased in bone)
+- Peripheral Nervous System (PNS)
+  - Somatic division
+  - Autonomic division
+    - Sympathetic
+    - Parasympathetic
+
+## Organization of the CNS
+
+| Major division | Ventricular Landmark | Embryonic Division | Structure       |
+|----------------|----------------------|--------------------|-----------------|
+| Forebrain      | Lateral              | Telencephalon      | Cerebral cortex |
+|                |                      |                    | Basal ganglia   |
+|                |                      |                    | Hippocampus, amygdala |
+|                | Third                | Diencephalon       | Thalamus        |
+|                |                      |                    | Hypothalamus    |
+| Midbrain       | Cerebral Aqueduct    | Mesencephalon      | Tectum, tegmentum |
+| Hindbrain      | 4th                  | Metencephalon      | Cerebellum, pons  |
+|                | --                   | Mylencephalon      | Medulla oblongata |
+
+- Forebrain, midbrain, hindbrain terminology derives from embryonic stages in CNS development.
+
+![Embryonic human brain from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/c/c8/6_week_embryo_brain.jpg)
+![Cross section of embryonic brain from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/EmbryonicBrain.svg/1200px-EmbryonicBrain.svg.png)
+
+### Hindbrain
+
+- Structures adjacent (or caudal to) 4th ventricle
+- Components
+    - Medulla oblongata
+    - Cerebellum
+    - Pons
+
+{{< video https://www.youtube.com/embed/Wq8EVQUc9a4 >}}
+
+[@Floris2012-bo]
+
+![Lateral view of brainstem from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Gray708.svg/500px-Gray708.svg.png)
+![Mid-sagittal view of human brain via MRI from http://webspace.ship.edu/cgboer/medial-labelled.gif](http://webspace.ship.edu/cgboer/medial-labelled.gif)
+
+#### [Medulla oblongata](https://en.wikipedia.org/wiki/Medulla_oblongata)
+
+- Cardiovascular regulation
+- Muscle tone
+- Fibers of passage
+    - **A**scending fibers (from body), a.k.a. afferents
+    - Descending fibers (**e**xiting brain), a.k.a., **e**fferents
+
+![Illustration of brainstem from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/6/69/1311_Brain_Stem.jpg)
+
+#### Cerebellum
+
+- “Little brain”
+- Dorsal to pons
+- Movement coordination, simple learning (classical conditioning)
+- Largest number of neurons in the brain
+
+![Animated GIF of cerebellum from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/1/14/Cerebellum_animation_small.gif)
+
+{{< video https://www.youtube.com/embed/6szEeD0n-oU >}}
+
+Source: [@Floris2012-ro]
+
+#### Pons
+
+- Bulge on ventral brain stem
+- Neuromodulatory nuclei
+    - Nucleus (anatomically discrete cluster of neurons
+    - Neuromodulators: neurotransmitters that modulate/alter function of other neurons
+    - e.g., Serotonin (5-HT), norepinephrine (NE), acetylcholine (ACh), dopamine (DA)
+- Relay to cerebellum
+
+### Midbrain
+
+- Tectum (roof), dorsal
+- Tegmentum (floor), ventral
+
+![Midbrain in the brainstem](http://antranik.org/wp-content/uploads/2011/11/the-brain-stem-mid-brain-left-lateral-view-superior-colliculus-inferior-cerebellar-peduncle.jpg)
+
+#### Tectum
+
+- "Roof" of the midbrain
+- Superior and inferior colliculus (colliculi is plural for 'little hill')
+- Superior colliculus: Reflexive orienting of eyes, head, ears (superior colliculi)
+    - Input from FEF, parietal lobe
+    - Output to cranial nerve nuclei (III, IV, VI) in tegmentum, pons
+- Inferior colliculus: Auditory processing (from brainstem to auditory thalamus)
+
+![Labeled locations of Inferior and Superior Colliculi of the dorsal midbrain or Tectum from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/0/0b/Gray719.png)
+
+![Labeled MRI of Tectum](http://www.radioanatomie.com/30_irm_sagittale_mediane/99_images/2_Tectum.jpg)
+
+#### Tegmentum
+
+- "Floor" of the midbrain
+- Species-typical movement sequences
+- Neuromodulatory nuclei release NTs
+    + Norepinephrine (NE)
+    + Serotonin (5-HT)
+    + Dopamine (DA) -- from *ventral tegmental area (VTA)*
+
+![Connections of the ventral tegmentum (VTA)](https://vignette1.wikia.nocookie.net/addictionpathology/images/8/8b/The_reward_pathway_2.gif/revision/latest?cb=20091210025108)
+
+### Forebrain
+
+- Diencephalon
+- Telencephalon
+
+![Midsagittal illustration of diencephalon from anatomy.app](https://anatomy.net/uploads/4547e9c5-fb8f-4652-9cef-a0ebe2e18ae0.png?width=1200)
+
+#### Diencephalon ('between brain')
+
+- Thalamus
+- Hypothalamus
+
+![Diencephalon from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/a/a0/1310_Diencephalon.jpg)
+![Labelled MRI including thalamus and hypothalamus](http://webspace.ship.edu/cgboer/medial-labelled.gif)
+
+##### Thalamus
+
+- Input to cortex
+- Functionally distinct *nuclei*
+    - Lateral geniculate nucleus (LGN), vision
+    - Medial geniculate nucleus (MGN), audition
+    - Pulvinar, attention?
+
+![Nuclei of the thalamus](http://neurobiologychapter3.weebly.com/uploads/1/4/1/8/1418733/5118342.jpg?401x231)
+
+##### Hypothalamus
+
+- Five Fs: fighting, fleeing/freezing, feeding, and reproduction
+- Controls pituitary gland (“master” gland)
+    + Anterior pituitary (indirect release of hormones)
+        * e.g., Corticotropin Releasing Hormone (CRH) -> release of cortisol from Adrenal Cortex (adjacent to kidney)
+    + Posterior pituitary (direct release of hormones)
+        - Oxytocin
+        - Vasopressin (aka, Arginine Vasopressin -- AVP; Anti-diuretic Hormone -- ADH)
+
+![Nuclei of the hypothalamus](http://higheredbcs.wiley.com/legacy/college/tortora/0470565101/hearthis_ill/pap13e_ch14_illustr_audio_mp3_am/simulations/figures/hypothalamus.jpg)
+<!-- Pituitary -->
+
+![Pituitary gland and connections to the hypothalamus](https://i.stack.imgur.com/IeFkI.jpg)
+
+#### Telencephalon
+
+- Basal ganglia
+- Hippocampus, amygdala
+- Cerebral cortex
+
+##### Basal Ganglia
+
+- Skill and habit learning
+- Linked to Tourette Syndrome, Obsessive-Compulsive Disorder (OCD), addiction, movement disorders (e.g., Parkinson's Disease)
+- Striatum
+	- Caudate nucleus
+	- Putamen
+- Globus pallidus
+- Subthalamic nucleus
+- Substantia nigra (tegmentum)
+
+![MRI of the basal ganglia](https://fhs122anatomyelab.files.wordpress.com/2014/05/basal-ganglia.jpg?w=524&h=393)
+
+{{< video https://www.youtube.com/embed/q7z-373pwuI >}}
+
+[@Floris2012-ye]
+
+##### Hippocampus
+
+- Hippocampus means "sea horse"
+
+![Hippocampus and Sea Horse](https://images.theconversation.com/files/60945/original/qrtd9rv8-1412620559.JPG?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip)
+
+- Medial to lateral ventricles
+- Store memories of specific facts (semantic memory) or events (episodic memory)
+- Place memory in non-human animals (& humans?)
+- Fornix (axon fiber bundle) projects to (mammillary bodies of) hypothalamus
+
+![MRI of hippocampus](http://www.neuro24.de/hip0006.jpg)
+
+{{< video https://www.youtube.com/embed/wjvDDH-uJ0s >}}
+
+[@Floris2012-hs]
+
+##### Amygdala (“almond”)
+
+- Physiological state, behavioral readiness, affect
+- NOT the fear center! [@ledoux_amygdala_2015].
+- Projection to hypothalamus
+
+![MRI of amygdala](http://www.frontiersin.org/files/Articles/31697/fpsyg-03-00319-HTML/image_m/fpsyg-03-00319-g002.jpg)
+
+{{< video https://www.youtube.com/embed/YB9rs4tEAaE >}}
+
+[@Floris2012-ik]
+
+##### Cerebral Cortex
+
+- Cerebral hemispheres
+- Groove (sulcus or sulci)
+- Bumps (gyrus or gyri)
+- Grey vs. white matter
+- Lobes
+
+**Lateral view**
+
+![Lateral illustration of cerebral cortex](https://upload.wikimedia.org/wikipedia/commons/3/35/Gray726.png)
+
+**Medial view**
+
+![Medial illustration of cerebral cortex](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Gray727.svg/1025px-Gray727.svg.png)
+
+**Nissl stain**
+
+- Stains cell bodies
+- *LGd* is the lateral geniculate nucleus of the thalamus
+- Circled area is the hippocampus
+- *Ins* is the insula
+
+![Nissl stained coronal image of primate cerebral cortex](https://upload.wikimedia.org/wikipedia/commons/9/9a/Brainmaps-macaque-hippocampus.jpg)
+
+##### Lobes of the cerebral cortex
+
+- Frontal
+- Temporal
+- Parietal
+- Occipital
+- Names derive from underlying bones of the skull
+
+![Bones of the skull from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Human_skull_side_simplified_%28bones%29.svg/1200px-Human_skull_side_simplified_%28bones%29.svg.png)
+![Alternative view of the relationship between bones of the skull and lobes of the cerebral cortex](http://40.media.tumblr.com/tumblr_m1kpkr7Wsq1rn6pqko1_500.jpg)
+
+**Longitudinal fissure**
+
+- Also known as superior longitudinal fissure
+- Divides the cerebral hemispheres
+
+![(Superior) Longitudinal Fissure from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/0/04/Human_brain_longitudinal_fissure.png)
+
+**Lateral sulcus/fissure**
+
+- Also known as Sylvian Fissure
+- Divides frontal from temporal lobe
+
+![Sylvian Fissure or Lateral Fissure/Sulcus from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/4/41/Lateral_sulcus2.png)
+
+**Central sulcus**
+
+- Also known as Rolandic Fissure or Fissure of Rolando
+- Divides frontal from parietal lobe
+
+![Central Sulcus (Rolandic Fissure or Fissure of Rolando)](https://upload.wikimedia.org/wikipedia/commons/4/46/LobesCaptsLateral.png)
+
+##### Frontal lobe
+
+- Anterior to central sulcus
+- Superior to lateral fissure
+- Dorsal to temporal lobe
+
+![Lateral view of lobes of the cerebral cortex from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Lobes_of_the_brain_NL.svg/1024px-Lobes_of_the_brain_NL.svg.png)
+
+- Primary motor cortex (M-I or M1)
+    - Precentral gyrus
+
+![Precentral gyrus from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/8/80/FrontalCaptsLateral.png)
+
+- Secondary motor areas
+    + Supplementary motor cortex (SMC)
+    + Frontal eye fields (FEF)
+- Prefrontal cortex
+    + Planning, problem solving, working memory...?
+- Components of olfactory system
+
+![Olfactory cortex from [@Saive2014-uh]. Figure 1. Schematic view of the human olfactory system. The primary and secondary olfactory cortices are represented in blue and green, respectively. Amyg, amygdala; Ento, entorhinal cortex; Hipp, hippocampus; OFC, orbitofrontal cortex; PC, piriform cortex; Thal, thalamus (adapted from Royet et al., 2014)](https://www.frontiersin.org/files/Articles/92469/fnbeh-08-00240-HTML/image_m/fnbeh-08-00240-g001.jpg)
+
+- Basal forebrain
+    + [Nucleus accumbens (NAcc)](https://en.wikipedia.org/wiki/Nucleus_accumbens), part of ventral striatum
+
+***Cingulate Gyrus***
+
+![Cingulate Gyrus](http://cis.jhu.edu/data.sets/cortical_segmentation_validation/photos/cinggyrus75.jpg)
+
+- [Anterior cingulate cortex (ACC)](https://en.wikipedia.org/wiki/Anterior_cingulate_cortex)
+
+**Inferior Frontal Gyrus (IFG)**
+
+![Inferor Frontal Gyrus from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/b/b2/Gray726_inferior_frontal_gyrus.png)
+
+- Home to Broca's Area
+
+**Middle Frontal Gyrus (MFG)**
+
+![Middle Frontal Gyrus from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/7/7f/Gray726_middle_frontal_gyrus.png)
+
+- Home to Dorsolateral Prefrontal Cortex ([DLPFC](https://en.wikipedia.org/wiki/Dorsolateral_prefrontal_cortex))
+
+**Superior Frontal Gyrus (SFG)**
+
+- Brodmann Area 8
+- Frontal Eye Fields (FEF)
+- Laughter and self-awareness?
+
+![Superior Frontal Gyrus from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/1/1b/Gray743_superior_frontal_gyrus.png)
+
+##### Temporal lobe
+
+- Ventral to frontal, parietal lobes
+- Inferior to lateral fissure
+
+![Lateral figure of brain lobes](https://upload.wikimedia.org/wikipedia/commons/9/96/Brain_diagram_fr.png)
+
+- Primary auditory cortex (A-I or A1)
+
+![Primary Auditory Cortex from https://en.wikipedia.org/wiki/Auditory_cortex](https://upload.wikimedia.org/wikipedia/commons/8/81/Brodmann_41_42.png)
+
+**Superior Temporal Gyrus**
+
+![Superior temporal gyrus](https://upload.wikimedia.org/wikipedia/commons/1/1d/Superior_temporal_gyrus.png)
+
+- Neurons sensitive to objects, faces; biological motion processing
+- Language processing
+
+**Inferior Temporal Gyrus (ITG)**
+
+![Inferior temporal gyrus](https://upload.wikimedia.org/wikipedia/commons/1/18/Gray726_inferior_temporal_gyrus.png)
+
+- Continuation of ventral visual processing stream
+
+![Coronal MRI views of inferior temporal gyrus](https://upload.wikimedia.org/wikipedia/commons/f/f6/Inferior_temporal_gyrus_coronal_sections.gif)
+
+
+**Entorhinal (ER) & Parahippocampal Cortex **
+
+![Mid-saggital view human cortex](https://upload.wikimedia.org/wikipedia/commons/1/15/Medial_surface_of_cerebral_cortex_-_entorhinal_cortex.png)
+
+- Storage of memories about events, objects
+- Amygdala, hippocampus
+
+##### Parietal lobe
+
+- Caudal to frontal lobe
+- Dorsal to temporal lobe
+- Posterior to central sulcus
+
+![Lateral illustration of human forebrain](https://upload.wikimedia.org/wikipedia/commons/9/96/Brain_diagram_fr.png)
+
+- Primary somatosensory cortex (S-I or S1)
+  - information from sensors in skin, muscles, tendons, joints and viscera
+- Post-central gyrus
+
+![Postcentral gyrus](https://upload.wikimedia.org/wikipedia/commons/6/66/Postcentral_gyrus.png)
+
+- Perception of spatial relations, action planning
+
+**Inferior Parietal Lobule**
+
+![Inferior parietal lobule](https://upload.wikimedia.org/wikipedia/commons/e/e3/Gray726_inferior_parietal_lobule.png)
+- e.g., language, mathematical operations, body image, etc.
+
+**Superior Parietal Lobule**
+
+![Superior parietal lobule](https://upload.wikimedia.org/wikipedia/commons/9/9d/Gray726_superior_parietal_lobule.png)
+
+- damage to can cause spatial hemi-neglect
+
+![MRI sequence of superior parietal lobule from https://en.wikipedia.org/wiki/Superior_parietal_lobule ](https://upload.wikimedia.org/wikipedia/commons/d/d8/Superior_parietal_lobule_sagittal_sections.gif)
+
+##### Occipital lobe
+
+- Caudal to parietal & temporal lobes
+
+![](https://upload.wikimedia.org/wikipedia/commons/9/96/Brain_diagram_fr.png)
+
+- Primary visual cortex (V1)
+- Secondary visual areas (V2...V7)
+
+![Visual cortex from https://www.aao.org/education/bcscsnippetdetail.aspx?id=da6920e2-a380-4857-be07-82770a46de03](https://www.aao.org/image.axd?id=88d6f21c-45ba-4ecc-90ac-fda9fa6ab057&t=637442500965101296)
+
+##### Insular cortex (insula)
+
+- medial to temporal lobe
+- deep inside lateral fissure
+
+![Insular cortex from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/b/b4/Sobo_1909_633.png)
+
+- Primary gustatory cortex
+- Self-awareness, interpersonal experiences, motor control, interoception
+
+![[@Namkung2017-gc]](https://ars.els-cdn.com/content/image/1-s2.0-S0166223617300176-gr1.jpg)
+
+##### Brodmann Areas
+
+![[Korbinian Brodmann](https://en.wikipedia.org/wiki/Korbinian_Brodmann)](ttp://www.spektrum.de/lexika/images/bio/fff1209_w.jpg)
+
+- Cytoarchitectonic (cellular architecture) differences in cerebral cortex
+- Numbered areas, e.g. V1 == Area 17 or BA 17
+
+![Brodmann areas](https://upload.wikimedia.org/wikipedia/commons/0/09/Brodmann-areas.png)
+
+![Brodmann maps in color](http://www.brain-maps.com/gehirn/brodmann_areale.jpg)
+
+## White matter pathways
+
+- Brainstem
+- Projection fibers
+- Association fibers
+- Commissural fibers
+
+![Schematic of brain stem white matter pathways from [@oishi2010mri Chapter 3, Figure 1.]](../include/img/brainstem-white-matter-schematic.jpg)
+
+### Brainstem projections
+
+- Corticospinal tract (descending/efferent)
+- Dorsal column/medial lemniscus (ascending/afferent)
+- Superior/inferior cerebellar peduncles (from/to cerebellum)
+
+![White matter projections from [@oishi2010mri Chapter 3, Figure 8.]](../include/img/projection-fiber-schematic.jpg)
+
+### Projection fiber tracts
+
+- Internal capsule
+    - Thalamic radiation
+    - Cortico-{pontine, bulbar, reticular} tracts
+
+![Schematic of brain stem white matter pathways from [@oishi2010mri Chapter 3, Figure 12.]](../include/img/cortical-white-matter.jpg)
+
+### Cortical white matter tracts
+
+- Superior/inferior longitudinal fasciculus
+    - [Arcuate fasciculus](https://en.wikipedia.org/wiki/Arcuate_fasciculus) part of sup. long. f.
+- Superior/inferior fronto-occipital fasciculus
+- Cingulum, fornix (hyp-hip), stria terminalis (hyp-amyg)
+
+### Commissural fibers
+
+- Corpus callosum
+- Anterior commissure (AC)
+- Posterior commissure (PC)
+
+![Corpus callosum](https://upload.wikimedia.org/wikipedia/commons/6/60/Corpus_callosum.png)
+![Dissection of human corpus callosum](https://i.redd.it/7qobxge7gp611.jpg)
+
+**Anterior, Posterior Commissures**
+
+![Anterior and posterior commissures from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/2/22/Gray720.png)
+
+## Spinal cord
+
+- Spinal column w/ vertebrae
+- Moving rostral -> caudal...
+- Cervical (8), thoracic (12), lumbar (5), sacral (5), coccygeal (1)
+- Spinal segments & 31 nerve pairs
+- Cauda equina
+
+![Divisions of the spinal cord](http://www.fauxpress.com/kimball/med/sensory/spinaldivisions.jpg)
+
+- Spinal segments (rostral to caudal) ennervate specific body segments
+- When focusing on the skin, these are called *dermatomes*
+
+![Dermatomes](https://steppingstoneblogcom.files.wordpress.com/2018/02/dermatome.jpg?w=863&h=1&crop=1)
+
+- Dorsal/Ventral
+    + Dorsal root (sensory)
+    + Ventral root (mostly motor)
+- Grey (interior) vs. white matter (exterior)
+    + Cerebral cortex opposite (grey exterior, white interior)
+
+![Spinal cord cross-section](https://image.slidesharecdn.com/thespinalcord-2003-141108070925-conversion-gate02/95/the-spinal-cord-4-638.jpg?cb=1415430697)
+
+![Anterior and posterior roots of spinal cord](https://upload.wikimedia.org/wikipedia/commons/e/e6/Gray675.png)
+
+![Axial view of spinal cord anterior and posterior roots](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Medulla_spinalis_-_Section_-_English.svg/1024px-Medulla_spinalis_-_Section_-_English.svg.png)
+
+## Organization of the PNS
+
+- Somatic division
+- Autonomic division (Autonomic Nervous System)
+
+### Somatic division
+
+#### Cranial nerves
+
+- Afferents (input), efferents (output), or mixed
+- Innervate head and neck
+- Olfactory (I), optic (II), (VIII) auditory,
+vagus (X), etc.
+- Spinal nerves
+
+![Cranial nerves from https://www.britannica.com/science/cranial-nerve#/media/1/141797/46720](https://cdn.britannica.com/44/54244-004-892C5169/nerves-pairs-muscles-region-head-sense-organs.jpg?s=1500x700&q=85)
+
+#### Spinal nerves
+
+![Nervous system of Harriet Cole from https://www.pastmedicalhistory.co.uk/the-nervous-system-of-harriet-cole/](https://www.pastmedicalhistory.co.uk/wp-content/uploads/2018/08/A-model-of-the-human-nervous-system-by-Rufus-Benjamin-Weaver..jpg)
+
+### Autonomic nervous system
+
+- CNS & PNS components
+- Controls “vegetative functions”
+    + Limited voluntary control
+- Three divisions
+    + Sympathetic
+    + Parasympathetic
+    + Enteric (gut, intestinal tract)
+
+![Autonomic nervous system](https://4.bp.blogspot.com/_FBNLGBBprSE/TB5b9zkM11I/AAAAAAAAAHA/LBCT2HkOzvI/s400/PNS.GIF)
+
+- Bipolar (continuum) vs. bivariate autonomic space [@Berntson1991-vq]
+
+![[@Berntson1991-vq]](https://www.researchgate.net/profile/John_Cacioppo/publication/265843107/figure/fig1/AS:669383823216652@1536604948373/Bivariate-model-of-autonomic-space-right-contrasted-with-the-reciprocal.png)
+
+#### Sympathetic division
+
+- Prepares body for action
+- “Fight or flight”
+- Spinal cord
+    + ganglion chain along spinal column to End organs
+- Neurotransmitters (NTs)
+    + Preganglionic: acetylcholine (ACh)
+    + Post: norepinephrine (NE)
+
+#### Parasympathetic division
+
+- “Around” sympathetic
+- Restorative function
+- “Rest & digest”
+- Spinal cord (or Vagus n. from Xth cranial n.) -> ganglia near end organs -> end organ
+    + NT: ACh
+
+#### Illustrative measures of ANS function
+
+- Heart rate variability
+
+![Influences on heart rate](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Neurovisceral_integration_model.png/330px-Neurovisceral_integration_model.png)
+
+- Galvanic skin response (GSR)
+- [Pupillary response](https://en.wikipedia.org/wiki/Pupillary_response)
+
+![Circuit controlling pupillary diameter](https://upload.wikimedia.org/wikipedia/commons/a/a5/Gray840.png)
+
+- electrogastrogram (EGG) for ENS [[@Al_Taee2020-no]](http://dx.doi.org/10.1007/978-3-030-14347-3_50)
+
+![Electrogastogram from [@Al_Taee2020-no]. Fig. 1. Gastric pacesetter potentials or slow waves originate from the pacemaker area on the greater curve. Pacesetter potentials travel in a circumferential and aboral direction at a rate of approximately 3 cycles per minute (cpm). The cutaneously recorded electrogastrogram shows 3-cpm wave pattern. The fundus has no rhythmic electrical activity.](https://media.springernature.com/lw785/springer-static/image/chp%3A10.1007%2F978-3-030-14347-3_50/MediaObjects/478658_1_En_50_Fig1_HTML.png)

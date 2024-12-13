@@ -11,7 +11,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 {{< video https://www.youtube.com/embed/JB7jSFeVz1U width="100%" height="80%" >}}
 
 <p style="text-align:center;">
-[@Melodysheep2011-wg]
+@Melodysheep2011-wg
 </p>
 
 ---
@@ -19,7 +19,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 > "*If understanding everything we need to know about the brain is a mile, how far have we walked?*"
 
 <p style="text-align:center;">
-[@National_Geographic2014-gv]
+@National_Geographic2014-gv
 </p>
 
 ---
@@ -27,7 +27,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 {{< video https://www.youtube.com/embed/nvXuq9jRWKE width="100%" height="80%" >}}
 
 <p style="text-align:center;">
-[@National_Geographic2014-gv]
+@National_Geographic2014-gv
 </p>
 
 ## Gilmore bio

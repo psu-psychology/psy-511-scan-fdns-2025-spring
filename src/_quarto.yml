@@ -1,43 +1,28 @@
 project:
-  type: website
-  render:
-    - "./*.qmd"
-    - "resources/*.qmd"
+  type: book
+  # render:
+  #   - "./*.qmd"
+  #   - "resources/*.qmd"
   output-dir: "../docs"
 
-website:
-  title: "PSY 511 • Spring 2025"
-  comments: 
-    hypothesis:
-      theme: clean
-  navbar:
-    left:
-      - href: index.qmd
-        text: home
-      - href: schedule.qmd
-        text: schedule
-      - href: evaluation.qmd
-        text: evaluation
-      # - href: deadlines.qmd
-      #   text: deadlines
-      - href: policies.qmd
-        text: policies
-      # - href: values.qmd
-      #   text: values
-      - text: slides
-        menu:
-          - href: "slides/wk01-2025-01-16.qmd"
-          - href: "slides/wk01-2025-01-23.qmd"
-      - text: exercises
-        menu:
-          - href: "exercises/ex01.qmd"
-          - href: "exercises/ex02.qmd"
-          - href: "exercises/ex03.qmd"
-          - href: "exercises/ex04.qmd"
-          - href: "exercises/ex05.qmd"
-          - href: "exercises/ex06.qmd"
-          - href: "exercises/ex07-evo-devo.qmd"
-          - href: "exercises/ex08-devo.qmd"
+book:
+  title: "PSY 511.003 Spr 25"
+  date: today
+  chapters:
+    - index.qmd
+    - schedule.qmd
+    - evaluation.qmd
+    - policies.qmd
+    # - part: "Slides"
+    #   chapters:
+    #     - slides/wk01-2025-01-16.qmd
+    #     - slides/wk02-2025-01-23.qmd
+    # - part: "Exercises"
+    #   chapters:
+    #     - exercises/ex01.qmd
+    - part: "Appendices"
+      chapters:
+      - references.qmd
   repo-url: https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring
   repo-actions: [edit, issue]
   repo-subdir: src
@@ -46,7 +31,7 @@ website:
     center: "Built with [Quarto](https://quarto.org/)"
     right: 
       - icon: github
-        href: https://github.com/rogilmore
+        href: https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring
     background: light
     border: true
   page-navigation: true
@@ -54,7 +39,7 @@ website:
 format:
   html:
     theme: default
-    css: include/css/styles.css
+    # css: include/css/styles.css
     toc: true
     number-sections: false
     citations-hover: true
