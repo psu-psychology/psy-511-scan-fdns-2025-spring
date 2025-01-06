@@ -17,9 +17,16 @@ book:
     #   chapters:
     #     - slides/wk01-2025-01-16.qmd
     #     - slides/wk02-2025-01-23.qmd
-    # - part: "Exercises"
-    #   chapters:
-    #     - exercises/ex01.qmd
+    - part: "Exercises"
+      chapters:
+        - exercises/ex01.qmd
+        - exercises/ex02.qmd
+        - exercises/ex03.qmd
+        - exercises/ex04.qmd
+        - exercises/ex05.qmd
+        - exercises/ex06.qmd
+        - exercises/ex07.qmd
+        - exercises/ex08.qmd
     - part: "Appendices"
       chapters:
       - references.qmd
@@ -27,7 +34,7 @@ book:
   repo-actions: [edit, issue]
   repo-subdir: src
   page-footer:
-    left: "&copy; Rick Gilmore"
+    left: "&copy 2025-; Rick Gilmore"
     center: "Built with [Quarto](https://quarto.org/)"
     right: 
       - icon: github

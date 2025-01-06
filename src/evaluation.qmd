@@ -8,7 +8,7 @@ PSY 511 course performance will be evaluated based on the following scheme:
 |---------------------|------------------------------|-------|
 | Exercises           | 10 pts/exercise * 5 = 50 pts | 50.0    |
 | Participation       | 15 wks * 1 pt/wk = 15 pts    | 15.0    |
-| Paper/Project       | 35 pts                       | 35    |
+| Final Paper/Project | 35 pts                       | 35    |
 | **TOTAL**           | **90**                       | **100** |
 
 ::: {.callout-note}
