@@ -9,7 +9,6 @@ format:
     chalkboard: true
     footer: "[PSY 511 Spr 2025](../index.html)"
     slide-number: true
-  # pptx: default
 knitr:
   opts_chunk:
     fig.path: ../include/fig

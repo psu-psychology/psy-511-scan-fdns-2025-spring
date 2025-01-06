@@ -1,9 +1,7 @@
 ---
 title: "Exercise 03 • Neurophysiology I"
+subtitle: "**Name:**____________________________"
 ---
-
-**Name:**____________________________
-
 
 ## Goals
 

@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../exercises/ex04.html" rel="next">
-<link href="../exercises/ex02.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,11 +40,11 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "sidebar",
+  "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
-  "panel-placement": "start",
-  "type": "textbox",
+  "panel-placement": "end",
+  "type": "overlay",
   "limit": 50,
   "keyboard-shortcut": [
     "f",
@@ -68,6 +66,17 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "theme": "clean"
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -102,153 +111,192 @@ window.Quarto = {
 <link rel="stylesheet" href="../include/css/styles.css">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../exercises/ex01.html">Exercises</a></li><li class="breadcrumb-item"><a href="../exercises/ex03.html"><span class="chapter-title">Exercise 03 • Neurophysiology I</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">PSY 511.003 Spr 25</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html"> 
+<span class="menu-text">schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../evaluation.html"> 
+<span class="menu-text">evaluation</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../policies.html"> 
+<span class="menu-text">policies</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">slides</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
+        <li>
+    <a class="dropdown-item" href="../slides/wk01-2025-01-16.html">
+ <span class="dropdown-text">Foundations of Social, Cognitive, and Affective Neuroscience</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../slides/wk02-2025-01-23.html">
+ <span class="dropdown-text">Neuroanatomy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../slides/wk03-2025-01-30.html">
+ <span class="dropdown-text">Cellular neuroscience I</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">resources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../resources/levels.html">
+ <span class="dropdown-text">Levels of Analysis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/anatomy.html">
+ <span class="dropdown-text">Neuroanatomy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/cells.html">
+ <span class="dropdown-text">Cellular neuroscience</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/neurochemistry.html">
+ <span class="dropdown-text">Neurochemistry</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/methods.html">
+ <span class="dropdown-text">Neuroscience methods</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/evolution.html">
+ <span class="dropdown-text">Evolution</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/development.html">
+ <span class="dropdown-text">Human brain development</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/perception.html">
+ <span class="dropdown-text">Perception</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/action.html">
+ <span class="dropdown-text">Action</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/cognition-language.html">
+ <span class="dropdown-text">Cognition and Language</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/learning-memory.html">
+ <span class="dropdown-text">Learning &amp; Memory</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/schizophrenia.html">
+ <span class="dropdown-text">Schizophrenia</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/affective-disorders.html">
+ <span class="dropdown-text">Disorders of affect</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../resources/fear-stress-reward.html">
+ <span class="dropdown-text">Fear, stress, pleasure, &amp; reward</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../slides/beethoven.html">
+ <span class="dropdown-text">The Cerebral Symphony</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-exercises" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">exercises</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-exercises">    
+        <li>
+    <a class="dropdown-item" href="../exercises/ex01.html">
+ <span class="dropdown-text">Exercise 01 • Levels/Terms</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../exercises/ex02.html">
+ <span class="dropdown-text">Exercise 02 • Neuroanatomy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../exercises/ex03.html">
+ <span class="dropdown-text">Exercise 03 • Neurophysiology I</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../exercises/ex04.html">
+ <span class="dropdown-text">Exercise 04 • Neurophysiology II</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../exercises/ex05.html">
+ <span class="dropdown-text">Exercise 05 • Neurochemistry</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../exercises/ex06.html">
+ <span class="dropdown-text">Exercise 06 • Methods</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../exercises/ex07.html">
+ <span class="dropdown-text">Exercise 07 • Evolution</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../exercises/ex08.html">
+ <span class="dropdown-text">Exercise 08 • Development</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">PSY 511.003 Spr 25</a> 
-        <div class="sidebar-tools-main">
-    <a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/tree/main/src/" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
-</div>
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Home</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../schedule.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Schedule</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../evaluation.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Evaluation</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../policies.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Policies &amp; Values</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Exercises</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../exercises/ex01.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Exercise 01 • Levels/Terms</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../exercises/ex02.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Exercise 02 • Neuroanatomy</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../exercises/ex03.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Exercise 03 • Neurophysiology I</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../exercises/ex04.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Exercise 04 • Neurophysiology II</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../exercises/ex05.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Exercise 05 • Neurochemistry</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../exercises/ex06.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Exercise 06 • Methods</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../exercises/ex07.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Exercise 07 • Evolution</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../exercises/ex08.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Exercise 08 • Development</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Appendices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
   <li><a href="#goals" id="toc-goals" class="nav-link active" data-scroll-target="#goals">Goals</a></li>
   <li><a href="#activity" id="toc-activity" class="nav-link" data-scroll-target="#activity">Activity</a></li>
   <li><a href="#submission-details" id="toc-submission-details" class="nav-link" data-scroll-target="#submission-details">Submission details</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/edit/main/src/exercises/ex03.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/edit/main/src/exercises/ex03.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ex03.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="ex03.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../exercises/ex01.html">Exercises</a></li><li class="breadcrumb-item"><a href="../exercises/ex03.html"><span class="chapter-title">Exercise 03 • Neurophysiology I</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">Exercise 03 • Neurophysiology I</span></h1>
+<h1 class="title">Exercise 03 • Neurophysiology I</h1>
 <p class="subtitle lead"><strong>Name:</strong>____________________________</p>
 </div>
 
@@ -312,14 +360,14 @@ window.Quarto = {
 
 
 </section>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
 <ol>
 <li id="fn1"><p>Remember that ions flow <em>down</em> the concentration gradient, from regions of high concentration to regions of lower concentration<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section>
-
-</main> <!-- /main -->
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -740,18 +788,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../exercises/ex02.html" class="pagination-link" aria-label="Exercise 02 • Neuroanatomy">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Exercise 02 • Neuroanatomy</span></span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../exercises/ex04.html" class="pagination-link" aria-label="Exercise 04 • Neurophysiology II">
-        <span class="nav-page-text"><span class="chapter-title">Exercise 04 • Neurophysiology II</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
