@@ -1,27 +1,30 @@
-## Gilmore bio (pre-)
+## Gilmore bio
 
-::: {layout-nrow=2}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/DenverCP.JPG/266px-DenverCP.JPG)
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/DenverCP.JPG/266px-DenverCP.JPG){width=300}
+---
 
-![](http://watson.brown.edu/ds/sites/all/themes/ds/img/header/brown_large.png){width=300}
+![](http://watson.brown.edu/ds/sites/all/themes/ds/img/header/brown_large.png)
 
-![](https://www.civitatis.com/f/estados-unidos/washington/escala-washington-589x392.jpg){width=300}
+---
 
-![](https://www.cmu.edu/brand/brand-guidelines/images/wordmarkonphoto4-600x600.png){width=300}
-:::
+![](https://www.civitatis.com/f/estados-unidos/washington/escala-washington-589x392.jpg)
 
-## Gilmore bio (post-)
+---
 
-::: {layout-nrow=2}
+![](https://www.cmu.edu/brand/brand-guidelines/images/wordmarkonphoto4-600x600.png)
+---
 
-![](https://dispatch.happyvalley.com/m/photos/_inline/Mount-Nittany_submitted-dsc_0371-1_2023-10-18-201411_uuxi.jpg){width=300px}
+![](https://dispatch.happyvalley.com/m/photos/_inline/Mount-Nittany_submitted-dsc_0371-1_2023-10-18-201411_uuxi.jpg)
 
-<!-- SLEIC -->
+---
 
-![](../include/img/sleic.png){width=300px}
+![](../include/img/sleic.png)
 
-![](https://nyu.databrary.org/web/images/logo/databrary-nav.svg){width=300px}
+---
 
-![](https://play-project.org/img/PLAY-logo.png){width=300px}
-:::
+![](https://nyu.databrary.org/web/images/logo/databrary-nav.svg)
+
+---
+
+![](https://play-project.org/img/PLAY-logo.png)

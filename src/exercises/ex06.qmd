@@ -28,7 +28,7 @@ Answer the following questions about these papers and methods in a few sentences
 
 ## Submission details
 
-- Submit your write-up by [**Wednesday, February 28, 2024 at 11:59 pm**]{.orange_due}.
+- Submit your write-up by [**Wednesday, March 5, 2025 at 11:59 pm**]{.orange_due}.
 - If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.
 - If you found any resources that were especially useful to you in answering these questions, please cite them.
 

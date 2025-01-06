@@ -61,6 +61,7 @@ website:
           - href: "exercises/ex06.qmd"
           - href: "exercises/ex07.qmd"
           - href: "exercises/ex08.qmd"
+          - href: "exercises/final-project.qmd"
   repo-url: https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring
   repo-actions: [edit, issue]
   repo-subdir: src
@@ -77,7 +78,7 @@ website:
 format:
   html:
     theme: default
-    # css: include/css/styles.css
+    css: include/css/styles.css
     toc: true
     toc-depth: 4
     fig-align: center
@@ -89,6 +90,6 @@ format:
     bibliography: [include/bib/packages.bib, include/bib/psu-repro.bib, include/bib/psy-511.bib]
     csl: include/bib/apa.csl
     html-math-method: mathjax
-
+format-links: [pdf, docx]
 editor: source
     

@@ -6,10 +6,11 @@ PSY 511 course performance will be evaluated based on the following scheme:
 
 | Component           | Points                      | % of Grade |
 |---------------------|------------------------------|-------|
-| Exercises           | 10 pts/exercise * 5 = 50 pts | 50.0    |
+| Exercises           | 10 pts/exercise * 6 = 60 pts | 60.0    |
 | Participation       | 15 wks * 1 pt/wk = 15 pts    | 15.0    |
 | Final Paper/Project | 35 pts                       | 35    |
-| **TOTAL**           | **90**                       | **100** |
+| **TOTAL**           | **100**                       | **100** |
+| Extra Credit        | One additional exercise may be submitted for up to 10 points | |
 
 ::: {.callout-note}
 ## For clinical students
@@ -40,13 +41,13 @@ PSY 511 course performance will be evaluated based on the following scheme:
 ## Exercises
 
 There will be eight (8) exercises throughout the term.
-Five (5) of the 8 will count toward the final course grade.
+Six (6) of the 8 will count toward the final course grade.
 Significant work on these can and will be done in-class.
 More details will be provided for each exercise.
 
 ## Paper/Project
 
-A significant part of the grade in PSY 511 is a [final paper or project](resources/final-project.qmd).
+A significant part of the grade in PSY 511 is a [final paper or project](exercises/final-project.qmd).
 
 The paper or project can take on a number of forms, depending on a student's scholarly interests.
 

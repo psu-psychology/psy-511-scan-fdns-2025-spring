@@ -11,12 +11,14 @@
 
 #### Readings
 
-- @Siddiqi2022-wl.
-- @Krakauer2017-xl.
-- Optional: @Parada2018-rp.
-- Optional: @Churchland1988-aj.
-- Optional: @Favela2020-uc.
-
+- Required
+  - @Siddiqi2022-wl
+  - @Krakauer2017-xl
+- Optional
+  - @Parada2018-rp
+  - @Churchland1988-aj
+  - @Favela2020-uc
+  
 #### Materials
 
 - [Slides](slides/wk01-2025-01-16.html)
@@ -46,6 +48,10 @@
 
 ## January 27-31 {- #week-03}
 
+### Wednesday, January 29 {-}
+
+- [[Exercise 02](exercises/ex02.qmd) image due]{.orange_due}.
+
 ### Thursday, January 30 {-}
 
 #### Topics
@@ -58,9 +64,10 @@
 #### Readings
 
 - [Cellular neuroscience notes](resources/cells.qmd)
-- Optional: @Zeng2017-sg.
-- Optional: @Oliveira2015-ky.
-- Optional: @Distefano-Gagne2023-gt.
+- Optional
+  - @Zeng2017-sg
+  - @Oliveira2015-ky
+  - @Distefano-Gagne2023-gt
 
 #### Materials
 
@@ -128,9 +135,11 @@
 - [Methods notes](resources/methods.qmd)
 - Watch: [@Mitcbmm2019-oj]
 - Review: [@noauthor_undated-wk].
-- Recommended: [@Cohen2017-og].
-- Recommended: [@Hillman2014-xv].
-- Optional: [@Koch2022-wk].
+- Recommended:
+  - @Cohen2017-og
+  - @Hillman2014-xv
+- Optional: 
+  - @Koch2022-wk
 
 #### Materials
 
@@ -151,14 +160,16 @@
 
 #### Readings
 
-- [evolution resources](resources/evolution.qmd)
-- [@Charvet2012-bg]
-- [@hofman_evolution_2014]
-- Optional: [@Castrillon2023-mt].
+<!-- - [evolution resources](resources/evolution.qmd) -->
+- Required
+  - @Charvet2012-bg
+  - @hofman_evolution_2014
+- Optional: 
+  - @Castrillon2023-mt
 
 #### Materials
 
-- [Notes]()
+- [Slides]()
 - [[Exercise 07](exercises/ex07-evo-devo.qmd) distributed]{.green_assigned}
 
 ### March 3-7 {- #week-08}
@@ -175,11 +186,13 @@
 
 #### Readings
 
-- [Methods notes](resources/development.qmd)
-- [@Cao2017-bl].
-- [@Blumberg2023-fs].
-- Optional: [@Larsen2023-wx].
-- Optional: [@Rakic2009-jk].
+- [Slides]()
+- Required
+  - @Cao2017-bl
+  - @Blumberg2023-fs
+- Optional
+  - @Larsen2023-wx
+  - @Rakic2009-jk
 
 #### Materials
 
@@ -216,5 +229,8 @@
 
 ### Thursday, May 01 {-}
 
----
+#### Topics
+
+- Beethoven and the Cerebral Symphony
+
 

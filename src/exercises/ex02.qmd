@@ -34,9 +34,9 @@ Once you have completed the three stations, you may make a fourth pass through t
 
 - Harvard Brain Atlas <http://www.med.harvard.edu/aanlib/cases/caseNA/pb9.htm>
 - Allen Brain Atlas
-  - Human female adult (modified Brodmann): <http://atlas.brain-map.org/atlas?atlas=265297126#atlas=265297126&plate=112360888&structure=10390&x=40320&y=46976&zoom=-7&resolution=124.49&z=3>
-  - Human female adult (gyral): <http://atlas.brain-map.org/atlas?atlas=138322605#atlas=138322605&plate=112360888&structure=10390&x=40320&y=46976&zoom=-7&resolution=124.49&z=3>
-- 3D Brain from Brainfacts.org: <https://www.brainfacts.org/3d-brain#intro=false&focus=Brain>
+  - [Human female adult (modified Brodmann](http://atlas.brain-map.org/atlas?atlas=265297126#atlas=265297126&plate=112360888&structure=10390&x=40320&y=46976&zoom=-7&resolution=124.49&z=3)
+  - [Human female adult (gyral)](http://atlas.brain-map.org/atlas?atlas=138322605#atlas=138322605&plate=112360888&structure=10390&x=40320&y=46976&zoom=-7&resolution=124.49&z=3)
+- [3D Brain from Brainfacts.org](https://www.brainfacts.org/3d-brain#intro=false&focus=Brain)
   
 Follow the same procedure as before, adding checkmarks, or question marks where appropriate.
 

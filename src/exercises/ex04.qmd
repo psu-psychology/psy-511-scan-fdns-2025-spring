@@ -25,6 +25,6 @@ Answer the following questions in no more than a few sentences:
 
 ## Submission details
 
-- Submit your write-up by [**Wednesday, February 14, 2024 at 11:59 pm**]{.orange_due}.
+- Submit your write-up by [**Wednesday, February 19, 2025 at 11:59 pm**]{.orange_due}.
 - If you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.
 - If you found any resources that were especially useful to you in answering these questions, please cite them.
