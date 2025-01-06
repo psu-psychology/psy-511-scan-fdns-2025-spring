@@ -1,10 +1,6 @@
 ---
-title: "Foundations of Social, Cognitive, and Affective Neuroscience (SCAN)"
-subtitle: "PSY 511.003 • Spring 2025"
-format: html
-css: include/css/styles.css
-bibliography: [include/bib/packages.bib, include/bib/psu-repro.bib, include/bib/psy-511.bib]
-csl: include/bib/apa.csl
+title: "Home"
+subtitle: "Foundations of Social, Cognitive, and Affective Neuroscience (SCAN)"
 ---
 
 ![Source: <https://www.brainfacts.org/neuroscience-in-society/law-economics-and-ethics/2019/neuroethics-asks-the-difficult-questions-031319>](https://www.brainfacts.org/-/media/Brainfacts2/Neuroscience-in-Society/Law-Economics-and-Ethics/Article-Images/neuroethics-image.png)

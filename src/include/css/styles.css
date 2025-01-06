@@ -34,3 +34,12 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+
+figcaption {
+  margin: auto;
+  text-align: center;
+}
+
+p.center_citation {
+  text-align: center;
+}

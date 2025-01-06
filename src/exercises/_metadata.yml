@@ -10,4 +10,5 @@ format:
     toc-depth: 3
     fig-align: center
   pdf: default
+  docx: default
 format-links: [pdf, docx]

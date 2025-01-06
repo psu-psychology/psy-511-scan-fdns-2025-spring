@@ -1,8 +1,7 @@
 ---
 title: "Exercise 01 • Levels/Terms"
+subtitle: "**Name:**____________________________"
 ---
-
-**Name:**____________________________
 
 ## Goals
 
@@ -13,14 +12,15 @@ title: "Exercise 01 • Levels/Terms"
 ## Tasks
 
 1. Choose two papers relevant to your personal research interests that you want to understand more thoroughly.
-2. Scan the papers and highlight 3-5 terms or concepts that you are especially interested in understanding.
+2. Scan the papers and highlight 3-5 terms or concepts that you are especially interested in understanding better.
 3. Submit a short (1-2 pp) write-up that includes the following:
     - Which articles did you choose and why did you choose them.
     - What terms or concepts did you choose and why did you choose them.
-    - What level or levels of analysis do the terms reflect?
+    - What spatial level or levels of analysis do the terms reflect?
+    - What time frame (temporal level of analysis) applies to the terms in question?
 
 ## Submission details
 
-- Give your paper a file name following this convention: "psy-511-spr-2024-LASTNAME-FIRSTNAME-ex01.docx"
+- Give your paper a file name following this convention: "psy-511-spr-2025-LASTNAME-FIRSTNAME-ex01.docx"
 - Provide full APA format citations with DOIs.
 - Your write-up is [due **Wednesday, January 17, 2024 at 11:59 pm**]{.orange_due}.

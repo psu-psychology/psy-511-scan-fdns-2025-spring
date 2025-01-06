@@ -3,11 +3,20 @@ project:
   render:
     - "./*.qmd"
     - "resources/*.qmd"
+    - "slides/*.qmd"
+    - "exercises/*.qmd"
   output-dir: "../docs"
+  resources:
+    - "include/snd/*.m4a"
+    - "include/snd/*.wav"
+    - "include/img/*.png"
+    - "include/img/*.jpg"
+    - "include/img/*.gif"
+    - "include/img/*.mov"
 
 website:
-  title: "PSY 511 • Spring 2025"
-  comments: 
+  title: "PSY 511.003 Spr 25"
+  comments:
     hypothesis:
       theme: clean
   navbar:
@@ -18,35 +27,49 @@ website:
         text: schedule
       - href: evaluation.qmd
         text: evaluation
-      # - href: deadlines.qmd
-      #   text: deadlines
       - href: policies.qmd
         text: policies
-      # - href: values.qmd
-      #   text: values
       - text: slides
         menu:
-          - href: "slides/wk01-2025-01-16.qmd"
-          - href: "slides/wk01-2025-01-23.qmd"
-      - text: exercises
+        - href: "slides/wk01-2025-01-16.qmd"
+        - href: "slides/wk02-2025-01-23.qmd"
+        - href: "slides/wk03-2025-01-30.qmd"
+      - text: resources
         menu:
+          - href: "resources/levels.qmd"
+          - href: "resources/anatomy.qmd"
+          - href: "resources/cells.qmd"
+          - href: "resources/neurochemistry.qmd"
+          - href: "resources/methods.qmd"
+          - href: "resources/evolution.qmd"
+          - href: "resources/development.qmd"
+          - href: "resources/perception.qmd"
+          - href: "resources/action.qmd"
+          - href: "resources/cognition-language.qmd"
+          - href: "resources/learning-memory.qmd"
+          - href: "resources/schizophrenia.qmd"
+          - href: "resources/affective-disorders.qmd"
+          - href: "resources/fear-stress-reward.qmd"
+          - href: "slides/beethoven.qmd"
+      - text: exercises
+        menu: 
           - href: "exercises/ex01.qmd"
           - href: "exercises/ex02.qmd"
           - href: "exercises/ex03.qmd"
           - href: "exercises/ex04.qmd"
           - href: "exercises/ex05.qmd"
           - href: "exercises/ex06.qmd"
-          - href: "exercises/ex07-evo-devo.qmd"
-          - href: "exercises/ex08-devo.qmd"
+          - href: "exercises/ex07.qmd"
+          - href: "exercises/ex08.qmd"
   repo-url: https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring
   repo-actions: [edit, issue]
   repo-subdir: src
   page-footer:
-    left: "&copy; Rick Gilmore"
+    left: "&copy 2025-; Rick Gilmore"
     center: "Built with [Quarto](https://quarto.org/)"
     right: 
       - icon: github
-        href: https://github.com/rogilmore
+        href: https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring
     background: light
     border: true
   page-navigation: true
@@ -54,8 +77,11 @@ website:
 format:
   html:
     theme: default
-    css: include/css/styles.css
+    # css: include/css/styles.css
     toc: true
+    toc-depth: 4
+    fig-align: center
+    fontsize: 1.2em
     number-sections: false
     citations-hover: true
     footnotes-hover: true

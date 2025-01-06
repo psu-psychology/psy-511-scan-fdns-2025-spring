@@ -11,7 +11,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 {{< video https://www.youtube.com/embed/JB7jSFeVz1U width="100%" height="80%" >}}
 
 <p style="text-align:center;">
-[@Melodysheep2011-wg]
+@Melodysheep2011-wg
 </p>
 
 ---
@@ -19,7 +19,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 > "*If understanding everything we need to know about the brain is a mile, how far have we walked?*"
 
 <p style="text-align:center;">
-[@National_Geographic2014-gv]
+@National_Geographic2014-gv
 </p>
 
 ---
@@ -27,36 +27,10 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 {{< video https://www.youtube.com/embed/nvXuq9jRWKE width="100%" height="80%" >}}
 
 <p style="text-align:center;">
-[@National_Geographic2014-gv]
+@National_Geographic2014-gv
 </p>
 
-## Gilmore bio
-
-::: {layout-nrow=2}
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/DenverCP.JPG/266px-DenverCP.JPG)
-
-![](http://watson.brown.edu/ds/sites/all/themes/ds/img/header/brown_large.png)
-
-![](https://www.civitatis.com/f/estados-unidos/washington/escala-washington-589x392.jpg)
-
-![](https://www.cmu.edu/brand/brand-guidelines/images/wordmarkonphoto4-600x600.png)
-
-![](https://dispatch.happyvalley.com/m/photos/_inline/Mount-Nittany_submitted-dsc_0371-1_2023-10-18-201411_uuxi.jpg)
-
-![](../include/img/sleic.jpg)
-
-![](https://nyu.databrary.org/web/images/logo/databrary-nav.svg)
-
-![](https://play-project.org/img/PLAY-logo.png)
-:::
-
----
-
-- Hiking, camping/backpacking, cycling, paddling
-- Music, theatre
-- Activism
-- Amateur radio (W3TM), computing
+{{< include _gilmore-photobio.qmd >}}
 
 ## Today's topics
 

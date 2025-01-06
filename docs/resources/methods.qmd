@@ -1,0 +1,488 @@
+---
+title: "Neuroscience methods"
+format:
+  html:
+    toc: true
+    toc-depth: 4
+---
+
+## Evaluating methods 
+
+### What are we measuring?
+
+- Structure
+- Activity
+    - Why not *function*?
+
+### What is the question?
+
+- Structure X -> Structure Y
+- Structure X -> Function Y
+
+### Strengths & Weaknesses
+
+- Cost
+- Invasiveness
+- Spatial/temporal resolution
+
+### Spatial resolution
+
+![](../include/img/churchland-levels-of-analysis.gif)
+
+### ...and temporal resolution
+
+![[@Sejnowski2014-aa]](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp){.lightbox}
+
+### Types of methods
+
+- Structural
+  - Anatomy
+  - Connectivity/connectome
+- Functional
+  - What does it do?
+  - Physiology/Activity
+
+## Structural methods
+
+### Mapping microstructure
+
+- Cell/axon stains
+- Cellular distribution, concentration, microanatomy
+
+#### Golgi stain 
+
+- whole cells, but small % of total
+
+![<http://connectomethebook.com/wp-content/uploads/2011/11/Brainforest17_1119.jpg>](../include/img/golgi-stain.jpg){.lightbox}
+
+---
+
+![<https://publicdomainreview.org/collection/illustrations-of-the-nervous-system-golgi-and-cajal/>](https://the-public-domain-review.imgix.net/collections/illustrations-of-the-nervous-system-golgi-and-cajal/golgi-olfactory-top-thumb.jpg?fit=max&w=1200&h=850){.lightbox}
+
+#### [Camillo Golgi](https://en.wikipedia.org/wiki/Camillo_Golgi)
+
+![Camillo Golgi (Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Camillo_Golgi.jpg/440px-Camillo_Golgi.jpg){.lightbox}
+
+#### Nissl stain
+
+- Only cell bodies
+- Cell density ~ color intensity
+
+![](https://i.pinimg.com/originals/24/ba/58/24ba5870a0b3ac2ce8e3620853e12c8b.jpg){.lightbox}
+
+![<https://www.researchgate.net/figure/Nissl-staining-and-Golgi-stain-in-rats-30days-after-infarction-A-Nissl-staining-of-the_fig4_355182651>](https://www.researchgate.net/publication/355182651/figure/fig4/AS:1077963713970180@1634017985463/Nissl-staining-and-Golgi-stain-in-rats-30days-after-infarction-A-Nissl-staining-of-the.png){.lightbox}
+
+#### Franz Nissl
+
+![Franz Nissl (Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Franz_Nissl.jpg/440px-Franz_Nissl.jpg){.lightbox}
+
+#### [Brainbow](http://cbs.fas.harvard.edu/science/connectome-project/brainbow)
+
+![[@lichtman_technicolour_2008]](../include/img/lichtman-nrn2391-f1.jpg){.lightbox}
+
+![[@lichtman_technicolour_2008]](../include/img/lichtman-nrn2391-f2.jpg){.lightbox}
+
+#### [Clarity](http://clarityresourcecenter.com/CLARITY.html)
+
+{{< video https://www.youtube.com/embed/c-NMfp13Uug >}}
+
+<https://www.youtube.com/embed/c-NMfp13Uug>
+
+#### [CUBIC](https://en.wikipedia.org/wiki/CUBIC)
+
+- CUBIC (“clear, unobstructed brain/body imaging cocktails and computational analysis")
+- [@Susaki2014-xj]
+
+![[Fig 21.2 from @Ando2018-ze]. Immunostaining of CUBIC-clarified 500-μm-thick slices from human Alzheimer disease postmortem brain frontal cortex. Human Alzheimer disease frontal cortex tissue immunostained for Aß (6E10, red) and for tau (B19, green). Stack depth of 264 μm; step size = 1 μm. Stack photos were taken with a two-photon microscope equipped with a 20 × air objective. Scale bar, 100 μm.](https://ars.els-cdn.com/content/image/1-s2.0-B9780444636393000219-f21-02-9780444636393.jpg){.lightbox}
+
+#### Evaluating micro/cellular techniques
+
+- Invasive (in humans post-mortem only)
+- High *spatial* resolution, but poor/coarse *temporal*
+
+::: {.callout-note}
+
+"SHANK2 mutations associated with autism spectrum disorder cause hyperconnectivity of human neurons." [@Zaslavsky2019-ln]
+
+![[Figure 1 from @Zaslavsky2019-ln]. a, iPSCs generated from multiple control and affected individuals are differentiated into NPCs. NPCs are differentiated in separate wells for 4 weeks and then differentially fluorescently labeled control (CTRL) and mutant (MUT) cells are sparsely seeded onto a large unlabeled neuronal population (the lawn) and cocultured with astrocytes. b, Timeline of the experiment, starting with seeding of NPCs. Measurements of mutant cells are normalized to control cells in the same well. c, Sparse seeding allows simultaneous analyses of cell morphology and connectivity (total number of SYN1 puncta) of single neurons. Scale bars, 100 μm. d, To compare cell morphology, paired representative traces are shown of control and SHANK2 ASD or engineered SHANK2 KO neurons grown in the same well. e, To compare synaptic function, sEPSCs are recorded from neurons grown in the same well. Confocal images and traces shown in c and d are representative of iPSC-derived neurons imaged in experiments depicted in Fig. 2a–c. sEPSC traces shown in e are representative of patch-clamp recordings of iPSC-derived neurons described in Fig. 3.](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-019-0365-8/MediaObjects/41593_2019_365_Fig1_HTML.png?as=webp){.lightbox}
+
+:::
+
+### Mapping macro-structures
+
+#### Computed axial tomography (CAT), CT
+
+- X-ray based
+
+![http://img.tfd.com/mk/T/X2604-T-22.png](../include/img/tomography.png){.lightbox}
+
+##### Tomography
+
+- Structured sequence of 2D images -> 3D reconstruction
+
+![http://static.howstuffworks.com/gif/cat-scan-pineapple.jpg](../include/img/cat-scan-pineapple.jpg){.lightbox}
+
+---
+
+![<https://medium.com/datadriveninvestor/detecting-brain-hemorrhage-in-computed-tomography-ct-imaging-d1276cb6bdb7>](https://miro.medium.com/max/1024/1*j09PgBpdJIHXhlyjcby0HA.jpeg){.lightbox}
+
+#### Magnetic Resonance Imaging (MRI)
+
+- Magnetic resonance a property of some isotopes and complex molecules
+- Hydrogen ($H$), common in water & fat, is one
+- In magnetic field, $H$ atoms absorb and release radio frequency (RF) energy
+- $H$ atoms align with strong magnetic field
+- Applying RF pulse perturbs alignment
+- Rate/timing of realignment varies by tissue
+- Realignment gives off radio frequency (RF) signals
+- Strength of RF ~ density of $H$ (or other target)
+- [$k$-space](https://radiopaedia.org/articles/k-space-1?lang=us) (frequency/phase) -> anatomical space
+    - [Fourier analysis and synthesis](https://en.wikipedia.org/wiki/Fourier_transform) important for psychological/neural science, but possibly unfamiliar to many.
+    - Frequency and phase $/rightarrow$ amplitude and location
+
+![http://s.hswstatic.com/gif/mri-steps.jpg](../include/img/mri-steps.jpg){.lightbox}
+
+##### Structural MRI
+
+- Tissue density/type differences
+- **Gray matter** (nerve cells & **dendrites**) vs. **white matter** (**axon fibers**)
+
+![](https://previews.123rf.com/images/ultimagaina/ultimagaina1405/ultimagaina140500005/28078449-Sequence-of-vertical-sections-of-a-human-brain-MRI-scan-Stock-Photo.jpg){.lightbox}
+
+![[Figure 1 from @Lee2021-ae]. Longitudinal trajectories of total cerebral volume, gray matter volume, and white matter volume from early to middle childhood (A) in boys with autism spectrum disorder (ASD) and typically developing (TD) boys and (B) in boys with ASD and disproportionate megalencephaly (ASD-DM), boys with ASD with normative cerebral volume-to-height ratio (ASD-N), and TD boys.](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/a462a956-7f5d-4995-9989-647b2823c66f/gr1_lrg.jpg){.lightbox}
+
+##### MR Spectroscopy (specific metabolites)
+
+![https://www.brighamandwomens.org/radiology/research/spectroscopy/about-spectroscopy](https://www.brighamandwomens.org/assets/BWH/radiology/images/spectroscopy-about-spectroscopy.jpg){.lightbox}
+
+- Region sizes/volumes
+
+##### Voxel-based morphometry (VBM)
+
+- MRI technique for measuring brain sizes/volumes
+
+![[Figure 1 from @Pomarol-Clotet2010-tq]. Top panel: (a) voxel-based morphometry (VBM) findings. Regions showing significant volume reduction thresholded at P=0.01 in the schizophrenic patients are shown in orange. Bottom panel: (b) functional magnetic resonance imaging (fMRI) findings. Regions are shown where there were significant differences between patients and controls during performance of the n-back task (2-back vs baseline comparison), thresholded at P=0.01. Blue indicates hypoactivation, that is, areas where controls activated significantly more than the patients. Orange indicates areas where the schizophrenic patients showed failure to deactivate in comparison to controls. The right side of the images represents the left side of the brain.](https://openi.nlm.nih.gov/imgs/512/130/2927029/PMC2927029_mp2009146f1.png)
+
+- Volume differences in schizophrenics vs. controls
+- Colored portions are statistical maps placed on top of a base structural map.
+- Maps (a) provide information about the comparison in brain volumes between patients and controls in those areas, and in (b) functional imaging differences in an n-back task.
+
+### Mapping the wiring diagram ("connectome")
+
+![Fire alarm circuit schematic](https://i.stack.imgur.com/2OT3B.png){.lightbox}
+
+---
+
+![[@Jonas2017-sk]](../include/img/jonas-kording-2017.jpg){.lightbox}
+
+#### Microscale
+
+Retrograde (output -> input) vs. anterograde (input -> output) tracers
+
+![http://openi.nlm.nih.gov/imgs/512/348/3176268/3176268_1471-2105-12-351-2.png](../include/img/retrograde-anterograde-tracers.png){.lightbox}
+{{< video https://www.youtube.com/embed/nvXuq9jRWKE >}}
+
+<https://www.youtube.com/embed/nvXuq9jRWKE>
+
+#### Diffusion Tensor Imaging (DTI)
+
+- Structural MRI technique
+- Diffusion tensor: measurement of spatial pattern of $H_2O$ diffusion in small volume
+- Uniform ("isotropic") vs. non-uniform ("anisotropic")
+- Strong anisotropy suggests large # of axons with similar orientations (fiber tracts)
+
+![](http://1.bp.blogspot.com/-YO3h0cRqTEc/UIRKEC_0N8I/AAAAAAAABQs/dEPzCbcyuCo/s1600/FA_tensor.png){.lightbox}
+
+![https://www.nap.edu/openbook/13373/xhtml/images/p26.jpg](https://www.nap.edu/openbook/13373/xhtml/images/p26.jpg){.lightbox}
+
+#### Visualizing the connectome
+
+![[Figure 2 from @Bonilha2015-qx]. Fig 2. Link-wise ICCs. Each matrix entry represents the ICC observed for the white matter link between the gray matter ROI in the row and the gray matter ROI in the column.](https://journals.plos.org/plosone/article/figure/image?size=large&download=&id=10.1371/journal.pone.0135247.g002){.lightbox}
+
+![http://www.humanconnectome.org](http://www.humanconnectome.org/storage/app/media/news/2015/09/CCA_mode.jpg){.lightbox}
+
+## Functional methods
+
+- Recording from the brain 
+- Interfering with the brain 
+- Stimulating the brain
+- Simulating the brain
+
+### Recording from the brain
+
+#### Single/multi-unit Recording
+
+- Microelectrodes + amplification
+- Small numbers of nerve cells
+
+![Figure 1 from @Nishimura2021-ne](https://ars.els-cdn.com/content/image/1-s2.0-S2211124721001996-fx1.jpg){.lightbox}
+
+- What does neuron X respond to?
+- How does firing frequency, timing vary with behavior?
+- Great temporal (ms), spatial resolution (um)
+- Invasive
+- Rarely suitable for humans, but...
+
+#### [Electrocorticography (ECoG)](https://en.wikipedia.org/wiki/Electrocorticography)
+
+![Grid electrodes: (A) Craniotomy performed for electrocorticography (ECoG) grid electrode placement in epilepsy surgery candidate at Comprehensive Epilepsy Program, Florida Hospital for Children, Orlando, Florida, United States. (B) ECoG electrode grids placed directly on the brain surface. They will be used during presurgical monitoring for localizing seizure onset zone. The same electrodes are stimulated during electrical cortical stimulation mapping for identification of eloquent cortex. The ECoG signal recorded from these grids is separated in a different stream and used for real-time functional mapping (RTFM). (C) 3D reconstruction of the brain with overlaid grid electrodes. This reconstruction is used for creating RTFM montage.](https://www.researchgate.net/profile/Milena_Korostenskaja/publication/281907202/figure/fig2/AS:613868334223375@1523369024308/Grid-electrodes-A-Craniotomy-performed-for-electrocorticography-ECoG-grid-electrode_Q640.jpg){.lightbox}
+
+---- 
+
+{{< video https://www.youtube.com/embed/u50HPRe3rOY >}}
+
+<https://www.youtube.com/watch?v=u50HPRe3rOY>
+
+#### [Positron Emission Tomography (PET)](https://en.wikipedia.org/wiki/Positron_emission_tomography)
+
+{{< video https://www.youtube.com/embed/GHLBcCv4rqk >}}
+
+<https://www.youtube.com/embed/GHLBcCv4rqk>
+
+---
+
+- Radioactive tracers (glucose, oxygen)
+- Positron decay activates paired detectors
+- Tomographic techniques reconstruct 3D geometry
+- Experimental condition - control
+- Average across individuals
+- Temporal (~ s) and spatial (mm-cm) resolution worse than fMRI
+- Radioactive exposures + mildly invasive 
+- Dose < airline crew exposure in 1 yr
+
+##### Example: Neurotransmitter receptor binding and behavior
+
+![[Figure 3 from @Kantonen2021-to]. The blue outline marks brain regions where lower [11C]carfentanil binding potential (BPND) associated with higher External eating score, age and PET scanner as nuisance covariates, cluster forming threshold p < 0.01, FWE corrected. In the red–yellow T-score scale shown are also additional bilateral associations significant with more lenient cluster-defining threshold (p < 0.05, FWE corrected) for visualization purposes.](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41398-021-01559-5/MediaObjects/41398_2021_1559_Fig3_HTML.png?as=webp){.lightbox}
+
+> Our main finding was that higher DEBQ scores were associated with lower central availability of MORs and CB1Rs in healthy, nonobese humans. MOR and CB1R systems however showed distinct patterns of associations with specific dimensions of self-reported eating: While CB1Rs were associated in general negatively with different DEBQ subscale scores (and most saliently with the Total DEBQ score), MORs were specifically and negatively associated with externally driven eating only. Our results support the view that variation in endogenous opioid and endocannabinoid systems explain interindividual variation in feeding, with distinct effects on eating behavior measured with DEBQ.
+>
+> [@Kantonen2021-to]
+
+##### Comparing PET and fMRI
+
+![[Figure 2 from @Rischka2018-pk]. Fig. 2. Task-specific changes during finger tapping and visual stimulation obtained with fPET and fMRI across all subjects. Good agreement between CMRGlu and BOLD was observed for primary motor and visual cortices. However, in secondary areas (e.g., supplementary motor area, cerebellum, secondary visual areas) significant changes were only detected with fMRI but not with fPET (Table 2). Statistical maps were corrected for multiple comparisons at p<0.05 FWE corrected voxel-level.](https://ars.els-cdn.com/content/image/1-s2.0-S105381191830586X-gr2_lrg.jpg){.lightbox}
+
+> The brain's energy budget can be non-invasively assessed with different imaging modalities such as functional MRI (fMRI) and PET (fPET), which are sensitive to oxygen and glucose demands, respectively. The introduction of hybrid PET/MRI systems further enables the simultaneous acquisition of these parameters...The absence of a correlation and the different activation pattern between fPET and fMRI suggest that glucose metabolism and oxygen demand capture complementary aspects of energy demands.
+>
+> [@Rischka2018-pk]
+
+#### Functional Magnetic Resonance Imaging (fMRI)
+
+- Neural activity -> local $O_2$ consumption increase
+- *Blood Oxygen Level Dependent (BOLD)* response
+- Oxygenated vs. deoxygenated hemoglobin ≠ magnetic susceptibility
+- How do regional blood $O_2$ levels (& flow & volume) vary with behavior X?
+- MRI "signals" relate to the speed (1/T) of "relaxation" of the perturbed nuclei to their state of alignment with the main ($B_0$) magnetic field.
+- Imaging protocols emphasize different time constants of this relaxation ($T1$, $T2$, $T2^*$); $T^{2^*}$ for BOLD imaging
+
+##### Evaluating fMRI
+
+- Non-invasive, but expensive
+- Moderate but improving (mm) spatial, temporal (~sec) resolution
+- Spatial limits due to 
+    - field strength (@ 3T $~3mm^3$ voxel)
+    - Physiology of hemodynamic response
+- Temporal limits due to
+    - Hemodynamic Response Function (HRF): ~ 1s delay plus 3-6 s ramp-up
+    - Speed of image acquisition
+- *Indirect* measure of neural activity
+
+##### Hemodynamic Response Function (HRF)
+
+![https://openi.nlm.nih.gov/imgs/512/236/3109590/3109590_TONIJ-5-24_F1.png](../include/img/hemodynamic-response-function.png){.lightbox}
+
+---
+
+![Generate "predicted" BOLD response to event; compare to actual.](https://mriquestions.com/uploads/3/4/5/7/34572113/convolution-of-3-events_orig.gif){.lightbox}
+Generate "predicted" BOLD response to event; compare to actual
+
+##### Higher field strengths (3 Tesla vs. 7 Tesla)
+
+![[Figure from @Sladky2013-bu]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3629563/bin/gr3.jpg){.lightbox}
+
+##### fMRI studies often statistically underpowered
+
+![[Figure 3 from @Szucs2017-fc]](https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.2000797.g003&type=large){.lightbox}
+
+> Assuming a realistic range of prior probabilities for null hypotheses, false report probability is likely to exceed 50% for the whole literature.
+>
+> [@Szucs2017-fc]
+
+- Solutions
+    - Make data, materials (analysis code) more widely and openly available
+    - [OpenNeuro.org](https://openneuro.org), [Human Connectome Project](https://www.humanconnectomeproject.org/), [Databrary.org](https://databrary.org), etc.
+    - Reuse shared data (e.g., [Adolescent Brain & Cognitive Development (ABCD) Study](https://abcdstudy.org/))
+    - Increase sample sizes, improve detection of small effects
+
+#### Functional Near-infrared Spectroscopy (fNIRS)
+
+- Near infrared light penetrates scalp and skull, refracted by brain tissue
+- Returned signal altered by blood $O_2$ levels
+- Time course (temporal resolution) ~ BOLD fMRI
+- Spatial resolution low
+- More suitable than fMRI for pediatric populations (less susceptible to movement artefact)
+
+---
+
+![https://www.clinicalguidelines.scot.nhs.uk/nhsggc-guidelines/nhsggc-guidelines/intensive-and-critical-care/near-infrared-spectroscopy-nirs-guideline/](https://www.clinicalguidelines.scot.nhs.uk/media/3702/nirs-fig1.png){.lightbox}
+
+---
+
+![https://www.fnndsc.org/principles-of-nirs](https://static.wixstatic.com/media/d5c1b3_ef3d7c4006f247f1b455d90ca380da08~mv2.png/v1/fill/w_703,h_427,al_c,lg_1,q_85,enc_auto/Principles%20of%20NIRs_tif.png){.lightbox}
+
+#### Electroencephalography (EEG)
+
+- How does it work?
+- Electrodes on scalp or brain surface
+
+##### What does EEG measure?
+
+- Voltage *differences* between source and reference electrode
+- Combined activity of huge # of neurons
+- Current/voltage gradients between *apical* (near surface) dendrites and *basal* (deeper) dendrites and cell body/soma
+
+![https://neurofeedbackalliance.org/wp-content/uploads/2016/10/Dipole.jpg](https://neurofeedbackalliance.org/wp-content/uploads/2016/10/Dipole.jpg){.lightbox}
+
+##### Collecting EEG
+
+![https://sfari.org/images/images-2013-folder/images-sfn-2013/20131110sfneeg](../include/img/baby-eeg.jpg){.lightbox}
+
+##### Evaluating EEG
+
+- High temporal, poor spatial resolution
+- Analyze activity in different 'bands' of frequencies (via [Fourier](https://en.wikipedia.org/wiki/Fourier_transform) analysis)
+    + LOW: deep sleep (delta or $\delta$ band)
+    + MIDDLE: Quiet, alert state (alpha $\alpha$ band)
+    + HIGHER: Sensorimotor activity reflecting observed actions? (mu or $\mu$ band), [@Hobson2017-oj]
+    + HIGHER STILL: “Binding” information across senses or plasticity? (gamma or $\gamma$ band), [@Amo2017-tz]
+  
+---
+
+![https://www.peakmind.co.uk/images/frequency.jpg](../include/img/eeg-frequency.jpg){.lightbox}
+
+##### [Event-related potentials (ERPs)](https://en.wikipedia.org/wiki/Event-related_potential)
+
+- EEGs time-locked to some event 
+- ...Averaged over many such events (trials)
+
+![https://2.bp.blogspot.com/_2ob-1_LsjJs/TAUjw9i_dYI/AAAAAAAAAQQ/9AfiHsnD-P8/s1600/ERP_technique.gif](https://2.bp.blogspot.com/_2ob-1_LsjJs/TAUjw9i_dYI/AAAAAAAAAQQ/9AfiHsnD-P8/s1600/ERP_technique.gif){.lightbox}
+
+##### [Brain Computer Interface (BCI)](https://computer.howstuffworks.com/brain-computer-interface.htm) {.smaller}
+
+- Based on EEG/ERPs
+
+![https://scx1.b-cdn.net/csz/news/800/2015/562df18a48c5c.png](https://scx1.b-cdn.net/csz/news/800/2015/562df18a48c5c.png){.lightbox}
+
+#### Magneto-encephalography (MEG)
+
+- Like EEG, but measuring magnetic fields
+- High temporal resolution
+- Magnetic fields ($\vec{B}$) propagate w/o distortion
+    - But oriented orthogonal to electric field ($\vec{E}$)
+
+![https://en.wikipedia.org/wiki/Electromagnetic_field](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Onde_electromagnetique.svg/220px-Onde_electromagnetique.svg.png)
+
+![<https://www.humanconnectome.org/study/hcp-young-adult/project-protocol/meg-eeg>](https://www.humanconnectome.org/storage/app/media/art/meg-eeg-fig1-draft.png){.lightbox}
+
+- Strongest signals from sulci $\perp$ to cortical surface 
+- vs. EEG that favors signals from neurons $\parallel$ to cortical surface
+
+- Requires shielded chamber (to keep out strong magnetic fields)
+- ++ cost vs. EEG
+
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/e/e6/NIMH_MEG.jpg){.lightbox}
+
+New device minimizes problems with motion
+
+![[Figure 1 from @Hill2019-ik]. Figure 1. A paediatric MEG system: a Experimental setup for three participants age 2- (left), 5- (centre) and 24-years (right). OPMs, housed in a modified bike helmet, measured the MEG signal. b Time-frequency spectra from a single (synthesised gradiometer) channel. Changes in neural oscillations are shown; blue indicates a reduction in oscillatory amplitude relative to baseline; yellow indicates an increase. Note reduction in beta (13–30 Hz) and mu (8–13 Hz) amplitude. c The spatial signature of beta modulation during the period of tactile stimulation (0 s< t < 2 s) (blue overlay)](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-019-12486-x/MediaObjects/41467_2019_12486_Fig1_HTML.png){.lightbox}
+
+#### How do EEG/MEG and fMRI relate?
+
+![[@Logothetis2001-ul]](../include/img/logothetis-2001.jpg){.lightbox}
+
+- BOLD fMRI likely reflects **presynaptic** (afferent) *input* to area
+- EEG/MEG likely reflects **postsynaptic** (efferent) *response* to those inputs
+- [@Logothetis2001-ul; @Logothetis2004-mn]
+
+### Manipulating the brain
+
+- Interfering with it 
+- Stimulating it
+
+#### Interfering with the brain
+
+- Nature’s“experiments” 
+- Stroke, head injury, tumor
+- Neuropsychology
+
+##### Phineas Gage
+
+![http://www.doctorsimpossible.com/the-curious-case-of-phineas-gage/](http://www.doctorsimpossible.com/wp-content/uploads/2017/11/Phineas-Gage-with-skull-picture.png){.lightbox}
+---
+
+![](https://upload.wikimedia.org/wikipedia/en/9/98/The_Man_Who_Mistook_His_Wife_for_a_Hat_cover.jpg){.lightbox}
+
+##### Evaluating neuropsychological methods
+
+- Logic: IF damage to area X impairs performance, THEN region critical for behavior Y
+- *Double dissociation*: Damage to area Z leaves behavior Y intact 
+- Weak spatial/temporal resolution
+
+#### Stimulating the brain
+
+- Electrical (**Direct Current Stimulation - DCS**)
+- Pharmacological
+- Magnetic (**Transcranial magnetic stimulation - TMS**)
+- Spatial/temporal resolution?
+- Assume stimulation mimics natural activity?
+
+##### Deep brain stimulation as therapy
+
+- Depression 
+- Epilepsy
+- Parkinson’s Disease 
+
+![https://www.nimh.nih.gov/images/health-and-outreach/mental-health-topic-brain-stimulation-therapies/dbs_60715_3.jpg](../include/img/deep-brain-stimulation.jpg){.lightbox}
+
+---
+
+{{< video https://www.youtube.com/embed/KDjWdtDyz5I >}}
+
+<https://youtu.be/KDjWdtDyz5I>
+
+#### [Optogenetics](https://en.wikipedia.org/wiki/Optogenetics)
+
+{{< video https://www.youtube.com/embed/I64X7vHSHOE>}}
+
+<https://www.youtube.com/embed/I64X7vHSHOE>
+
+- Gene splicing techniques insert light-sensitive molecules into neuronal membranes
+- Application of light at specific wavelengths alters neuronal function
+- Cell-type specific and temporally precise control
+- Mimics brain activity
+
+{{< video https://www.youtube.com/embed/FlGbznBmx8M >}}
+
+<https://youtu.be/FlGbznBmx8M>
+
+### *Sim*ulating the brain
+
+- Computer/mathematical models of brain function
+- Example: neural networks
+- Cheap, noninvasive, can be stimulated or “lesioned”
+
+{{< video https://www.youtube.com/embed/gn4nRCC9TwQ >}}
+
+<https://www.youtube.com/embed/gn4nRCC9TwQ>
+
+### Or synthesizing one...
+
+#### Human brain organoids
+
+> Brain organoids represent a powerful tool for studying human neurological diseases, particularly those that affect brain growth and structure. However, many diseases manifest with clear evidence of physiological and network abnormality in the absence of anatomical changes, raising the question of whether organoids possess sufficient neural network complexity to model these conditions. Here, we explore the network-level functions of brain organoids using calcium sensor imaging and extracellular recording approaches that together reveal the existence of complex network dynamics reminiscent of intact brain preparations. We demonstrate highly abnormal and epileptiform-like activity in organoids derived from induced pluripotent stem cells from individuals with Rett syndrome, accompanied by transcriptomic differences revealed by single-cell analyses. We also rescue key physiological activities with an unconventional neuroregulatory drug, pifithrin-α. Together, these findings provide an essential foundation for the utilization of brain organoids to study intact and disordered human brain network formation and illustrate their utility in therapeutic discovery.
+>
+> [@Samarasinghe2021-dk]
+
+![[Figure 2 from @Samarasinghe2021-dk]. a, Schematic illustrating the identification of active neurons by virtue of their Ca2+ transients (I), representation of their network organization (II) and methods used to collect extracellular recordings (III). b, Example of live two-photon microscopy imaging of an H9 hESC-derived fusion organoid demonstrating acquisition of regions of interest (red circles) and the resulting activity profile shown as normalized ΔF/F values, where each line is an individual neuron (middle) and representation of the same data as a colorized amplitude plot (right). c, Addition of 100 μM BMI had a minimal effect on Cx + Cx fusions (top) yet elicited spontaneous synchronization of neural activities in Cx + GE organoids (bottom). d, These synchronizations can be transformed into a normalized amplitude-versus-time plot for quantitative analyses (left) and further visualized as a clustergram following hierarchical clustering of calcium spiking data (right). e, Pooled data of the amplitude measurements. Plots display the full distribution of individual data points. Dashed and dotted lines indicate the median and quartile values, respectively. n = 3 independent experiments for Cx + Cx and Cx + GE. Analysis of variance (ANOVA) P = 0.0011, F = 8.301, d.f. (between columns) = 3 followed by Tukey’s multiple-comparison test; **P = 0.0028 for Cx + Cx versus Cx + GE BMI; **P = 0.0100 for Cx + Cx BMI versus Cx + GE BMI; **P = 0.0031 for Cx + GE versus Cx + GE BMI. f–h, LFPs measured from a representative Cx + GE fusion revealed robust oscillatory activities at multiple frequencies during a 5-min period, reflected in both raw traces (f) and the spectrogram (g). Spectral density analysis in h demonstrates the presence of multiple distinct oscillatory peaks ranging from ~1–100 Hz. i–k, Cx + Cx fusion organoids by contrast lack measurable oscillatory activities. Representative traces in f–h are taken from three independent experiments and in i–k from four independent experiments. NS, not significant.](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41593-021-00906-5/MediaObjects/41593_2021_906_Fig2_HTML.png?as=webp){.lightbox}
+
+## References
