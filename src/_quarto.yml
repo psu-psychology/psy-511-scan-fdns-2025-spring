@@ -36,7 +36,7 @@ website:
         - href: "slides/wk03-2025-01-30.qmd"
       - text: resources
         menu:
-          - href: "resources/levels.qmd"
+          # - href: "resources/levels.qmd"
           - href: "resources/anatomy.qmd"
           - href: "resources/cells.qmd"
           - href: "resources/neurochemistry.qmd"
@@ -50,7 +50,7 @@ website:
           - href: "resources/schizophrenia.qmd"
           - href: "resources/affective-disorders.qmd"
           - href: "resources/fear-stress-reward.qmd"
-          - href: "slides/beethoven.qmd"
+          # - href: "slides/beethoven.qmd"
       - text: exercises
         menu: 
           - href: "exercises/ex01.qmd"

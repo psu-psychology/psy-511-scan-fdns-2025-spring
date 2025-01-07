@@ -11,10 +11,10 @@
 
 #### Readings
 
-- Required
+- Required:
   - @Siddiqi2022-wl
   - @Krakauer2017-xl
-- Optional
+- Optional:
   - @Parada2018-rp
   - @Churchland1988-aj
   - @Favela2020-uc
@@ -64,7 +64,7 @@
 #### Readings
 
 - [Cellular neuroscience notes](resources/cells.qmd)
-- Optional
+- Optional:
   - @Zeng2017-sg
   - @Oliveira2015-ky
   - @Distefano-Gagne2023-gt
@@ -133,8 +133,8 @@
 #### Readings
 
 - [Methods notes](resources/methods.qmd)
-- Watch: [@Mitcbmm2019-oj]
-- Review: [@noauthor_undated-wk].
+- Watch: @Mitcbmm2019-oj]
+- Review: @noauthor_undated-wk
 - Recommended:
   - @Cohen2017-og
   - @Hillman2014-xv
@@ -161,7 +161,7 @@
 #### Readings
 
 <!-- - [evolution resources](resources/evolution.qmd) -->
-- Required
+- Required:
   - @Charvet2012-bg
   - @hofman_evolution_2014
 - Optional: 
@@ -187,10 +187,10 @@
 #### Readings
 
 - [Slides]()
-- Required
+- Required:
   - @Cao2017-bl
   - @Blumberg2023-fs
-- Optional
+- Optional:
   - @Larsen2023-wx
   - @Rakic2009-jk
 

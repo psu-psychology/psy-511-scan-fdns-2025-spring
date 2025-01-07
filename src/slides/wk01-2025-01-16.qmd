@@ -104,7 +104,8 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ## At multiple levels of organization...
 
-![](https://stats.idre.ucla.edu/wp-content/uploads/2016/02/sem_1.png)
+![](https://stats.idre.ucla.edu/wp-content/uploads/2016/02/sem_1.png){fig-align="center"}
+
 ---
 
 ![@Swanson2016-qr Figure 1](https://www.annualreviews.org/docserver/ahah/fulltext/neuro/39/1/ne390197.f1_thmb.gif)
@@ -113,20 +114,29 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ![@Swanson2016-qr Figure 3](https://www.annualreviews.org/docserver/fulltext/neuro/39/1/ne390197.f3.gif)
 
-## Studying systems is hard because...
+## Studying is hard because...
 
+:::: {.columns}
+::: {.column width=60%}
+- Hard to simplify
+  - [Consider a spherical cow](https://en.wikipedia.org/wiki/Spherical_cow)
 - Computation is (often) distributed
 - Single parts -> multiple functions
 - Single functions -> multiple parts
+:::
+::: {.column width=40%}
+<p><a href="https://commons.wikimedia.org/wiki/File:Spot_the_cow.gif#/media/File:Spot_the_cow.gif"><img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Spot_the_cow.gif" alt="A GIF of a spherical cow." height="320" width="320"></a><br>By Keenan Crane; (The source material is licensed under CC0), <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a></p>
+:::
+::::
 
 ## e.g., "equifinality" in micro-circuits
 
 :::: {.columns}
 ::: {.column width=60%}
-![[@Calabrese2018-ve]](../include/img/calabrese-2018.jpg){.lightbox width=60%}
+![@Calabrese2018-ve](../include/img/calabrese-2018.jpg){.lightbox width=60%}
 :::
 ::: {.column width=40%}
-- Many circuit wiring patterns ==
+- Many circuit wiring patterns
 - Similar dynamics
 :::
 ::::
@@ -135,7 +145,6 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 - Change structure/function over time
 - Biological systems not "designed" like human-engineered ones
-  - How so?
 - Hard to measure what is being exchanged, what is being *controlled*
 
 ---
@@ -196,7 +205,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ## Mapping structures to functions...
 
-![[@Cisek2019-vq Figure 8]](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png?as=webp)
+![@Cisek2019-vq Figure 8](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png?as=webp)
 
 ## And *vice versa*?
 
@@ -207,23 +216,23 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 >"The brainwide representation of behavioral variables suggests that information encoded nearly anywhere in the forebrain is combined with behavioral state variables into a mixed representation...Our data indicate that it happens as early as primary sensory cortex."
 
 <p style="text-align:center;">
-[@Stringer2019-vf]
+@Stringer2019-vf
 </p>
 
 ## And do we have the right "psychological" structures?
 
->"Psychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge. Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction, two issues that are particularly damaging...
+>Psychological sciences have identified a wealth of cognitive processes and behavioral phenomena, yet struggle to produce cumulative knowledge. Progress is hamstrung by siloed scientific traditions and a focus on explanation over prediction...
 
 <p style="text-align:center;">
-[@Eisenberg2019-iy]
+@Eisenberg2019-iy
 </p>
 
 ---
 
->...for the study of **multifaceted constructs like self-regulation**...We conclude that self-regulation lacks coherence as a construct..."
+>...two issues that are particularly damaging for the study of **multifaceted constructs like self-regulation**...We conclude that self-regulation lacks coherence as a construct...
 
 <p style="text-align:center;">
-[@Eisenberg2019-iy]
+@Eisenberg2019-iy
 </p>
 
 ## "Behavioural biologists don't agree on what constitutes behaviour"
@@ -231,7 +240,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 >Behavioural biology is a major discipline within biology, centred on the key concept of ‘behaviour’. But how is ‘behaviour’ defined, and how should it be defined? We outline what characteristics we believe a scientific definition should have, and why we think it is important... 
 
 <p style="text-align:center;">
-[@Levitis2009-br]
+@Levitis2009-br
 </p>
 
 ---
@@ -239,7 +248,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 >...that a definition have these traits. We then examine the range of available published definitions for behaviour. 
 
 <p style="text-align:center;">
-[@Levitis2009-br]
+@Levitis2009-br
 </p>
 
 ---
@@ -247,15 +256,16 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 >Finding no consensus, we present survey responses from 174 members of three behaviour-focused scientific societies as to their understanding of the term. Here again, we find surprisingly widespread disagreement as to what qualifies as behaviour. Respondents contradict themselves...
 
 <p style="text-align:center;">
-[@Levitis2009-br]
+@Levitis2009-br
 </p>
+
 
 ---
 
 >...each other, and published definitions, indicating that they are using individually variable intuitive, rather than codified, meanings of `behaviour.'
 
 <p style="text-align:center;">
-[@Levitis2009-br]
+@Levitis2009-br
 </p>
 
 ---
@@ -263,16 +273,16 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 >We offer a new definition, based largely on survey responses: "Behaviour is the internally coordinated responses (actions or inactions) of whole living organisms (individuals or groups) to internal and/or external stimuli, excluding responses more easily understood as developmental changes."
 
 <p style="text-align:center;">
-[@Levitis2009-br]
+@Levitis2009-br
 </p>
 
 ## Sciences of complexity
 
-![[@Favela2020-uc Figure 1]](https://wires.onlinelibrary.wiley.com/cms/asset/8a77f337-943b-4df9-8da8-b7206093f08d/wcs1525-fig-0001-m.jpg)
+![@Favela2020-uc Figure 1](https://wires.onlinelibrary.wiley.com/cms/asset/8a77f337-943b-4df9-8da8-b7206093f08d/wcs1525-fig-0001-m.jpg)
 
 ## Levels of analysis
 
-![[@Sejnowski2014-aa Figure 1]](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp)
+![@Sejnowski2014-aa Figure 1](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp)
 
 ## David Marr (1945-1980)
 
@@ -283,20 +293,27 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 :::
 
 ::: {.column width="50%"}
-![[@Marr1980-cu]](https://mit-press-us.imgix.net/covers/9780262514620.jpg?auto=format&w=298&dpr=1&q=20)
+![@Marr1980-cu](https://mit-press-us.imgix.net/covers/9780262514620.jpg?auto=format&w=298&dpr=1&q=20)
 :::
 
 ::::
 
 ## Marr's Three Levels
 
-![[@Favela2020-uc Figure 3]](https://wires.onlinelibrary.wiley.com/cms/asset/9fa6c8e5-30fa-4e6f-a5cf-e9407ed098c0/wcs1525-fig-0003-m.jpg)
+![@Favela2020-uc Figure 3](https://wires.onlinelibrary.wiley.com/cms/asset/9fa6c8e5-30fa-4e6f-a5cf-e9407ed098c0/wcs1525-fig-0003-m.jpg)
 
 ---
 
 - What must be computed to carry out task X?
 - What algorithm is used to carry out the computation?
 - What hardware implements the algorithm?
+
+## Toward reverse neuroethology
+
+![Figure 1 from @Asinof2024-iu](https://www.annualreviews.org/docserver/fulltext/neuro/47/1/ne470369.f1.gif)
+---
+
+![https://giphy.com/clips/thefastsaga-fast-and-furious-saga-fate-of-the-DF34cUyak7TPs7D4GE](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXh1NzNxdmlidTlxandjeGNtOHgzNWtodmNoN2Rja3duZWNiYm92ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/DF34cUyak7TPs7D4GE/giphy.gif)
 
 # Break
 
