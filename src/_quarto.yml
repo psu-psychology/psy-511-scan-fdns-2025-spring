@@ -15,6 +15,9 @@ project:
     - "include/img/*.mov"
 
 website:
+  announcement: 
+    content: "Welcome to the course!" 
+    position: below-navbar 
   title: "PSY 511.003"
   comments:
     hypothesis:
@@ -51,6 +54,7 @@ website:
     border: true
   page-navigation: true
   bread-crumbs: false
+  reader-mode: true
   
 format:
   html:

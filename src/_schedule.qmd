@@ -234,4 +234,8 @@
 
 - Beethoven and the Cerebral Symphony
 
+## May 4-9 {- #finals-week}
 
+### Thursday, May 08
+
+- [[Final Project](exercises/final-project.qmd) write-up due.]{.orange_due}
