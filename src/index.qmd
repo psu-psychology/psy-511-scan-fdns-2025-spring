@@ -1,36 +1,6 @@
 ---
-title: ""
-subtitle: "Foundations of Social, Cognitive, and Affective Neuroscience (SCAN)"
+title: "PSY 511.003"
+subtitle: "Spring 2025 • TTh 1-4 PM"
 ---
 
-![Source: <https://www.brainfacts.org/neuroscience-in-society/law-economics-and-ethics/2019/neuroethics-asks-the-difficult-questions-031319>](https://www.brainfacts.org/-/media/Brainfacts2/Neuroscience-in-Society/Law-Economics-and-Ethics/Article-Images/neuroethics-image.png)
-
-## Instructor
-
-Rick O. Gilmore, Ph.D.</br>
-Professor of Psychology</br>
-114 Moore Building</br>
-
-+1 (814) 865-3664</br>
-rog1 AT-SYMBOL psu PERIOD edu</br>
-[Schedule an appointment](https://doodle.com/mm/rickgilmore/book-a-time)</br>
-Lab site: [https://gilmore-lab.github.io](http://gilmore-lab.github.io)</br>
-Personal site: [https://rick-gilmore.com](https://rick-gilmore.com)
-
-## Meeting Location and Time
-
-467 Moore</br>
-Thursdays, 1-4 PM
-
-## About the course
-
-The first scientific psychologists were physiologists fascinated by the possibility of understanding the mind by studying the brain.
-In this course, we will explore the historical roots and contemporary challenges associated with the study of biological approaches to complex adaptive behavior.
-In doing so, we will read and examine critically primary source readings that discuss basic patterns and processes of brain structure and function.
-The goal is to provide students with a basic foundation of knowledge about the structures and functions of the nervous system that can provide the basis for future study.
-
-This course is one of two required courses for the [Specialization in Cognitive and Affective Neuroscience (SCAN)](https://psych.la.psu.edu/graduate/program-areas/cross-cutting-program-initiatives/scan/).
-
-## Prerequisites
-
-Undergraduate coursework in neuroscience or physiological psychology such as the equivalents of PSYCH 260 or BIO 469/470.
+{{< include _index.qmd >}}

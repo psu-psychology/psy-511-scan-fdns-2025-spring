@@ -29,20 +29,15 @@ website:
         text: Evaluation
       - href: policies.qmd
         text: Policies
-      - text: Slides
-        menu:
-        - href: "slides/wk01-2025-01-16.qmd"
-        - href: "slides/wk02-2025-01-23.qmd"
-        - href: "slides/wk03-2025-01-30.qmd"
-      - text: Resources
-        menu:
-          - href: "resources/anatomy.qmd"
-          - href: "resources/cells.qmd"
       - text: Exercises
         menu:
           - href: "exercises/ex01.qmd"
           - href: "exercises/ex02.qmd"
           - href: "exercises/final-project.qmd"
+      - text: Resources
+        menu:
+          - href: "resources/anatomy.qmd"
+          - href: "resources/cells.qmd"
   repo-url: https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring
   repo-actions: [edit, issue]
   repo-subdir: src
@@ -64,11 +59,12 @@ format:
     toc: true
     toc-depth: 4
     fig-align: center
-    fontsize: 1.2em
+    fontsize: 1.1em
     number-sections: false
     citations-hover: true
     footnotes-hover: true
     date-modified: last-modified
+    date: today
     bibliography: [include/bib/packages.bib, include/bib/psu-repro.bib, include/bib/psy-511.bib]
     csl: include/bib/apa.csl
     html-math-method: mathjax
