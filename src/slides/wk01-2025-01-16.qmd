@@ -22,9 +22,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 @National_Geographic2014-gv
 </p>
 
----
-
-{{< include _gilmore-photobio.qmd >}}
+{{< include _gilmore-photo-bio.qmd >}}
 
 ## Today's topics
 
@@ -114,14 +112,12 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ![@Swanson2016-qr Figure 3](https://www.annualreviews.org/docserver/fulltext/neuro/39/1/ne390197.f3.gif)
 
-## Studying is hard because...
+##  Hard to simplify
 
 :::: {.columns}
 ::: {.column width=60%}
-- Hard to simplify
-  - [Consider a spherical cow](https://en.wikipedia.org/wiki/Spherical_cow)
-- Computation is (often) distributed
-- Single parts -> multiple functions
+- [Consider a spherical cow](https://en.wikipedia.org/wiki/Spherical_cow)
+- Computation (and memory) often distributed
 - Single functions -> multiple parts
 :::
 ::: {.column width=40%}
@@ -129,7 +125,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 :::
 ::::
 
-## e.g., "equifinality" in micro-circuits
+## Single parts -> multiple functions
 
 :::: {.columns}
 ::: {.column width=60%}
@@ -141,10 +137,15 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 :::
 ::::
 
-## Studying systems is hard because...
+## Biological systems not "designed"
+
+- ...like human-engineered ones
+
+![https://en.wikipedia.org/wiki/Computer_architecture](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Computer_architecture_block_diagram.png/962px-Computer_architecture_block_diagram.png)
+
+## Studying such systems is hard because...
 
 - Change structure/function over time
-- Biological systems not "designed" like human-engineered ones
 - Hard to measure what is being exchanged, what is being *controlled*
 
 ---
@@ -182,6 +183,14 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 - The nervous system as an information processing system
 
 ![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/d/d1/Information_processing_system_%28english%29.PNG)
+
+## Mindful of limitations in brain/computer metaphors
+
+![https://www.explainthatstuff.com/howcomputerswork.html](https://cdn4.explainthatstuff.com/how-computer-works.png)
+
+## Or inspired by richer metaphors
+
+![@Becker2021-bd](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*QvKZpHrmz1nWyK4VfY2VTg.png)
 
 ## Inputs
 
@@ -308,6 +317,38 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 - What algorithm is used to carry out the computation?
 - What hardware implements the algorithm?
 
+## Computational level
+
+- What has to be computed?
+  - What is the shape/form of that unknown object?
+  - What did that person just say?
+  - Is that unknown object a threat to me?
+  
+## Algorithmic level
+
+- What's the 'recipe' for...
+  - computing shape
+  - perceiving speech
+  - recognizing threats
+
+## Implementation level
+
+- How do...
+  - neurons
+  - areas
+  - networks
+- implement the recipe?
+
+## Causality in neuroscience
+
+- @Siddiqi2022-wl
+- Stimulation & lesion studies needed for inferring *causation*.
+- Bradford-Hill criteria [@Hill2015-jb]
+
+## Varied notions of mechanism
+
+![Fig. 1: The narrow and broad notions of mechanism from @Ross2024-nr](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41583-023-00778-7/MediaObjects/41583_2023_778_Fig1_HTML.png?as=webp)
+
 ## Toward reverse neuroethology
 
 ![Figure 1 from @Asinof2024-iu](https://www.annualreviews.org/docserver/fulltext/neuro/47/1/ne470369.f1.gif)
@@ -369,6 +410,7 @@ Parada, F. J. & Rossi, A. (2018). If neuroscience needs behavior, what does psyc
 
 - Psychology is harder than physics
 - Neuroscience needs behavior
+- Psychology needs behavior + mental states + measures of environment
 
 ## Next time...
 

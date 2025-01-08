@@ -12,12 +12,12 @@ rog1 AT-SYMBOL psu PERIOD edu</br>
 Lab site: [https://gilmore-lab.github.io](http://gilmore-lab.github.io)</br>
 Personal site: [https://rick-gilmore.com](https://rick-gilmore.com)
 
-## Meeting Location and Time
+## Location and Time
 
 467 Moore</br>
 Thursdays, 1-3 PM.
 
-## About the course
+## About
 
 The first scientific psychologists were physiologists fascinated by the possibility of understanding the mind by studying the brain.
 In this course, we will explore the historical roots and contemporary challenges associated with the study of biological approaches to complex adaptive behavior.

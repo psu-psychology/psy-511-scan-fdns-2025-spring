@@ -3,6 +3,8 @@ title: "Exercise 02 • Neuroanatomy"
 subtitle: "**Name:**____________________________"
 ---
 
+Some change
+
 ## Goals
 
 1. To use core neuroanatomical terms in multiple contexts.
@@ -49,7 +51,7 @@ Follow the same procedure as before, adding checkmarks, or question marks where 
 
 ## Directional terms
 
-| Direction          | Brain Model | Specimen | Paper Atlas | Electronic Atlas |
+| Direction          | Model | Specimen | Paper Atlas | Electronic Atlas |
 |--------------------|-------------|----------|-------------|------------------|
 | Rostral/caudal     |             |          |             |                  |
 | Anterior/posterior |             |          |             |                  |
@@ -60,7 +62,7 @@ Follow the same procedure as before, adding checkmarks, or question marks where 
 
 ## Planes of Section
 
-| Plane                      | Brain Model | Specimen | Paper Atlas | Electronic Atlas |
+| Plane                      | Model | Specimen | Paper Atlas | Electronic Atlas |
 |----------------------------|-------------|----------|-------|--------------|
 | [Sagittal](https://en.wikipedia.org/wiki/Sagittal_plane)                   |             |          |       | |
 | [Coronal/frontal](https://en.wikipedia.org/wiki/Coronal_plane) |             |          |       | |
@@ -68,7 +70,7 @@ Follow the same procedure as before, adding checkmarks, or question marks where 
 
 ## Brain Structure
 
-| Structure                  | Brain Model | Specimen | Paper Atlas | Electronic Atlas |
+| Structure                  | Model | Specimen | Paper Atlas | Electronic Atlas |
 |----------------------------|-------------|----------|-------|--------------|
 | [Forebrain](https://en.wikipedia.org/wiki/Prosencephalon)                  |             |          |       | |
 | [Midbrain](https://en.wikipedia.org/wiki/Midbrain)                   |             |          |       | |
@@ -76,7 +78,7 @@ Follow the same procedure as before, adding checkmarks, or question marks where 
 
 ## Surface of Cerebral Cortex
 
-| Structure                  | Brain Model | Specimen | Paper Atlas | Electronic Atlas |
+| Structure                  | Model | Specimen | Paper Atlas | Electronic Atlas |
 |----------------------------|-------------|----------|-------|--------------|
 | [Central sulcus](https://en.wikipedia.org/wiki/Central_sulcus)             |             |          |       | |
 | [Lateral sulcus/fissure](https://en.wikipedia.org/wiki/Lateral_sulcus)     |             |          |       | |
@@ -93,7 +95,7 @@ Follow the same procedure as before, adding checkmarks, or question marks where 
 
 ## Fiber tracts
 
-| Structure                  | Brain Model | Specimen | Paper Atlas | Electronic Atlas |
+| Structure                  | Model | Specimen | Paper Atlas | Electronic Atlas |
 |----------------------------|-------------|----------|-------------|------------------|
 | [Corpus callosum](https://en.wikipedia.org/wiki/Corpus_callosum)            |             |          |       | |
 | [Anterior commissure](https://en.wikipedia.org/wiki/Anterior_commissure)        |             |          |       | |
@@ -105,7 +107,7 @@ Follow the same procedure as before, adding checkmarks, or question marks where 
 
 ## Subcortical structures
 
-| Structure                  | Brain Model | Specimen | Paper Atlas | Electronic Atlas |
+| Structure                  | Model | Specimen | Paper Atlas | Electronic Atlas |
 |----------------------------|-------------|----------|-------------|------------------|
 | [Caudate nucleus](https://en.wikipedia.org/wiki/Caudate_nucleus)            |             |          |       | |
 | [Putamen](https://en.wikipedia.org/wiki/Putamen)                    |             |          |       | |
@@ -118,7 +120,7 @@ Follow the same procedure as before, adding checkmarks, or question marks where 
 
 ## Midbrain
 
-| Structure                  | Brain Model | Specimen | Paper Atlas | Electronic Atlas | 
+| Structure                  | Model | Specimen | Paper Atlas | Electronic Atlas | 
 |----------------------------|-------------|----------|-------------|------------------|
 | [Tectum](https://en.wikipedia.org/wiki/Midbrain_tectum)                     |             |          |       | |
 | [Superior colliculus](https://en.wikipedia.org/wiki/Superior_colliculus)        |             |          |       | |
@@ -130,7 +132,7 @@ Follow the same procedure as before, adding checkmarks, or question marks where 
 
 ## Hindbrain
 
-| Structure                  | Brain Model | Specimen | Paper Atlas | Electronic Atlas |
+| Structure                  | Model | Specimen | Paper Atlas | Electronic Atlas |
 |----------------------------|-------------|----------|-------------|------------------|
 | [Cerebellum](https://en.wikipedia.org/wiki/Cerebellum)                 |             |          |       | | 
 | [Pons](https://en.wikipedia.org/wiki/Pons)                       |             |          |       | |
@@ -139,7 +141,7 @@ Follow the same procedure as before, adding checkmarks, or question marks where 
 
 ## Ventricles
 
-| Structure                  | Brain Model | Specimen | Paper Atlas | Electronic Atlas |
+| Structure                  | Model | Specimen | Paper Atlas | Electronic Atlas |
 |----------------------------|-------------|----------|-------------|------------------|
 | [Lateral ventricles](https://en.wikipedia.org/wiki/Lateral_ventricles)         |             |          |       | |
 | [3rd ventricle](https://en.wikipedia.org/wiki/Third_ventricle)              |             |          |       | |

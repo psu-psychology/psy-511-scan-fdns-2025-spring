@@ -12,12 +12,13 @@
 #### Readings
 
 - Required:
-  - @Siddiqi2022-wl
   - @Krakauer2017-xl
-- Optional:
   - @Parada2018-rp
+- Optional:
+  - @Siddiqi2022-wl
   - @Churchland1988-aj
   - @Favela2020-uc
+  - @Ross2024-nr
   
 #### Materials
 
@@ -170,7 +171,7 @@
 #### Materials
 
 - [Slides]()
-- [[Exercise 07](exercises/ex07-evo-devo.qmd) distributed]{.green_assigned}
+- [[Exercise 07](exercises/ex07.qmd) distributed]{.green_assigned}
 
 ### March 3-7 {- #week-08}
 
@@ -197,7 +198,7 @@
 #### Materials
 
 - [Notes]()
-- [[Exercise 08](exercises/ex08-devo.qmd) distributed]{.green_assigned}
+- [[Exercise 08](exercises/ex08.qmd) distributed]{.green_assigned}
 
 ## March 10-14 *Spring Break* {- #spring-break}
 

@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: ""
 subtitle: "Foundations of Social, Cognitive, and Affective Neuroscience (SCAN)"
 ---
 

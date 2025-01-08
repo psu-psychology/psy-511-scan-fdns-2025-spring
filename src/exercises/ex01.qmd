@@ -1,6 +1,5 @@
 ---
 title: "Exercise 01 • Levels/Terms"
-subtitle: "**Name:**____________________________"
 ---
 
 ## Goals
