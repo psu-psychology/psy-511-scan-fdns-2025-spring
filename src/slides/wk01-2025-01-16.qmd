@@ -152,6 +152,10 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ![[@Cisek2019-vq Figure 3]. Schematic behavioral control systems. (A) When the current nutrient state deviates from a desired state, locomotion is initiated, ultimately bringing the animal to a more desirable state. (B) Elaboration of nutrient state control into a high-level controller (ANS) and a lower-level controller (BNS) capable of two modes of locomotion, local exploitation, and long-range exploration. 5HT, serotonin; ANS/BNS, apical/blastoporal nervous system; DA, dopamine; NPY, neuropeptide Y](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig3_HTML.png?as=webp)
 
+## Assumptions are problematic
+
+![@Segal2024-ht](../include/img/segal-2024-fig-01.jpg)
+
 # Course overview
 
 ## Goals
