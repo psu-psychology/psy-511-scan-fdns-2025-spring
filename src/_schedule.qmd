@@ -23,13 +23,13 @@
 #### Materials
 
 - [Slides](slides/wk01-2025-01-16.html)
-- [[Exercise 01](exercises/ex01.qmd) assigned]{.green_assigned}
+- [Exercise 01](exercises/ex01.qmd) [assigned]{.green_assigned}
 
 ## January 20-24 {- #week-02}
 
 ### Wednesday, January 22
 
-- [[Exercise 01](exercises/ex01.qmd) write-up due]{.orange_due}.
+- [Exercise 01](exercises/ex01.qmd) write-up [due]{.orange_due}.
 
 ### Thursday, January 23 {-}
 
@@ -45,13 +45,13 @@
 
 - [Slides](slides/wk02-2025-01-23.qmd)
 - [Allen Brain Atlas](http://atlas.brain-map.org/atlas?atlas=138322605#atlas=138322605&structure=10390&resolution=119.78&x=31680.307112068967&y=42751.00179211847&zoom=-6&plate=112360949).
-- [[Exercise 02](exercises/ex02.qmd) distributed]{.green_assigned}
+- [Exercise 02](exercises/ex02.qmd) [distributed]{.green_assigned}
 
 ## January 27-31 {- #week-03}
 
 ### Wednesday, January 29 {-}
 
-- [[Exercise 02](exercises/ex02.qmd) image due]{.orange_due}.
+- [Exercise 02](exercises/ex02.qmd) [due]{.orange_due}.
 
 ### Thursday, January 30 {-}
 

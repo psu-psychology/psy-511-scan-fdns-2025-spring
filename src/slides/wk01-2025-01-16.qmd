@@ -22,6 +22,8 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 @National_Geographic2014-gv
 </p>
 
+---
+
 {{< include _gilmore-photo-bio.qmd >}}
 
 ## Today's topics
@@ -359,6 +361,13 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 ---
 
 ![https://giphy.com/clips/thefastsaga-fast-and-furious-saga-fate-of-the-DF34cUyak7TPs7D4GE](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXh1NzNxdmlidTlxandjeGNtOHgzNWtodmNoN2Rja3duZWNiYm92ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/DF34cUyak7TPs7D4GE/giphy.gif)
+
+---
+
+>...when faced with a difficult question, we often answer an easier one instead, usually without noticing
+the substitution.
+
+@Kahneman2013-zi, p. 12 quoted in @Krakauer2017-xl
 
 # Break
 
