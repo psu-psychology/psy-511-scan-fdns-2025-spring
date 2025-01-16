@@ -29,7 +29,7 @@
 
 ### Wednesday, January 22
 
-- [Exercise 01](exercises/ex01.qmd) write-up [due]{.orange_due}.
+- [Exercise 01](exercises/ex01.qmd) write-up [due]{.orange_due}. [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17010193)
 
 ### Thursday, January 23 {-}
 
