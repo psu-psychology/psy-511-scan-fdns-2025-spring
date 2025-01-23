@@ -16,7 +16,7 @@ project:
 
 website:
   announcement: 
-    content: "Welcome to the course!" 
+    content: "[Exercise 02](exercises/ex02.qmd) neuroanatomy lab this week!" 
     position: below-navbar 
   title: "PSY 511.003"
   comments:
