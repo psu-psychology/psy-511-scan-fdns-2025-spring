@@ -4,127 +4,151 @@ title: "Neuroanatomy"
 
 # Prelude
 
----
+------------------------------------------------------------------------
 
+::: {.content-visible when-format="html"}
 {{< video https://www.youtube.com/embed/snO68aJTOpM width=100% height=70% >}}
 
-[@Ctdalilah2006-co]{.citation}
+@Ctdalilah2006-co
+:::
 
----
+------------------------------------------------------------------------
 
+::: {.content-visible when-format="html"}
 {{< video https://www.youtube.com/embed/Qw8E9WnZTQk width=100% height=70% >}}
 
-@Kids_Learning_Tube2015-pb
-<!-- Kids brain song -->
+@Kids_Learning_Tube2015-pb <!-- Kids brain song -->
+:::
 
 ## Announcements
 
-- Exercise 02 [due next Wednesday, January 29, 2025]{.orange_due}.
+-   Exercise 02 [due next Wednesday, January 29, 2025]{.orange_due}.
 
 ## Today's topics
 
-- Neuroanatomy
-  - Brief overview
-  - In-class lab
-  - [Exercise 02](../exercises/ex02.qmd)
+-   Neuroanatomy
+    -   Brief overview
+    -   In-class lab
+    -   [Exercise 02](../exercises/ex02.qmd)
 
 # Neuroanatomy
 
 ## Why study?
 
-- Master basic vocabulary for reading literature
+-   Master basic vocabulary for reading literature
+
+## Information processing perspective
+
+- Inputs from
+  - World
+  - Body
+  - Brain^[shorthand for nervous system]
+  
+---
+
+- Outputs to
+  - World
+  - Body
+  - Brain
+- What computations occur where
+  
+## Functional anatomy perspective
+
+- Located where
+- Connected to
+- Involved in
 
 ## Brain anatomy through dance
 
 <audio controls loop="loop">
-  <source src="../include/snd/brain_boxing.m4a" type="audio/mpeg">
-  Your browser does not support the audio tag.
-</audio>
+
+<source src="../include/snd/brain_boxing.m4a" type="audio/mpeg">
+
+Your browser does not support the audio tag. </audio>
 
 ## Directional terms
 
-- Anterior/Posterior
-- Medial/Lateral
-- Superior/Inferior
-- Dorsal/Ventral
-- Rostral/Caudal
+-   Anterior/Posterior
+-   Medial/Lateral
+-   Superior/Inferior
+-   Dorsal/Ventral
+-   Rostral/Caudal
 
 ## Central vs. Peripheral Nervous System
 
-![Nervous system of Harriet Cole see @McNaughton2018-fl ](https://drexel.edu/~/media/Images/legacy-center/blog/2018/harriet-bw-237w.ashx?la=en)
+![Nervous system of Harriet Cole, see @McNaughton2018-fl](../include/img/harriet-bw-237w.jpg)
 
 ## Organization of the CNS
 
-| Major division | Ventricular Landmark | Embryonic Division | Structure       |
-|----------------|----------------------|--------------------|-----------------|
-| Forebrain      | Lateral              | Telencephalon      | Cerebral cortex |
-|                |                      |                    | Basal ganglia   |
-|                |                      |                    | Hippocampus, amygdala |
+| Major division | Ventricular Landmark | Embryonic Division | Structure |
+|------------------|--------------------|------------------|------------------|
+| Forebrain | Lateral | Telencephalon | Cerebral cortex |
+|  |  |  | Basal ganglia |
+|  |  |  | Hippocampus, amygdala |
 
----
+------------------------------------------------------------------------
 
-| Major division | Ventricular Landmark | Embryonic Division | Structure       |
-|----------------|----------------------|--------------------|-----------------|
-|                | Third                | Diencephalon       | Thalamus        |
-|                |                      |                    | Hypothalamus    |
+| Major division | Ventricular Landmark | Embryonic Division | Structure    |
+|----------------|----------------------|--------------------|--------------|
+|                | Third                | Diencephalon       | Thalamus     |
+|                |                      |                    | Hypothalamus |
 
----
+------------------------------------------------------------------------
 
-| Major division | Ventricular Landmark | Embryonic Division | Structure       |
-|----------------|----------------------|--------------------|-----------------|
+| Major division | Ventricular Landmark | Embryonic Division | Structure         |
+|------------------|--------------------|------------------|------------------|
 | Midbrain       | Cerebral Aqueduct    | Mesencephalon      | Tectum, tegmentum |
 
+------------------------------------------------------------------------
 
----
-
-| Major division | Ventricular Landmark | Embryonic Division | Structure       |
-|----------------|----------------------|--------------------|-----------------|
+| Major division | Ventricular Landmark | Embryonic Division | Structure         |
+|------------------|--------------------|------------------|------------------|
 | Hindbrain      | 4th                  | Metencephalon      | Cerebellum, pons  |
 |                | --                   | Mylencephalon      | Medulla oblongata |
 
----
+------------------------------------------------------------------------
 
 Forebrain, midbrain, hindbrain terminology derives from embryonic stages in CNS development.
 
-![Embryonic human brain from Wikipedia](https://upload.wikimedia.org/wikipedia/commons/c/c8/6_week_embryo_brain.jpg)
+![Embryonic human brain from Wikipedia](../include/img/6_week_embryo_brain.jpg)
 
 ## Cerebrum
 
-- (Cerebral) cortex
-- Subcortical structures
+-   (Cerebral) cortex
+-   Subcortical (below the cortex) structures
 
-![Labelled MRI including thalamus and hypothalamus](http://webspace.ship.edu/cgboer/medial-labelled.gif)
+![Labelled MRI including thalamus and hypothalamus](../include/img/medial-labelled.png)
 
 ## (Cerebral) cortex
 
-- Lobes, marked by sulci/fissures, adjacency to bones of skull
-- Functional areas marked by gyri & sulci
-- [Brodmann Areas](../resources/anatomy.qmd#brodmann-areas)
-  - Microstructural (cellular composition) features
+-   Lobes, marked by sulci/fissures, adjacency to bones of skull
+-   Functional areas marked by gyri & sulci
+-   [Brodmann Areas](../resources/anatomy.qmd#brodmann-areas)
+    -   Microstructural (cellular composition) features
 
----
+------------------------------------------------------------------------
 
-- Most lobes have host primary sensory or motor area
-  - Frontal: Motor cortex
-  - Temporal: Auditory cortex
-  - Parietal: Somatosensory cortex
-  - Occipital: Visual cortex
-  - Insula: Gustatory
-  
+-   Most lobes host primary sensory or motor area
+    -   Frontal: Motor cortex
+    -   Temporal: Auditory cortex
+    -   Parietal: Somatosensory cortex
+    -   Occipital: Visual cortex
+    -   Insula: Gustatory
+
 ## Input/output
 
-- Via cranial nerves (in CNS)
-- Via spinal nerves (in PNS)
+-   Via cranial nerves (in CNS)
+-   Via spinal nerves (in PNS)
 
----
+------------------------------------------------------------------------
 
-![Cranial nerves from https://www.britannica.com/science/cranial-nerve#/media/1/141797/46720](https://cdn.britannica.com/44/54244-004-892C5169/nerves-pairs-muscles-region-head-sense-organs.jpg?s=1500x700&q=85)
+![Cranial nerves from https://www.britannica.com/science/cranial-nerve#/media/1/141797/46720](../include/img/nerves-pairs-muscles-region-head-sense-organs.jpg)
 
----
+------------------------------------------------------------------------
 
-![](https://www.researchgate.net/profile/Saeede-Rahimi-Damirchi-Darasi/publication/324683974/figure/fig10/AS:753484697726976@1556656159277/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jpg)
+![https://www.researchgate.net/profile/Saeede-Rahimi-Damirchi-Darasi/publication/324683974/figure/fig10/AS:753484697726976@1556656159277/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jp](../include/img/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jpg)
 
----
+------------------------------------------------------------------------
 
 Multiple hierarchies
 
@@ -132,52 +156,52 @@ Multiple hierarchies
 
 ## Maps
 
-- Sensory & motor systems often use maps
+-   Sensory & motor systems often use maps
 
----
+------------------------------------------------------------------------
 
-![](https://www.researchgate.net/profile/Brian-Wandell/publication/8988812/figure/fig1/AS:280067633631238@1443784735289/The-Retinotopy-paradigm-Two-stimuli-are-used-to-measure-the-retinotopic-maps-in-cortex.png)
+![https://www.researchgate.net/profile/Brian-Wandell/publication/8988812/figure/fig1/AS:280067633631238@1443784735289/The-Retinotopy-paradigm-Two-stimuli-are-used-to-measure-the-retinotopic-maps-in-cortex.png](../include/img/The-Retinotopy-paradigm-Two-stimuli-are-used-to-measure-the-retinotopic-maps-in-cortex.png)
 
----
+------------------------------------------------------------------------
 
-![[Figure 1 from@Saenz2014-ao]](https://ars.els-cdn.com/content/image/1-s2.0-S0378595513001871-gr1_lrg.jpg)
+![Figure 1 from @Saenz2014-ao](https://ars.els-cdn.com/content/image/1-s2.0-S0378595513001871-gr1_lrg.jpg)
 
----
+------------------------------------------------------------------------
 
 ![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Grant_1962_663.png/800px-Grant_1962_663.png)
 
----
+------------------------------------------------------------------------
 
-- Geometric issues central for perceptual/motor behavior
-- Do other systems "map" function to structure?
+-   Geometric issues central for perceptual/motor behavior
+-   Do other systems "map" function to structure?
 
 # Neuroanatomy lab
 
 ## Overview
 
-- 3 groups
-- Rotate among stations every ~25 min
-- Identify as many structures as possible
+-   3 groups
+-   Rotate among stations every \~25 min
+-   Identify as many structures as possible
 
 # Wrap-up
 
 ## Main points
 
-- Directional terms
-- What is it
-- Where is it
-  - Relative to other things
-  - CNS/PNS
-  - Forebrain/midbrain/hindbrain
-  
----
+-   Directional terms
+-   What is it
+-   Where is it
+    -   Relative to other things
+    -   CNS/PNS
+    -   Forebrain/midbrain/hindbrain
 
-- Cerebral cortex and its subparts
-- Grey matter vs. white matter
+------------------------------------------------------------------------
+
+-   Cerebral cortex and its subparts
+-   Grey matter vs. white matter
 
 ## Next time...
 
-- [Cellular neuroscience I](wk03-2025-01-30.qmd)
+-   [Cellular neuroscience I](wk03-2025-01-30.qmd)
 
 # Resources
 

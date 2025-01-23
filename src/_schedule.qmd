@@ -51,7 +51,7 @@
 
 ### Wednesday, January 29 {-}
 
-- [Exercise 02](exercises/ex02.qmd) [due]{.orange_due}.
+- [Exercise 02](exercises/ex02.qmd) [due]{.orange_due}. [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17020749)
 
 ### Thursday, January 30 {-}
 
