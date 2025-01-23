@@ -43,7 +43,7 @@
 
 #### Materials
 
-- [Slides](slides/wk02-2025-01-23.qmd)
+- [Slides](slides/wk02-2025-01-23.qmd). [PDF](slides/wk02-2025-01-23.pdf)
 - [Allen Brain Atlas](http://atlas.brain-map.org/atlas?atlas=138322605#atlas=138322605&structure=10390&resolution=119.78&x=31680.307112068967&y=42751.00179211847&zoom=-6&plate=112360949).
 - [Exercise 02](exercises/ex02.qmd) [distributed]{.green_assigned}
 

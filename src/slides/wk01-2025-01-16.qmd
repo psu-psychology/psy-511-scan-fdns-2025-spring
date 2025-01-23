@@ -67,7 +67,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ---
 
-![@Sejnowski2014-aa](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp)
+![@Sejnowski2014-aa](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg)
 
 ## Mental states ($M$)
 
@@ -108,11 +108,11 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ---
 
-![@Swanson2016-qr Figure 1](https://www.annualreviews.org/docserver/ahah/fulltext/neuro/39/1/ne390197.f1_thmb.gif)
+![@Swanson2016-qr Figure 1](../include/img/ne390197.f1_thmb.png)
 
 ---
 
-![@Swanson2016-qr Figure 3](https://www.annualreviews.org/docserver/fulltext/neuro/39/1/ne390197.f3.gif)
+![@Swanson2016-qr Figure 3](../include/img/ne390197.f3.png)
 
 ##  Hard to simplify
 
@@ -143,7 +143,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 - ...like human-engineered ones
 
-![https://en.wikipedia.org/wiki/Computer_architecture](https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Computer_architecture_block_diagram.png/962px-Computer_architecture_block_diagram.png)
+![https://en.wikipedia.org/wiki/Computer_architecture](../include/img/Computer_architecture_block_diagram.png)
 
 ## Studying such systems is hard because...
 
@@ -152,7 +152,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ---
 
-![[@Cisek2019-vq Figure 3]. Schematic behavioral control systems. (A) When the current nutrient state deviates from a desired state, locomotion is initiated, ultimately bringing the animal to a more desirable state. (B) Elaboration of nutrient state control into a high-level controller (ANS) and a lower-level controller (BNS) capable of two modes of locomotion, local exploitation, and long-range exploration. 5HT, serotonin; ANS/BNS, apical/blastoporal nervous system; DA, dopamine; NPY, neuropeptide Y](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig3_HTML.png?as=webp)
+![[@Cisek2019-vq Figure 3]. Schematic behavioral control systems. (A) When the current nutrient state deviates from a desired state, locomotion is initiated, ultimately bringing the animal to a more desirable state. (B) Elaboration of nutrient state control into a high-level controller (ANS) and a lower-level controller (BNS) capable of two modes of locomotion, local exploitation, and long-range exploration. 5HT, serotonin; ANS/BNS, apical/blastoporal nervous system; DA, dopamine; NPY, neuropeptide Y](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig3_HTML.png)
 
 ## Assumptions are problematic
 
@@ -188,7 +188,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 - The nervous system as an information processing system
 
-![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/d/d1/Information_processing_system_%28english%29.PNG)
+![Wikipedia](../include/img/Information_processing_system.PNG)
 
 ## Mindful of limitations in brain/computer metaphors
 
@@ -196,7 +196,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ## Or inspired by richer metaphors
 
-![@Becker2021-bd](https://miro.medium.com/v2/resize:fit:4800/format:webp/1*QvKZpHrmz1nWyK4VfY2VTg.png)
+![@Becker2021-bd](../include/img/1*QvKZpHrmz1nWyK4VfY2VTg.png)
 
 ## Inputs
 
@@ -210,7 +210,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ---
 
-![[@Cisek2019-vq Figure 1]](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig1_HTML.png?as=webp)
+![[@Cisek2019-vq Figure 1]](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig1_HTML.png)
 
 ---
 
@@ -220,7 +220,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ## Mapping structures to functions...
 
-![@Cisek2019-vq Figure 8](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png?as=webp)
+![@Cisek2019-vq Figure 8](https://media.springernature.com/full/springer-static/image/art%3A10.3758%2Fs13414-019-01760-1/MediaObjects/13414_2019_1760_Fig8_HTML.png)
 
 ## And *vice versa*?
 
@@ -293,11 +293,11 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ## Sciences of complexity
 
-![@Favela2020-uc Figure 1](https://wires.onlinelibrary.wiley.com/cms/asset/8a77f337-943b-4df9-8da8-b7206093f08d/wcs1525-fig-0001-m.jpg)
+![@Favela2020-uc Figure 1](../include/img/wcs1525-fig-0001-m.jpg)
 
 ## Levels of analysis
 
-![@Sejnowski2014-aa Figure 1](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp)
+![@Sejnowski2014-aa Figure 1](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg)
 
 ## David Marr (1945-1980)
 

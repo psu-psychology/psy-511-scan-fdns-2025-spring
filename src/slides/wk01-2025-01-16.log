@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  22 JAN 2025 14:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  23 JAN 2025 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**wk02-2025-01-23.tex
-(./wk02-2025-01-23.tex
+**wk01-2025-01-16.tex
+(./wk01-2025-01-16.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
 (/Users/rog1/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -529,8 +529,8 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count316
 \l__pdf_internal_box=\box68
 )
-No file wk02-2025-01-23.aux.
-\openout1 = `wk02-2025-01-23.aux'.
+No file wk01-2025-01-16.aux.
+\openout1 = `wk01-2025-01-16.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 198.
 LaTeX Font Info:    ... okay on input line 198.
@@ -631,45 +631,290 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/Users/rog1/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 213.
-(/Users/rog1/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 208.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 208.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 208.
+<img_gilmore_bio/266px-DenverCP.JPG, id=5, 266.9975pt x 150.5625pt>
+File: img_gilmore_bio/266px-DenverCP.JPG Graphic file (type jpg)
+<use img_gilmore_bio/266px-DenverCP.JPG>
+Package pdftex.def Info: img_gilmore_bio/266px-DenverCP.JPG  used on input line 223.
+(pdftex.def)             Requested size: 200.25575pt x 112.92618pt.
+<img_gilmore_bio/brown_large.png, id=6, 264.99pt x 120.45pt>
+File: img_gilmore_bio/brown_large.png Graphic file (type png)
+<use img_gilmore_bio/brown_large.png>
+Package pdftex.def Info: img_gilmore_bio/brown_large.png  used on input line 224.
+(pdftex.def)             Requested size: 248.4356pt x 112.92525pt.
+<img_gilmore_bio/wash-monument.jpeg, id=8, 903.375pt x 601.24625pt>
+File: img_gilmore_bio/wash-monument.jpeg Graphic file (type jpg)
+<use img_gilmore_bio/wash-monument.jpeg>
+Package pdftex.def Info: img_gilmore_bio/wash-monument.jpeg  used on input line 225.
+(pdftex.def)             Requested size: 169.65808pt x 112.91687pt.
+
+Overfull \hbox (4.36464pt too wide) in paragraph at lines 223--226
+[][] []
+ []
+
+
 
 [1
 
 
-{/Users/rog1/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/rog1/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/rog1/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-<wk02-2025-01-23_files/mediabag/harriet-bw-237w.jpg, id=26, 237.88875pt x 301.125pt>
-File: wk02-2025-01-23_files/mediabag/harriet-bw-237w.jpg Graphic file (type jpg)
-<use wk02-2025-01-23_files/mediabag/harriet-bw-237w.jpg>
-Package pdftex.def Info: wk02-2025-01-23_files/mediabag/harriet-bw-237w.jpg  used on input line 270.
-(pdftex.def)             Requested size: 237.88815pt x 301.12425pt.
-[2 <./wk02-2025-01-23_files/mediabag/harriet-bw-237w.jpg>]
-<wk02-2025-01-23_files/mediabag/6_week_embryo_brain.jpg, id=39, 546.04pt x 402.50375pt>
-File: wk02-2025-01-23_files/mediabag/6_week_embryo_brain.jpg Graphic file (type jpg)
-<use wk02-2025-01-23_files/mediabag/6_week_embryo_brain.jpg>
-Package pdftex.def Info: wk02-2025-01-23_files/mediabag/6_week_embryo_brain.jpg  used on input line 385.
-(pdftex.def)             Requested size: 546.03867pt x 402.50276pt.
+{/Users/rog1/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/Users/rog1/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./img_gilmore_bio/266px-DenverCP.JPG> <./img_gilmore_bio/brown_large.png>]
+<img_gilmore_bio/cmu-logo.jpg, id=22, 903.375pt x 602.25pt>
+File: img_gilmore_bio/cmu-logo.jpg Graphic file (type jpg)
+<use img_gilmore_bio/cmu-logo.jpg>
+Package pdftex.def Info: img_gilmore_bio/cmu-logo.jpg  used on input line 227.
+(pdftex.def)             Requested size: 169.3824pt x 112.92159pt.
+<img_gilmore_bio/mt-nittany.png, id=23, 602.25pt x 317.185pt>
+File: img_gilmore_bio/mt-nittany.png Graphic file (type png)
+<use img_gilmore_bio/mt-nittany.png>
+Package pdftex.def Info: img_gilmore_bio/mt-nittany.png  used on input line 229.
+(pdftex.def)             Requested size: 214.41135pt x 112.9233pt.
+<img_gilmore_bio/sleic.png, id=24, 1100.11pt x 405.515pt>
+File: img_gilmore_bio/sleic.png Graphic file (type png)
+<use img_gilmore_bio/sleic.png>
+Package pdftex.def Info: img_gilmore_bio/sleic.png  used on input line 231.
+(pdftex.def)             Requested size: 306.33328pt x 112.91846pt.
+<../include/img/databrary-nav.png, id=25, 2446.13875pt x 480.79625pt>
+File: ../include/img/databrary-nav.png Graphic file (type png)
+<use ../include/img/databrary-nav.png>
+Package pdftex.def Info: ../include/img/databrary-nav.png  used on input line 236.
+(pdftex.def)             Requested size: 446.74321pt x 87.80878pt.
 
 
-[3]
+[2 <./img_gilmore_bio/wash-monument.jpeg> <./img_gilmore_bio/cmu-logo.jpg> <./img_gilmore_bio/mt-nittany.png> <./img_gilmore_bio/sleic.png>]
+<img_gilmore_bio/PLAY-logo.png, id=31, 756.8275pt x 363.3575pt>
+File: img_gilmore_bio/PLAY-logo.png Graphic file (type png)
+<use img_gilmore_bio/PLAY-logo.png>
+Package pdftex.def Info: img_gilmore_bio/PLAY-logo.png  used on input line 239.
+(pdftex.def)             Requested size: 235.20306pt x 112.92241pt.
+<img_gilmore_bio/psu-osi.png, id=32, 991.705pt x 561.09625pt>
+File: img_gilmore_bio/psu-osi.png Graphic file (type png)
+<use img_gilmore_bio/psu-osi.png>
+Package pdftex.def Info: img_gilmore_bio/psu-osi.png  used on input line 242.
+(pdftex.def)             Requested size: 199.57832pt x 112.91931pt.
+<img_gilmore_bio/qian-fig-01-boxplots-new.jpg, id=33, 4140.46875pt x 3010.24625pt>
+File: img_gilmore_bio/qian-fig-01-boxplots-new.jpg Graphic file (type jpg)
+<use img_gilmore_bio/qian-fig-01-boxplots-new.jpg>
+Package pdftex.def Info: img_gilmore_bio/qian-fig-01-boxplots-new.jpg  used on input line 247.
+(pdftex.def)             Requested size: 232.9387pt x 169.35349pt.
+<img_gilmore_bio/gilmore-thomas-fesi.png, id=34, 542.025pt x 234.6366pt>
+File: img_gilmore_bio/gilmore-thomas-fesi.png Graphic file (type png)
+<use img_gilmore_bio/gilmore-thomas-fesi.png>
+Package pdftex.def Info: img_gilmore_bio/gilmore-thomas-fesi.png  used on input line 256.
+(pdftex.def)             Requested size: 391.29979pt x 169.38933pt.
 
-! LaTeX Error: Unknown graphics extension: .gif.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.405 ...1-23_files/mediabag/medial-labelled.gif}}
-                                                   
-Here is how much of TeX's memory you used:
- 17984 strings out of 475117
- 318891 string characters out of 5763596
- 924424 words of memory out of 5000000
- 40685 multiletter control sequences out of 15000+600000
- 597540 words of font info for 87 fonts, out of 8000000 for 9000
- 36 hyphenation exceptions out of 8191
- 108i,7n,107p,10910b,632s stack positions out of 10000i,1000n,20000p,200000b,200000s
+[3 <../include/img/databrary-nav.png (PNG copy)> <./img_gilmore_bio/PLAY-logo.png> <./img_gilmore_bio/psu-osi.png> <./img_gilmore_bio/qian-fig-01-boxplots-new.jpg>]
+<wk01-2025-01-16_files/mediabag/Acoustic-Brew-logo.jpg, id=41, 283.0575pt x 117.43875pt>
+File: wk01-2025-01-16_files/mediabag/Acoustic-Brew-logo.jpg Graphic file (type jpg)
+<use wk01-2025-01-16_files/mediabag/Acoustic-Brew-logo.jpg>
+Package pdftex.def Info: wk01-2025-01-16_files/mediabag/Acoustic-Brew-logo.jpg  used on input line 268.
+(pdftex.def)             Requested size: 272.17264pt x 112.92268pt.
+<img_gilmore_bio/next-stage-logo.jpg, id=42, 227.8914pt x 58.7796pt>
+File: img_gilmore_bio/next-stage-logo.jpg Graphic file (type jpg)
+<use img_gilmore_bio/next-stage-logo.jpg>
+Package pdftex.def Info: img_gilmore_bio/next-stage-logo.jpg  used on input line 277.
+(pdftex.def)             Requested size: 437.84557pt x 112.93263pt.
+<wk01-2025-01-16_files/mediabag/w3tm-qsl.png, id=43, 398.2077pt x 250.7769pt>
+File: wk01-2025-01-16_files/mediabag/w3tm-qsl.png Graphic file (type png)
+<use wk01-2025-01-16_files/mediabag/w3tm-qsl.png>
+Package pdftex.def Info: wk01-2025-01-16_files/mediabag/w3tm-qsl.png  used on input line 286.
+(pdftex.def)             Requested size: 179.30725pt x 112.92125pt.
 
-!  ==> Fatal error occurred, no output PDF file produced!
+
+[4 <./img_gilmore_bio/gilmore-thomas-fesi.png> <./wk01-2025-01-16_files/mediabag/Acoustic-Brew-logo.jpg> <./img_gilmore_bio/next-stage-logo.jpg>]
+<../include/img/cpo-logo.jpg, id=51, 475.7775pt x 481.8pt>
+File: ../include/img/cpo-logo.jpg Graphic file (type jpg)
+<use ../include/img/cpo-logo.jpg>
+Package pdftex.def Info: ../include/img/cpo-logo.jpg  used on input line 291.
+(pdftex.def)             Requested size: 111.51007pt x 112.92159pt.
+<../include/img/2024-04-08-151856-Solar-timelapse_thn.jpeg, id=52, 297.11pt x 423.5825pt>
+File: ../include/img/2024-04-08-151856-Solar-timelapse_thn.jpeg Graphic file (type jpg)
+<use ../include/img/2024-04-08-151856-Solar-timelapse_thn.jpeg>
+Package pdftex.def Info: ../include/img/2024-04-08-151856-Solar-timelapse_thn.jpeg  used on input line 300.
+(pdftex.def)             Requested size: 79.20526pt x 112.921pt.
+<../include/img/lola.jpeg, id=53, 1376.0208pt x 1032.0156pt>
+File: ../include/img/lola.jpeg Graphic file (type jpg)
+<use ../include/img/lola.jpeg>
+Package pdftex.def Info: ../include/img/lola.jpeg  used on input line 304.
+(pdftex.def)             Requested size: 150.5439pt x 112.90791pt.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 312.
+(/Users/rog1/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+[5 <./wk01-2025-01-16_files/mediabag/w3tm-qsl.png> <../include/img/cpo-logo.jpg> <../include/img/2024-04-08-151856-Solar-timelapse_thn.jpeg> <../include/img/lola.jpeg>]
+<../include/img/psych-harder-1.jpg, id=59, 442.65375pt x 297.11pt>
+File: ../include/img/psych-harder-1.jpg Graphic file (type jpg)
+<use ../include/img/psych-harder-1.jpg>
+Package pdftex.def Info: ../include/img/psych-harder-1.jpg  used on input line 325.
+(pdftex.def)             Requested size: 442.65265pt x 297.10927pt.
+
+Overfull \hbox (6.8426pt too wide) in paragraph at lines 325--326
+[][] 
+ []
+
+<../include/img/psych-harder-2.jpg, id=60, 445.665pt x 302.12875pt>
+File: ../include/img/psych-harder-2.jpg Graphic file (type jpg)
+<use ../include/img/psych-harder-2.jpg>
+Package pdftex.def Info: ../include/img/psych-harder-2.jpg  used on input line 329.
+(pdftex.def)             Requested size: 445.66391pt x 302.128pt.
+
+Overfull \hbox (9.85387pt too wide) in paragraph at lines 329--330
+[][] 
+ []
+
+
+
+[6{/Users/rog1/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc} <../include/img/psych-harder-1.jpg>]
+<../include/img/swanson-2005-fig-1.jpg, id=70, 916.42375pt x 505.89pt>
+File: ../include/img/swanson-2005-fig-1.jpg Graphic file (type jpg)
+<use ../include/img/swanson-2005-fig-1.jpg>
+Package pdftex.def Info: ../include/img/swanson-2005-fig-1.jpg  used on input line 362.
+(pdftex.def)             Requested size: 916.42152pt x 505.88875pt.
+
+
+[7{/Users/rog1/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc} <../include/img/psych-harder-2.jpg>]
+<../include/img/nested-causality-labels.png, id=80, 1027.84pt x 770.88pt>
+File: ../include/img/nested-causality-labels.png Graphic file (type png)
+<use ../include/img/nested-causality-labels.png>
+Package pdftex.def Info: ../include/img/nested-causality-labels.png  used on input line 372.
+(pdftex.def)             Requested size: 1027.8375pt x 770.87813pt.
+
+Overfull \hbox (10.9517pt too wide) in paragraph at lines 372--373
+[][] 
+ []
+
+
+
+[8 <../include/img/swanson-2005-fig-1.jpg>]
+<wk01-2025-01-16_files/mediabag/41593_2014_Article_B.jpg, id=88, 687.56876pt x 461.725pt>
+File: wk01-2025-01-16_files/mediabag/41593_2014_Article_B.jpg Graphic file (type jpg)
+<use wk01-2025-01-16_files/mediabag/41593_2014_Article_B.jpg>
+Package pdftex.def Info: wk01-2025-01-16_files/mediabag/41593_2014_Article_B.jpg  used on input line 387.
+(pdftex.def)             Requested size: 687.56708pt x 461.72388pt.
+
+
+[9 <../include/img/nested-causality-labels.png>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 396.
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 428.
+
+
+[10 <./wk01-2025-01-16_files/mediabag/41593_2014_Article_B.jpg>]
+<wk01-2025-01-16_files/mediabag/ColeCoverFlexHub470x.jpg, id=108, 471.7625pt x 341.275pt>
+File: wk01-2025-01-16_files/mediabag/ColeCoverFlexHub470x.jpg Graphic file (type jpg)
+<use wk01-2025-01-16_files/mediabag/ColeCoverFlexHub470x.jpg>
+Package pdftex.def Info: wk01-2025-01-16_files/mediabag/ColeCoverFlexHub470x.jpg  used on input line 463.
+(pdftex.def)             Requested size: 471.76134pt x 341.27415pt.
+
+
+[11{/Users/rog1/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
+<wk01-2025-01-16_files/mediabag/sem_1.png, id=119, 291.33844pt x 196.48407pt>
+File: wk01-2025-01-16_files/mediabag/sem_1.png Graphic file (type png)
+<use wk01-2025-01-16_files/mediabag/sem_1.png>
+Package pdftex.def Info: wk01-2025-01-16_files/mediabag/sem_1.png  used on input line 476.
+(pdftex.def)             Requested size: 291.33772pt x 196.48358pt.
+
+
+[12 <./wk01-2025-01-16_files/mediabag/ColeCoverFlexHub470x.jpg>]
+<../include/img/ne390197.f1_thmb.png, id=127, 501.875pt x 571.13374pt>
+File: ../include/img/ne390197.f1_thmb.png Graphic file (type png)
+<use ../include/img/ne390197.f1_thmb.png>
+Package pdftex.def Info: ../include/img/ne390197.f1_thmb.png  used on input line 483.
+(pdftex.def)             Requested size: 501.87376pt x 571.13235pt.
+
+
+[13 <./wk01-2025-01-16_files/mediabag/sem_1.png (PNG copy)>]
+<../include/img/ne390197.f3.png, id=135, 3794.175pt x 4335.19624pt>
+File: ../include/img/ne390197.f3.png Graphic file (type png)
+<use ../include/img/ne390197.f3.png>
+Package pdftex.def Info: ../include/img/ne390197.f3.png  used on input line 495.
+(pdftex.def)             Requested size: 3794.1658pt x 4335.18571pt.
+
+
+[14 <../include/img/ne390197.f1_thmb.png (PNG copy)>]
+
+[15 <../include/img/ne390197.f3.png (PNG copy)>]
+<../include/img/calabrese-2018.jpg, id=147, 624.3325pt x 719.68875pt>
+File: ../include/img/calabrese-2018.jpg Graphic file (type jpg)
+<use ../include/img/calabrese-2018.jpg>
+Package pdftex.def Info: ../include/img/calabrese-2018.jpg  used on input line 524.
+(pdftex.def)             Requested size: 268.05763pt x 308.9989pt.
+<../include/img/Computer_architecture_block_diagram.png, id=148, 115.8729pt x 104.18925pt>
+File: ../include/img/Computer_architecture_block_diagram.png Graphic file (type png)
+<use ../include/img/Computer_architecture_block_diagram.png>
+Package pdftex.def Info: ../include/img/Computer_architecture_block_diagram.png  used on input line 551.
+(pdftex.def)             Requested size: 115.8726pt x 104.18898pt.
+
+
+[16 <../include/img/calabrese-2018.jpg>]
+<wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig3.png, id=160, 2060.69875pt x 832.10875pt>
+File: wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig3.png Graphic file (type png)
+<use wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig3.png>
+Package pdftex.def Info: wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig3.png  used on input line 575.
+(pdftex.def)             Requested size: 2060.69374pt x 832.10672pt.
+<../include/img/segal-2024-fig-01.jpg, id=161, 361.35pt x 345.30606pt>
+File: ../include/img/segal-2024-fig-01.jpg Graphic file (type jpg)
+<use ../include/img/segal-2024-fig-01.jpg>
+Package pdftex.def Info: ../include/img/segal-2024-fig-01.jpg  used on input line 595.
+(pdftex.def)             Requested size: 361.34912pt x 345.30522pt.
+
+
+[17 <../include/img/Computer_architecture_block_diagram.png> <./wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig3.png>]
+
+[18 <../include/img/segal-2024-fig-01.jpg>]
+<../include/img/Information_processing_system.PNG, id=185, 441.14813pt x 141.52875pt>
+File: ../include/img/Information_processing_system.PNG Graphic file (type png)
+<use ../include/img/Information_processing_system.PNG>
+Package pdftex.def Info: ../include/img/Information_processing_system.PNG  used on input line 660.
+(pdftex.def)             Requested size: 441.14705pt x 141.5284pt.
+<wk01-2025-01-16_files/mediabag/how-computer-works.png, id=186, 602.25pt x 401.5pt>
+File: wk01-2025-01-16_files/mediabag/how-computer-works.png Graphic file (type png)
+<use wk01-2025-01-16_files/mediabag/how-computer-works.png>
+Package pdftex.def Info: wk01-2025-01-16_files/mediabag/how-computer-works.png  used on input line 673.
+(pdftex.def)             Requested size: 602.24852pt x 401.49901pt.
+
+
+[19 <../include/img/Information_processing_system.PNG>]
+<../include/img/1*QvKZpHrmz1nWyK4VfY2VTg.png, id=202, 1265.72874pt x 703.62875pt>
+File: ../include/img/1*QvKZpHrmz1nWyK4VfY2VTg.png Graphic file (type png)
+<use ../include/img/1*QvKZpHrmz1nWyK4VfY2VTg.png>
+Package pdftex.def Info: ../include/img/1*QvKZpHrmz1nWyK4VfY2VTg.png  used on input line 686.
+(pdftex.def)             Requested size: 1265.72566pt x 703.62703pt.
+
+
+[20 <./wk01-2025-01-16_files/mediabag/how-computer-works.png>]
+<wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig1.png, id=211, 2060.69875pt x 765.86125pt>
+File: wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig1.png Graphic file (type png)
+<use wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig1.png>
+Package pdftex.def Info: wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig1.png  used on input line 719.
+(pdftex.def)             Requested size: 2060.69374pt x 765.85938pt.
+
+
+[21 <../include/img/1*QvKZpHrmz1nWyK4VfY2VTg.png>]
+<wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig8.png, id=224, 1778.645pt x 1945.2675pt>
+File: wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig8.png Graphic file (type png)
+<use wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig8.png>
+Package pdftex.def Info: wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig8.png  used on input line 742.
+(pdftex.def)             Requested size: 1778.64067pt x 1945.26277pt.
+
+
+[22 <./wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig1.png (PNG copy)>]
+<../include/img/quanta-2021.png, id=232, 1007.765pt x 364.36125pt>
+File: ../include/img/quanta-2021.png Graphic file (type png)
+<use ../include/img/quanta-2021.png>
+Package pdftex.def Info: ../include/img/quanta-2021.png  used on input line 755.
+(pdftex.def)             Requested size: 1007.76254pt x 364.36035pt.
+
+
+[23 <./wk01-2025-01-16_files/mediabag/13414_2019_1760_Fig8.png>]
+
+[24 <../include/img/quanta-2021.png>]
+!pdfTeX error: /Users/rog1/Library/TinyTeX/bin/universal-darwin/pdflatex (file ./wk01-2025-01-16_files/mediabag/wcs1525-fig-0001-m.jpg): reading JPEG image failed (no JPEG header found)
+ ==> Fatal error occurred, no output PDF file produced!

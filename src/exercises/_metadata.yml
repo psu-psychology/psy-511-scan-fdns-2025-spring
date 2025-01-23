@@ -1,1 +1,7 @@
 format-links: [pdf, docx]
+format:
+  pdf:
+    pdf-engine: pdflatex
+knitr:
+  opts_chunk:
+    fig.path: ../include/fig

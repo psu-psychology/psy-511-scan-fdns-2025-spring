@@ -626,7 +626,7 @@ vagus (X), etc.
 
 - Bipolar (continuum) vs. bivariate autonomic space [@Berntson1991-vq]
 
-![[@Berntson1991-vq]](https://www.researchgate.net/profile/John_Cacioppo/publication/265843107/figure/fig1/AS:669383823216652@1536604948373/Bivariate-model-of-autonomic-space-right-contrasted-with-the-reciprocal.png)
+![@Berntson1991-vq Figure 4](../include/img/berntsen-cacioppo-fig4a_thumb.jpg)
 
 #### Sympathetic division
 

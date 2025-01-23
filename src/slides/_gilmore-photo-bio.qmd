@@ -18,7 +18,7 @@
 
 :::: {.columns}
 ::: {.column width=50%}
-![https://databrary.org](../include/img/databrary-nav.svg){height=150px fig-align="center"}
+![https://databrary.org](../include/img/databrary-nav.png){height=150px fig-align="center"}
 ![https://play-project.org](img_gilmore_bio/PLAY-logo.png){height=150px fig-align="center"}
 ![https://penn-state-open-science.github.io](img_gilmore_bio/psu-osi.png){height=150px fig-align="center"}
 

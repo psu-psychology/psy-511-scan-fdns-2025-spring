@@ -76,7 +76,7 @@ Your browser does not support the audio tag. </audio>
 
 ## Central vs. Peripheral Nervous System
 
-![Nervous system of Harriet Cole, see @McNaughton2018-fl](../include/img/harriet-bw-237w.jpg)
+![Nervous system of Harriet Cole, see @McNaughton2018-fl](../include/img/harriet-bw-237w.jpg){width=60%}
 
 ## Organization of the CNS
 
@@ -110,14 +110,14 @@ Your browser does not support the audio tag. </audio>
 
 Forebrain, midbrain, hindbrain terminology derives from embryonic stages in CNS development.
 
-![Embryonic human brain from Wikipedia](../include/img/6_week_embryo_brain.jpg)
+![Embryonic human brain from Wikipedia](../include/img/6_week_embryo_brain.jpg){width=60%}
 
 ## Cerebrum
 
 -   (Cerebral) cortex
 -   Subcortical (below the cortex) structures
 
-![Labelled MRI including thalamus and hypothalamus](../include/img/medial-labelled.png)
+![Labelled MRI including thalamus and hypothalamus](../include/img/medial-labelled.png){width=60%}
 
 ## (Cerebral) cortex
 
@@ -142,11 +142,11 @@ Forebrain, midbrain, hindbrain terminology derives from embryonic stages in CNS 
 
 ------------------------------------------------------------------------
 
-![Cranial nerves from https://www.britannica.com/science/cranial-nerve#/media/1/141797/46720](../include/img/nerves-pairs-muscles-region-head-sense-organs.jpg)
+![Cranial nerves from https://www.britannica.com/science/cranial-nerve#/media/1/141797/46720](../include/img/nerves-pairs-muscles-region-head-sense-organs.jpg){width=60%}
 
 ------------------------------------------------------------------------
 
-![https://www.researchgate.net/profile/Saeede-Rahimi-Damirchi-Darasi/publication/324683974/figure/fig10/AS:753484697726976@1556656159277/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jp](../include/img/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jpg)
+![https://www.researchgate.net/profile/Saeede-Rahimi-Damirchi-Darasi/publication/324683974/figure/fig10/AS:753484697726976@1556656159277/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jp](../include/img/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jpg){width=60%}
 
 ------------------------------------------------------------------------
 
@@ -160,15 +160,15 @@ Multiple hierarchies
 
 ------------------------------------------------------------------------
 
-![https://www.researchgate.net/profile/Brian-Wandell/publication/8988812/figure/fig1/AS:280067633631238@1443784735289/The-Retinotopy-paradigm-Two-stimuli-are-used-to-measure-the-retinotopic-maps-in-cortex.png](../include/img/The-Retinotopy-paradigm-Two-stimuli-are-used-to-measure-the-retinotopic-maps-in-cortex.png)
+![https://www.researchgate.net/profile/Brian-Wandell/publication/8988812/figure/fig1/AS:280067633631238@1443784735289/The-Retinotopy-paradigm-Two-stimuli-are-used-to-measure-the-retinotopic-maps-in-cortex.png](../include/img/The-Retinotopy-paradigm-Two-stimuli-are-used-to-measure-the-retinotopic-maps-in-cortex.png){width=60%}
 
 ------------------------------------------------------------------------
 
-![Figure 1 from @Saenz2014-ao](https://ars.els-cdn.com/content/image/1-s2.0-S0378595513001871-gr1_lrg.jpg)
+![Figure 1 from @Saenz2014-ao](https://ars.els-cdn.com/content/image/1-s2.0-S0378595513001871-gr1_lrg.jpg){width=60%}
 
 ------------------------------------------------------------------------
 
-![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Grant_1962_663.png/800px-Grant_1962_663.png)
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Grant_1962_663.png/800px-Grant_1962_663.png){width=60%}
 
 ------------------------------------------------------------------------
 
