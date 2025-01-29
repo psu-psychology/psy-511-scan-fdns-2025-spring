@@ -1,7 +1,7 @@
 ---
 title: "Cellular neuroscience I"
 subtitle: "PSY 511.003"
-date: 2024-01-25
+date: 2025-01-30
 format: 
   revealjs:
     footer: "PSY 511 Spr 2024"
@@ -45,32 +45,28 @@ format:
 
 ## Today's topics
 
-- Cellular neuroscience
+- [Cellular neuroscience](../resources/cells.html)
   - Neurons
   - Glia
-- The resting potential
-
-# The cells of the nervous system
-
----
-
-See [resources/cells](../resources/cells.html)
-
-# The resting potential
-
----
-
-See [resources/cells](../resources/cells.qmd#neurophysiology)
+- [Resting potential](../resources/cells.html#neurophysiology)
 
 # Break
 
 ## Work on Exercise 03
 
+- Visit [Exercise 03](../exercises/ex03.qmd)
+
 ## Main points
+
+- Cells of nervous system specialized
+- Convey, process, store information
+- Nervous systems enable complex external (behavior) and internal states
+- Complex behavior/internal states not reducible to, but inseparable from nervous system states
+- Electrical + chemical information flows
 
 ## Next time...
 
-- The action potential
+- [The action potential](../resources/cells.html#action-potential)
 
 # Resources
 

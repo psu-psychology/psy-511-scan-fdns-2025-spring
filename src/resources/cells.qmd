@@ -111,7 +111,7 @@ brain |> ggplot() +
 - Functions
 	+ Structural support
 	+ Metabolic support
-	+ Brain development
+	+ Brain development & plasticity
 
 #### Astrocytes
 
@@ -135,6 +135,13 @@ brain |> ggplot() +
 - Disruption linked to cognitive impairment, disease [@chung_glia_2015]
 	
 #### Myelinating cells
+
+::: {.callout-note}
+## Myelin
+The outer covering of neurons, provided by a separate class of glial cell, that insulates neurons and increases the speed of signal (action potential) conduction.
+
+See also: <https://en.wikipedia.org/wiki/Myelin>
+:::
 
 ##### Oligodendrocytes
 	
@@ -162,6 +169,7 @@ brain |> ggplot() +
 - Phagocytosis
 - Clean-up damaged, dead tissue
 - Role in 'pruning' of synapses in normal development
+- Role in multiple sclerosis (MS) [@Distefano-Gagne2023-gt].
 
 ![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Microglia_and_neurons.jpg/1200px-Microglia_and_neurons.jpg)
 
@@ -170,7 +178,9 @@ brain |> ggplot() +
 #### What makes neurons "special"
 
 - Long-lived (most generated b/w 3-25 weeks gestational age)
-- Extended branching (dendrites and axons)
+- Unusual shape
+  - Long and thin (~20mm diameter)
+  - Extended branching (dendrites and axons)
 - Electrically excitable
 - Connect to small #s of other cells via synapses
 - Release neurotransmitters
@@ -188,9 +198,9 @@ brain |> ggplot() +
 
 - Majority of input to neuron
 - Passive (do not generate current flows) vs. active (generate current flows like axons)
-- "Polarized" or directional information flow
+- "Polarized" or directional information flow (to soma)
 
-![https://biology.stackexchange.com/questions/44082/can-the-dendrites-of-sensory-neurons-be-a-meter-long](https://i.stack.imgur.com/kfriB.jpg)
+![https://askabiologist.asu.edu/neuron-anatomy](https://askabiologist.asu.edu/sites/default/files/resources/articles/neuron_anatomy.jpg)
 
 ###### Dendritic Spines
 

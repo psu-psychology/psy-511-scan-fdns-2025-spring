@@ -3,8 +3,6 @@ title: "Exercise 02 • Neuroanatomy"
 subtitle: "**Name:**____________________________"
 ---
 
-Some change
-
 ## Goals
 
 1. To use core neuroanatomical terms in multiple contexts.
