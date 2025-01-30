@@ -315,7 +315,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ## Marr's Three Levels
 
-![@Favela2020-uc Figure 3](https://wires.onlinelibrary.wiley.com/cms/asset/9fa6c8e5-30fa-4e6f-a5cf-e9407ed098c0/wcs1525-fig-0003-m.jpg)
+![@Favela2020-uc Figure 3](../include/img/wcs1525-fig-0003-m.jpg)
 
 ---
 
@@ -353,7 +353,7 @@ title: "Foundations of Social, Cognitive, and Affective Neuroscience"
 
 ## Varied notions of mechanism
 
-![Fig. 1: The narrow and broad notions of mechanism from @Ross2024-nr](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41583-023-00778-7/MediaObjects/41583_2023_778_Fig1_HTML.png?as=webp)
+![Fig. 1: The narrow and broad notions of mechanism from @Ross2024-nr](../include/img/41583_2023_778_Fig1_HTML.png.webp)
 
 ## Toward reverse neuroethology
 

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.22)  29 JAN 2025 08:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.30)  30 JAN 2025 14:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **wk01-2025-01-16.tex
 (./wk01-2025-01-16.tex
-LaTeX2e <2024-11-01> patch level 1
+LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2024-12-25>
 (/Users/rog1/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2024/10/24 v3.43 KOMA-Script document class (article)
@@ -947,5 +947,37 @@ Package pdftex.def Info: wk01-2025-01-16_files/mediabag/9780262514620.jpg  used 
 
 
 [28 <./wk01-2025-01-16_files/mediabag/images-q=tbn-ANd9GcT.jpg>]
-!pdfTeX error: /Users/rog1/Library/TinyTeX/bin/universal-darwin/pdflatex (file ./wk01-2025-01-16_files/mediabag/wcs1525-fig-0003-m.jpg): reading JPEG image failed (no JPEG header found)
- ==> Fatal error occurred, no output PDF file produced!
+<../include/img/wcs1525-fig-0003-m.jpg, id=282, 1553.44pt x 2472.51pt>
+File: ../include/img/wcs1525-fig-0003-m.jpg Graphic file (type jpg)
+<use ../include/img/wcs1525-fig-0003-m.jpg>
+Package pdftex.def Info: ../include/img/wcs1525-fig-0003-m.jpg  used on input line 902.
+(pdftex.def)             Requested size: 1553.43623pt x 2472.504pt.
+
+
+[29 <./wk01-2025-01-16_files/mediabag/9780262514620.jpg>]
+
+[30]
+Overfull \vbox (52.64326pt too high) has occurred while \output is active []
+
+
+
+[31 <../include/img/wcs1525-fig-0003-m.jpg>]
+
+! LaTeX Error: Unknown graphics extension: .webp.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.995 ...e/img/41583_2023_778_Fig1_HTML.png.webp}}
+                                                   
+Here is how much of TeX's memory you used:
+ 18495 strings out of 475117
+ 334098 string characters out of 5763596
+ 916440 words of memory out of 5000000
+ 41034 multiletter control sequences out of 15000+600000
+ 622785 words of font info for 132 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 108i,8n,107p,10910b,549s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+!  ==> Fatal error occurred, no output PDF file produced!

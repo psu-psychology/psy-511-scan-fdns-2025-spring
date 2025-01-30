@@ -1,5 +1,5 @@
 ---
-title: "ex01-themes"
+title: "Exercise 01 Themes"
 format: html
 ---
 
@@ -20,6 +20,7 @@ This page summarizes some of the themes and concepts that students mentioned in 
       - error-related negativity (ERN)
   - Time Frequency Representation (TFR)
   - Coherence
+    - Wavelets
 - Functional near-infrared spectroscopy (fNIRS)
 - Multi-modal brain imaging
   - diffusion-weighted MRI (dMRI)
@@ -42,7 +43,7 @@ This page summarizes some of the themes and concepts that students mentioned in 
 
 - Synaptic pruning
 
-## Peripheral/autonomic physiology
+## Autonomic physiology
 
 - Respiratory Sinus Arrhythmia (RSA)
   - Vagal (Xth) cranial nerve

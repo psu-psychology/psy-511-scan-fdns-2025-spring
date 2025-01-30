@@ -93,11 +93,9 @@ format:
 
 > *"These findings challenge the common view that humans stand out from other primates in their brain composition and indicate that, with regard to numbers of neuronal and nonneuronal cells, the human brain is an isometrically scaled-up primate brain."*
 
-<p style="text-align:center";>
-[@azevedo2009equal]
-</p>
+@azevedo2009equal
 
-![[@azevedo2009equal]](../include/img/azevedo-et-al-fig-1.jpg)
+![@azevedo2009equal](../include/img/azevedo-et-al-fig-1.jpg)
 
 ```{r echo=FALSE, fig.align='center'}
 suppressPackageStartupMessages(library(tidyverse))

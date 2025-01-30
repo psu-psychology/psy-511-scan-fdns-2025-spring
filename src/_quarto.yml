@@ -42,6 +42,9 @@ website:
         menu:
           - href: "resources/anatomy.qmd"
           - href: "resources/cells.qmd"
+      - text: Supplemental
+        menu:
+          - href: "supplemental/ex01-themes.qmd"
   repo-url: https://github.com/psu-psychology/psy-511-scan-fdns-2025-spring
   repo-actions: [edit, issue]
   repo-subdir: src

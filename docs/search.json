@@ -1,143 +1,10 @@
 [
   {
-    "objectID": "exercises/final-project.html",
-    "href": "exercises/final-project.html",
-    "title": "Final project",
-    "section": "",
-    "text": "Please describe your plan for your final project in a concise, 1-2 page proposal. Your proposal should describe the form of your project, the topic or topics to be covered, how the project contributes to your scholarly or training goals, and highlight and cite no more than five (5) sources you intend to draw upon.\nPlease submit the proposal as a Microsoft Word (.docx) formatted document.\nThe proposal is due on Thursday, February 29, 2024"
-  },
-  {
-    "objectID": "exercises/final-project.html#project-proposal",
-    "href": "exercises/final-project.html#project-proposal",
-    "title": "Final project",
-    "section": "",
-    "text": "Please describe your plan for your final project in a concise, 1-2 page proposal. Your proposal should describe the form of your project, the topic or topics to be covered, how the project contributes to your scholarly or training goals, and highlight and cite no more than five (5) sources you intend to draw upon.\nPlease submit the proposal as a Microsoft Word (.docx) formatted document.\nThe proposal is due on Thursday, February 29, 2024"
-  },
-  {
-    "objectID": "exercises/final-project.html#project-options",
-    "href": "exercises/final-project.html#project-options",
-    "title": "Final project",
-    "section": "Project options",
-    "text": "Project options\n\nBBS-style critical review\nWrite a critical review in the style of a Behavioral and Brain Sciences (BBS) commentary. The target of your review could be a published article in BBS or an article published in another journal. Examine some existing BBS papers in your areas of interest to see how authors choose to structure their commentaries. Typically, a BBS commentary is restricted to 1,000 words, but you have latitude to write up to 2,500 words.\n\n\nPopular science piece\nChoose a method, a nervous system structure, neurotransmitter or hormone, or a psychological state, and write a “what do we know about” style of piece targeted at the general, science-literate public. Consult The New York Times, Scientific American, The New Scientist, or The Economist for illustrative examples of the structure and style of the piece. Your piece should be 1,500-2,500 words, and could include illustrations you create, or videos or figures you find (and cite sources for) on the internet. If you choose a psychological state or behavior, please incorporate a biological perspective in some meaningful way. If you want to create a website for your content using Quarto or a similar tool, that is also acceptable.\n\n\nResearch proposal\nPropose a research study that incorporates one or more biological measures and some well-defined behavior or set of behaviors or psychological states. Make sure to highlight how biological measures inform and enrich our understanding about the behaviors or psychological states. Your proposal can be 1,500-2,500 words in length.\n\n\nTutorial\nPrepare a complete 45-50 min lecture with slides for a 200-level course on biological or physiological psychology focusing on a topic you might choose to cover were you the instructor of record.\nDo’s\n\nAlways put your last name and first name in the file name of all documents you submit. For example, gilmore-rick-psy-511-2025-final-paper.docx works fine.\nSubmit your paper as a MS Word document using Canvas.\nInclude a cover page and title. Make sure to add page numbers.\nUnpack and define all acronyms when you first mention them. Define or explain technical terms and concepts.\nInclude all end-of-paper citations in a format that is convenient to you and easy to extract from your reference manager.\nInclude author-date citations in the text.\nUse double-spacing.\nRun spell-check on your paper before you submit. I also suggest reading your paper out loud as a way to catch run-on sentences, awkward phrasing, and odd word choices."
-  },
-  {
-    "objectID": "exercises/ex07.html",
-    "href": "exercises/ex07.html",
-    "title": "Exercise 07 • Evolution",
-    "section": "",
-    "text": "To practice thinking and reasoning critically about how evolutionary perspectives can inform understanding about psychological phenomena."
-  },
-  {
-    "objectID": "exercises/ex07.html#goals",
-    "href": "exercises/ex07.html#goals",
-    "title": "Exercise 07 • Evolution",
-    "section": "",
-    "text": "To practice thinking and reasoning critically about how evolutionary perspectives can inform understanding about psychological phenomena."
-  },
-  {
-    "objectID": "exercises/ex07.html#activity",
-    "href": "exercises/ex07.html#activity",
-    "title": "Exercise 07 • Evolution",
-    "section": "Activity",
-    "text": "Activity\nAnswer the following questions in a few short sentences:\n\nWhat feature(s) of the human brain are similar to closely related animals (e.g., mammals and especially primates)?\nWhat feature(s) of the human brain distinguish it from these closely related animals?\nWhy is it especially hard to tie changes in human brain structure to particular human psychological characteristics?\n\nAnswer the following question in a paragraph or two:\n\nConsider a psychological domain that interests you, is an evolutionary perspective useful? Why or why not?"
-  },
-  {
-    "objectID": "exercises/ex07.html#submission-details",
-    "href": "exercises/ex07.html#submission-details",
-    "title": "Exercise 07 • Evolution",
-    "section": "Submission details",
-    "text": "Submission details\n\nSubmit your write-up by Wednesday, March 13, 2024 at 11:59 pm.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
-  },
-  {
-    "objectID": "exercises/ex05.html",
-    "href": "exercises/ex05.html",
-    "title": "Exercise 05 • Neurochemistry",
-    "section": "",
-    "text": "To understand some basic facts about neurotransmitters and their functions in communication.\nTo understand some basic facts about hormones and their functions in communication.\nTo understand how chemical (via neurotransmitters and hormones) and electrical (via action potentials) compare with one another."
-  },
-  {
-    "objectID": "exercises/ex05.html#goals",
-    "href": "exercises/ex05.html#goals",
-    "title": "Exercise 05 • Neurochemistry",
-    "section": "",
-    "text": "To understand some basic facts about neurotransmitters and their functions in communication.\nTo understand some basic facts about hormones and their functions in communication.\nTo understand how chemical (via neurotransmitters and hormones) and electrical (via action potentials) compare with one another."
-  },
-  {
-    "objectID": "exercises/ex05.html#activity",
-    "href": "exercises/ex05.html#activity",
-    "title": "Exercise 05 • Neurochemistry",
-    "section": "Activity",
-    "text": "Activity\n\nStarting with the arrival of the action potential at the terminal button, describe the main steps that lead to the release of neurotransmitter from the presynaptic terminal.\nDescribe how the binding of neurotransmitter onto an ionotropic post-synaptic receptor influences the post-synaptic cell. What is an example of a neurotransmitter that has this effect?\nDescribe how the binding of neurotransmitter onto a metabotropic post-synaptic receptor influences the post-synaptic cell. What is an example of a neurotransmitter that has this sort of effect?\nDescribe at least two ways that neurotransmitters released at a synapse are inactivated, with an example for each.\nDescribe some of the key features and roles of glutamate and GABA in the CNS.\nDescribe at least two features that monoamine neurotransmitter systems have in common.\nIdentify a structure in the CNS that controls the endocrine and neural responses to situations that require behavioral activation or increased activity and arousal. Give an example of how this might work in practice."
-  },
-  {
-    "objectID": "exercises/ex05.html#submission-details",
-    "href": "exercises/ex05.html#submission-details",
-    "title": "Exercise 05 • Neurochemistry",
-    "section": "Submission details",
-    "text": "Submission details\n\nSubmit your write-up by Wednesday, February 26, 2025 at 11:59 pm.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
-  },
-  {
-    "objectID": "exercises/ex03.html",
-    "href": "exercises/ex03.html",
-    "title": "Exercise 03 • Neurophysiology I",
-    "section": "",
-    "text": "To understand some basic facts about neurons and glia.\nTo understand the ionic components and balance of forces that give rise to the resting potential."
-  },
-  {
-    "objectID": "exercises/ex03.html#goals",
-    "href": "exercises/ex03.html#goals",
-    "title": "Exercise 03 • Neurophysiology I",
-    "section": "",
-    "text": "To understand some basic facts about neurons and glia.\nTo understand the ionic components and balance of forces that give rise to the resting potential."
-  },
-  {
-    "objectID": "exercises/ex03.html#activity",
-    "href": "exercises/ex03.html#activity",
-    "title": "Exercise 03 • Neurophysiology I",
-    "section": "Activity",
-    "text": "Activity\nYou may work by yourself or with up to two other people for this activity.\nAnswer the following questions in no more than a few sentences:\n\nDescribe at least two ways that neurons differ from other cells in the body.\nWhat are the two main types of myelin-producing glial cells, and where in the body are they found?\n\nDraw and annotate figure(s) to answer the following questions:\n\nDraw a figure that shows the two principal ions that contribute to the neuron’s resting potential, and where (inside or outside the neuron) they are most heavily concentrated.\nAnnotate your figure to show the direction of ion flow along each ion’s concentration gradient1.\nAnnotate your figure to show the direction of ion movement caused by the \\(Na^+/K^+\\) (sodium/potassium) ATPase (pump).\nAnnotate your figure to show what spatial pattern of electrical charges (positive/negative voltage; inside the cell/outside the cell) would tend to keep the potassium (\\(K^+\\)) ions where they are most highly concentrated when the neuron is at rest. Explain your reasoning.\nAnnotate your figure to show what this same pattern of electrical charges would do to sodium (\\(Na^+\\)) ions.\n\nAnswer the following questions in no more than a few sentences:\n\nWhat change(s) in the neuron could cause potassium (\\(K^+\\)) ions to move? Which direction would the ions move under these circumstances?\nWhat change(s) in the neuron could cause sodium (\\(Na^+\\)) ions to move? Which direction would the ions move under these circumstances?\n\\(Na^+/K^+\\) (sodium/potassium) ATPase (pump) uses metabolic energy to function. It essentially keeps working constantly. What would happen to the neuron if this process was disrupted somehow?"
-  },
-  {
-    "objectID": "exercises/ex03.html#submission-details",
-    "href": "exercises/ex03.html#submission-details",
-    "title": "Exercise 03 • Neurophysiology I",
-    "section": "Submission details",
-    "text": "Submission details\n\nSubmit your write-up by Wednesday, February 12, 2025 at 11:59 pm.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
-  },
-  {
-    "objectID": "exercises/ex03.html#footnotes",
-    "href": "exercises/ex03.html#footnotes",
-    "title": "Exercise 03 • Neurophysiology I",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nRemember that ions flow down the concentration gradient, from regions of high concentration to regions of lower concentration↩︎"
-  },
-  {
-    "objectID": "exercises/ex01.html",
-    "href": "exercises/ex01.html",
-    "title": "Exercise 01 • Levels/Terms",
-    "section": "",
-    "text": "Begin reading the literature about biological approaches to psychology with a critical, analytic perspective.\nHighlight concepts and terms that you want to understand more thoroughly.\nApply the idea of levels of analysis to the relevant literature."
-  },
-  {
-    "objectID": "exercises/ex01.html#goals",
-    "href": "exercises/ex01.html#goals",
-    "title": "Exercise 01 • Levels/Terms",
-    "section": "",
-    "text": "Begin reading the literature about biological approaches to psychology with a critical, analytic perspective.\nHighlight concepts and terms that you want to understand more thoroughly.\nApply the idea of levels of analysis to the relevant literature."
-  },
-  {
-    "objectID": "exercises/ex01.html#tasks",
-    "href": "exercises/ex01.html#tasks",
-    "title": "Exercise 01 • Levels/Terms",
-    "section": "Tasks",
-    "text": "Tasks\n\nChoose two (2) papers relevant to your personal research interests that you want to understand more thoroughly.\nScan the papers and highlight 3-5 terms or concepts that you are especially interested in understanding better.\nSubmit a short (1-2 pp) write-up that includes the following:\n\nWhich articles did you choose and why did you choose them.\nWhat terms or concepts did you choose and why did you choose them.\nWhat spatial level or levels of analysis do the terms or concepts reflect?\nWhat time frame (temporal level of analysis) applies to the terms in question?\nDo these concepts describe behaviors or internal states (physiological or psychological)?"
-  },
-  {
-    "objectID": "exercises/ex01.html#submission-details",
-    "href": "exercises/ex01.html#submission-details",
-    "title": "Exercise 01 • Levels/Terms",
-    "section": "Submission details",
-    "text": "Submission details\n\nGive your paper a file name following this convention: psy-511-spr-2025-LASTNAME-FIRSTNAME-ex01.docx,\nProvide full APA format citations with DOIs.\nYour write-up is due Wednesday, January 22, 2025 at 11:59 pm.\nThe Canvas dropbox is here"
+    "objectID": "slides/wk03-2025-01-30.html#in-the-news",
+    "href": "slides/wk03-2025-01-30.html#in-the-news",
+    "title": "Cellular neuroscience I",
+    "section": "In the news…",
+    "text": "In the news…\n\nEckert et al. (2024)"
   },
   {
     "objectID": "slides/wk03-2025-01-30.html#announcements",
@@ -299,6 +166,13 @@
     "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
     "section": "Studying such systems is hard because…",
     "text": "Studying such systems is hard because…\n\nChange structure/function over time\nHard to measure what is being exchanged, what is being controlled"
+  },
+  {
+    "objectID": "slides/wk01-2025-01-16.html#assumptions-are-problematic",
+    "href": "slides/wk01-2025-01-16.html#assumptions-are-problematic",
+    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
+    "section": "Assumptions are problematic",
+    "text": "Assumptions are problematic\n\nSegal et al. (2024)"
   },
   {
     "objectID": "slides/wk01-2025-01-16.html#goals",
@@ -1071,6 +945,13 @@
     "text": "April 28 - May 2\n\nThursday, May 01\n\nTopics\n\nBeethoven and the Cerebral Symphony"
   },
   {
+    "objectID": "schedule.html#finals-week",
+    "href": "schedule.html#finals-week",
+    "title": "Schedule",
+    "section": "May 4-9",
+    "text": "May 4-9\n\nThursday, May 08\n\nFinal Project write-up due | Canvas dropbox"
+  },
+  {
     "objectID": "resources/affective-disorders.html",
     "href": "resources/affective-disorders.html",
     "title": "Disorders of affect",
@@ -1106,18 +987,18 @@
     "text": "Purushotham (2007)\n\nEscherichia Coli (E. Coli)\n\nTiny, single-celled bacterium\nFeeds on glucose\nChemo (“taste”) receptors on surface membrane\nFlagellum for movement\nFood concentration regulates duration of “move” phase\n~4 ms for chemical signal to diffuse from anterior/posterior\n\n\n\n\n\n\n\n\nEckert et al. (2024)\n\n\n\n\n\n\n\n\n\n\n\nBiological communication channels\n\n\n\n\nElectrical\n\nFast(er) (10-100x)\nWithin neurons\nFrom one part of body to another\nPoint-to-point connections for specificity\nMetabolically costly to create & maintain\nHow to reliably send a message from here to there?\n\nChemical\n\nDiffusion slow(er)\nWithin & between neurons\nor other cells\nMolecular matching (binding) for specificity\nMetabolically efficient\n\n\n\n\n\n\n\n300K larger than E. Coli\nPropulsion through coordinated beating of cilia\nDiffusion from head to tail ~40 s!\nUse electrical signaling instead\n\n\\(Na^+\\) channel opens (e.g., when stretched)\nVoltage-gated \\(Ca^{++}\\) channels open, \\(Ca^{++}\\) enters, triggers cilia\nSignal across cell within ms\n\n\n\n\n\n\n\nBio-Rad Laboratories (2013)\n\n~10x larger than paramecium\nmulticellular invertebrate\n302 neurons (118 classes) + 56 glial cells (out of 959 total cells) (Hobert, 2010)\nSwim, forage, mate\n\n\n\n\n\n\n\nSterling & Laughlin (2021)\n\n\n\nChemical communication specific (neurotransmitters \\(\\rightarrow\\) receptors)\nEnergy efficient\nBut slow\n\n\n\n\n\n\n\nBrain energetics\n\n\n\n\nThe human brain is just 2% of the body’s weight, but 20% of its metabolic load, and 10 times more expensive per gram than muscle. On the other hand, the brain manages to produce poetry, design spacecraft, and create art on an energy budget of 20 W, a paltry sum given that the computer on which this article is being typed requires 80 W.\n\nBalasubramanian (2021)"
   },
   {
-    "objectID": "resources/cells.html#why-animals-need-nervous-systems",
-    "href": "resources/cells.html#why-animals-need-nervous-systems",
+    "objectID": "resources/cells.html#why-psychologists-should-care-about-the-cellular-level-of-analysis",
+    "href": "resources/cells.html#why-psychologists-should-care-about-the-cellular-level-of-analysis",
     "title": "Cellular neuroscience",
-    "section": "Why animals need nervous systems",
-    "text": "Why animals need nervous systems\nSterling & Laughlin, 2015\n\nEscherichia Coli (E. Coli)\n\nTiny, single-celled bacterium\nFeeds on glucose\nChemo (“taste”) receptors on surface membrane\nFlagellum for movement\nFood concentration regulates duration of “move” phase\n~4 ms for chemical signal to diffuse from anterior/posterior\n\nParamecium\n\n300K larger than E. Coli\nPropulsion through coordinated beating of cilia\nDiffusion from head to tail ~40 s!\nUse electrical signaling instead\n\n\\(Na^+\\) channel opens (e.g., when stretched)\nVoltage-gated \\(Ca^{++}\\) channels open, \\(Ca^{++}\\) enters, triggers cilia\nSignal across cell within ms\n\n\n\n\n\nBio-Rad Laboratories (2013)\n\nCaenorhabditis Elegans (C. Elegans)\n\n~10x larger than paramecium\n302 neurons (118 classes) + 56 glial cells (out of 959 total cells) (Hobert, 2010)\nSwim, forage, mate\n\n\n\nNeural communication types\n\nElectrical\n\nFast(er) (10-100x)\nWithin neurons\nFrom one part of body to another\nPoint-to-point connections for specificity\nMetabolically costly to create & maintain\nHow to reliably send a message from here to there?\n\nChemical\n\nDiffusion slow(er)\nWithin & between neurons\nor other cells\nMolecular matching (binding) for specificity\nMetabolically efficient\n\n\n\n\nSo, why do large/complex animals need nervous systems?"
+    "section": "",
+    "text": "Purushotham (2007)\n\nEscherichia Coli (E. Coli)\n\nTiny, single-celled bacterium\nFeeds on glucose\nChemo (“taste”) receptors on surface membrane\nFlagellum for movement\nFood concentration regulates duration of “move” phase\n~4 ms for chemical signal to diffuse from anterior/posterior\n\n\n\n\n\n\n\n\nEckert et al. (2024)\n\n\n\n\n\n\n\n\n\n\n\nBiological communication channels\n\n\n\n\nElectrical\n\nFast(er) (10-100x)\nWithin neurons\nFrom one part of body to another\nPoint-to-point connections for specificity\nMetabolically costly to create & maintain\nHow to reliably send a message from here to there?\n\nChemical\n\nDiffusion slow(er)\nWithin & between neurons\nor other cells\nMolecular matching (binding) for specificity\nMetabolically efficient\n\n\n\n\n\n\n\n300K larger than E. Coli\nPropulsion through coordinated beating of cilia\nDiffusion from head to tail ~40 s!\nUse electrical signaling instead\n\n\\(Na^+\\) channel opens (e.g., when stretched)\nVoltage-gated \\(Ca^{++}\\) channels open, \\(Ca^{++}\\) enters, triggers cilia\nSignal across cell within ms\n\n\n\n\n\n\n\nBio-Rad Laboratories (2013)\n\n~10x larger than paramecium\nmulticellular invertebrate\n302 neurons (118 classes) + 56 glial cells (out of 959 total cells) (Hobert, 2010)\nSwim, forage, mate\n\n\n\n\n\n\n\nSterling & Laughlin (2021)\n\n\n\nChemical communication specific (neurotransmitters \\(\\rightarrow\\) receptors)\nEnergy efficient\nBut slow\n\n\n\n\n\n\n\nBrain energetics\n\n\n\n\nThe human brain is just 2% of the body’s weight, but 20% of its metabolic load, and 10 times more expensive per gram than muscle. On the other hand, the brain manages to produce poetry, design spacecraft, and create art on an energy budget of 20 W, a paltry sum given that the computer on which this article is being typed requires 80 W.\n\nBalasubramanian (2021)"
   },
   {
     "objectID": "resources/cells.html#cellular-neuroanatomy",
     "href": "resources/cells.html#cellular-neuroanatomy",
     "title": "Cellular neuroscience",
     "section": "Cellular neuroanatomy",
-    "text": "Cellular neuroanatomy\n\nHow many neurons and glia?\n\nOld “lore”: ~100 billion neurons\nNew estimate (Azevedo et al., 2009):\n\n~86 +/- 8 billion neurons\n~85 +/- 9 billion glia\n\n\n\n“These findings challenge the common view that humans stand out from other primates in their brain composition and indicate that, with regard to numbers of neuronal and nonneuronal cells, the human brain is an isometrically scaled-up primate brain.”\n\n\n[@azevedo2009equal]\n\n\n\n\n(Azevedo et al., 2009)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlia (neuroglia)\n\nFunctions\n\nStructural support\nMetabolic support\nBrain development & plasticity\n\n\n\nAstrocytes\n\n“Star-shaped”\nProbably most numerous cell type in CNS\nPhysical and metabolic support\n\nSupport blood/brain barrier\nRegulate local blood flow\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Astrocyte\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Astrocyte\n\n\n\nInteract with neurons\n\nIon (Ca++/K+) buffering\nNeurotransmitter (e.g., glutamate) buffering\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Astrocyte\n\n\n\nShape brain development, contribute to synaptic plasticity\nDisruption linked to cognitive impairment, disease (Chung, Welsh, Barres, & Stevens, 2015)\n\n\n\nMyelinating cells\n\n\n\n\n\n\nMyelin\n\n\n\nThe outer covering of neurons, provided by a separate class of glial cell, that insulates neurons and increases the speed of signal (action potential) conduction.\nSee also: https://en.wikipedia.org/wiki/Myelin\n\n\n\nOligodendrocytes\n\nIn brain and spinal cord (CNS)\n1:many neurons\n\n\n\n\nWikipedia\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Oligodendrocyte\n\n\n\n\nSchwann cells\n\nIn PNS\n1:1 neuron\nFacilitate neuro-regeneration\n\n\n\n\nhttps://www.brainfacts.org/brain-anatomy-and-function/cells-and-circuits/2018/schwann-cells-keep-signals-strong-012918\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Schwann_cell\n\n\n\nTV show preference mnemonics: COPS/SPOC\n\n\n\n\nMicroglia\n\nPhagocytosis\nClean-up damaged, dead tissue\nRole in ‘pruning’ of synapses in normal development\nRole in multiple sclerosis (MS) (Distéfano-Gagné, Bitarafan, Lacroix, & Gosselin, 2023).\n\n\n\n\nWikipedia\n\n\n\n\n\nNeurons\n\nWhat makes neurons “special”\n\nLong-lived (most generated b/w 3-25 weeks gestational age)\nUnusual shape\n\nLong and thin (~20mm diameter)\nExtended branching (dendrites and axons)\n\nElectrically excitable\nConnect to small #s of other cells via synapses\nRelease neurotransmitters\n\n\n\nMacrostructure\n\nDendrites\nSoma\nAxons\nTerminal buttons (boutons)\n\n\n\n\nWikipedia\n\n\n\nDendrites\n\nMajority of input to neuron\nPassive (do not generate current flows) vs. active (generate current flows like axons)\n“Polarized” or directional information flow (to soma)\n\n\n\n\nhttps://askabiologist.asu.edu/neuron-anatomy\n\n\n\nDendritic Spines\n\n\n\nWikipedia\n\n\n\nConcentrate effects of local current flows, biochemical reactions\n\n\n\n\nSoma (cell body)\n\nVaried shapes\nNucleus\n\nChromosomes\n\nOrganelles\n\nMitochondria\nSmooth and Rough Endoplasmic reticulum (ER)\n\n\n\n\n\nWikipedia\n\n\n\n\nAxons\n\nAxon hillock\n\nTransitional zone between soma and axon\n\n\n\nInitial segment\n\nAction potential generated\n\n\n\nNodes of Ranvier\n\nGaps in myelin sheath\nNeuronal membrane exposed to extracellular space\nAction potential regenerates\n\n\n\nAxon terminals\n\n\nSynaptic bouton (terminal button)\n\nSynapse (~5-10K per neuron)\nPre- (sending side) and postsynaptic (receiving side) membranes\nSynaptic cleft\nSynaptic vesicles\n\nStore/release neurotransmitters\n\n\n\n\nAutoreceptors & transporters\n\n\n\n\n(Figure 1 from Torres, Gainetdinov, & Caron, 2003). Monoamine transporters are localized to perisynaptic sites, where they are crucial for the termination of monoamine transmission and the maintenance of presynaptic monoamine storage. Several selective pharmacological agents acting at each monoamine transporter are shown. Amph., amphetamine; DA, dopamine; DAT, Dopamine transporter; L-DOPA, L-3,4-dihydroxyphenylalanine; 5-HT, 5-hydroxytryptamine; MPP+, 1-methyl-4-phenylpyridinium; MDMA, (+)-3,4-methylenedioxymethamphetamine; NA, noradrenaline; NET, noradrenaline transporter; SERT, 5-HT transporter\n\n\n\n\n\n\nClassifying neurons\n\nFunctional role\n\nInput (sensory), output (motor/secretory), interneurons\n\nAnatomy\n\nUnipolar\nBipolar\nMultipolar\n\n\n\n\n\nWikipedia\n\n\n\nBy specific anatomy\n\nPyramidal cells\nStellate cells\nPurkinje cells\nGranule cells\n\n\n\n\n\nPyramidal cell (Wikipedia)\n\n\n\n\n\nPyramidal cell (left) | Stellate cell (right) from Wikipedia\n\n\nMorphology, physiology, gene transcription\n\n\n\n(Figure 1 from Zeng & Sanes, 2017). Neurons can be classified using morphological, physiological and molecular criteria. a | Representative examples of five subclasses of cortical neurons obtained from brain slices. The cells were filled with biocytin, stained and imaged following patch clamp recording (see part b). Each subclass has distinct morphological features. For the four interneurons on the left, the dendrites are shown in dark grey and the axons in light grey. The soma of the 5-hydroxytryptamine receptor 3A-expressing (HTR3A+) sparse neuro- gliaform cell is located in layer 1, and its axons are also concentrated in this layer. The vasoactive intestinal peptide-expressing (VIP+) bipolar cell has a characteristic bipolar dendritic extension. The soma of the somatostatin-expressing (SST+) deep Martinotti cell is located in layer 5/6, and its axons extend upward into layer 1. The parvalbumin-expressing (PVALB+) basket cell has basket-like axonal arborisation. For the excitatory neuron on the right, the apical dendrites are shown in dark grey and the basal dendrites in light grey. This is a layer 5, thick-tufted cell from a retinol-binding protein 4 (Rbp4) gene promoter-driven Cre-expressing mouse. The cell features thick apical dendritic tufts extending into layer 1. These morphological features are consistent with those described in published reports49,130,140. b | Differential electrophysiological responses of the five subclasses of neurons shown in part a to square pulses of current in patch clamp recordings. For example, the HTR3A+ cell is late spiking, whereas the PVALB+ cell is fast spiking. These responses are consistent with those described in published reports49,130,140. c | Differential molecular signatures of the five subclasses of cortical neurons illustrated in part a derived from single-cell RNA-sequencing data. The violin plot shows the collective gene expression profile for each gene of all the cells in a type (cluster). We define the smallest discrete clusters of cells as types and the aggregates of types that share common features as classes or subclasses. Each transcriptomic cell type is shown as a column of data points with the same colour (the colour coding corresponds to that of the transcriptomic taxonomy shown in Fig. 5). Shown here are three interneuron cell types expressing Htr3a but notVip, six interneuron cell types expressing Vip, six interneuron cell types expressing Sst and seven interneuron cell types expressing Pvalb. All of the interneurons express glutamate decarboxylase 1 (Gad1). Also shown are eight layer 5 excitatory neuron types, all of which express solute carrier family 17 member 7 (Slc17a7). All of the cells express synaptosome-associated protein 25 (Snap25). The height of each ‘violin’-shaped data point represents the range of expression levels of the gene, and the width represents the proportion of cells displaying a particular level of expression. Parts a and b are from the Allen Cell Types Database (see Further Information). Part c is adapted with permission from Ref. 136.\n\n\n\n\n\n(Figure 6 from Zeng & Sanes, 2017). The figure shows a proposed hierarchical classification of cells in the retina (a) and cerebral cortex (b). In both areas, individual cell types can be grouped into classes, and intermediate levels of subclasses can be determined based on distinct morphological, physiological and molecular features. Higher-order groupings (such as those shown in part a, including sensory neurons, interneurons and projection neurons) may emerge once enough areas have been provided and compared. Types are the commonly recognized (‘validated’) terminal branches in the current hierarchical arrangement of cell types. Lower-order groupings into subtypes may largely be provisional until additional data are collected that could determine if they could form new types or should be merged into other types. Dashed lines indicate the presence of additional types that cannot be labelled due to lack of space. The question marks in part a indicate that the hierarchical relationship among the indicated cell types remains unclear. The question mark in part b indicates that the status of the cortical cell groups indicated may be either subclasses, types or subtypes. CT, cortico-thalamic neurons; DS, direction-selective retinal ganglion cells (RGCs); F, forkhead box P2 (Foxp2)-expressing RGCs; HTR3A, 5-hydroxytryptamine receptor 3A; ipRGC, intrinsically photosensitive RGCs; IT, intratelencephalic neurons; L4, layer 4; L6b, layer 6b subplate neurons; nGnG, non-GABAergic-non-glycinergic amacrine cells; ooDSGC, ON-OFF direction-selective RGCs; PT, pyramidal tract neurons; PVALB, parvalbumin; SST, somatostatin; VIP, vasoactive intestinal peptide.\n\n\n\n\n\n(Figure 4 from Boldog et al., 2018). a, Examples of different firing patterns induced by current injections in layer 1 interneurons. Firing pattern of an RC (top), an NGFC (middle), and an unidentified layer 1 interneuron (bottom). b, SVM-based wrapper-feature selection of electrophysiological parameters for the identification of RCs. Anatomically identified RCs (red dots) and other types of interneurons with known morphology (black dots) are mapped to the distribution of electrophysiological features ranked as the two best delineators by SVM. Black lines show the best hyperplane separating RCs from other interneuron types. c,d, RCs exhibit a distinct impedance profile relative to neurogliaform and other human interneurons in layer 1. (c) Individual responses of anatomically identified rosehip (red), neurogliaform (blue), and other (black) interneurons to current injections with an exponential chirp (0.2–200 Hz; top). Traces were normalized to the amplitude of the rosehip response at 200 Hz. (d) Left: normalized impedance (Z) profiles of distinct groups of interneurons. RCs (n=5) had higher impedance in the range of 0.9–12.4 Hz compared to neurogliaform (n=5) and other (n=5) interneurons. Shaded regions represent s.d. Right: impedances were similar at the lowest frequency (Z0.2 Hz; left), but resonance magnitude (Q) calculated as maximal impedance value divided by the impedance at lowest frequency (middle) and frequencies of maximal impedance (fmax; right) showed significant differences (P &lt; 0.05, ANOVA with Bonferroni post hoc correction). e, Automatized selection of recording periods for assessing subthreshold membrane potential oscillations (boxed segments) and detection of bursts (bars) for measuring intraburst spiking frequency demonstrated on an RC response to near-rheobasic stimulation showing stuttering firing behavior. f, Averaged fast fast Fourier transforms (FFTs) of membrane potential oscillations had higher power between 3.8 and 80 Hz in RCs compared to neurogliaform and other interneurons. g, Intraburst frequency of RCs peaked in the gamma range. AP, action potential."
+    "text": "Cellular neuroanatomy\n\nHow many neurons and glia?\n\nOld “lore”: ~100 billion neurons\nNew estimate (Azevedo et al., 2009):\n\n~86 +/- 8 billion neurons\n~85 +/- 9 billion glia\n\n\n\n“These findings challenge the common view that humans stand out from other primates in their brain composition and indicate that, with regard to numbers of neuronal and nonneuronal cells, the human brain is an isometrically scaled-up primate brain.”\n\nAzevedo et al. (2009)\n\n\n\nAzevedo et al. (2009)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlia (neuroglia)\n\nFunctions\n\nStructural support\nMetabolic support\nBrain development & plasticity\n\n\n\nAstrocytes\n\n“Star-shaped”\nProbably most numerous cell type in CNS\nPhysical and metabolic support\n\nSupport blood/brain barrier\nRegulate local blood flow\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Astrocyte\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Astrocyte\n\n\n\nInteract with neurons\n\nIon (Ca++/K+) buffering\nNeurotransmitter (e.g., glutamate) buffering\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Astrocyte\n\n\n\nShape brain development, contribute to synaptic plasticity\nDisruption linked to cognitive impairment, disease (Chung, Welsh, Barres, & Stevens, 2015)\n\n\n\nMyelinating cells\n\n\n\n\n\n\nMyelin\n\n\n\nThe outer covering of neurons, provided by a separate class of glial cell, that insulates neurons and increases the speed of signal (action potential) conduction.\nSee also: https://en.wikipedia.org/wiki/Myelin\n\n\n\nOligodendrocytes\n\nIn brain and spinal cord (CNS)\n1:many neurons\n\n\n\n\nWikipedia\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Oligodendrocyte\n\n\n\n\nSchwann cells\n\nIn PNS\n1:1 neuron\nFacilitate neuro-regeneration\n\n\n\n\nhttps://www.brainfacts.org/brain-anatomy-and-function/cells-and-circuits/2018/schwann-cells-keep-signals-strong-012918\n\n\n\n\n\nhttps://en.wikipedia.org/wiki/Schwann_cell\n\n\n\nTV show preference mnemonics: COPS/SPOC\n\n\n\n\nMicroglia\n\nPhagocytosis\nClean-up damaged, dead tissue\nRole in ‘pruning’ of synapses in normal development\nRole in multiple sclerosis (MS) (Distéfano-Gagné, Bitarafan, Lacroix, & Gosselin, 2023).\n\n\n\n\nWikipedia\n\n\n\n\n\nNeurons\n\nWhat makes neurons “special”\n\nLong-lived (most generated b/w 3-25 weeks gestational age)\nUnusual shape\n\nLong and thin (~20mm diameter)\nExtended branching (dendrites and axons)\n\nElectrically excitable\nConnect to small #s of other cells via synapses\nRelease neurotransmitters\n\n\n\nMacrostructure\n\nDendrites\nSoma\nAxons\nTerminal buttons (boutons)\n\n\n\n\nWikipedia\n\n\n\nDendrites\n\nMajority of input to neuron\nPassive (do not generate current flows) vs. active (generate current flows like axons)\n“Polarized” or directional information flow (to soma)\n\n\n\n\nhttps://askabiologist.asu.edu/neuron-anatomy\n\n\n\nDendritic Spines\n\n\n\nWikipedia\n\n\n\nConcentrate effects of local current flows, biochemical reactions\n\n\n\n\nSoma (cell body)\n\nVaried shapes\nNucleus\n\nChromosomes\n\nOrganelles\n\nMitochondria\nSmooth and Rough Endoplasmic reticulum (ER)\n\n\n\n\n\nWikipedia\n\n\n\n\nAxons\n\nAxon hillock\n\nTransitional zone between soma and axon\n\n\n\nInitial segment\n\nAction potential generated\n\n\n\nNodes of Ranvier\n\nGaps in myelin sheath\nNeuronal membrane exposed to extracellular space\nAction potential regenerates\n\n\n\nAxon terminals\n\n\nSynaptic bouton (terminal button)\n\nSynapse (~5-10K per neuron)\nPre- (sending side) and postsynaptic (receiving side) membranes\nSynaptic cleft\nSynaptic vesicles\n\nStore/release neurotransmitters\n\n\n\n\nAutoreceptors & transporters\n\n\n\n\n(Figure 1 from Torres, Gainetdinov, & Caron, 2003). Monoamine transporters are localized to perisynaptic sites, where they are crucial for the termination of monoamine transmission and the maintenance of presynaptic monoamine storage. Several selective pharmacological agents acting at each monoamine transporter are shown. Amph., amphetamine; DA, dopamine; DAT, Dopamine transporter; L-DOPA, L-3,4-dihydroxyphenylalanine; 5-HT, 5-hydroxytryptamine; MPP+, 1-methyl-4-phenylpyridinium; MDMA, (+)-3,4-methylenedioxymethamphetamine; NA, noradrenaline; NET, noradrenaline transporter; SERT, 5-HT transporter\n\n\n\n\n\n\nClassifying neurons\n\nFunctional role\n\nInput (sensory), output (motor/secretory), interneurons\n\nAnatomy\n\nUnipolar\nBipolar\nMultipolar\n\n\n\n\n\nWikipedia\n\n\n\nBy specific anatomy\n\nPyramidal cells\nStellate cells\nPurkinje cells\nGranule cells\n\n\n\n\n\nPyramidal cell (Wikipedia)\n\n\n\n\n\nPyramidal cell (left) | Stellate cell (right) from Wikipedia\n\n\nMorphology, physiology, gene transcription\n\n\n\n(Figure 1 from Zeng & Sanes, 2017). Neurons can be classified using morphological, physiological and molecular criteria. a | Representative examples of five subclasses of cortical neurons obtained from brain slices. The cells were filled with biocytin, stained and imaged following patch clamp recording (see part b). Each subclass has distinct morphological features. For the four interneurons on the left, the dendrites are shown in dark grey and the axons in light grey. The soma of the 5-hydroxytryptamine receptor 3A-expressing (HTR3A+) sparse neuro- gliaform cell is located in layer 1, and its axons are also concentrated in this layer. The vasoactive intestinal peptide-expressing (VIP+) bipolar cell has a characteristic bipolar dendritic extension. The soma of the somatostatin-expressing (SST+) deep Martinotti cell is located in layer 5/6, and its axons extend upward into layer 1. The parvalbumin-expressing (PVALB+) basket cell has basket-like axonal arborisation. For the excitatory neuron on the right, the apical dendrites are shown in dark grey and the basal dendrites in light grey. This is a layer 5, thick-tufted cell from a retinol-binding protein 4 (Rbp4) gene promoter-driven Cre-expressing mouse. The cell features thick apical dendritic tufts extending into layer 1. These morphological features are consistent with those described in published reports49,130,140. b | Differential electrophysiological responses of the five subclasses of neurons shown in part a to square pulses of current in patch clamp recordings. For example, the HTR3A+ cell is late spiking, whereas the PVALB+ cell is fast spiking. These responses are consistent with those described in published reports49,130,140. c | Differential molecular signatures of the five subclasses of cortical neurons illustrated in part a derived from single-cell RNA-sequencing data. The violin plot shows the collective gene expression profile for each gene of all the cells in a type (cluster). We define the smallest discrete clusters of cells as types and the aggregates of types that share common features as classes or subclasses. Each transcriptomic cell type is shown as a column of data points with the same colour (the colour coding corresponds to that of the transcriptomic taxonomy shown in Fig. 5). Shown here are three interneuron cell types expressing Htr3a but notVip, six interneuron cell types expressing Vip, six interneuron cell types expressing Sst and seven interneuron cell types expressing Pvalb. All of the interneurons express glutamate decarboxylase 1 (Gad1). Also shown are eight layer 5 excitatory neuron types, all of which express solute carrier family 17 member 7 (Slc17a7). All of the cells express synaptosome-associated protein 25 (Snap25). The height of each ‘violin’-shaped data point represents the range of expression levels of the gene, and the width represents the proportion of cells displaying a particular level of expression. Parts a and b are from the Allen Cell Types Database (see Further Information). Part c is adapted with permission from Ref. 136.\n\n\n\n\n\n(Figure 6 from Zeng & Sanes, 2017). The figure shows a proposed hierarchical classification of cells in the retina (a) and cerebral cortex (b). In both areas, individual cell types can be grouped into classes, and intermediate levels of subclasses can be determined based on distinct morphological, physiological and molecular features. Higher-order groupings (such as those shown in part a, including sensory neurons, interneurons and projection neurons) may emerge once enough areas have been provided and compared. Types are the commonly recognized (‘validated’) terminal branches in the current hierarchical arrangement of cell types. Lower-order groupings into subtypes may largely be provisional until additional data are collected that could determine if they could form new types or should be merged into other types. Dashed lines indicate the presence of additional types that cannot be labelled due to lack of space. The question marks in part a indicate that the hierarchical relationship among the indicated cell types remains unclear. The question mark in part b indicates that the status of the cortical cell groups indicated may be either subclasses, types or subtypes. CT, cortico-thalamic neurons; DS, direction-selective retinal ganglion cells (RGCs); F, forkhead box P2 (Foxp2)-expressing RGCs; HTR3A, 5-hydroxytryptamine receptor 3A; ipRGC, intrinsically photosensitive RGCs; IT, intratelencephalic neurons; L4, layer 4; L6b, layer 6b subplate neurons; nGnG, non-GABAergic-non-glycinergic amacrine cells; ooDSGC, ON-OFF direction-selective RGCs; PT, pyramidal tract neurons; PVALB, parvalbumin; SST, somatostatin; VIP, vasoactive intestinal peptide.\n\n\n\n\n\n(Figure 4 from Boldog et al., 2018). a, Examples of different firing patterns induced by current injections in layer 1 interneurons. Firing pattern of an RC (top), an NGFC (middle), and an unidentified layer 1 interneuron (bottom). b, SVM-based wrapper-feature selection of electrophysiological parameters for the identification of RCs. Anatomically identified RCs (red dots) and other types of interneurons with known morphology (black dots) are mapped to the distribution of electrophysiological features ranked as the two best delineators by SVM. Black lines show the best hyperplane separating RCs from other interneuron types. c,d, RCs exhibit a distinct impedance profile relative to neurogliaform and other human interneurons in layer 1. (c) Individual responses of anatomically identified rosehip (red), neurogliaform (blue), and other (black) interneurons to current injections with an exponential chirp (0.2–200 Hz; top). Traces were normalized to the amplitude of the rosehip response at 200 Hz. (d) Left: normalized impedance (Z) profiles of distinct groups of interneurons. RCs (n=5) had higher impedance in the range of 0.9–12.4 Hz compared to neurogliaform (n=5) and other (n=5) interneurons. Shaded regions represent s.d. Right: impedances were similar at the lowest frequency (Z0.2 Hz; left), but resonance magnitude (Q) calculated as maximal impedance value divided by the impedance at lowest frequency (middle) and frequencies of maximal impedance (fmax; right) showed significant differences (P &lt; 0.05, ANOVA with Bonferroni post hoc correction). e, Automatized selection of recording periods for assessing subthreshold membrane potential oscillations (boxed segments) and detection of bursts (bars) for measuring intraburst spiking frequency demonstrated on an RC response to near-rheobasic stimulation showing stuttering firing behavior. f, Averaged fast fast Fourier transforms (FFTs) of membrane potential oscillations had higher power between 3.8 and 80 Hz in RCs compared to neurogliaform and other interneurons. g, Intraburst frequency of RCs peaked in the gamma range. AP, action potential."
   },
   {
     "objectID": "resources/cells.html#neurophysiology",
@@ -1319,15 +1200,15 @@
     "objectID": "slides/wk02-2025-01-23.html#announcements",
     "href": "slides/wk02-2025-01-23.html#announcements",
     "title": "Neuroanatomy",
-    "section": "",
-    "text": "Exercise 02 due next Wednesday, January 29, 2025."
+    "section": "Announcements",
+    "text": "Announcements\n\nExercise 02 due next Wednesday, January 29, 2025."
   },
   {
     "objectID": "slides/wk02-2025-01-23.html#todays-topics",
     "href": "slides/wk02-2025-01-23.html#todays-topics",
     "title": "Neuroanatomy",
-    "section": "",
-    "text": "Neuroanatomy\n\nBrief overview\nIn-class lab\nExercise 02"
+    "section": "Today’s topics",
+    "text": "Today’s topics\n\nNeuroanatomy\n\nBrief overview\nIn-class lab\nExercise 02"
   },
   {
     "objectID": "slides/wk02-2025-01-23.html#why-study",
@@ -1335,6 +1216,20 @@
     "title": "Neuroanatomy",
     "section": "Why study?",
     "text": "Why study?\n\nMaster basic vocabulary for reading literature"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#information-processing-perspective",
+    "href": "slides/wk02-2025-01-23.html#information-processing-perspective",
+    "title": "Neuroanatomy",
+    "section": "Information processing perspective",
+    "text": "Information processing perspective\n\nInputs from\n\nWorld\nBody\nBrain1\n\n\nshorthand for nervous system"
+  },
+  {
+    "objectID": "slides/wk02-2025-01-23.html#functional-anatomy-perspective",
+    "href": "slides/wk02-2025-01-23.html#functional-anatomy-perspective",
+    "title": "Neuroanatomy",
+    "section": "Functional anatomy perspective",
+    "text": "Functional anatomy perspective\n\nLocated where\nConnected to\nInvolved in"
   },
   {
     "objectID": "slides/wk02-2025-01-23.html#brain-anatomy-through-dance",
@@ -1355,42 +1250,42 @@
     "href": "slides/wk02-2025-01-23.html#central-vs.-peripheral-nervous-system",
     "title": "Neuroanatomy",
     "section": "Central vs. Peripheral Nervous System",
-    "text": "Central vs. Peripheral Nervous System\n\n\n\nNervous system of Harriet Cole, see McNaughton (2018)"
+    "text": "Central vs. Peripheral Nervous System\n\nNervous system of Harriet Cole, see McNaughton (2018)"
   },
   {
     "objectID": "slides/wk02-2025-01-23.html#organization-of-the-cns",
     "href": "slides/wk02-2025-01-23.html#organization-of-the-cns",
     "title": "Neuroanatomy",
     "section": "Organization of the CNS",
-    "text": "Organization of the CNS\n\n\n\n\n\n\n\n\n\nMajor division\nVentricular Landmark\nEmbryonic Division\nStructure\n\n\n\n\nForebrain\nLateral\nTelencephalon\nCerebral cortex\n\n\n\n\n\nBasal ganglia\n\n\n\n\n\nHippocampus, amygdala\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajor division\nVentricular Landmark\nEmbryonic Division\nStructure\n\n\n\n\n\nThird\nDiencephalon\nThalamus\n\n\n\n\n\nHypothalamus\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajor division\nVentricular Landmark\nEmbryonic Division\nStructure\n\n\n\n\nMidbrain\nCerebral Aqueduct\nMesencephalon\nTectum, tegmentum\n\n\n\n\n\n\n\n\n\n\n\n\n\nMajor division\nVentricular Landmark\nEmbryonic Division\nStructure\n\n\n\n\nHindbrain\n4th\nMetencephalon\nCerebellum, pons\n\n\n\n–\nMylencephalon\nMedulla oblongata\n\n\n\n\nForebrain, midbrain, hindbrain terminology derives from embryonic stages in CNS development.\n\n\n\nEmbryonic human brain from Wikipedia"
+    "text": "Organization of the CNS\n\n\n\n\n\n\n\n\n\nMajor division\nVentricular Landmark\nEmbryonic Division\nStructure\n\n\n\n\nForebrain\nLateral\nTelencephalon\nCerebral cortex\n\n\n\n\n\nBasal ganglia\n\n\n\n\n\nHippocampus, amygdala"
   },
   {
     "objectID": "slides/wk02-2025-01-23.html#cerebrum",
     "href": "slides/wk02-2025-01-23.html#cerebrum",
     "title": "Neuroanatomy",
     "section": "Cerebrum",
-    "text": "Cerebrum\n\n(Cerebral) cortex\nSubcortical (below the cortex) structures\n\n\n\n\nLabelled MRI including thalamus and hypothalamus"
+    "text": "Cerebrum\n\n(Cerebral) cortex\nSubcortical (below the cortex) structures\n\n\nLabelled MRI including thalamus and hypothalamus"
   },
   {
     "objectID": "slides/wk02-2025-01-23.html#cerebral-cortex",
     "href": "slides/wk02-2025-01-23.html#cerebral-cortex",
     "title": "Neuroanatomy",
     "section": "(Cerebral) cortex",
-    "text": "(Cerebral) cortex\n\nLobes, marked by sulci/fissures, adjacency to bones of skull\nFunctional areas marked by gyri & sulci\nBrodmann Areas\n\nMicrostructural (cellular composition) features\n\n\n\n\nMost lobes host primary sensory or motor area\n\nFrontal: Motor cortex\nTemporal: Auditory cortex\nParietal: Somatosensory cortex\nOccipital: Visual cortex\nInsula: Gustatory"
+    "text": "(Cerebral) cortex\n\nLobes, marked by sulci/fissures, adjacency to bones of skull\nFunctional areas marked by gyri & sulci\nBrodmann Areas\n\nMicrostructural (cellular composition) features"
   },
   {
     "objectID": "slides/wk02-2025-01-23.html#inputoutput",
     "href": "slides/wk02-2025-01-23.html#inputoutput",
     "title": "Neuroanatomy",
     "section": "Input/output",
-    "text": "Input/output\n\nVia cranial nerves (in CNS)\nVia spinal nerves (in PNS)\n\n\n\n\n\nCranial nerves from https://www.britannica.com/science/cranial-nerve#/media/1/141797/46720\n\n\n\n\n\n\nhttps://www.researchgate.net/profile/Saeede-Rahimi-Damirchi-Darasi/publication/324683974/figure/fig10/AS:753484697726976@1556656159277/Diagram-showing-the-relationship-between-spinal-nerve-roots-and-vertebrae-27.jp\n\n\n\nMultiple hierarchies\n\n\n\n(Swanson, 2005, fig. 1)"
+    "text": "Input/output\n\nVia cranial nerves (in CNS)\nVia spinal nerves (in PNS)"
   },
   {
     "objectID": "slides/wk02-2025-01-23.html#maps",
     "href": "slides/wk02-2025-01-23.html#maps",
     "title": "Neuroanatomy",
     "section": "Maps",
-    "text": "Maps\n\nSensory & motor systems often use maps\n\n\n\n\n\nhttps://www.researchgate.net/profile/Brian-Wandell/publication/8988812/figure/fig1/AS:280067633631238@1443784735289/The-Retinotopy-paradigm-Two-stimuli-are-used-to-measure-the-retinotopic-maps-in-cortex.png\n\n\n\n\n\n\nFigure 1 from Saenz & Langers (2014)\n\n\n\n\n\n\nWikipedia\n\n\n\n\nGeometric issues central for perceptual/motor behavior\nDo other systems “map” function to structure?"
+    "text": "Maps\n\nSensory & motor systems often use maps"
   },
   {
     "objectID": "slides/wk02-2025-01-23.html#overview",
@@ -1404,7 +1299,7 @@
     "href": "slides/wk02-2025-01-23.html#main-points",
     "title": "Neuroanatomy",
     "section": "Main points",
-    "text": "Main points\n\nDirectional terms\nWhat is it\nWhere is it\n\nRelative to other things\nCNS/PNS\nForebrain/midbrain/hindbrain\n\n\n\n\nCerebral cortex and its subparts\nGrey matter vs. white matter"
+    "text": "Main points\n\nDirectional terms\nWhat is it\nWhere is it\n\nRelative to other things\nCNS/PNS\nForebrain/midbrain/hindbrain"
   },
   {
     "objectID": "slides/wk02-2025-01-23.html#next-time",
@@ -1461,257 +1356,5 @@
     "title": "Neurochemistry & Neurocomputing",
     "section": "References",
     "text": "References"
-  },
-  {
-    "objectID": "exercises/ex02.html",
-    "href": "exercises/ex02.html",
-    "title": "Exercise 02 • Neuroanatomy",
-    "section": "",
-    "text": "Some change"
-  },
-  {
-    "objectID": "exercises/ex02.html#goals",
-    "href": "exercises/ex02.html#goals",
-    "title": "Exercise 02 • Neuroanatomy",
-    "section": "Goals",
-    "text": "Goals\n\nTo use core neuroanatomical terms in multiple contexts.\nTo practice locating and identifying neuroanatomical structures.\nTo understand what structures are located near other structures.\nTo understand what structures can or cannot be seen from the surface."
-  },
-  {
-    "objectID": "exercises/ex02.html#activity",
-    "href": "exercises/ex02.html#activity",
-    "title": "Exercise 02 • Neuroanatomy",
-    "section": "Activity",
-    "text": "Activity\nThere will be three stations, one with the brain models, one with brain specimens, and the third with paper atlases. At each station, do the following:\n\nWork through the list below.\nIf you can identify the structure or term, put a check mark.\nIf you are unsure, put a question mark.\nStructures or terms you cannot identify should be left blank.\n\n\n\n\n\n\n\nNote\n\n\n\nIf you have time, you might pick one or two of the anatomical structures that you highlighted in Exercise 01 and try to locate them.\nIf you cannot identify a structure or term in any of the stations or atlases, try to find an image on the internet that depicts the structure. If you If this fails, ask Dr. Gilmore for help.\n\n\nOnce you have completed the three stations, you may make a fourth pass through the outline using one (or more) of the electronic atlases:\n\nHarvard Brain Atlas http://www.med.harvard.edu/aanlib/cases/caseNA/pb9.htm\nAllen Brain Atlas\n\nHuman female adult (modified Brodmann\nHuman female adult (gyral)\n\n3D Brain from Brainfacts.org\n\nFollow the same procedure as before, adding checkmarks, or question marks where appropriate."
-  },
-  {
-    "objectID": "exercises/ex02.html#submission-details",
-    "href": "exercises/ex02.html#submission-details",
-    "title": "Exercise 02 • Neuroanatomy",
-    "section": "Submission details",
-    "text": "Submission details\n\nSubmit a photocopy or image of your outline by Wednesday, January 24, 2024 at 11:59 pm.\nIf you found any additional resources that were especially useful to you, please share them."
-  },
-  {
-    "objectID": "exercises/ex02.html#directional-terms",
-    "href": "exercises/ex02.html#directional-terms",
-    "title": "Exercise 02 • Neuroanatomy",
-    "section": "Directional terms",
-    "text": "Directional terms\n\n\n\n\n\n\n\n\n\n\nDirection\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nRostral/caudal\n\n\n\n\n\n\nAnterior/posterior\n\n\n\n\n\n\nMedial/lateral\n\n\n\n\n\n\nDorsal/ventral\n\n\n\n\n\n\nSuperior/inferior"
-  },
-  {
-    "objectID": "exercises/ex02.html#planes-of-section",
-    "href": "exercises/ex02.html#planes-of-section",
-    "title": "Exercise 02 • Neuroanatomy",
-    "section": "Planes of Section",
-    "text": "Planes of Section\n\n\n\nPlane\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nSagittal\n\n\n\n\n\n\nCoronal/frontal\n\n\n\n\n\n\nAxial/horizontal/transverse"
-  },
-  {
-    "objectID": "exercises/ex02.html#brain-structure",
-    "href": "exercises/ex02.html#brain-structure",
-    "title": "Exercise 02 • Neuroanatomy",
-    "section": "Brain Structure",
-    "text": "Brain Structure\n\n\n\nStructure\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nForebrain\n\n\n\n\n\n\nMidbrain\n\n\n\n\n\n\nHindbrain"
-  },
-  {
-    "objectID": "exercises/ex02.html#surface-of-cerebral-cortex",
-    "href": "exercises/ex02.html#surface-of-cerebral-cortex",
-    "title": "Exercise 02 • Neuroanatomy",
-    "section": "Surface of Cerebral Cortex",
-    "text": "Surface of Cerebral Cortex\n\n\n\nStructure\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nCentral sulcus\n\n\n\n\n\n\nLateral sulcus/fissure\n\n\n\n\n\n\nLongitudinal fissure\n\n\n\n\n\n\nCerebral hemispheres\n\n\n\n\n\n\nParietal lobe\n\n\n\n\n\n\nFrontal lobe\n\n\n\n\n\n\nInsular cortex\n\n\n\n\n\n\nTemporal lobe\n\n\n\n\n\n\nOccipital lobe\n\n\n\n\n\n\nPrecentral gyrus\n\n\n\n\n\n\nPostcentral gyrus\n\n\n\n\n\n\nSuperior temporal gyrus"
-  },
-  {
-    "objectID": "exercises/ex02.html#fiber-tracts",
-    "href": "exercises/ex02.html#fiber-tracts",
-    "title": "Exercise 02 • Neuroanatomy",
-    "section": "Fiber tracts",
-    "text": "Fiber tracts\n\n\n\nStructure\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nCorpus callosum\n\n\n\n\n\n\nAnterior commissure\n\n\n\n\n\n\nPosterior commissure\n\n\n\n\n\n\nOlfactory nerve, Ist\n\n\n\n\n\n\nOptic nerve/tract, IInd\n\n\n\n\n\n\nOptic chiasm\n\n\n\n\n\n\nFornix"
-  },
-  {
-    "objectID": "exercises/ex02.html#subcortical-structures",
-    "href": "exercises/ex02.html#subcortical-structures",
-    "title": "Exercise 02 • Neuroanatomy",
-    "section": "Subcortical structures",
-    "text": "Subcortical structures\n\n\n\nStructure\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nCaudate nucleus\n\n\n\n\n\n\nPutamen\n\n\n\n\n\n\nGlobus Pallidus\n\n\n\n\n\n\nThalamus\n\n\n\n\n\n\nHypothalamus\n\n\n\n\n\n\nPituitary gland\n\n\n\n\n\n\nHippocampus\n\n\n\n\n\n\nAmygdala"
-  },
-  {
-    "objectID": "exercises/ex02.html#midbrain",
-    "href": "exercises/ex02.html#midbrain",
-    "title": "Exercise 02 • Neuroanatomy",
-    "section": "Midbrain",
-    "text": "Midbrain\n\n\n\nStructure\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nTectum\n\n\n\n\n\n\nSuperior colliculus\n\n\n\n\n\n\nInferior colliculus\n\n\n\n\n\n\nTegmentum\n\n\n\n\n\n\nSubstantia nigra\n\n\n\n\n\n\nVentral tegmental area\n\n\n\n\n\n\nLocus coeruleus"
-  },
-  {
-    "objectID": "exercises/ex02.html#hindbrain",
-    "href": "exercises/ex02.html#hindbrain",
-    "title": "Exercise 02 • Neuroanatomy",
-    "section": "Hindbrain",
-    "text": "Hindbrain\n\n\n\nStructure\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nCerebellum\n\n\n\n\n\n\nPons\n\n\n\n\n\n\nMedulla Oblongata\n\n\n\n\n\n\nSpinal cord"
-  },
-  {
-    "objectID": "exercises/ex02.html#ventricles",
-    "href": "exercises/ex02.html#ventricles",
-    "title": "Exercise 02 • Neuroanatomy",
-    "section": "Ventricles",
-    "text": "Ventricles\n\n\n\nStructure\nModel\nSpecimen\nPaper Atlas\nElectronic Atlas\n\n\n\n\nLateral ventricles\n\n\n\n\n\n\n3rd ventricle\n\n\n\n\n\n\nCerebral aqueduct\n\n\n\n\n\n\n4th ventricle"
-  },
-  {
-    "objectID": "exercises/ex04.html",
-    "href": "exercises/ex04.html",
-    "title": "Exercise 04 • Neurophysiology II",
-    "section": "",
-    "text": "To understand what change(s) in the resting state of neurons cause the action potential.\nTo understand how the action potential results in the release of neurotransmitter from the axon terminal (terminal button)."
-  },
-  {
-    "objectID": "exercises/ex04.html#goals",
-    "href": "exercises/ex04.html#goals",
-    "title": "Exercise 04 • Neurophysiology II",
-    "section": "",
-    "text": "To understand what change(s) in the resting state of neurons cause the action potential.\nTo understand how the action potential results in the release of neurotransmitter from the axon terminal (terminal button)."
-  },
-  {
-    "objectID": "exercises/ex04.html#activity",
-    "href": "exercises/ex04.html#activity",
-    "title": "Exercise 04 • Neurophysiology II",
-    "section": "Activity",
-    "text": "Activity\nYou may work by yourself or with up to two other people for this activity. If it is easier, you may draw figures and annotate them.\nAnswer the following questions in no more than a few sentences:\n\nWhat event(s) trigger the rising phase of the action potential in the axon initial segment?\nWhat event(s) occur at the peak of the action potential?\nWhat event(s) occur during the falling phase of the action potential?\nWhy does the membrane potential overshoot (become more negative than) the typical resting potential?\nWhy can’t the neuron fire another action potential during the absolute refractory period? What do we need to do to generate an action potential during the relative refractory period?\nWhat makes “computing” with wires and action potentials “expensive” for the nervous system?\nHow do psychologists benefit from learning more about these details of neurophysiology?"
-  },
-  {
-    "objectID": "exercises/ex04.html#submission-details",
-    "href": "exercises/ex04.html#submission-details",
-    "title": "Exercise 04 • Neurophysiology II",
-    "section": "Submission details",
-    "text": "Submission details\n\nSubmit your write-up by Wednesday, February 19, 2025 at 11:59 pm.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
-  },
-  {
-    "objectID": "exercises/ex06.html",
-    "href": "exercises/ex06.html",
-    "title": "Exercise 06 • Methods",
-    "section": "",
-    "text": "To understand what aspect of neural structure or function a given method measures.\nTo understand what spatial and temporal scales characterize different methods.\nTo understand the comparative strengths and weaknesses of different methods in answering questions about behavior and internal states (thoughts, feelings, and memories)."
-  },
-  {
-    "objectID": "exercises/ex06.html#goals",
-    "href": "exercises/ex06.html#goals",
-    "title": "Exercise 06 • Methods",
-    "section": "",
-    "text": "To understand what aspect of neural structure or function a given method measures.\nTo understand what spatial and temporal scales characterize different methods.\nTo understand the comparative strengths and weaknesses of different methods in answering questions about behavior and internal states (thoughts, feelings, and memories)."
-  },
-  {
-    "objectID": "exercises/ex06.html#activity",
-    "href": "exercises/ex06.html#activity",
-    "title": "Exercise 06 • Methods",
-    "section": "Activity",
-    "text": "Activity\nAnswer the following questions in a few sentences:\n\nWhat technique(s) for recording neural activity have especially high spatial and temporal resolution?\nWhich of these techniques would be most suitable for use with human participants?\nWhy is functional MRI considered an indirect measure of neuronal activity?\n\nChoose a behavior, an internal psychological state, or a disorder that interests you or your group partners. Search the literature for one to three (1-3) papers that illustrate two to three (2-3) different methods. Answer the following questions about these papers and methods in a few sentences:\n\nFor each method, describe what evidence it provides about the neurological basis of your topic.\nHow do the different sources of evidence compare with one another?\nWhat essential gaps exist in our understanding of the psychological phenomenon based on the biological evidence?"
-  },
-  {
-    "objectID": "exercises/ex06.html#submission-details",
-    "href": "exercises/ex06.html#submission-details",
-    "title": "Exercise 06 • Methods",
-    "section": "Submission details",
-    "text": "Submission details\n\nSubmit your write-up by Wednesday, March 5, 2025 at 11:59 pm.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
-  },
-  {
-    "objectID": "exercises/ex08.html",
-    "href": "exercises/ex08.html",
-    "title": "Exercise 08 • Development",
-    "section": "",
-    "text": "Practice taking a developmental neuroscience perspective to psychological phenomena.\nIllustrate how taking such a perspective does or does not inform understanding about a particular phenomenon."
-  },
-  {
-    "objectID": "exercises/ex08.html#goals",
-    "href": "exercises/ex08.html#goals",
-    "title": "Exercise 08 • Development",
-    "section": "",
-    "text": "Practice taking a developmental neuroscience perspective to psychological phenomena.\nIllustrate how taking such a perspective does or does not inform understanding about a particular phenomenon."
-  },
-  {
-    "objectID": "exercises/ex08.html#activity",
-    "href": "exercises/ex08.html#activity",
-    "title": "Exercise 08 • Development",
-    "section": "Activity",
-    "text": "Activity\n\nChoose a psychological domain that interests you.\nIn the spirit of (Blumberg & Adolph, 2023), write a short essay (3-5 pp) where you apply a developmental neuroscience perspective to the domain. In doing so, concisely answer the following questions:\n\n\nHow does psychological functioning change over development?\nWhat brain systems are most directly implicated in the phenomenon?\nDoes our current understanding of developmental patterns in these systems provide useful information about the domain?\nWhat information about brain structure or function is needed to understand the phenomenon more thoroughly?"
-  },
-  {
-    "objectID": "exercises/ex08.html#submission-details",
-    "href": "exercises/ex08.html#submission-details",
-    "title": "Exercise 08 • Development",
-    "section": "Submission details",
-    "text": "Submission details\n\nSubmit your write-up by Wednesday, March 13, 2024 at 11:59 pm.\nIf you work with other people, please indicate the name(s) of your co-authors in your document. You need not include them in the document file name, however.\nIf you found any resources that were especially useful to you in answering these questions, please cite them."
-  },
-  {
-    "objectID": "schedule.html#finals-week",
-    "href": "schedule.html#finals-week",
-    "title": "Schedule",
-    "section": "May 4-9",
-    "text": "May 4-9\n\nThursday, May 08\n\nFinal Project write-up due | Canvas dropbox"
-  },
-  {
-    "objectID": "slides/wk01-2025-01-16.html#problematic-assumptions",
-    "href": "slides/wk01-2025-01-16.html#problematic-assumptions",
-    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "Problematic assumptions",
-    "text": "Problematic assumptions\n\nSegal et al. (2024)"
-  },
-  {
-    "objectID": "slides/wk01-2025-01-16.html#assumptions-are-problematic",
-    "href": "slides/wk01-2025-01-16.html#assumptions-are-problematic",
-    "title": "Foundations of Social, Cognitive, and Affective Neuroscience",
-    "section": "Assumptions are problematic",
-    "text": "Assumptions are problematic\n\nSegal et al. (2024)"
-  },
-  {
-    "objectID": "slides/wk02-2025-01-23.html",
-    "href": "slides/wk02-2025-01-23.html",
-    "title": "Neuroanatomy",
-    "section": "",
-    "text": "ctdalilah (2006)\n\n\nKids Learning Tube (2015) \n\n\n\nExercise 02 due next Wednesday, January 29, 2025.\n\n\n\n\n\nNeuroanatomy\n\nBrief overview\nIn-class lab\nExercise 02"
-  },
-  {
-    "objectID": "slides/wk02-2025-01-23.html#information-processing-perspective",
-    "href": "slides/wk02-2025-01-23.html#information-processing-perspective",
-    "title": "Neuroanatomy",
-    "section": "Information processing perspective",
-    "text": "Information processing perspective\n\nInputs from\n\nWorld\nBody\nBrain1\n\n\n\n\nOutputs to\n\nWorld\nBody\nBrain\n\nWhat computations occur where"
-  },
-  {
-    "objectID": "slides/wk02-2025-01-23.html#functional-anatomy-perspective",
-    "href": "slides/wk02-2025-01-23.html#functional-anatomy-perspective",
-    "title": "Neuroanatomy",
-    "section": "Functional anatomy perspective",
-    "text": "Functional anatomy perspective\n\nLocated where\nConnected to\nInvolved in"
-  },
-  {
-    "objectID": "slides/wk03-2025-01-30.html",
-    "href": "slides/wk03-2025-01-30.html",
-    "title": "Cellular neuroscience I",
-    "section": "",
-    "text": "http://www.gregadunn.com/\n\n\n\n\nhttps://www.youtube.com/embed/nvXuq9jRWKE\n\n\n\nExercise 03 distributed.\n\ndue next in two weeks on Wednesday, February 7\n\n\n\n\n\n\nNeuroanatomy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCellular neuroscience\n\nNeurons\nGlia\n\nThe resting potential"
-  },
-  {
-    "objectID": "slides/wk02-2025-01-23.html#footnotes",
-    "href": "slides/wk02-2025-01-23.html#footnotes",
-    "title": "Neuroanatomy",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nshorthand for nervous system↩︎"
-  },
-  {
-    "objectID": "slides/wk03-2025-01-30.html#in-the-news",
-    "href": "slides/wk03-2025-01-30.html#in-the-news",
-    "title": "Cellular neuroscience I",
-    "section": "In the news…",
-    "text": "In the news…\n\nEckert et al. (2024)"
-  },
-  {
-    "objectID": "resources/cells.html#behavior-in-single-celled-organisms",
-    "href": "resources/cells.html#behavior-in-single-celled-organisms",
-    "title": "Cellular neuroscience",
-    "section": "",
-    "text": "Purushotham (2007)\n\n\n\nEckert et al. (2024)"
-  },
-  {
-    "objectID": "resources/cells.html#why-psychologists-should-care-about-the-cellular-level-of-analysis",
-    "href": "resources/cells.html#why-psychologists-should-care-about-the-cellular-level-of-analysis",
-    "title": "Cellular neuroscience",
-    "section": "",
-    "text": "Purushotham (2007)\n\nEscherichia Coli (E. Coli)\n\nTiny, single-celled bacterium\nFeeds on glucose\nChemo (“taste”) receptors on surface membrane\nFlagellum for movement\nFood concentration regulates duration of “move” phase\n~4 ms for chemical signal to diffuse from anterior/posterior\n\n\n\n\n\n\n\n\nEckert et al. (2024)\n\n\n\n\n\n\n\n\n\n\n\nBiological communication channels\n\n\n\n\nElectrical\n\nFast(er) (10-100x)\nWithin neurons\nFrom one part of body to another\nPoint-to-point connections for specificity\nMetabolically costly to create & maintain\nHow to reliably send a message from here to there?\n\nChemical\n\nDiffusion slow(er)\nWithin & between neurons\nor other cells\nMolecular matching (binding) for specificity\nMetabolically efficient\n\n\n\n\n\n\n\n300K larger than E. Coli\nPropulsion through coordinated beating of cilia\nDiffusion from head to tail ~40 s!\nUse electrical signaling instead\n\n\\(Na^+\\) channel opens (e.g., when stretched)\nVoltage-gated \\(Ca^{++}\\) channels open, \\(Ca^{++}\\) enters, triggers cilia\nSignal across cell within ms\n\n\n\n\n\n\n\nBio-Rad Laboratories (2013)\n\n~10x larger than paramecium\nmulticellular invertebrate\n302 neurons (118 classes) + 56 glial cells (out of 959 total cells) (Hobert, 2010)\nSwim, forage, mate\n\n\n\n\n\n\n\nSterling & Laughlin (2021)\n\n\n\nChemical communication specific (neurotransmitters \\(\\rightarrow\\) receptors)\nEnergy efficient\nBut slow\n\n\n\n\n\n\n\nBrain energetics\n\n\n\n\nThe human brain is just 2% of the body’s weight, but 20% of its metabolic load, and 10 times more expensive per gram than muscle. On the other hand, the brain manages to produce poetry, design spacecraft, and create art on an energy budget of 20 W, a paltry sum given that the computer on which this article is being typed requires 80 W.\n\nBalasubramanian (2021)"
   }
 ]
