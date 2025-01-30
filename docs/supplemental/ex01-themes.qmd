@@ -1,6 +1,5 @@
 ---
 title: "Exercise 01 Themes"
-format: html
 ---
 
 ## About
