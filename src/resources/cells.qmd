@@ -6,9 +6,13 @@ format:
     toc-depth: 4
 ---
 
-## Why animals need nervous systems
+## Why psychologists should care about the cellular level of analysis
 
-[Sterling & Laughlin, 2015](https://mitpress.mit.edu/neuraldesign%20)
+### Single-celled organisms behave
+
+{{< video https://www.youtube.com/embed/QGAm6hMysTA?rel=0 >}}
+
+@Purushotham2007-ne
 
 - [*Escherichia Coli (E. Coli)*](https://en.wikipedia.org/wiki/Escherichia_coli)
   - Tiny, single-celled bacterium
@@ -17,34 +21,15 @@ format:
   - Flagellum for movement
   - Food concentration regulates duration of "move" phase
   - ~4 ms for chemical signal to diffuse from anterior/posterior
-  
-<div class="centered">
-<iframe width="800" height="450" src="https://www.youtube.com/embed/QGAm6hMysTA?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
 
-- [*Paramecium*](https://en.wikipedia.org/wiki/Paramecium)
-  - 300K larger than E. Coli
-  - Propulsion through coordinated beating of cilia
-  - Diffusion from head to tail ~40 s!
-  - Use *electrical* signaling instead
-    - $Na^+$ channel opens (e.g., when stretched)
-    - Voltage-gated $Ca^{++}$ channels open, $Ca^{++}$ enters, triggers cilia
-    - Signal across cell within ms
+### Learn
 
-<div class="centered">
-<iframe width="800" height="450" src="https://www.youtube.com/embed/GgZHziFWR7M?rel=0" frameborder="0" allowfullscreen></iframe>
-</div>
+![@Eckert2024-hd](../include/img/eckert-etal-2024.png)
 
-<div class="notes">
-C Elegans swimming.
-</div>
+### Use communication mechanisms similar to multicellular organisms
 
-- [*Caenorhabditis Elegans (C. Elegans)*](https://en.wikipedia.org/wiki/Caenorhabditis_elegans)
-  - ~10x larger than paramecium
-  - 302 neurons + 56 glial cells (out of 959)
-  - Swim, forage, mate
-
-### Neural communication types
+::: {.callout-important}
+### Biological communication channels
 
 - Electrical
     + Fast(er) (10-100x)
@@ -59,8 +44,43 @@ C Elegans swimming.
     + or other cells
     - Molecular matching (binding) for specificity
     - Metabolically efficient
+:::
+
+#### [*Paramecium*](https://en.wikipedia.org/wiki/Paramecium)
+  - 300K larger than E. Coli
+  - Propulsion through coordinated beating of cilia
+  - Diffusion from head to tail ~40 s!
+  - Use *electrical* signaling instead
+    - $Na^+$ channel opens (e.g., when stretched)
+    - Voltage-gated $Ca^{++}$ channels open, $Ca^{++}$ enters, triggers cilia
+    - Signal across cell within ms
     
+### [*Caenorhabditis Elegans (C. Elegans)*](https://en.wikipedia.org/wiki/Caenorhabditis_elegans) 
+
+{{< video https://www.youtube.com/embed/GgZHziFWR7M?rel=0 >}}
+
+@Bio-Rad-Laboratories2013-so
+
+- ~10x larger than paramecium
+- multicellular invertebrate
+- 302 neurons (118 classes) + 56 glial cells (out of 959 total cells) [@Hobert2010-dl]
+- Swim, forage, mate
+
 ### So, why do large/complex animals need nervous systems?
+
+![@Sterling2021-yx](https://mit-press-us.imgix.net/covers/9780262534680.jpg){width=30%}
+
+- Chemical communication specific (neurotransmitters $\rightarrow$ receptors)
+- Energy efficient
+- But slow
+
+::: {.callout-note}
+## Brain energetics
+
+>The human brain is just 2% of the body’s weight, but 20% of its metabolic load, and 10 times more expensive per gram than muscle. On the other hand, the brain manages to produce poetry, design spacecraft, and create art on an energy budget of 20 W, a paltry sum given that the computer on which this article is being typed requires 80 W. 
+
+@Balasubramanian2021-fw
+:::
 
 ## Cellular neuroanatomy
 
@@ -511,13 +531,9 @@ Under typical conditions
 | Refractory period | $Na^+$/$K^+$ pump restores [$Na^+$], [$K^+$]; voltage-gated $K^+$ channels close |
 | Resting potential | Passive $K^+$ allow outward flow; passive $Na^+$ allow inward flow;  $Na^+$/$K^+$ moves $K^+$ in and $Na^+$ out |
 
-```{r}
-knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png")
-```
+![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png)
 
-```{r}
-knitr::include_graphics("http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif")
-```
+![](http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif)
 
 ##### Neuron at rest
 
@@ -621,7 +637,7 @@ knitr::include_graphics("http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgb
     - Same rates, but different timing
     - "Grandmother" cells and single spikes
 
-![[@eyherabide_bursts_2009]](http://www.frontiersin.org/files/Articles/490/fnins-03-002/image_n/fnins-03-002-g001.gif)
+![@eyherabide_bursts_2009](http://www.frontiersin.org/files/Articles/490/fnins-03-002/image_n/fnins-03-002-g001.gif)
 
 #### Generating action potentials
 
@@ -688,15 +704,11 @@ knitr::include_graphics("http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgb
 - *Voltage-gated calcium Ca++ channels* open
 - $Ca^{++}$ influx causes *synaptic vesicles* to bind with presynaptic membrane, fuse with membrane, spill contents via *exocytosis*
 
-![[Figure 1 from @Haucke2011-ub]](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2948/MediaObjects/41583_2011_Article_BFnrn2948_Fig1_HTML.jpg?as=webp)
+![Figure 1 from @Haucke2011-ub](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2948/MediaObjects/41583_2011_Article_BFnrn2948_Fig1_HTML.jpg?as=webp)
 
-![[@Hastoy2017-it]](https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-fx1.jpg)
+![@Hastoy2017-it](https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-fx1.jpg)
 
-```{r, fig.cap="[[@Hastoy2017-it]](https://doi.org/10.1016/j.ceca.2017.10.005)",  out.width="900px"}
-knitr::include_graphics("https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-fx1.jpg")
-```
-
-![[@Hastoy2017-it]](https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-gr1_lrg.jpg)
+![@Hastoy2017-it](https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-gr1_lrg.jpg)
 
 ![Wikipedia](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Junctional_complex_and_pinocytotic_vesicles_-_embryonic_brain-TEM.jpg/1502px-Junctional_complex_and_pinocytotic_vesicles_-_embryonic_brain-TEM.jpg)
 

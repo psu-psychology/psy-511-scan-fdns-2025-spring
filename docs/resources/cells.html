@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2025-01-29">
+<meta name="dcterms.date" content="2025-01-30">
 
 <title>Cellular neuroscience – PSY 511.003</title>
 <style>
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 /* CSS for citations */
 div.csl-bib-body { }
@@ -213,6 +179,10 @@ window.Quarto = {
  <span class="dropdown-text">Exercise 02 • Neuroanatomy</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../exercises/ex03.pdf">
+ <span class="dropdown-text">Exercise 03 • Neurophysiology I</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../exercises/final-project.pdf">
  <span class="dropdown-text">Final project</span></a>
   </li>  
@@ -244,8 +214,8 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="da361ecd5f205eacde3c1f17f7b4b5db" class="alert alert-primary hidden"><div class="quarto-announcement-content">
-<p><a href="exercises/ex02.qmd">Exercise 02</a> neuroanatomy lab write-up due Wednesday, January 29.</p>
+  <div id="quarto-announcement" data-announcement-id="35b20298264701d4aebdc2d483e6cd79" class="alert alert-primary hidden"><div class="quarto-announcement-content">
+<p><a href="exercises/ex02.qmd">Exercise 02</a> neuroanatomy lab write-up due Wednesday, January 29 | <a href="https://psu.instructure.com/courses/2379931/assignments/17020749">Canvas dropbox</a></p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
@@ -257,9 +227,15 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-animals-need-nervous-systems" id="toc-why-animals-need-nervous-systems" class="nav-link active" data-scroll-target="#why-animals-need-nervous-systems">Why animals need nervous systems</a>
+  <li><a href="#why-psychologists-should-care-about-the-cellular-level-of-analysis" id="toc-why-psychologists-should-care-about-the-cellular-level-of-analysis" class="nav-link active" data-scroll-target="#why-psychologists-should-care-about-the-cellular-level-of-analysis">Why psychologists should care about the cellular level of analysis</a>
   <ul>
-  <li><a href="#neural-communication-types" id="toc-neural-communication-types" class="nav-link" data-scroll-target="#neural-communication-types">Neural communication types</a></li>
+  <li><a href="#single-celled-organisms-behave" id="toc-single-celled-organisms-behave" class="nav-link" data-scroll-target="#single-celled-organisms-behave">Single-celled organisms behave</a></li>
+  <li><a href="#learn" id="toc-learn" class="nav-link" data-scroll-target="#learn">Learn</a></li>
+  <li><a href="#use-communication-mechanisms-similar-to-multicellular-organisms" id="toc-use-communication-mechanisms-similar-to-multicellular-organisms" class="nav-link" data-scroll-target="#use-communication-mechanisms-similar-to-multicellular-organisms">Use communication mechanisms similar to multicellular organisms</a>
+  <ul class="collapse">
+  <li><a href="#paramecium" id="toc-paramecium" class="nav-link" data-scroll-target="#paramecium"><em>Paramecium</em></a></li>
+  </ul></li>
+  <li><a href="#caenorhabditis-elegans-c.-elegans" id="toc-caenorhabditis-elegans-c.-elegans" class="nav-link" data-scroll-target="#caenorhabditis-elegans-c.-elegans"><em>Caenorhabditis Elegans (C. Elegans)</em></a></li>
   <li><a href="#so-why-do-largecomplex-animals-need-nervous-systems" id="toc-so-why-do-largecomplex-animals-need-nervous-systems" class="nav-link" data-scroll-target="#so-why-do-largecomplex-animals-need-nervous-systems">So, why do large/complex animals need nervous systems?</a></li>
   </ul></li>
   <li><a href="#cellular-neuroanatomy" id="toc-cellular-neuroanatomy" class="nav-link" data-scroll-target="#cellular-neuroanatomy">Cellular neuroanatomy</a>
@@ -334,14 +310,14 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 29, 2025</p>
+      <p class="date">January 30, 2025</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">January 29, 2025</p>
+      <p class="date-modified">January 30, 2025</p>
     </div>
   </div>
     
@@ -352,9 +328,12 @@ window.Quarto = {
 </header>
 
 
-<section id="why-animals-need-nervous-systems" class="level2">
-<h2 class="anchored" data-anchor-id="why-animals-need-nervous-systems">Why animals need nervous systems</h2>
-<p><a href="https://mitpress.mit.edu/neuraldesign%20">Sterling &amp; Laughlin, 2015</a></p>
+<section id="why-psychologists-should-care-about-the-cellular-level-of-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="why-psychologists-should-care-about-the-cellular-level-of-analysis">Why psychologists should care about the cellular level of analysis</h2>
+<section id="single-celled-organisms-behave" class="level3">
+<h3 class="anchored" data-anchor-id="single-celled-organisms-behave">Single-celled organisms behave</h3>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/QGAm6hMysTA?rel=0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p><span class="citation" data-cites="Purushotham2007-ne">Purushotham (<a href="#ref-Purushotham2007-ne" role="doc-biblioref">2007</a>)</span></p>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Escherichia_coli"><em>Escherichia Coli (E. Coli)</em></a>
 <ul>
@@ -366,41 +345,28 @@ window.Quarto = {
 <li>~4 ms for chemical signal to diffuse from anterior/posterior</li>
 </ul></li>
 </ul>
-<div class="centered">
-<iframe width="800" height="450" src="https://www.youtube.com/embed/QGAm6hMysTA?rel=0" frameborder="0" allowfullscreen="">
-</iframe>
+</section>
+<section id="learn" class="level3">
+<h3 class="anchored" data-anchor-id="learn">Learn</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../include/img/eckert-etal-2024.png" class="img-fluid figure-img"></p>
+<figcaption><span class="citation" data-cites="Eckert2024-hd">Eckert et al. (<a href="#ref-Eckert2024-hd" role="doc-biblioref">2024</a>)</span></figcaption>
+</figure>
 </div>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Paramecium"><em>Paramecium</em></a>
-<ul>
-<li>300K larger than E. Coli</li>
-<li>Propulsion through coordinated beating of cilia</li>
-<li>Diffusion from head to tail ~40 s!</li>
-<li>Use <em>electrical</em> signaling instead
-<ul>
-<li><span class="math inline">\(Na^+\)</span> channel opens (e.g., when stretched)</li>
-<li>Voltage-gated <span class="math inline">\(Ca^{++}\)</span> channels open, <span class="math inline">\(Ca^{++}\)</span> enters, triggers cilia</li>
-<li>Signal across cell within ms</li>
-</ul></li>
-</ul></li>
-</ul>
-<div class="centered">
-<iframe width="800" height="450" src="https://www.youtube.com/embed/GgZHziFWR7M?rel=0" frameborder="0" allowfullscreen="">
-</iframe>
+</section>
+<section id="use-communication-mechanisms-similar-to-multicellular-organisms" class="level3">
+<h3 class="anchored" data-anchor-id="use-communication-mechanisms-similar-to-multicellular-organisms">Use communication mechanisms similar to multicellular organisms</h3>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div class="notes">
-<p>C Elegans swimming.</p>
+<div class="callout-title-container flex-fill">
+Biological communication channels
 </div>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Caenorhabditis_elegans"><em>Caenorhabditis Elegans (C. Elegans)</em></a>
-<ul>
-<li>~10x larger than paramecium</li>
-<li>302 neurons + 56 glial cells (out of 959)</li>
-<li>Swim, forage, mate</li>
-</ul></li>
-</ul>
-<section id="neural-communication-types" class="level3">
-<h3 class="anchored" data-anchor-id="neural-communication-types">Neural communication types</h3>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
 <li>Electrical
 <ul>
@@ -420,9 +386,63 @@ window.Quarto = {
 <li>Metabolically efficient</li>
 </ul></li>
 </ul>
+</div>
+</div>
+<section id="paramecium" class="level4">
+<h4 class="anchored" data-anchor-id="paramecium"><a href="https://en.wikipedia.org/wiki/Paramecium"><em>Paramecium</em></a></h4>
+<ul>
+<li>300K larger than E. Coli</li>
+<li>Propulsion through coordinated beating of cilia</li>
+<li>Diffusion from head to tail ~40 s!</li>
+<li>Use <em>electrical</em> signaling instead
+<ul>
+<li><span class="math inline">\(Na^+\)</span> channel opens (e.g., when stretched)</li>
+<li>Voltage-gated <span class="math inline">\(Ca^{++}\)</span> channels open, <span class="math inline">\(Ca^{++}\)</span> enters, triggers cilia</li>
+<li>Signal across cell within ms</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="caenorhabditis-elegans-c.-elegans" class="level3">
+<h3 class="anchored" data-anchor-id="caenorhabditis-elegans-c.-elegans"><a href="https://en.wikipedia.org/wiki/Caenorhabditis_elegans"><em>Caenorhabditis Elegans (C. Elegans)</em></a></h3>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/GgZHziFWR7M?rel=0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p><span class="citation" data-cites="Bio-Rad-Laboratories2013-so">Bio-Rad Laboratories (<a href="#ref-Bio-Rad-Laboratories2013-so" role="doc-biblioref">2013</a>)</span></p>
+<ul>
+<li>~10x larger than paramecium</li>
+<li>multicellular invertebrate</li>
+<li>302 neurons (118 classes) + 56 glial cells (out of 959 total cells) <span class="citation" data-cites="Hobert2010-dl">(<a href="#ref-Hobert2010-dl" role="doc-biblioref">Hobert, 2010</a>)</span></li>
+<li>Swim, forage, mate</li>
+</ul>
 </section>
 <section id="so-why-do-largecomplex-animals-need-nervous-systems" class="level3">
 <h3 class="anchored" data-anchor-id="so-why-do-largecomplex-animals-need-nervous-systems">So, why do large/complex animals need nervous systems?</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://mit-press-us.imgix.net/covers/9780262534680.jpg" class="img-fluid figure-img" style="width:30.0%"></p>
+<figcaption><span class="citation" data-cites="Sterling2021-yx">Sterling &amp; Laughlin (<a href="#ref-Sterling2021-yx" role="doc-biblioref">2021</a>)</span></figcaption>
+</figure>
+</div>
+<ul>
+<li>Chemical communication specific (neurotransmitters <span class="math inline">\(\rightarrow\)</span> receptors)</li>
+<li>Energy efficient</li>
+<li>But slow</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Brain energetics
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<blockquote class="blockquote">
+<p>The human brain is just 2% of the body’s weight, but 20% of its metabolic load, and 10 times more expensive per gram than muscle. On the other hand, the brain manages to produce poetry, design spacecraft, and create art on an energy budget of 20 W, a paltry sum given that the computer on which this article is being typed requires 80 W.</p>
+</blockquote>
+<p><span class="citation" data-cites="Balasubramanian2021-fw">Balasubramanian (<a href="#ref-Balasubramanian2021-fw" role="doc-biblioref">2021</a>)</span></p>
+</div>
+</div>
 </section>
 </section>
 <section id="cellular-neuroanatomy" class="level2">
@@ -1179,26 +1199,13 @@ Note
 </tr>
 </tbody>
 </table>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Action_potential.svg/300px-Action_potential.svg.png" class="img-fluid figure-img"></p>
+<figcaption>Wikipedia</figcaption>
 </figure>
 </div>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" class="img-fluid figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
+<p><img src="http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/imgbio/actpot4.gif" class="img-fluid"></p>
 <section id="neuron-at-rest" class="level5">
 <h5 class="anchored" data-anchor-id="neuron-at-rest">Neuron at rest</h5>
 <ul>
@@ -1444,7 +1451,7 @@ Note
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="http://www.frontiersin.org/files/Articles/490/fnins-03-002/image_n/fnins-03-002-g001.gif" class="img-fluid figure-img"></p>
-<figcaption><span class="citation" data-cites="eyherabide_bursts_2009">(<a href="#ref-eyherabide_bursts_2009" role="doc-biblioref">Eyherabide et al., 2009</a>)</span></figcaption>
+<figcaption><span class="citation" data-cites="eyherabide_bursts_2009">Eyherabide et al. (<a href="#ref-eyherabide_bursts_2009" role="doc-biblioref">2009</a>)</span></figcaption>
 </figure>
 </div>
 </section>
@@ -1547,30 +1554,19 @@ Note
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fnrn2948/MediaObjects/41583_2011_Article_BFnrn2948_Fig1_HTML.jpg?as=webp" class="img-fluid figure-img"></p>
-<figcaption><span class="citation" data-cites="Haucke2011-ub">(Figure 1 from <a href="#ref-Haucke2011-ub" role="doc-biblioref">Haucke, Neher, &amp; Sigrist, 2011</a>)</span></figcaption>
+<figcaption>Figure 1 from <span class="citation" data-cites="Haucke2011-ub">Haucke, Neher, &amp; Sigrist (<a href="#ref-Haucke2011-ub" role="doc-biblioref">2011</a>)</span></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-fx1.jpg" class="img-fluid figure-img"></p>
-<figcaption><span class="citation" data-cites="Hastoy2017-it">(<a href="#ref-Hastoy2017-it" role="doc-biblioref">Hastoy, Clark, Rorsman, &amp; Lang, 2017</a>)</span></figcaption>
+<figcaption><span class="citation" data-cites="Hastoy2017-it">Hastoy, Clark, Rorsman, &amp; Lang (<a href="#ref-Hastoy2017-it" role="doc-biblioref">2017</a>)</span></figcaption>
 </figure>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-fx1.jpg"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-fx1.jpg" class="img-fluid figure-img" width="900"></p>
-<figcaption><a href="https://doi.org/10.1016/j.ceca.2017.10.005"><span class="citation" data-cites="Hastoy2017-it">(<span>Hastoy et al., 2017</span>)</span></a></figcaption>
-</figure>
-</div>
-</div>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0143416017301495-gr1_lrg.jpg" class="img-fluid figure-img"></p>
-<figcaption><span class="citation" data-cites="Hastoy2017-it">(<a href="#ref-Hastoy2017-it" role="doc-biblioref">Hastoy et al., 2017</a>)</span></figcaption>
+<figcaption><span class="citation" data-cites="Hastoy2017-it">Hastoy et al. (<a href="#ref-Hastoy2017-it" role="doc-biblioref">2017</a>)</span></figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
@@ -1725,6 +1721,12 @@ Anderson, C. M., &amp; Swanson, R. A. (2000). Astrocyte glutamate transport: Rev
 <div id="ref-azevedo2009equal" class="csl-entry" role="listitem">
 Azevedo, F. A., Carvalho, L. R., Grinberg, L. T., Farfel, J. M., Ferretti, R. E., Leite, R. E., et al.others. (2009). Equal numbers of neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain. <em>Journal of Comparative Neurology</em>, <em>513</em>(5), 532–541. <a href="https://doi.org/10.1002/cne.21974">https://doi.org/10.1002/cne.21974</a>
 </div>
+<div id="ref-Balasubramanian2021-fw" class="csl-entry" role="listitem">
+Balasubramanian, V. (2021). Brain power. <em>Proceedings of the National Academy of Sciences of the United States of America</em>, <em>118</em>. <a href="https://doi.org/10.1073/pnas.2107022118">https://doi.org/10.1073/pnas.2107022118</a>
+</div>
+<div id="ref-Bio-Rad-Laboratories2013-so" class="csl-entry" role="listitem">
+Bio-Rad Laboratories. (2013). <em><span>C</span>. Elegans movement</em>. Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=GgZHziFWR7M">https://www.youtube.com/watch?v=GgZHziFWR7M</a>
+</div>
 <div id="ref-Boldog2018-dj" class="csl-entry" role="listitem">
 Boldog, E., Bakken, T. E., Hodge, R. D., Novotny, M., Aevermann, B. D., Baka, J., … Tamás, G. (2018). Transcriptomic and morphophysiological evidence for a specialized human cortical <span>GABAergic</span> cell type. <em>Nature Neuroscience</em>, <em>21</em>(9), 1185–1195. <a href="https://doi.org/10.1038/s41593-018-0205-2">https://doi.org/10.1038/s41593-018-0205-2</a>
 </div>
@@ -1733,6 +1735,9 @@ Chung, W.-S., Welsh, C. A., Barres, B. A., &amp; Stevens, B. (2015). Do glia dri
 </div>
 <div id="ref-Distefano-Gagne2023-gt" class="csl-entry" role="listitem">
 Distéfano-Gagné, F., Bitarafan, S., Lacroix, S., &amp; Gosselin, D. (2023). Roles and regulation of microglia activity in multiple sclerosis: Insights from animal models. <em>Nature Reviews. Neuroscience</em>, <em>24</em>(7), 397–415. <a href="https://doi.org/10.1038/s41583-023-00709-6">https://doi.org/10.1038/s41583-023-00709-6</a>
+</div>
+<div id="ref-Eckert2024-hd" class="csl-entry" role="listitem">
+Eckert, L., Vidal-Saez, M. S., Zhao, Z., Garcia-Ojalvo, J., Martinez-Corral, R., &amp; Gunawardena, J. (2024). Biochemically plausible models of habituation for single-cell learning. <em>Current Biology: CB</em>, <em>34</em>, 5646–5658.e3. <a href="https://doi.org/10.1016/j.cub.2024.10.041">https://doi.org/10.1016/j.cub.2024.10.041</a>
 </div>
 <div id="ref-eyherabide_bursts_2009" class="csl-entry" role="listitem">
 Eyherabide, H. G., Rokem, A., Herz, A. V. M., Samengo, I., Eyherabide, H. G., Rokem, A., … Samengo, I. (2009). Bursts generate a non-reducible spike-pattern code. <em>Frontiers in Neuroscience</em>, <em>3</em>, 1. <a href="https://doi.org/10.3389/neuro.01.002.2009">https://doi.org/10.3389/neuro.01.002.2009</a>
@@ -1743,8 +1748,17 @@ Hastoy, B., Clark, A., Rorsman, P., &amp; Lang, J. (2017). Fusion pore in exocyt
 <div id="ref-Haucke2011-ub" class="csl-entry" role="listitem">
 Haucke, V., Neher, E., &amp; Sigrist, S. J. (2011). Protein scaffolds in the coupling of synaptic exocytosis and endocytosis. <em>Nature Reviews. Neuroscience</em>, <em>12</em>(3), 127–138. <a href="https://doi.org/10.1038/nrn2948">https://doi.org/10.1038/nrn2948</a>
 </div>
+<div id="ref-Hobert2010-dl" class="csl-entry" role="listitem">
+Hobert, O. (2010). Neurogenesis in the nematode caenorhabditis elegans. <em>WormBook: The Online Review of C. Elegans Biology</em>, 1–24. <a href="https://doi.org/10.1895/wormbook.1.12.2">https://doi.org/10.1895/wormbook.1.12.2</a>
+</div>
 <div id="ref-Moss2001-tb" class="csl-entry" role="listitem">
 Moss, S. J., &amp; Smart, T. G. (2001). Constructing inhibitory synapses. <em>Nature Reviews. Neuroscience</em>, <em>2</em>(4), 240–250. <a href="https://doi.org/10.1038/35067500">https://doi.org/10.1038/35067500</a>
+</div>
+<div id="ref-Purushotham2007-ne" class="csl-entry" role="listitem">
+Purushotham, J. (2007). <em>Flagella &amp; cilia</em>. Youtube. Retrieved from <a href="https://www.youtube.com/watch?v=QGAm6hMysTA">https://www.youtube.com/watch?v=QGAm6hMysTA</a>
+</div>
+<div id="ref-Sterling2021-yx" class="csl-entry" role="listitem">
+Sterling, P., &amp; Laughlin, S. (2021). <em>Principles of neural design</em>. The MIT Press, Massachusetts Institute of Technology. Retrieved from <a href="https://mitpress.mit.edu/books/principles-neural-design">https://mitpress.mit.edu/books/principles-neural-design</a>
 </div>
 <div id="ref-Torres2003-ry" class="csl-entry" role="listitem">
 Torres, G. E., Gainetdinov, R. R., &amp; Caron, M. G. (2003). Plasma membrane monoamine transporters: Structure, regulation and function. <em>Nature Reviews. Neuroscience</em>, <em>4</em>(1), 13–25. <a href="https://doi.org/10.1038/nrn1008">https://doi.org/10.1038/nrn1008</a>

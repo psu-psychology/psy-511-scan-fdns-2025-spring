@@ -17,15 +17,36 @@ format:
 
 ---
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/nvXuq9jRWKE" frameborder="0" allowfullscreen></iframe>
 
-<https://www.youtube.com/embed/nvXuq9jRWKE>
+{{< video https://www.youtube.com/embed/nvXuq9jRWKE width=100% height=70% >}}
+<!-- <iframe width="800" height="450" src="https://www.youtube.com/embed/nvXuq9jRWKE" frameborder="0" allowfullscreen></iframe> -->
 
+@National_Geographic2014-gv
+
+## In the news...
+
+![@Eckert2024-hd](../include/img/eckert-etal-2024.png)
+
+---
+
+>Our results suggest that individual cells may exhibit habituation behavior as rich as that which has been codified in multi-cellular animals with central nervous systems and that the relative simplicity of the biomolecular level may enhance our understanding of the mechanisms of learning.
+
+@Eckert2024-hd
+
+---
+
+> I contain multitudes...
+
+@Whitman2019-kq
 
 ## Announcements
 
+- Exercise 01
+  - Scores
+  - [Themes](../supplemental/ex01-themes.qmd)
+  - Implications
 - [[Exercise 03](../exercises/ex03.qmd) distributed.]{.green_assigned}
-  - due next in two weeks [on Wednesday, February 7]{.orange_due}
+  - due in two weeks [on Wednesday, February 7]{.orange_due}
 
 ## Last time...
 

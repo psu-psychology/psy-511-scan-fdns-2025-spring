@@ -1,0 +1,89 @@
+---
+title: "ex01-themes"
+format: html
+---
+
+## About
+
+This page summarizes some of the themes and concepts that students mentioned in responses to [Exercise 01](../exercises/ex01.qmd).
+
+## Methods
+
+- Electroencephalography (EEG)
+  - Frequency band analyses (delta, theta, alpha, beta)
+  - Event-related Potentials (ERPs)
+    - Components
+      - N2
+      - N400
+      - late positive complex (LPC)
+      - late positive potential (LPP)
+      - error-related negativity (ERN)
+  - Time Frequency Representation (TFR)
+  - Coherence
+- Functional near-infrared spectroscopy (fNIRS)
+- Multi-modal brain imaging
+  - diffusion-weighted MRI (dMRI)
+  - diffusion tensor imaging (DTI)
+    - tractography
+  - functional MRI (fMRI)
+  - structural MRI, morphometry
+    - e.g., lateral ventricular volume
+- Brain imaging analyses
+  - voxel
+  - Independent components analysis (ICA)
+  - Multi-voxel pattern analysis (MVPA)
+  - deconvolution method
+- Contrast agents
+- Resting state functional connectivity (rsFC), resting state fMRI
+  - default mode network
+  - lateral frontoparietal network (LFPN)
+  
+## Brain development, plasticity, learning
+
+- Synaptic pruning
+
+## Peripheral/autonomic physiology
+
+- Respiratory Sinus Arrhythmia (RSA)
+  - Vagal (Xth) cranial nerve
+  - Sympathetic/parasympathetic drive
+  - Polyvagal theory
+  - RSA reactivity, suppression, augmentation
+- Hypothalamic-Pituitary-Adrenal (HPA) axis
+  
+## Brain areas
+
+- Amygdala
+  - centromedial nuclei
+  - laterobasal
+- Medial prefrontal cortex (mPFC)
+- Hippocampus
+- Anterior cingulate cortex (ACC)
+  
+## Psychological states/behavior
+
+- Inhibitory control
+- Emotion, fear regulation
+- Cognitive appraisal
+- Adaptive behavior
+- Addictive behavior
+- Semantic activation
+- Active comprehension
+- Predictive processes
+- Bilingual language control
+- Allostatic load
+- Neuropsychoanalysis
+- Cognitive reserve
+- Attention
+
+## Tasks
+
+- Stop-Signal Reaction Time (SSRT)
+  
+## Endocrine systems
+
+- Oxytocin
+  - state-like
+  - trait-like
+- Glucocorticoids, e.g. cortisol
+  - glucocorticoid receptors

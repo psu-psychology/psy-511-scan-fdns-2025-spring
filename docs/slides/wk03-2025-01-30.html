@@ -28,7 +28,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-bbe7401fe57d4b791b917637bb662036.css">
   <link rel="stylesheet" href="../include/css/gilmore-revealjs.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -160,16 +180,40 @@
 </section>
 <section class="slide level2">
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/nvXuq9jRWKE" frameborder="0" allowfullscreen="">
-</iframe>
-<p><a href="https://www.youtube.com/embed/nvXuq9jRWKE" class="uri">https://www.youtube.com/embed/nvXuq9jRWKE</a></p>
+<iframe data-external="1" src="https://www.youtube.com/embed/nvXuq9jRWKE" width="100%" height="70%" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<!-- <iframe width="800" height="450" src="https://www.youtube.com/embed/nvXuq9jRWKE" frameborder="0" allowfullscreen></iframe> -->
+<p><span class="citation" data-cites="National_Geographic2014-gv">National Geographic (<a href="#/references" role="doc-biblioref" onclick="">2014</a>)</span></p>
+</section>
+<section id="in-the-news" class="slide level2">
+<h2>In the news…</h2>
+
+<img data-src="../include/img/eckert-etal-2024.png" class="r-stretch quarto-figure-center"><p class="caption"><span class="citation" data-cites="Eckert2024-hd">Eckert et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></p></section>
+<section class="slide level2">
+
+<blockquote>
+<p>Our results suggest that individual cells may exhibit habituation behavior as rich as that which has been codified in multi-cellular animals with central nervous systems and that the relative simplicity of the biomolecular level may enhance our understanding of the mechanisms of learning.</p>
+</blockquote>
+<p><span class="citation" data-cites="Eckert2024-hd">Eckert et al. (<a href="#/references" role="doc-biblioref" onclick="">2024</a>)</span></p>
+</section>
+<section class="slide level2">
+
+<blockquote>
+<p>I contain multitudes…</p>
+</blockquote>
+<p><span class="citation" data-cites="Whitman2019-kq">Whitman (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span></p>
 </section>
 <section id="announcements" class="slide level2">
 <h2>Announcements</h2>
 <ul>
+<li>Exercise 01
+<ul>
+<li>Scores</li>
+<li><a href="../supplemental/ex01-themes.qmd">Themes</a></li>
+<li>Implications</li>
+</ul></li>
 <li><span class="green_assigned"><a href="../exercises/ex03.pdf">Exercise 03</a> distributed.</span>
 <ul>
-<li>due next in two weeks <span class="orange_due">on Wednesday, February 7</span></li>
+<li>due in two weeks <span class="orange_due">on Wednesday, February 7</span></li>
 </ul></li>
 </ul>
 </section>
@@ -234,10 +278,21 @@
 <h1>Resources</h1>
 
 </section>
-<section id="references" class="slide level2">
+<section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Eckert2024-hd" class="csl-entry" role="listitem">
+Eckert, L., Vidal-Saez, M. S., Zhao, Z., Garcia-Ojalvo, J., Martinez-Corral, R., &amp; Gunawardena, J. (2024). Biochemically plausible models of habituation for single-cell learning. <em>Current Biology: CB</em>, <em>34</em>, 5646–5658.e3. <a href="https://doi.org/10.1016/j.cub.2024.10.041">https://doi.org/10.1016/j.cub.2024.10.041</a>
+</div>
+<div id="ref-National_Geographic2014-gv" class="csl-entry" role="listitem">
+National Geographic. (2014, January). Beautiful <span>3-D</span> brain scans show every synapse | national geographic. You<span>T</span>ube. Retrieved from <a href="https://www.youtube.com/watch?v=nvXuq9jRWKE">https://www.youtube.com/watch?v=nvXuq9jRWKE</a>
+</div>
+<div id="ref-Whitman2019-kq" class="csl-entry" role="listitem">
+Whitman, W. (2019, February 13). Song of myself, 51. Retrieved January 30, 2025, from <a href="https://poets.org/poem/song-myself-51">https://poets.org/poem/song-myself-51</a>
+</div>
+</div>
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
