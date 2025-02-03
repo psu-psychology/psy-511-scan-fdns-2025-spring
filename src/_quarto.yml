@@ -17,7 +17,7 @@ project:
 
 website:
   announcement: 
-    content: "[Exercise 02](exercises/ex02.qmd) neuroanatomy lab write-up due Wednesday, January 29 | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17020749)" 
+    content: "[Exercise 03](exercises/ex03.qmd) write-up due Wednesday, February 12 | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17038893)" 
     position: below-navbar 
   title: "PSY 511.003"
   comments:

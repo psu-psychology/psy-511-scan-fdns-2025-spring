@@ -1,0 +1,53 @@
+---
+title: "Propagation and neurocomputing"
+subtitle: "PSY 511.003"
+date: 2025-02-06
+format: 
+  revealjs:
+    footer: "[PSY 511 Spr 2025](../index.html)"
+---
+
+# Prelude
+
+---
+
+{{< video https://youtu.be/97hwNY3ni10?si=Emha7fMPY5NLqClC width=100% height=70% >}}
+
+@Musikladen2020-id
+
+## Announcements
+
+- [Exercise 03](../exercises/ex03.qmd) write-up [due next Wednesday, February 12.]{.orange_due}
+- [Exercise 04](../exercises/ex04.qmd) [assigned]{.green_assigned}.
+
+## Last time...
+
+- Resting potential
+- How the action potential begins...
+
+## Today's topics
+
+- How the action potential propagates down...
+  - Unmyelinated axons
+  - Myelinated axons
+- How it triggers synaptic transmission
+  
+# Action potential
+
+## Link to notes
+
+- [Action potential propagation](../resources/cells.qmd#action-potential)
+
+# Synaptic transmission
+
+## Link to notes
+
+- [Synaptic transmission](../resources/cells.qmd#propagation)
+
+## Next time...
+
+- Neurochemistry
+
+# Resources
+
+## References

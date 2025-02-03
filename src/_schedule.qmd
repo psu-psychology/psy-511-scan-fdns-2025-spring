@@ -98,7 +98,7 @@
 
 ### Wednesday, February 12
 
-- [Exercise 03](exercises/ex03.html) write-up [due]{.orange_due}. | [Canvas dropbox]() |
+- [Exercise 03](exercises/ex03.html) write-up [due]{.orange_due}. | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17038893) |
 
 ### Thursday, February 13 {-}
 

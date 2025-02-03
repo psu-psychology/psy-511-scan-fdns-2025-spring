@@ -656,7 +656,7 @@ Under typical conditions
 - Unmyelinated axon
     + Each segment "excites" the next
 
-<iframe width="800" height="600" src="https://www.youtube.com/embed/H0K2dvB-7WY" frameborder="0" allowfullscreen></iframe>
+{{< video https://www.youtube.com/embed/H0K2dvB-7WY >}}
 
 - Myelinated axon
     + AP "jumps" between *Nodes of Ranvier* --> *saltatory conduction*
