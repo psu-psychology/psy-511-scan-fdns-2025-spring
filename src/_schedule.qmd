@@ -92,7 +92,7 @@
 
 #### Materials
 
-- [Slides]()
+- [Slides](slides/wk04-2025-02-06.qmd)
 
 ## February 10-14 {- #week-05}
 
