@@ -19,8 +19,9 @@ format:
 ### Things to know
 
 - Neurotransmitter
-- Where released from/to
+- Where released from, to
 - What receptor(s) bind it
+- What effect to the receptor(s) have
 
 ### Amino acids
 
@@ -37,8 +38,10 @@ format:
 - Primary excitatory NT in CNS
 - Role in learning (via NMDA receptor)
 - Receptors on neurons and glia (astrocytes and oligodendrocytes)
+- Removed from synaptic cleft by glutamate transporters in preysynaptic terminal
 - Linked to umami (savory) taste sensation (think monosodium glutamate or MSG)
 - Dysregulation in schizophrenia [[@McCutcheon2020-ez]](https://doi.org/10.1002/wps.20693), mood disorders [[@Malgorzata2020-nz]](http://dx.doi.org/10.1080/14728222.2020.1836160)
+- Too much glutatmate is toxic!
 
 | Type         | Receptor   | Esp Permeable to |
 |--------------|------------|------------------|
@@ -46,6 +49,10 @@ format:
 |              | Kainate    |                  |
 |              | NMDA       | $Ca^{++}$              |
 | Metabotropic | mGlu       |                  |
+
+![http://pittmedneuro.com/glutamate.html](http://pittmedneuro.com/img/glut1.jpg)
+
+![http://pittmedneuro.com/glutamate.html](https://pittmedneuro.com/img/glut2.jpg)
 
 #### $\gamma$ aminobutyric acid (GABA)
 
@@ -63,7 +70,10 @@ format:
 
 ![https://en.wikipedia.org/wiki/GABAA_receptor](https://upload.wikimedia.org/wikipedia/commons/1/15/Fig-GABAA_receptor.png)
 
-![https://en.wikipedia.org/wiki/GABAA_receptor](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/GABAA-receptor-protein-example.png/800px-GABAA-receptor-protein-example.png)
+![http://pittmedneuro.com/inhibitory.html](http://pittmedneuro.com/img/GABAa.jpg)
+<!-- ![https://en.wikipedia.org/wiki/GABAA_receptor](https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/GABAA-receptor-protein-example.png/800px-GABAA-receptor-protein-example.png) -->
+
+![http://pittmedneuro.com/inhibitory.html](http://pittmedneuro.com/img/pento.jpg)
 
 #### Other amino acid NTs
 
@@ -71,6 +81,8 @@ format:
     + Like Glu, stimulates NMDA receptor
 - *Glycine*
     + Spinal cord interneurons
+    - Inhibitory
+    - Cl- channel opens
 
 ### Acetylcholine (ACh)
 
@@ -134,6 +146,8 @@ format:
     + DA, NE, 5-HT, melatonin, histamine
 - Need to know
     + NT, where projecting, type of receptor to predict function
+    
+![Figure 4 from @Vogelsang2018-sf, adapted from @Palomero-Gallagher2015-np](https://www.frontiersin.org/files/Articles/339949/fnins-12-00242-HTML/image_m/fnins-12-00242-g004.jpg)
 
 #### Dopamine
 
@@ -141,7 +155,7 @@ format:
     + Substantia nigra -> striatum, *meso-striatal projection*
     + Ventral tegmental area (VTA) -> nucleus accumbens, ventral striatum, hippocampus, amygdala, cortex; *meso-limbo-cortical projection*
 
-![The main dopaminergic pathways of the (Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Dopaminergic_pathways.svg/1280px-Dopaminergic_pathways.svg.png)
+![The main dopaminergic pathways (Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Dopaminergic_pathways.svg/1280px-Dopaminergic_pathways.svg.png)
 
 ##### Clinical relevance
 
@@ -154,7 +168,7 @@ format:
 
 ##### Inactivated via
 
-- Chemical breakdown (e.g., via monoamine oxidase (MAO)), <http://www.scholarpedia.org/article/Dopamine_anatomy#Dopamine_receptors>
+- Chemical breakdown (e.g., via monoamine oxidase (MAO), <http://www.scholarpedia.org/article/Dopamine_anatomy#Dopamine_receptors>
 - Dopamine transporter (DAT)
   - Psychostimulants (e.g., cocaine, methylphenidate) act upon. [[@noauthor_undated-on]](https://www.sciencedirect.com/topics/neuroscience/dopamine-transporter)
   - DAT also transports norepinephrine (NE)
@@ -169,8 +183,8 @@ format:
 #### Norepinephrine
 
 - Released by
-    + *[locus coeruleus](http://www.scholarpedia.org/article/Locus_coeruleus)* in pons/caudal tegmentum
-    + postganglionic sympathetic neurons onto target tissues
+    + *[locus coeruleus](http://www.scholarpedia.org/article/Locus_coeruleus)* ('blue place') in pons/caudal tegmentum
+    + postganglionic sympathetic nervous system neurons contact target tissues
 
 ![Locus Coeruleus (Wikipedia)](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Locus_coeruleus_highlighted.jpg/300px-Locus_coeruleus_highlighted.jpg)
 
@@ -232,7 +246,7 @@ format:
 - Fluoxetine (Prozac)
     + *Selective Serotonin Reuptake Inhibitor (SSRI)*
     + Treats depression, panic, eating disorders, others
-- 5-HT3 receptor antagonists are anti-mimetics used in treating nausea
+- 5-HT3 receptor antagonists (e.g., ondansetron) are anti-mimetics used in treating nausea; 5-HT3 receptor is *ionotropic*.
 
 <p><a href="https://commons.wikimedia.org/wiki/File:Pubmed_equitativa_hormonal.png#/media/File:Pubmed_equitativa_hormonal.png"><img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Pubmed_equitativa_hormonal.png" alt="In this drawing of the brain, the serotonergic system is red and the mesolimbic dopamine pathway is blue. There is one collection of serotonergic neurons in the upper brainstem that sends axons upwards to the whole cerebrum, and one collection next to the cerebellum that sends axons downward to the spinal cord. Slightly forward the upper serotonergic neurons is the ventral tegmental area (VTA), which contains dopaminergic neurons. These neurons' axons then connect to the nucleus accumbens, hippocampus, and the frontal cortex. Over the VTA is another collection of dopaminergic cells, the substansia nigra, which send axons to the striatum."></a><br>Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=45159949">Link</a></p>
 
@@ -251,7 +265,14 @@ format:
 
 - Released by *pine*al gland (pine cone-like appearance)
 
-![http://www.vivo.colostate.edu/hbooks/pathphys/endocrine/otherendo/pinealgland.jpg](http://www.vivo.colostate.edu/hbooks/pathphys/endocrine/otherendo/pinealgland.jpg)
+![](https://iamtheslightedge.com/wp-content/uploads/2020/05/pinealgland.jpg)
+
+::: {.callout-note}
+## Seat of the soul? @Lokhorst2005-ol
+
+![https://www.salon.com/2021/05/15/how-the-pineal-gland-became-an-obsession-for-both-spiritualists-and-sci-fi-writers/](https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2021/05/descartes-pineal-gland-0514211.jpg)
+
+:::
 
 #### Histamine
 
@@ -303,7 +324,7 @@ format:
 
 #### Ingestive (eating/ drinking)
 
-+ ￼Fluid levels
++ Fluid levels
 + Na, K, Ca levels 
 + Digestion
 + Blood glucose levels
@@ -325,10 +346,9 @@ format:
 #### Common factors
 
 - Biological imperatives
-- Proscribed in space and time
-- Foraging/hunting
-    + Find targets distributed in space, evaluate, act upon
-- Often involve others
+- Behaviors/responses proscribed in space and time
+    - e.g., foraging/hunting
+        + Find targets distributed in space, evaluate, act upon
 
 ### Principles of hormonal action
 
@@ -404,7 +424,6 @@ format:
 - Endocrine response
     + *Hypothalamic Pituitary Adrenal (HPA) axis*
     + Adrenal hormones released
-    
     
 ![[@Deussing2018-ub]. FIGURE 1. Effector systems of the stress response. A stressor elicits rapid activation of the autonomic nervous system with its sympathoneuronal (SN) and sympatho-adrenomedullary (SAM) limbs releasing their main effectors, noradrenaline and adrenaline, respectively. Activation of the hypothalamic-pituitary-adrenocortical (HPA) axis results in synthesis and release of its main effector, cortisol or corticosterone, in rodents. ACTH, adrenocorticotropic hormone; CRF, corticotropin-releasing factor.](https://journals.physiology.org/cms/10.1152/physrev.00042.2017/asset/images/medium/z9j0041828650001.gif)
 
@@ -495,4 +514,3 @@ format:
     - Are your participants sleepy, hungry, horny, distressed...
     - Endogenous & exogenous influences
     - Systems interact; need better, broader, and denser measurement
-
