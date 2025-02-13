@@ -12,7 +12,7 @@ format:
 ## Announcements
 
 - [[Exercise 03](../exercises/ex03.qmd) write-up due yesterday.]{.orange_due}
-- [[Exercise 04](../exercises/ex04.qmd) write-up due next Wednesday, February 14]{.green_assigned}
+- [[Exercise 04](../exercises/ex04.qmd) write-up due next Wednesday, February 19]{.green_assigned}
 
 ## Last time...
 
@@ -45,6 +45,30 @@ format:
 ---
 
 [Link to resources/neurochemistry](../resources/neurochemistry.qmd)
+
+## Monoamine Song 
+
+{{< video https://youtu.be/TbZ_hTEOKZc?si=3mTczBPJCJsWF8Yc width=100% height=70% >}}
+
+<https://en.wikipedia.org/wiki/Mah_Nà_Mah_Nà>
+
+## Monoamine Song
+
+Monoamines, do-do do do-do</br>
+Monoamines, do do do-do</br>
+Monoamines, do do do do-do do do-do do do-do do do do do-do do
+
+## Monoamine Song
+
+Monoamines, do-pa-mine is one</br>
+Monoamines, norepi, too</br>
+Monoamines, sero-tonin e-pinephrine, dop-a-mine, nor-epinephrine, melatonin, whoo!
+
+## Monoamine Song
+
+Monoamines, mod-u-late neurons </br>
+Monoamines, throughout the brain</br>
+Monoamines, keep people happy, brains snappy, not sleepy, not sappy, do-do do-do do-do do
 
 ## Main points
 
