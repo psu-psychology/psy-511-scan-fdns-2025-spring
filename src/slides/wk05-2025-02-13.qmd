@@ -1,7 +1,7 @@
 ---
 title: "Neurochemistry & Neurocomputing"
 subtitle: "PSY 511.003"
-date: 2025-02-12
+date: 2025-02-13
 format: 
   revealjs:
     footer: "[PSY 511 Spr 2024](../index.html)"

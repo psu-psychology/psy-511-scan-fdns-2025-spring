@@ -116,7 +116,7 @@
 
 #### Materials
 
-- [Slides]()
+- [Slides](slides/wk05-2025-02-13.qmd)
 - [Exercise 05](exercises/ex05.html) [distributed]{.green_assigned} | [PDF](exercises/ex05.pdf) |
 
 ## February 17-21 {- #week-06}
