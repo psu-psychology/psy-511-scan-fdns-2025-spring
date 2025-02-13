@@ -43,6 +43,7 @@ website:
         menu:
           - href: "resources/anatomy.qmd"
           - href: "resources/cells.qmd"
+          - href: "resources/neurochemistry.qmd"
       - text: Supplemental
         menu:
           - href: "supplemental/ex01-themes.qmd"
