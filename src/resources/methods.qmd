@@ -31,7 +31,7 @@ format:
 
 ### ...and temporal resolution
 
-![[@Sejnowski2014-aa]](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp){.lightbox}
+![@Sejnowski2014-aa](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fnn.3839/MediaObjects/41593_2014_Article_BFnn3839_Fig1_HTML.jpg?as=webp){.lightbox}
 
 ### Types of methods
 
@@ -78,9 +78,9 @@ format:
 
 #### [Brainbow](http://cbs.fas.harvard.edu/science/connectome-project/brainbow)
 
-![[@lichtman_technicolour_2008]](../include/img/lichtman-nrn2391-f1.jpg){.lightbox}
+![@lichtman_technicolour_2008](../include/img/lichtman-nrn2391-f1.jpg){.lightbox}
 
-![[@lichtman_technicolour_2008]](../include/img/lichtman-nrn2391-f2.jpg){.lightbox}
+![@lichtman_technicolour_2008](../include/img/lichtman-nrn2391-f2.jpg){.lightbox}
 
 #### [Clarity](http://clarityresourcecenter.com/CLARITY.html)
 
@@ -93,7 +93,7 @@ format:
 - CUBIC (“clear, unobstructed brain/body imaging cocktails and computational analysis")
 - [@Susaki2014-xj]
 
-![[Fig 21.2 from @Ando2018-ze]. Immunostaining of CUBIC-clarified 500-μm-thick slices from human Alzheimer disease postmortem brain frontal cortex. Human Alzheimer disease frontal cortex tissue immunostained for Aß (6E10, red) and for tau (B19, green). Stack depth of 264 μm; step size = 1 μm. Stack photos were taken with a two-photon microscope equipped with a 20 × air objective. Scale bar, 100 μm.](https://ars.els-cdn.com/content/image/1-s2.0-B9780444636393000219-f21-02-9780444636393.jpg){.lightbox}
+![Fig 21.2 from @Ando2018-ze. Immunostaining of CUBIC-clarified 500-μm-thick slices from human Alzheimer disease postmortem brain frontal cortex. Human Alzheimer disease frontal cortex tissue immunostained for Aß (6E10, red) and for tau (B19, green). Stack depth of 264 μm; step size = 1 μm. Stack photos were taken with a two-photon microscope equipped with a 20 × air objective. Scale bar, 100 μm.](https://ars.els-cdn.com/content/image/1-s2.0-B9780444636393000219-f21-02-9780444636393.jpg){.lightbox}
 
 #### Evaluating micro/cellular techniques
 
@@ -104,7 +104,7 @@ format:
 
 "SHANK2 mutations associated with autism spectrum disorder cause hyperconnectivity of human neurons." [@Zaslavsky2019-ln]
 
-![[Figure 1 from @Zaslavsky2019-ln]. a, iPSCs generated from multiple control and affected individuals are differentiated into NPCs. NPCs are differentiated in separate wells for 4 weeks and then differentially fluorescently labeled control (CTRL) and mutant (MUT) cells are sparsely seeded onto a large unlabeled neuronal population (the lawn) and cocultured with astrocytes. b, Timeline of the experiment, starting with seeding of NPCs. Measurements of mutant cells are normalized to control cells in the same well. c, Sparse seeding allows simultaneous analyses of cell morphology and connectivity (total number of SYN1 puncta) of single neurons. Scale bars, 100 μm. d, To compare cell morphology, paired representative traces are shown of control and SHANK2 ASD or engineered SHANK2 KO neurons grown in the same well. e, To compare synaptic function, sEPSCs are recorded from neurons grown in the same well. Confocal images and traces shown in c and d are representative of iPSC-derived neurons imaged in experiments depicted in Fig. 2a–c. sEPSC traces shown in e are representative of patch-clamp recordings of iPSC-derived neurons described in Fig. 3.](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-019-0365-8/MediaObjects/41593_2019_365_Fig1_HTML.png?as=webp){.lightbox}
+![Figure 1 from @Zaslavsky2019-ln. a, iPSCs generated from multiple control and affected individuals are differentiated into NPCs. NPCs are differentiated in separate wells for 4 weeks and then differentially fluorescently labeled control (CTRL) and mutant (MUT) cells are sparsely seeded onto a large unlabeled neuronal population (the lawn) and cocultured with astrocytes. b, Timeline of the experiment, starting with seeding of NPCs. Measurements of mutant cells are normalized to control cells in the same well. c, Sparse seeding allows simultaneous analyses of cell morphology and connectivity (total number of SYN1 puncta) of single neurons. Scale bars, 100 μm. d, To compare cell morphology, paired representative traces are shown of control and SHANK2 ASD or engineered SHANK2 KO neurons grown in the same well. e, To compare synaptic function, sEPSCs are recorded from neurons grown in the same well. Confocal images and traces shown in c and d are representative of iPSC-derived neurons imaged in experiments depicted in Fig. 2a–c. sEPSC traces shown in e are representative of patch-clamp recordings of iPSC-derived neurons described in Fig. 3.](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-019-0365-8/MediaObjects/41593_2019_365_Fig1_HTML.png?as=webp){.lightbox}
 
 :::
 
@@ -149,7 +149,7 @@ format:
 
 ![](https://previews.123rf.com/images/ultimagaina/ultimagaina1405/ultimagaina140500005/28078449-Sequence-of-vertical-sections-of-a-human-brain-MRI-scan-Stock-Photo.jpg){.lightbox}
 
-![[Figure 1 from @Lee2021-ae]. Longitudinal trajectories of total cerebral volume, gray matter volume, and white matter volume from early to middle childhood (A) in boys with autism spectrum disorder (ASD) and typically developing (TD) boys and (B) in boys with ASD and disproportionate megalencephaly (ASD-DM), boys with ASD with normative cerebral volume-to-height ratio (ASD-N), and TD boys.](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/a462a956-7f5d-4995-9989-647b2823c66f/gr1_lrg.jpg){.lightbox}
+![Figure 1 from @Lee2021-ae. Longitudinal trajectories of total cerebral volume, gray matter volume, and white matter volume from early to middle childhood (A) in boys with autism spectrum disorder (ASD) and typically developing (TD) boys and (B) in boys with ASD and disproportionate megalencephaly (ASD-DM), boys with ASD with normative cerebral volume-to-height ratio (ASD-N), and TD boys.](https://els-jbs-prod-cdn.jbs.elsevierhealth.com/cms/attachment/a462a956-7f5d-4995-9989-647b2823c66f/gr1_lrg.jpg){.lightbox}
 
 ##### MR Spectroscopy (specific metabolites)
 
@@ -161,7 +161,7 @@ format:
 
 - MRI technique for measuring brain sizes/volumes
 
-![[Figure 1 from @Pomarol-Clotet2010-tq]. Top panel: (a) voxel-based morphometry (VBM) findings. Regions showing significant volume reduction thresholded at P=0.01 in the schizophrenic patients are shown in orange. Bottom panel: (b) functional magnetic resonance imaging (fMRI) findings. Regions are shown where there were significant differences between patients and controls during performance of the n-back task (2-back vs baseline comparison), thresholded at P=0.01. Blue indicates hypoactivation, that is, areas where controls activated significantly more than the patients. Orange indicates areas where the schizophrenic patients showed failure to deactivate in comparison to controls. The right side of the images represents the left side of the brain.](https://openi.nlm.nih.gov/imgs/512/130/2927029/PMC2927029_mp2009146f1.png)
+![Figure 1 from @Pomarol-Clotet2010-tq. Top panel: (a) voxel-based morphometry (VBM) findings. Regions showing significant volume reduction thresholded at P=0.01 in the schizophrenic patients are shown in orange. Bottom panel: (b) functional magnetic resonance imaging (fMRI) findings. Regions are shown where there were significant differences between patients and controls during performance of the n-back task (2-back vs baseline comparison), thresholded at P=0.01. Blue indicates hypoactivation, that is, areas where controls activated significantly more than the patients. Orange indicates areas where the schizophrenic patients showed failure to deactivate in comparison to controls. The right side of the images represents the left side of the brain.](https://openi.nlm.nih.gov/imgs/512/130/2927029/PMC2927029_mp2009146f1.png)
 
 - Volume differences in schizophrenics vs. controls
 - Colored portions are statistical maps placed on top of a base structural map.
@@ -169,11 +169,11 @@ format:
 
 ### Mapping the wiring diagram ("connectome")
 
-![Fire alarm circuit schematic](https://i.stack.imgur.com/2OT3B.png){.lightbox}
+![https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/all](https://cdn.sparkfun.com/r/600-600/assets/1/e/8/c/c/51cdc629ce395f6b4f000000.png){.lightbox}
 
 ---
 
-![[@Jonas2017-sk]](../include/img/jonas-kording-2017.jpg){.lightbox}
+![@Jonas2017-sk](../include/img/jonas-kording-2017.jpg){.lightbox}
 
 #### Microscale
 
@@ -197,7 +197,7 @@ Retrograde (output -> input) vs. anterograde (input -> output) tracers
 
 #### Visualizing the connectome
 
-![[Figure 2 from @Bonilha2015-qx]. Fig 2. Link-wise ICCs. Each matrix entry represents the ICC observed for the white matter link between the gray matter ROI in the row and the gray matter ROI in the column.](https://journals.plos.org/plosone/article/figure/image?size=large&download=&id=10.1371/journal.pone.0135247.g002){.lightbox}
+![Figure 2 from @Bonilha2015-qx. Fig 2. Link-wise ICCs. Each matrix entry represents the ICC observed for the white matter link between the gray matter ROI in the row and the gray matter ROI in the column.](https://journals.plos.org/plosone/article/figure/image?size=large&download=&id=10.1371/journal.pone.0135247.g002){.lightbox}
 
 ![http://www.humanconnectome.org](http://www.humanconnectome.org/storage/app/media/news/2015/09/CCA_mode.jpg){.lightbox}
 
@@ -252,19 +252,19 @@ Retrograde (output -> input) vs. anterograde (input -> output) tracers
 
 ##### Example: Neurotransmitter receptor binding and behavior
 
-![[Figure 3 from @Kantonen2021-to]. The blue outline marks brain regions where lower [11C]carfentanil binding potential (BPND) associated with higher External eating score, age and PET scanner as nuisance covariates, cluster forming threshold p < 0.01, FWE corrected. In the red–yellow T-score scale shown are also additional bilateral associations significant with more lenient cluster-defining threshold (p < 0.05, FWE corrected) for visualization purposes.](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41398-021-01559-5/MediaObjects/41398_2021_1559_Fig3_HTML.png?as=webp){.lightbox}
+![Figure 3 from @Kantonen2021-to. The blue outline marks brain regions where lower [11C]carfentanil binding potential (BPND) associated with higher External eating score, age and PET scanner as nuisance covariates, cluster forming threshold p < 0.01, FWE corrected. In the red–yellow T-score scale shown are also additional bilateral associations significant with more lenient cluster-defining threshold (p < 0.05, FWE corrected) for visualization purposes.](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41398-021-01559-5/MediaObjects/41398_2021_1559_Fig3_HTML.png?as=webp){.lightbox}
 
 > Our main finding was that higher DEBQ scores were associated with lower central availability of MORs and CB1Rs in healthy, nonobese humans. MOR and CB1R systems however showed distinct patterns of associations with specific dimensions of self-reported eating: While CB1Rs were associated in general negatively with different DEBQ subscale scores (and most saliently with the Total DEBQ score), MORs were specifically and negatively associated with externally driven eating only. Our results support the view that variation in endogenous opioid and endocannabinoid systems explain interindividual variation in feeding, with distinct effects on eating behavior measured with DEBQ.
 >
-> [@Kantonen2021-to]
+> @Kantonen2021-to
 
 ##### Comparing PET and fMRI
 
-![[Figure 2 from @Rischka2018-pk]. Fig. 2. Task-specific changes during finger tapping and visual stimulation obtained with fPET and fMRI across all subjects. Good agreement between CMRGlu and BOLD was observed for primary motor and visual cortices. However, in secondary areas (e.g., supplementary motor area, cerebellum, secondary visual areas) significant changes were only detected with fMRI but not with fPET (Table 2). Statistical maps were corrected for multiple comparisons at p<0.05 FWE corrected voxel-level.](https://ars.els-cdn.com/content/image/1-s2.0-S105381191830586X-gr2_lrg.jpg){.lightbox}
+![Figure 2 from @Rischka2018-pk. Fig. 2. Task-specific changes during finger tapping and visual stimulation obtained with fPET and fMRI across all subjects. Good agreement between CMRGlu and BOLD was observed for primary motor and visual cortices. However, in secondary areas (e.g., supplementary motor area, cerebellum, secondary visual areas) significant changes were only detected with fMRI but not with fPET (Table 2). Statistical maps were corrected for multiple comparisons at p<0.05 FWE corrected voxel-level.](https://ars.els-cdn.com/content/image/1-s2.0-S105381191830586X-gr2_lrg.jpg){.lightbox}
 
 > The brain's energy budget can be non-invasively assessed with different imaging modalities such as functional MRI (fMRI) and PET (fPET), which are sensitive to oxygen and glucose demands, respectively. The introduction of hybrid PET/MRI systems further enables the simultaneous acquisition of these parameters...The absence of a correlation and the different activation pattern between fPET and fMRI suggest that glucose metabolism and oxygen demand capture complementary aspects of energy demands.
 >
-> [@Rischka2018-pk]
+> @Rischka2018-pk
 
 #### Functional Magnetic Resonance Imaging (fMRI)
 
@@ -298,15 +298,15 @@ Generate "predicted" BOLD response to event; compare to actual
 
 ##### Higher field strengths (3 Tesla vs. 7 Tesla)
 
-![[Figure from @Sladky2013-bu]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3629563/bin/gr3.jpg){.lightbox}
+![Figure from @Sladky2013-bu](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3629563/bin/gr3.jpg){.lightbox}
 
 ##### fMRI studies often statistically underpowered
 
-![[Figure 3 from @Szucs2017-fc]](https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.2000797.g003&type=large){.lightbox}
+![Figure 3 from @Szucs2017-fc](https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.2000797.g003&type=large){.lightbox}
 
 > Assuming a realistic range of prior probabilities for null hypotheses, false report probability is likely to exceed 50% for the whole literature.
 >
-> [@Szucs2017-fc]
+> @Szucs2017-fc
 
 - Solutions
     - Make data, materials (analysis code) more widely and openly available
@@ -332,16 +332,21 @@ Generate "predicted" BOLD response to event; compare to actual
 
 #### Electroencephalography (EEG)
 
+![https://en.wikipedia.org/wiki/Electroencephalography](https://upload.wikimedia.org/wikipedia/commons/2/26/Spike-waves.png)
+
 - How does it work?
 - Electrodes on scalp or brain surface
 
 ##### What does EEG measure?
 
 - Voltage *differences* between source and reference electrode
+
+![https://naxonlabs.com/blog/understanding-strategic-placement-sensors-eeg-devices](https://naxon.s3.amazonaws.com/uploads/post/image/71/large_International_10-10_system.jpg)
+
 - Combined activity of huge # of neurons
 - Current/voltage gradients between *apical* (near surface) dendrites and *basal* (deeper) dendrites and cell body/soma
 
-![https://neurofeedbackalliance.org/wp-content/uploads/2016/10/Dipole.jpg](https://neurofeedbackalliance.org/wp-content/uploads/2016/10/Dipole.jpg){.lightbox}
+![@Naess2020-su](https://www.biorxiv.org/content/biorxiv/early/2020/07/04/2020.07.01.181875/F1.large.jpg){.lightbox}
 
 ##### Collecting EEG
 
@@ -394,11 +399,11 @@ Generate "predicted" BOLD response to event; compare to actual
 
 New device minimizes problems with motion
 
-![[Figure 1 from @Hill2019-ik]. Figure 1. A paediatric MEG system: a Experimental setup for three participants age 2- (left), 5- (centre) and 24-years (right). OPMs, housed in a modified bike helmet, measured the MEG signal. b Time-frequency spectra from a single (synthesised gradiometer) channel. Changes in neural oscillations are shown; blue indicates a reduction in oscillatory amplitude relative to baseline; yellow indicates an increase. Note reduction in beta (13–30 Hz) and mu (8–13 Hz) amplitude. c The spatial signature of beta modulation during the period of tactile stimulation (0 s< t < 2 s) (blue overlay)](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-019-12486-x/MediaObjects/41467_2019_12486_Fig1_HTML.png){.lightbox}
+![Figure 1 from @Hill2019-ik. Figure 1. A paediatric MEG system: a Experimental setup for three participants age 2- (left), 5- (centre) and 24-years (right). OPMs, housed in a modified bike helmet, measured the MEG signal. b Time-frequency spectra from a single (synthesised gradiometer) channel. Changes in neural oscillations are shown; blue indicates a reduction in oscillatory amplitude relative to baseline; yellow indicates an increase. Note reduction in beta (13–30 Hz) and mu (8–13 Hz) amplitude. c The spatial signature of beta modulation during the period of tactile stimulation (0 s< t < 2 s) (blue overlay)](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-019-12486-x/MediaObjects/41467_2019_12486_Fig1_HTML.png){.lightbox}
 
 #### How do EEG/MEG and fMRI relate?
 
-![[@Logothetis2001-ul]](../include/img/logothetis-2001.jpg){.lightbox}
+![@Logothetis2001-ul](../include/img/logothetis-2001.jpg){.lightbox}
 
 - BOLD fMRI likely reflects **presynaptic** (afferent) *input* to area
 - EEG/MEG likely reflects **postsynaptic** (efferent) *response* to those inputs
@@ -483,6 +488,6 @@ New device minimizes problems with motion
 >
 > [@Samarasinghe2021-dk]
 
-![[Figure 2 from @Samarasinghe2021-dk]. a, Schematic illustrating the identification of active neurons by virtue of their Ca2+ transients (I), representation of their network organization (II) and methods used to collect extracellular recordings (III). b, Example of live two-photon microscopy imaging of an H9 hESC-derived fusion organoid demonstrating acquisition of regions of interest (red circles) and the resulting activity profile shown as normalized ΔF/F values, where each line is an individual neuron (middle) and representation of the same data as a colorized amplitude plot (right). c, Addition of 100 μM BMI had a minimal effect on Cx + Cx fusions (top) yet elicited spontaneous synchronization of neural activities in Cx + GE organoids (bottom). d, These synchronizations can be transformed into a normalized amplitude-versus-time plot for quantitative analyses (left) and further visualized as a clustergram following hierarchical clustering of calcium spiking data (right). e, Pooled data of the amplitude measurements. Plots display the full distribution of individual data points. Dashed and dotted lines indicate the median and quartile values, respectively. n = 3 independent experiments for Cx + Cx and Cx + GE. Analysis of variance (ANOVA) P = 0.0011, F = 8.301, d.f. (between columns) = 3 followed by Tukey’s multiple-comparison test; **P = 0.0028 for Cx + Cx versus Cx + GE BMI; **P = 0.0100 for Cx + Cx BMI versus Cx + GE BMI; **P = 0.0031 for Cx + GE versus Cx + GE BMI. f–h, LFPs measured from a representative Cx + GE fusion revealed robust oscillatory activities at multiple frequencies during a 5-min period, reflected in both raw traces (f) and the spectrogram (g). Spectral density analysis in h demonstrates the presence of multiple distinct oscillatory peaks ranging from ~1–100 Hz. i–k, Cx + Cx fusion organoids by contrast lack measurable oscillatory activities. Representative traces in f–h are taken from three independent experiments and in i–k from four independent experiments. NS, not significant.](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41593-021-00906-5/MediaObjects/41593_2021_906_Fig2_HTML.png?as=webp){.lightbox}
+![Figure 2 from @Samarasinghe2021-dk. a, Schematic illustrating the identification of active neurons by virtue of their Ca2+ transients (I), representation of their network organization (II) and methods used to collect extracellular recordings (III). b, Example of live two-photon microscopy imaging of an H9 hESC-derived fusion organoid demonstrating acquisition of regions of interest (red circles) and the resulting activity profile shown as normalized ΔF/F values, where each line is an individual neuron (middle) and representation of the same data as a colorized amplitude plot (right). c, Addition of 100 μM BMI had a minimal effect on Cx + Cx fusions (top) yet elicited spontaneous synchronization of neural activities in Cx + GE organoids (bottom). d, These synchronizations can be transformed into a normalized amplitude-versus-time plot for quantitative analyses (left) and further visualized as a clustergram following hierarchical clustering of calcium spiking data (right). e, Pooled data of the amplitude measurements. Plots display the full distribution of individual data points. Dashed and dotted lines indicate the median and quartile values, respectively. n = 3 independent experiments for Cx + Cx and Cx + GE. Analysis of variance (ANOVA) P = 0.0011, F = 8.301, d.f. (between columns) = 3 followed by Tukey’s multiple-comparison test; **P = 0.0028 for Cx + Cx versus Cx + GE BMI; **P = 0.0100 for Cx + Cx BMI versus Cx + GE BMI; **P = 0.0031 for Cx + GE versus Cx + GE BMI. f–h, LFPs measured from a representative Cx + GE fusion revealed robust oscillatory activities at multiple frequencies during a 5-min period, reflected in both raw traces (f) and the spectrogram (g). Spectral density analysis in h demonstrates the presence of multiple distinct oscillatory peaks ranging from ~1–100 Hz. i–k, Cx + Cx fusion organoids by contrast lack measurable oscillatory activities. Representative traces in f–h are taken from three independent experiments and in i–k from four independent experiments. NS, not significant.](https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41593-021-00906-5/MediaObjects/41593_2021_906_Fig2_HTML.png?as=webp){.lightbox}
 
 ## References
