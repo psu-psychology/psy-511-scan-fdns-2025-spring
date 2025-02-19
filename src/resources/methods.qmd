@@ -300,6 +300,23 @@ Generate "predicted" BOLD response to event; compare to actual
 
 ![Figure from @Sladky2013-bu](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3629563/bin/gr3.jpg){.lightbox}
 
+##### Functional networks
+
+- How do brain units co-vary?
+- Resting state functional MRI (rFMRI or rsFMRI), [@Bijsterbosch2020-td; @Raichle2001-kr]
+
+![Figure 1 from @Bijsterbosch2020-td](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-020-00726-z/MediaObjects/41593_2020_726_Fig1_HTML.png?as=webp)
+
+![Figure 2 from @Bijsterbosch2020-td](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41593-020-00726-z/MediaObjects/41593_2020_726_Fig2_HTML.png?as=webp)
+
+- Different networks for different functions?
+
+![Figure 1 from @Gillig2025-co](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42003-025-07671-2/MediaObjects/42003_2025_7671_Fig1_HTML.png?as=webp)
+
+![Figure 2 from @Gillig2025-co](https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs42003-025-07671-2/MediaObjects/42003_2025_7671_Fig2_HTML.png?as=webp)
+
+- How do functional and structural patterns relate to one another?
+
 ##### fMRI studies often statistically underpowered
 
 ![Figure 3 from @Szucs2017-fc](https://journals.plos.org/plosbiology/article/file?id=10.1371/journal.pbio.2000797.g003&type=large){.lightbox}
