@@ -123,7 +123,7 @@
 
 ### Wednesday, February 19
 
-- [Exercise 04](exercises/ex04.html) write-up [due]{.orange_due} | [Canvas dropbox]() |
+- [Exercise 04](exercises/ex04.html) write-up [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17059396) |
 
 ### Thursday, February 20 {-}
 
@@ -134,7 +134,7 @@
 #### Readings
 
 - [Methods notes](resources/methods.qmd)
-- Watch: @Mitcbmm2019-oj]
+- Watch: @Mitcbmm2019-oj
 - Review: @noauthor_undated-wk
 - Recommended:
   - @Cohen2017-og
@@ -151,7 +151,7 @@
 
 ### Wednesday, February 26
 
-- [Exercise 05](exercises/ex05.html) [write-up due]{.orange_due} | [Canvas dropbox]() |
+- [Exercise 05](exercises/ex05.html) [write-up due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17065114) |
 
 ### Thursday, February 27 {-}
 
@@ -173,11 +173,12 @@
 - [Slides]()
 - [Exercise 07](exercises/ex07.html) [distributed]{.green_assigned} | [PDF](exercises/ex07.pdf) |
 
-### March 3-7 {- #week-08}
+## March 3-7 {- #week-08}
 
 ### Wednesday, March 05
 
-- [Exercise 06](exercises/ex06.qmd) write-up [due]{.orange_due} | [Canvas dropbox]() |
+- [Exercise 06](exercises/ex06.qmd) write-up [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17065115) |
+- [Final project](exercises/final-project.qmd) proposal [due]{.orange_due}
 
 ### Thursday, March 06 {-}
 

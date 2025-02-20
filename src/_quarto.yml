@@ -38,6 +38,11 @@ website:
           - href: "exercises/ex01.qmd"
           - href: "exercises/ex02.qmd"
           - href: "exercises/ex03.qmd"
+          - href: "exercises/ex04.qmd"
+          - href: "exercises/ex05.qmd"
+          - href: "exercises/ex06.qmd"
+          - href: "exercises/ex07.qmd"
+          - href: "exercises/ex08.qmd"
           - href: "exercises/final-project.qmd"
       - text: Resources
         menu:
