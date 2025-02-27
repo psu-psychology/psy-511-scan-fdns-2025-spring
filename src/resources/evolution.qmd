@@ -14,7 +14,7 @@ format:
 
 ### Public acceptance of evolution
 
-![@miller2006public]. Public acceptance of evolution in 34 countries, 2005.](https://www.science.org/cms/10.1126/science.1126746/asset/4c7394aa-a5b4-4f16-93c4-0e2bb50619bf/assets/graphic/765-1.gif){.lightbox}
+![@miller2006public. Public acceptance of evolution in 34 countries, 2005.](https://www.science.org/cms/10.1126/science.1126746/asset/4c7394aa-a5b4-4f16-93c4-0e2bb50619bf/assets/graphic/765-1.gif){.lightbox}
 
 - In U.S., majority now "accept"
 - Increase over last decade
@@ -149,7 +149,7 @@ format:
 
 - Differences in size of the cerebral cortex
 
-![Figure 1 from @hofman_evolution_2014]. Lateral views of the brains of some mammals to show the evolutionary development of the neocortex (gray). In the hedgehog almost the entire neocortex is occupied by sensory and motor areas. In the prosimian Galago the sensory cortical areas are separated by an area occupied by association cortex (AS). A second area of association cortex is found in front of the motor cortex. In man these anterior and posterior association areas are strongly developed. A, primary auditory cortex; AS, association cortex; Ent, entorhinal cortex; I, insula; M, primary motor cortex; PF, prefrontal cortex; PM, premotor cortex; S, primary somatosensory cortex; V, primary visual cortex. Modified with permission from Nieuwenhuys (1994).](http://www.frontiersin.org/files/Articles/78485/fnana-08-00015-HTML/image_m/fnana-08-00015-g001.jpg)
+![Figure 1 from @hofman_evolution_2014. Lateral views of the brains of some mammals to show the evolutionary development of the neocortex (gray). In the hedgehog almost the entire neocortex is occupied by sensory and motor areas. In the prosimian Galago the sensory cortical areas are separated by an area occupied by association cortex (AS). A second area of association cortex is found in front of the motor cortex. In man these anterior and posterior association areas are strongly developed. A, primary auditory cortex; AS, association cortex; Ent, entorhinal cortex; I, insula; M, primary motor cortex; PF, prefrontal cortex; PM, premotor cortex; S, primary somatosensory cortex; V, primary visual cortex. Modified with permission from Nieuwenhuys (1994).](http://www.frontiersin.org/files/Articles/78485/fnana-08-00015-HTML/image_m/fnana-08-00015-g001.jpg)
 
 | Structural measure | Non-human comparison | Human |
 |--------------------|----------------------|-------|
