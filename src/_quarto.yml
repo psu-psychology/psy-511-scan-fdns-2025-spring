@@ -50,6 +50,7 @@ website:
           - href: "resources/cells.qmd"
           - href: "resources/neurochemistry.qmd"
           - href: "resources/methods.qmd"
+          - href: "resources/evolution.qmd"
       - text: Supplemental
         menu:
           - href: "supplemental/ex01-themes.qmd"
