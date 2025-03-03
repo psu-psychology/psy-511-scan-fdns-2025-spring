@@ -37,7 +37,7 @@ format:
 >
 > *"Seen in the light of evolution, biology is, perhaps, intellectually the most satisfying and inspiring science. Without that light, it becomes a pile of sundry facts some of them interesting or curious, but making no meaningful picture as a whole."*
 
-[@Dobzhansky1973]
+@Dobzhansky1973
 
 ### Why Gilmore thinks the theory so controversial (in the U.S.)
 
@@ -64,7 +64,7 @@ format:
 - *Ontogenesis*
     + Development within lifetimes, history of individuals
 - *Phylogenesis*
-    + Change across lifestimes, history of species
+    + Change across lifetimes, history of species
 
 #### Ontogeny does not recapitulate phylogeny ([Haeckel](https://en.wikipedia.org/wiki/Ernst_Haeckel)), but...
 
@@ -147,7 +147,7 @@ format:
 
 ![Figure 2 from @Northcutt2002-jg](../include/img/northcutt-2002-f2.gif){.lightbox}
 
-- Differences in size of the cerebral cortex
+### Cerebral cortex a target of selection
 
 ![Figure 1 from @hofman_evolution_2014. Lateral views of the brains of some mammals to show the evolutionary development of the neocortex (gray). In the hedgehog almost the entire neocortex is occupied by sensory and motor areas. In the prosimian Galago the sensory cortical areas are separated by an area occupied by association cortex (AS). A second area of association cortex is found in front of the motor cortex. In man these anterior and posterior association areas are strongly developed. A, primary auditory cortex; AS, association cortex; Ent, entorhinal cortex; I, insula; M, primary motor cortex; PF, prefrontal cortex; PM, premotor cortex; S, primary somatosensory cortex; V, primary visual cortex. Modified with permission from Nieuwenhuys (1994).](http://www.frontiersin.org/files/Articles/78485/fnana-08-00015-HTML/image_m/fnana-08-00015-g001.jpg)
 
@@ -201,6 +201,8 @@ format:
 **# of cortical (or in birds, pallidum) neurons predicts "cognition"?**
 
 ![Figure 3 from @Herculano-Houzel2017-gf](https://ars.els-cdn.com/content/image/1-s2.0-S2352154616302637-gr3_lrg.jpg)
+
+### Selection pressures
 
 **The Human Advantage [@Herculano-Houzel2016-oy]**
 
