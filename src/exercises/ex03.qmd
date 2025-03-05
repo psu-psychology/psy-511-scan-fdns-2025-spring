@@ -19,6 +19,8 @@ Answer the following questions in no more than a few sentences:
 
 Draw and annotate figure(s) to answer the following questions:
 
+Make sure to write a sentence or two to explain what's going on in your figures.
+
 3. Draw a figure that shows the two principal ions that contribute to the neuron's resting potential, and where (inside or outside the neuron) they are most heavily concentrated.
 4. Annotate your figure to show the direction of ion flow along each ion's concentration gradient^[Remember that ions flow *down* the concentration gradient, from regions of high concentration to regions of lower concentration].
 5. Annotate your figure to show the direction of ion movement caused by the $Na^+/K^+$ (sodium/potassium) ATPase (pump). 

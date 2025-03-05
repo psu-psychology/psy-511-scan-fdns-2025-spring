@@ -1,7 +1,9 @@
-format-links: [pdf, docx]
-format:
-  pdf:
-    pdf-engine: pdflatex
+# format-links: [pdf, docx]
+# format:
+#   html: default
+#   pdf:
+#     pdf-engine: pdflatex
+#   docx: default
 knitr:
   opts_chunk:
     fig.path: ../include/fig

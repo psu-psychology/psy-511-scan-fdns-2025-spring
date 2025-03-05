@@ -133,7 +133,6 @@
 
 #### Readings
 
-- [Methods notes](resources/methods.qmd)
 - Watch: @Mitcbmm2019-oj
 - Review: @noauthor_undated-wk
 - Recommended:
@@ -144,7 +143,7 @@
 
 #### Materials
 
-- [Notes]()
+- [Methods notes](resources/methods.qmd)
 - [Exercise 06](exercises/ex06.html) [distributed]{.green_assigned} | [PDF](exercises/ex06.pdf) |
 
 ## February 24-28 {- #week-07}
@@ -170,7 +169,7 @@
 
 #### Materials
 
-- [Slides]()
+- [Notes](resources/evolution.qmd)
 - [Exercise 07](exercises/ex07.html) [distributed]{.green_assigned} | [PDF](exercises/ex07.pdf) |
 
 ## March 3-7 {- #week-08}
@@ -188,7 +187,6 @@
 
 #### Readings
 
-- [Slides]()
 - Required:
   - @Cao2017-bl
   - @Blumberg2023-fs
@@ -198,7 +196,7 @@
 
 #### Materials
 
-- [Notes]()
+- [Notes](resources/development.qmd)
 - [Exercise 08](exercises/ex08.html) [distributed]{.green_assigned} | [PDF](exercises/ex08.pdf) |
 
 ## March 10-14 *Spring Break* {- #spring-break}
