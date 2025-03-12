@@ -197,15 +197,23 @@
 #### Materials
 
 - [Notes](resources/development.qmd)
-- [Exercise 08](exercises/ex08.html) [distributed]{.green_assigned} | [PDF](exercises/ex08.pdf) |
+- [Exercise 06](exercises/ex08.html) [distributed]{.green_assigned} | [PDF](exercises/ex08.pdf) |
 
 ## March 10-14 *Spring Break* {- #spring-break}
 
 ## March 17-21 {- #week-09}
 
+### Wednesday, March 19
+
+- [Exercise 07](exercises/ex07.qmd) write-up [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17090042) |
+
 ### Thursday, March 20 {-}
 
 ## March 24-28 {- #week-10}
+
+### Wednesday, March 26
+
+- [Exercise 08](exercises/ex08.qmd) write-up [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17090083) |
 
 ### Thursday, March 27 {-}
 
