@@ -209,6 +209,8 @@
 
 ### Thursday, March 20 {-}
 
+**NO CLASS**
+
 ## March 24-28 {- #week-10}
 
 ### Wednesday, March 26
@@ -217,13 +219,53 @@
 
 ### Thursday, March 27 {-}
 
+#### Topics
+
+- Perception & action
+
+#### Readings
+
+- @Khalsa2018-gf
+- @Shenoy2013-zi
+
+#### Materials
+
+- [Perception notes](resources/perception.qmd)
+- [Action notes](resources/action.qmd)
+
 ## March 31 - April 4 {- #week-11}
 
 ### Thursday, April 03 {-}
 
+#### Topics
+
+- Cognition & Language
+
+#### Readings
+
+- @Miller2001-qu
+- @Tuckute2024-gv
+
+#### Materials
+
+- [Notes](resources/cognition-language.qmd)
+
 ## April 7-11 {- #week-12}
 
 ### Thursday, April 10 {-}
+
+#### Topics
+
+- Neuroscience of emotion
+
+#### Readings
+
+- @Malezieux2023-as
+- @Watabe-Uchida2017-gi
+
+#### Materials
+
+- [Notes](resources/fear-stress-reward.qmd)
 
 ## April 14-18 {- #week-13}
 
@@ -240,6 +282,7 @@
 #### Topics
 
 - Beethoven and the Cerebral Symphony
+- Student presentations
 
 ## May 4-9 {- #finals-week}
 
