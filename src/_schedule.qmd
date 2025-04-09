@@ -271,9 +271,35 @@
 
 ### Thursday, April 17 {-}
 
+#### Topics
+
+- Disorder & disease I
+
+#### Readings
+
+- @Howes2023-vk
+- @Volk2015-ki
+
+#### Materials
+
+- [Notes](resources/schizophrenia.qmd)
+
 ## April 21-25 {- #week-14}
 
 ### Thursday, April 24 {-}
+
+#### Topics
+
+- Disorder & disease II
+
+#### Readings
+
+- @Moncrieff2022-os
+- @Namkung2017-gc
+
+#### Materials
+
+- [Notes](resources/affective-disorders.qmd)
 
 ## April 28 - May 2 {- #week-15}
 
