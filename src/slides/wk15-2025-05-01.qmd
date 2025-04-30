@@ -1,0 +1,38 @@
+---
+title: "Wrap-up"
+subtitle: "PSY 511.003"
+date: 2025-01-30
+format: 
+  revealjs:
+    footer: "PSY 511 Spr 2025"
+---
+
+# Prelude
+
+---
+
+{{< video https://www.youtube.com/watch?v=7qWbcosJdtU height="70%" width="100%" >}}
+
+@Rlzee2010-ll
+
+# Overview
+
+## Announcements
+
+- Final project write-ups due next Thursday, May 8.
+
+## Today's topics
+
+- Madison Miles: A brief overview of psychotropic medications
+- Yifei Gong
+- The Cerebral Symphony
+
+---
+
+{{< video https://www.youtube.com/watch?v=ljGMhDSSGFU height="70%" width="100%" >}}
+
+@Smalin2011-vr
+
+# Resources
+
+## References

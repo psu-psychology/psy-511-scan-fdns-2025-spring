@@ -307,11 +307,17 @@
 
 #### Topics
 
-- Beethoven and the Cerebral Symphony
 - Student presentations
+  - Madison Miles: A brief overview of psychotropic medications
+  - Yifei Gong
+- Beethoven and the Cerebral Symphony
+
+#### Materials
+
+- [Slides](slides/wk15-2025-05-01.qmd)
 
 ## May 4-9 {- #finals-week}
 
 ### Thursday, May 08
 
-- [Final Project](exercises/final-project.qmd) write-up [due]{.orange_due} | [Canvas dropbox]()
+- [Final Project](exercises/final-project.qmd) write-up [due]{.orange_due} | [Canvas dropbox](https://psu.instructure.com/courses/2379931/assignments/17170786)
