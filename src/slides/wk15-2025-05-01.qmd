@@ -23,8 +23,8 @@ format:
 
 ## Today's topics
 
-- Madison Miles: A brief overview of psychotropic medications
-- Yifei Gong
+- Madison Miles: *A brief overview of psychotropic medications*
+- Yifei Gong: *When meaning shifts and language switches: Investigating the role of domain-general inhibitory control in bilingual prediction errors*
 - The Cerebral Symphony
 
 ---
