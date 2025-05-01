@@ -7,7 +7,7 @@ format:
   revealjs:
     theme: default
     chalkboard: true
-    footer: "[PSY 511 Spr 2025](../index.html)"
+    footer: "[PSY 511 Spr 2025](../schedule.html)"
     slide-number: true
   # pdf:
   #   pdf-engine: pdflatex
