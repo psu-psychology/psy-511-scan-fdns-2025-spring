@@ -36,15 +36,19 @@ Your proposal can be 1,500-2,500 words in length.
 
 ### Tutorial
 
-Prepare a complete 45-50 min lecture with slides for a 200-level course on biological or physiological psychology focusing on a topic you might choose to cover were you the instructor of record.
+Prepare a complete 30-45 min lecture with slides for a 200-level course on biological or physiological psychology focusing on a topic you might choose to cover were you the instructor of record.
+
+For this project format, you are strongly encouraged to schedule time to present your tutorial to class.
 
 **Do's**
 
 - Always put your last name and first name in the file name of all documents you submit. For example, `gilmore-rick-psy-511-2025-final-paper.docx` works fine.
 - Submit your paper as a MS Word document using Canvas.
-- Include a cover page and title. Make sure to add page numbers.
+- Include a cover page and title. Make sure to add page numbers.  
+- Research proposals and BBS-style reviews should use APA format.
+- BBS-style reviews, popular science pieces, and research proposals should include an introduction, body, and conclusion. Depending on the format, you may or may not need to label these sections.
 - Unpack and define all acronyms when you first mention them. Define or explain technical terms and concepts.
 - Include all end-of-paper citations in a format that is convenient to you and easy to extract from your reference manager.
-- Include author-date citations in the text.
+- Include author-date citations in the text. Footnote-style in-text citations are also acceptable.
 - Use double-spacing.
 - Run spell-check on your paper before you submit. I also suggest reading your paper out loud as a way to catch run-on sentences, awkward phrasing, and odd word choices.

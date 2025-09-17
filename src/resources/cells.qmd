@@ -68,7 +68,7 @@ format:
 
 ### So, why do large/complex animals need nervous systems?
 
-![@Sterling2021-yx](https://mit-press-us.imgix.net/covers/9780262534680.jpg){width=30%}
+![@Sterling2021-yx](https://mit-press-new-us.imgix.net/covers/9780262534680.jpg?auto=format&w=298&dpr=2&q=80){width=30%}
 
 - Chemical communication specific (neurotransmitters $\rightarrow$ receptors)
 - Energy efficient
@@ -319,7 +319,7 @@ $$E = IR$$
 
 - Membrane stores (& releases) charge like *capacitor*
 
-![How capacitors work](http://hyperphysics.phy-astr.gsu.edu/hbase/electric/imgele/capchg.png)
+![How capacitors work; http://hyperphysics.phy-astr.gsu.edu/hbase/electric/imgele/capchg.png](../include/img/capchg.png)
 
 ### Resting potential
 
@@ -401,7 +401,7 @@ $$E = IR$$
 
 - Force of diffusion
     + $K^+$ moves from high concentration (~140 mM inside) to low (~4 mM outside)
-    + $K^+$ outflow would stop when $[K^+]_{o} == [K^2]_{i}$
+    + $K^+$ outflow would stop when $[K^+]_{o} == [K^+]_{i}$
     + But...
         
 - Na/Ka-ATPase (Na/K Pump)
